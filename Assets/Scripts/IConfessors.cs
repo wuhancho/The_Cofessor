@@ -2,5 +2,8 @@ using UnityEngine;
 
 public interface IConfessors
 {
-    void Confess();
+   private void Confess()
+    {
+        Debug.Log("I am a confessor");
+    }
 }
