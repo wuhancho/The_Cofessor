@@ -1,13 +1,15 @@
 using UnityEngine;
 
-public class Confessors : MonoBehaviour, IConfessors
+public class Confessors : MonoBehaviour
 {
-    [SerializeField] private IConfessors[] IConfesors;
-    private void Start()
+    void Awake()
     {
-        foreach (var confessor in IConfesors)
-        {
-            confessor.Confess();
-        }
+
     }
+
+    void Start()
+    {
+        
+    }
+
 }

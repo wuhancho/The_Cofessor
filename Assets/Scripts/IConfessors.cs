@@ -1,9 +1,7 @@
 using UnityEngine;
 
-public interface IConfessors
+[CreateAssetMenu(fileName = "IConfessors", menuName = "ScriptableObjects/IConfessors", order = 1)]
+public class IConfessors: ScriptableObject
 {
-   private void Confess()
-    {
-        Debug.Log("I am a confessor");
-    }
+
 }
