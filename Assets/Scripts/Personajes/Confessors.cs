@@ -2,14 +2,8 @@ using UnityEngine;
 
 public class Confessors : MonoBehaviour
 {
-    void Awake()
+    void Update()
     {
 
     }
-
-    void Start()
-    {
-        
-    }
-
 }
