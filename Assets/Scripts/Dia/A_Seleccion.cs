@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class A_Seleccion : MonoBehaviour, IAcciones
 {
-    public void Ejecutar()
+    void IAcciones.ejecutarAccion()
     {
-        Debug.Log("Accion de seleccion ejecutada");
+        Debug.Log("Seleccion");
     }
 }

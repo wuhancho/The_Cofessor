@@ -1,7 +1,7 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public interface IAcciones
 {
-    void Ejecutar();
-
+    protected void ejecutarAccion();
 }

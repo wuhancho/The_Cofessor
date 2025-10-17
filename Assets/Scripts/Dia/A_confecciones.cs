@@ -1,10 +1,10 @@
+using TMPro;
 using UnityEngine;
 
 public class A_confecciones : MonoBehaviour, IAcciones
 {
-    public void Ejecutar()
+    void IAcciones.ejecutarAccion()
     {
-        throw new System.NotImplementedException();
+        Debug.Log("Confecciones");
     }
-    float tiempoEspera = 2f;
 }
