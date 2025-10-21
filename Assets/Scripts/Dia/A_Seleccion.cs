@@ -2,8 +2,17 @@ using UnityEngine;
 
 public class A_Seleccion : MonoBehaviour, IAcciones
 {
-    void IAcciones.ejecutarAccion()
+    [SerializeField] string[] seleccion = { "Seleccion"," " };
+
+    private void ButtonSeleccion(string action)
     {
-        Debug.Log("Seleccion");
+        switch (action)
+        {
+
+        }
+    }
+    void IAcciones.EjecutarAccion(string accion)
+    {
+        
     }
 }

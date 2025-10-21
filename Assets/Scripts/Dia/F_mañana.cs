@@ -3,8 +3,9 @@ using UnityEngine;
 public class F_mañana : MonoBehaviour, IFases
 {
     [SerializeField] private IAcciones[] accion;
-    public IAcciones GetAccion()
+    public void StartPhase()
     {
-        throw new System.NotImplementedException();
+        
     }
+
 }

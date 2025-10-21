@@ -2,11 +2,12 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
-[CreateAssetMenu(fileName = "", menuName = "ScriptableObjects/SConfessors", order = 1)]
+[CreateAssetMenu(fileName = "", menuName = "ScriptableObjects/SPenitent", order = 1)]
 public class SPenitent: ScriptableObject
 {
-    string characterName;
-    Image characterImage;
-    INormalDialogs[] dialogs;
-    IExpecialDialogs[] exDialogs;
+    [SerializeField] string characterName;
+    [SerializeField] Image characterImage;
+    [SerializeField] Dialog[] dialogs;
+    [SerializeField] Dialog dialogEvent;
+    
 }
