@@ -1,11 +1,23 @@
+using System.Linq;
 using UnityEngine;
 
 public class F_tarde : MonoBehaviour, IFases
 {
-    [SerializeField] private IAcciones[] accion;
-    public IAcciones GetAccion()
+    [SerializeField] private bool includeInactiveChildren = true;
+    private IAcciones[] acciones;
+
+    private void Awake()
     {
-        throw new System.NotImplementedException();
+        RefrescarAcciones();
     }
 
+    [ContextMenu("Refrescar acciones")]
+    public void RefrescarAcciones()
+    {
+        acciones = GetComponentsInChildren<MonoBehaviour>(includeInactiveChildren)
+            .OfType<IAcciones>()
+            .ToArray();
+    }
+
+    public IAcciones[] GetAcciones() => acciones;
 }

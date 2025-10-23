@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public interface IAcciones
@@ -10,5 +11,5 @@ public interface IAcciones
     /// el nombre del método o acción a ejecutar.
     /// aqui se pone el nombre de la accion que se desea ejecutar, Por ejemplo: "Comida", "Limpiar","nombre de los personajes", "etc".
     /// </param>
-    protected void EjecutarAccion(string accion);
+    public void EjecutarAccion();
 }

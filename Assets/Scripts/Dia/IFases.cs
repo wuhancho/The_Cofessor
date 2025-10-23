@@ -9,4 +9,5 @@ public interface IFases
     //public void StartPhase();
 
     //public event Action onPhaseComplete;
+    IAcciones[] GetAcciones();
 }
