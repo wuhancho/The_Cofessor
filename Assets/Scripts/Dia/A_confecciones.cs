@@ -3,9 +3,8 @@ using UnityEngine;
 
 public class A_confecciones : MonoBehaviour, IAcciones
 {
-    
-    void IAcciones.EjecutarAccion()
+    public void EjecutarAccion(PlayerStatus playerStatus)
     {
-        
+        throw new System.NotImplementedException();
     }
 }

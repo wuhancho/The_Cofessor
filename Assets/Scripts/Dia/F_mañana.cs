@@ -4,7 +4,8 @@ using UnityEngine;
 public class F_mañana : MonoBehaviour, IFases
 {
     [SerializeField] private bool includeInactiveChildren = true;
-    [SerializeField] private IAcciones[] acciones;
+    [SerializeField] private IAccionesEnergia[] acciones;
+
     private void Awake()
     {
         RefrescarAcciones();
@@ -13,9 +14,7 @@ public class F_mañana : MonoBehaviour, IFases
     [ContextMenu("Refrescar acciones")]
     public void RefrescarAcciones()
     {
-        acciones = GetComponentsInChildren<MonoBehaviour>(includeInactiveChildren)
-            .OfType<IAcciones>()
-            .ToArray();
+        acciones = GetComponentsInChildren<IAccionesEnergia>(includeInactiveChildren);
     }
 
     public IAcciones[] GetAcciones() => acciones;
@@ -23,6 +22,11 @@ public class F_mañana : MonoBehaviour, IFases
     private void Start()
     {
         Debug.Log("Fase de la mañana iniciada con " + acciones.Length + " acciones disponibles.");
+        
     }
 
+    public void Initialize(PlayerStatus playerStatus)
+    {
+        throw new System.NotImplementedException();
+    }
 }

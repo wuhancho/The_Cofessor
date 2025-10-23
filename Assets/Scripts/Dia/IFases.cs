@@ -10,4 +10,5 @@ public interface IFases
 
     //public event Action onPhaseComplete;
     IAcciones[] GetAcciones();
+    void Initialize(PlayerStatus playerStatus);
 }

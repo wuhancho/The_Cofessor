@@ -20,4 +20,9 @@ public class F_tarde : MonoBehaviour, IFases
     }
 
     public IAcciones[] GetAcciones() => acciones;
+
+    public void Initialize(PlayerStatus playerStatus)
+    {
+        throw new System.NotImplementedException();
+    }
 }
