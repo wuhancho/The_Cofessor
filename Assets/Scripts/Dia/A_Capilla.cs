@@ -5,10 +5,11 @@ public class A_Capilla : MonoBehaviour, IAccionesEnergia
 {
     [SerializeField] private int energy;
     [SerializeField] private int faith;
+    [SerializeField] private string nameAction;
 
     public UnityEvent onCapillaAction;
     public UnityEvent onCapillaCancel;
-    public UnityEvent onCapillaOperative;
+    public UnityEvent<string> onCapillaOperative;
 
     public int EnergyCost => energy;
 
@@ -31,7 +32,7 @@ public class A_Capilla : MonoBehaviour, IAccionesEnergia
     public void OperateCapilla()
     {
         Debug.Log("Operando la Capilla.");
-        onCapillaOperative.Invoke();
+        onCapillaOperative.Invoke(nameAction);
     }
 
 }
