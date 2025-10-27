@@ -3,8 +3,18 @@ using UnityEngine;
 
 public class A_confecciones : MonoBehaviour, IAcciones
 {
+    public void CancelAction()
+    {
+
+    }
+
     public void EjecutarAccion(PlayerStatus playerStatus)
     {
-        throw new System.NotImplementedException();
+        
+    }
+
+    public void TriggerAction()
+    {
+        
     }
 }

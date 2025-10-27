@@ -1,12 +1,12 @@
 using UnityEngine;
 
-public class PlayerStatus
+public class PlayerStatus: MonoBehaviour
 {
-    private float energy;
-    private float faith;
-    private float money;
-    private float repIglesia;
-    private float repPueblo;
+    [SerializeField] private float energy;
+    [SerializeField] private float faith;
+    [SerializeField] private float money;
+    [SerializeField] private float repIglesia;
+    [SerializeField] private float repPueblo;
 
     public float Energy { get => energy; set => energy = value; }
     public float Faith { get => faith; set => faith = value; }

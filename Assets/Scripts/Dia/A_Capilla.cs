@@ -7,11 +7,17 @@ public class A_Capilla : MonoBehaviour, IAccionesEnergia
     [SerializeField] private int faith;
     [SerializeField] private string nameAction;
 
-    public UnityEvent onCapillaAction;
+    public UnityEvent<string> onCapillaAction;
     public UnityEvent onCapillaCancel;
-    public UnityEvent<string> onCapillaOperative;
+    public UnityEvent<int,int> onCapillaOperative;
 
     public int EnergyCost => energy;
+
+    public int FaithCost =>faith;
+
+    public int ReputationChurchCost => 0;
+
+    public int ReputationPeopleCost => 0;
 
     public void EjecutarAccion(PlayerStatus playerStatus)
     {
@@ -19,12 +25,12 @@ public class A_Capilla : MonoBehaviour, IAccionesEnergia
         // Aquí va la lógica específica para la acción de la Capilla.
     }
 
-    public void TriggerCapillaAction()
+    public void TriggerAction()
     {
         Debug.Log("Acción de la Capilla activada.");
-        onCapillaAction.Invoke();
+        onCapillaAction.Invoke(nameAction);
     }
-    public void CancelCapillaAction()
+    public void CancelAction()
     {
         Debug.Log("Acción de la Capilla cancelada.");
         onCapillaCancel.Invoke();
@@ -32,7 +38,7 @@ public class A_Capilla : MonoBehaviour, IAccionesEnergia
     public void OperateCapilla()
     {
         Debug.Log("Operando la Capilla.");
-        onCapillaOperative.Invoke(nameAction);
+        onCapillaOperative.Invoke(energy,faith);
     }
 
 }

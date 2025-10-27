@@ -13,6 +13,7 @@ public interface IAcciones
     /// aqui se pone el nombre de la accion que se desea ejecutar, Por ejemplo: "Comida", "Limpiar","nombre de los personajes", "etc".
     /// </param>
     public void EjecutarAccion(PlayerStatus playerStatus);
-
+    public void TriggerAction();
+    public void CancelAction();
 
 }

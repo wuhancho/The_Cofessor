@@ -9,7 +9,8 @@ public class ActionPage : MonoBehaviour
     [SerializeField] private Button closeButton;
     //[SerializeField] private 
     [SerializeField] private TextMeshProUGUI actionNameText;
-    
+    [SerializeField] private string actionName;
+
     private void Awake()
     {
         actionButton.onClick.AddListener(ActionP);
@@ -25,8 +26,14 @@ public class ActionPage : MonoBehaviour
     private void ActionP()
     {
         Debug.Log("ActionPage action executed.");
-        
-        actionNameText.text = ("que quiere");
     }
-
+    public void SetActionName(string actionName)
+    {
+        this.actionName = actionName;
+        actionNameText.text = actionName;
+    }
+    public void GetEnergyAndReputation(int energy, int reputation)
+    {
+        Debug.Log($"Energy: {energy}, Reputation: {reputation}");
+    }
 }
