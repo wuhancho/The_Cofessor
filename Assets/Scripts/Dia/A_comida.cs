@@ -12,7 +12,7 @@ public class A_comida : MonoBehaviour, IAcciones
     {
         Debug.Log("Ejecutando acción de Comida.");
         // Aquí va la lógica específica para la acción de Comida.
-        playerStatus.Food 
+        Debug.Log($"Aumentando comida en {playerStatus.Food}.");
     }
 
     public void TriggerAction()
