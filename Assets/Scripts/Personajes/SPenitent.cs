@@ -5,9 +5,8 @@ using UnityEngine.UI;
 [CreateAssetMenu(fileName = "", menuName = "ScriptableObjects/SPenitent", order = 1)]
 public class SPenitent: ScriptableObject
 {
-    [SerializeField] string characterName;
-    [SerializeField] Image characterImage;
-    [SerializeField] Dialog[] dialogs;
-    [SerializeField] Dialog dialogEvent;
-    
+    [SerializeField] public string characterName;
+    [SerializeField] public Texture2D characterImage;
+    [SerializeField] public Dialog[] dialogs;
+    [SerializeField] public Dialog dialogEvent;
 }

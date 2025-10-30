@@ -523,6 +523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   energyCost: 0
+  moneyCost: 0
   actionName: 
 --- !u!1 &422834385
 GameObject:
@@ -2022,11 +2023,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   energy: 2
+  maxEnergy: 0
+  minEnergy: 0
   faith: 5
+  maxFaith: 0
+  minFaith: 0
   money: 5
+  maxMoney: 0
+  minMoney: 0
   repIglesia: 5
+  minRepIglesia: 0
+  maxRepIglesia: 0
   repPueblo: 5
+  minRepPueblo: 0
+  maxRepPueblo: 0
   food: 0
+  maxFood: 0
+  minFood: 0
+  Cleaned: 0
 --- !u!4 &1690876322
 Transform:
   m_ObjectHideFlags: 0
@@ -2580,9 +2594,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 314428627}
-        m_TargetAssemblyTypeName: A_Capilla, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 314428629}
+        m_TargetAssemblyTypeName: A_Limpiar, Assembly-CSharp
+        m_MethodName: TriggerAction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
