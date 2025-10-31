@@ -1,10 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu(fileName = "Dialog", menuName = "ScriptableObjects/Dialog", order = 1)]
-public class Dialog : ScriptableObject, IDialogs
+
+
+namespace The_cofessor.Pesonajes.Dialogs
 {
-    [SerializeField] protected Frases[] normalDialogs;
-    [SerializeField] protected string[] dialogsMenu;
-    [SerializeField] protected int grade;
-    int IDialogs.grade { get => grade; set => grade = value; }
-    Frases[] IDialogs.Dialogs { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
+    [CreateAssetMenu(fileName = "New Dialog", menuName = "ScriptableObjects/Dialog", order = 1)]
+    public class Dialog : ScriptableObject
+    {
+        [SerializeField] DialogNode[] nodes;
+    }
+
 }
+
+
+
+
+

@@ -4,23 +4,23 @@ using UnityEngine;
 public class PlayerStatus: MonoBehaviour
 {
     [SerializeField] private float energy;
-    [SerializeField] private float maxEnergy;
-    [SerializeField] private float minEnergy;
+    private float maxEnergy = 15;
+    private float minEnergy = 0;
     [SerializeField] private float faith;
-    [SerializeField] private float maxFaith;
-    [SerializeField] private float minFaith;
+    private float maxFaith = 15;
+    private float minFaith;
     [SerializeField] private float money;
-    [SerializeField] private float maxMoney;
-    [SerializeField] private float minMoney;
+    private float maxMoney = 9999;
+    private float minMoney = 0;
     [SerializeField] private float repIglesia;
-    [SerializeField] private float minRepIglesia;
-    [SerializeField] private float maxRepIglesia;
+    private float minRepIglesia = 0;
+    private float maxRepIglesia = 15;
     [SerializeField] private float repPueblo;
-    [SerializeField] private float minRepPueblo;
-    [SerializeField] private float maxRepPueblo;
+    private float minRepPueblo = 0;
+    private float maxRepPueblo = 15;
     [SerializeField] private float food;
-    [SerializeField] private float maxFood;
-    [SerializeField] private float minFood;
+    private float maxFood = 9999;
+    private float minFood = 0;
     [SerializeField] private bool Cleaned;
     
     public float Energy { get => energy; }
@@ -33,11 +33,11 @@ public class PlayerStatus: MonoBehaviour
 
     public void Getmoney(float amount)
     {
-        money += amount;
+        money = math.clamp(money + amount, minMoney, maxMoney);
     }
     public void Spendmoney(float amount)
     {
-        money -= amount;
+        money = math.clamp(money - amount, minMoney, maxMoney);
     }
     public void RestoreEnergy(float amount)
     {
