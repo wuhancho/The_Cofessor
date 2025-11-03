@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
-[CreateAssetMenu(fileName = "", menuName = "ScriptableObjects/SPenitent", order = 1)]
+[CreateAssetMenu(fileName = "", menuName = "Scriptable Objects/SPenitent", order = 1)]
 public class SPenitent: ScriptableObject
 {
     [SerializeField] public string characterName;

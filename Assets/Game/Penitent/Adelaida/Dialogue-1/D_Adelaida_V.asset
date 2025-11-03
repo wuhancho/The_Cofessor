@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e960bec5b5236749b281289ea60fa82, type: 3}
+  m_Name: D_Adelaida_V
+  m_EditorClassIdentifier: 
+  nodes:
+  - uniqueID: AG_V.1
+    text: "Padre, \xBFse ha enterado de lo del hijo del molinero?\\n Creo saber qu\xE9
+      le ha sucedido.\\nEstoy segura de que el colgante que menciona el peri\xF3dico
+      tiene algo que ver."
+    childrenIDs:
+    - AG_V.1.1
+    - AG_V.1.2
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 202
+      width: 200
+      height: 100
+  - uniqueID: AG_V.1.1
+    text: nada
+    childrenIDs:
+    - 
+    rect:
+      serializedVersion: 2
+      x: 337
+      y: 147
+      width: 200
+      height: 100
+  - uniqueID: AG_V.1.2
+    text: nada2
+    childrenIDs:
+    - 
+    rect:
+      serializedVersion: 2
+      x: 345
+      y: 275
+      width: 200
+      height: 100
+  - uniqueID: AG_V.2
+    text: hellooootttttt
+    childrenIDs:
+    - AG_V.2.1
+    - AG_V.2.2
+    rect:
+      serializedVersion: 2
+      x: 324
+      y: 404
+      width: 200
+      height: 100
+  - uniqueID: AG_V.2.1
+    text: hellooootttttt
+    childrenIDs:
+    - AG_V.3
+    rect:
+      serializedVersion: 2
+      x: 625
+      y: 400
+      width: 200
+      height: 100
+  - uniqueID: AG_V.2.2
+    text: nada5
+    childrenIDs:
+    - AG_V.3
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 355
+      width: 200
+      height: 100
+  - uniqueID: AG_V.3
+    text: nada5
+    childrenIDs:
+    - AG_V.3.P
+    - AG_V.3.D
+    - AG_V.3.A
+    - AG_V.3.E
+    rect:
+      serializedVersion: 2
+      x: 346
+      y: 39
+      width: 200
+      height: 100
+  - uniqueID: AG_V.3.P
+    text: nada5
+    childrenIDs: []
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 58
+      width: 200
+      height: 100
+  - uniqueID: AG_V.3.D
+    text: nada5
+    childrenIDs: []
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 158
+      width: 200
+      height: 100
+  - uniqueID: AG_V.3.A
+    text: nada5
+    childrenIDs: []
+    rect:
+      serializedVersion: 2
+      x: 638
+      y: 276
+      width: 200
+      height: 100
+  - uniqueID: AG_V.3.E
+    text: nada5
+    childrenIDs: []
+    rect:
+      serializedVersion: 2
+      x: 660
+      y: 49
+      width: 200
+      height: 100

@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Scene_Menu.unity
-    guid: 09b80b43ed1c3bf44ae30c94ab6cb7da
+    path: Assets/Scenes/INTROMENU.unity
+    guid: 3ce5270f64f23f444b6afc9cb8b89093
+  - enabled: 1
+    path: Assets/Scenes/MAIN MENU.unity
+    guid: 300536e145c610a46b3d400af5b1a2ab
   - enabled: 1
     path: "Assets/Scenes/Scene_Ma\xF1ana.unity"
     guid: 4762448da2ed65f4fbf78bc8c9921347
@@ -17,12 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene_Noche.unity
     guid: 3e49201ddeb54c447a0d5cf7e9a1149c
-  - enabled: 1
-    path: Assets/Scenes/INTROMENU.unity
-    guid: 3ce5270f64f23f444b6afc9cb8b89093
-  - enabled: 1
-    path: Assets/Scenes/MAIN MENU.unity
-    guid: 300536e145c610a46b3d400af5b1a2ab
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -9,7 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e960bec5b5236749b281289ea60fa82, type: 3}
-  m_Name: D_Adelaida_M
+  m_Script: {fileID: 11500000, guid: 1cb44c89d68f7014da0b7cf5848711a0, type: 3}
+  m_Name: Player_AG_Respond
   m_EditorClassIdentifier: 
-  nodes: []
+  responses:
+  - hello
+  - hi
