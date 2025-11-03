@@ -22,8 +22,8 @@ MonoBehaviour:
     - AG_V.1.2
     rect:
       serializedVersion: 2
-      x: 6
-      y: 123
+      x: 100
+      y: 145
       width: 300
       height: 150
   - uniqueID: AG_V.1.1
@@ -45,8 +45,8 @@ MonoBehaviour:
     - 
     rect:
       serializedVersion: 2
-      x: 310
-      y: 274
+      x: 301
+      y: 324
       width: 300
       height: 150
   - uniqueID: AG_V.2
@@ -56,8 +56,8 @@ MonoBehaviour:
     - AG_V.2.2
     rect:
       serializedVersion: 2
-      x: 324
-      y: 404
+      x: 287
+      y: 514
       width: 300
       height: 150
   - uniqueID: AG_V.2.1
@@ -66,8 +66,8 @@ MonoBehaviour:
     - AG_V.3
     rect:
       serializedVersion: 2
-      x: 633
-      y: 390
+      x: 1091
+      y: 157
       width: 300
       height: 150
   - uniqueID: AG_V.2.2
@@ -76,8 +76,8 @@ MonoBehaviour:
     - AG_V.3
     rect:
       serializedVersion: 2
-      x: 54
-      y: 363
+      x: 75
+      y: 327
       width: 300
       height: 150
   - uniqueID: AG_V.3
@@ -98,8 +98,8 @@ MonoBehaviour:
     childrenIDs: []
     rect:
       serializedVersion: 2
-      x: 4
-      y: 11
+      x: 12
+      y: -8
       width: 300
       height: 150
   - uniqueID: AG_V.3.D
@@ -107,8 +107,8 @@ MonoBehaviour:
     childrenIDs: []
     rect:
       serializedVersion: 2
-      x: 636
-      y: 158
+      x: 747
+      y: 40
       width: 300
       height: 150
   - uniqueID: AG_V.3.A
@@ -116,8 +116,8 @@ MonoBehaviour:
     childrenIDs: []
     rect:
       serializedVersion: 2
-      x: 620
-      y: 265
+      x: 403
+      y: 206
       width: 300
       height: 150
   - uniqueID: AG_V.3.E
@@ -125,7 +125,7 @@ MonoBehaviour:
     childrenIDs: []
     rect:
       serializedVersion: 2
-      x: 660
-      y: 49
+      x: 738
+      y: 335
       width: 300
       height: 150
