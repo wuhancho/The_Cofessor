@@ -14,38 +14,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodes:
   - uniqueID: AG_V.1
-    text: "Padre, \xBFse ha enterado de lo del hijo del molinero?\\n Creo saber qu\xE9
-      le ha sucedido.\\nEstoy segura de que el colgante que menciona el peri\xF3dico
+    text: "Padre, \xBFse ha enterado de lo del hijo del molinero? \\ Creo saber qu\xE9
+      le ha sucedido.\\ Estoy segura de que el colgante que menciona el peri\xF3dico
       tiene algo que ver."
     childrenIDs:
     - AG_V.1.1
     - AG_V.1.2
     rect:
       serializedVersion: 2
-      x: 65
-      y: 202
-      width: 200
-      height: 100
+      x: 6
+      y: 123
+      width: 300
+      height: 150
   - uniqueID: AG_V.1.1
-    text: nada
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+      when an unknown printer took a galley of type and scrambled it to make a type
+      specimen book
     childrenIDs:
     - 
     rect:
       serializedVersion: 2
-      x: 337
-      y: 147
-      width: 200
-      height: 100
+      x: 316
+      y: 148
+      width: 300
+      height: 150
   - uniqueID: AG_V.1.2
     text: nada2
     childrenIDs:
     - 
     rect:
       serializedVersion: 2
-      x: 345
-      y: 275
-      width: 200
-      height: 100
+      x: 310
+      y: 274
+      width: 300
+      height: 150
   - uniqueID: AG_V.2
     text: hellooootttttt
     childrenIDs:
@@ -55,28 +58,28 @@ MonoBehaviour:
       serializedVersion: 2
       x: 324
       y: 404
-      width: 200
-      height: 100
+      width: 300
+      height: 150
   - uniqueID: AG_V.2.1
     text: hellooootttttt
     childrenIDs:
     - AG_V.3
     rect:
       serializedVersion: 2
-      x: 625
-      y: 400
-      width: 200
-      height: 100
+      x: 633
+      y: 390
+      width: 300
+      height: 150
   - uniqueID: AG_V.2.2
     text: nada5
     childrenIDs:
     - AG_V.3
     rect:
       serializedVersion: 2
-      x: 65
-      y: 355
-      width: 200
-      height: 100
+      x: 54
+      y: 363
+      width: 300
+      height: 150
   - uniqueID: AG_V.3
     text: nada5
     childrenIDs:
@@ -86,43 +89,43 @@ MonoBehaviour:
     - AG_V.3.E
     rect:
       serializedVersion: 2
-      x: 346
-      y: 39
+      x: 477
+      y: 77
       width: 200
-      height: 100
+      height: 200
   - uniqueID: AG_V.3.P
-    text: nada5
+    text: nada8
     childrenIDs: []
     rect:
       serializedVersion: 2
-      x: 76
-      y: 58
-      width: 200
-      height: 100
+      x: 4
+      y: 11
+      width: 300
+      height: 150
   - uniqueID: AG_V.3.D
-    text: nada5
+    text: nada9
     childrenIDs: []
     rect:
       serializedVersion: 2
       x: 636
       y: 158
-      width: 200
-      height: 100
+      width: 300
+      height: 150
   - uniqueID: AG_V.3.A
-    text: nada5
+    text: nada10
     childrenIDs: []
     rect:
       serializedVersion: 2
-      x: 638
-      y: 276
-      width: 200
-      height: 100
+      x: 620
+      y: 265
+      width: 300
+      height: 150
   - uniqueID: AG_V.3.E
-    text: nada5
+    text: nada11
     childrenIDs: []
     rect:
       serializedVersion: 2
       x: 660
       y: 49
-      width: 200
-      height: 100
+      width: 300
+      height: 150

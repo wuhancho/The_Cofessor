@@ -1,4 +1,5 @@
 using Microsoft.Win32.SafeHandles;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,6 +11,7 @@ namespace The_cofessor.Pesonajes.Dialogs
     public class Dialog : ScriptableObject
     {
         [SerializeField] List<DialogNode> nodes;
+        Dictionary<string, DialogNode> nodeLookup = new Dictionary<string, DialogNode>();
 
 #if UNITY_EDITOR
         private void Awake()
@@ -21,6 +23,14 @@ namespace The_cofessor.Pesonajes.Dialogs
             Debug.Log($"dialog {name} awake with {nodes.Count} nodes.");
         }
 #endif
+        private void OnValidate()
+        {
+            nodeLookup.Clear();
+            foreach (DialogNode node in GetAllNodes())
+            {
+                nodeLookup[node.uniqueID] = node;
+            }
+        }
         public IEnumerable<DialogNode> GetAllNodes()
         {
             return nodes;
@@ -28,6 +38,25 @@ namespace The_cofessor.Pesonajes.Dialogs
         public DialogNode GetRootNode()
         {
             return nodes[0];
+        }
+
+        public IEnumerable<DialogNode> GetAllChildren(DialogNode parentNode)
+        {
+            //foreach (string childID in parentNode.childrenIDs)
+            //{
+            //    DialogNode childNode = nodes.Find(n => n.uniqueID == childID);
+            //    if (childNode != null)
+            //    {
+            //        yield return childNode;
+            //    }
+            //}
+            foreach (string childID in parentNode.childrenIDs)
+            {
+                if (nodeLookup.ContainsKey(childID))
+                {
+                    yield return nodeLookup[childID];
+                }
+            }
         }
     }
 

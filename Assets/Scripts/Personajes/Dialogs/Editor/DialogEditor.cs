@@ -114,6 +114,11 @@ namespace The_cofessor.Personajes.Dialogs.Editor
                 node.uniqueID = nodeID;
                 node.text = newText;
             }
+            foreach (DialogNode childnode in selectedDialog.GetAllChildren(node))
+            {
+                EditorGUILayout.LabelField(childnode.text);
+            }
+
             GUILayout.EndArea();
         }
         private DialogNode GetNodeAtPoint(Vector2 mousePoint)

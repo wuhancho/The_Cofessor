@@ -11,5 +11,6 @@ public class DialogNode
     public string uniqueID;
     public string text;
     public string[] childrenIDs;
-    public Rect rect = new Rect(0,0, 400,100);
+    public Rect rect = new Rect(0,0, 300,200);
+
 }
