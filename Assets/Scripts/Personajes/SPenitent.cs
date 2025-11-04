@@ -1,4 +1,4 @@
-using The_cofessor.Pesonajes.Dialogs;
+using The_cofessor.Personajes.Dialogs;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;

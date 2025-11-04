@@ -6,7 +6,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 
-namespace The_cofessor.Pesonajes.Dialogs
+namespace The_cofessor.Personajes.Dialogs
 {
     [CreateAssetMenu(fileName = "New Dialog Penitent", menuName = "Scriptable Objects/Dialogue/Dialogue penitent", order = 1)]
     public class Dialog : ScriptableObject
@@ -56,7 +56,7 @@ namespace The_cofessor.Pesonajes.Dialogs
 
         public void CreateNode(DialogNode parent)
         {
-            DialogNode newNode = new DialogNode();
+            DialogNode newNode = CreateInstance<DialogNode>();
             newNode.uniqueID = Guid.NewGuid().ToString();
             parent.childrenIDs.Add(newNode.uniqueID);
             nodes.Add(newNode);
