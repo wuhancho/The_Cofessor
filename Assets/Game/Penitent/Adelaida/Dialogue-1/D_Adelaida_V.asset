@@ -13,119 +13,24 @@ MonoBehaviour:
   m_Name: D_Adelaida_V
   m_EditorClassIdentifier: 
   nodes:
-  - uniqueID: AG_V.1
-    text: "Padre, \xBFse ha enterado de lo del hijo del molinero? \\ Creo saber qu\xE9
-      le ha sucedido.\\ Estoy segura de que el colgante que menciona el peri\xF3dico
-      tiene algo que ver."
-    childrenIDs:
-    - AG_V.1.1
-    - AG_V.1.2
-    rect:
-      serializedVersion: 2
-      x: -6
-      y: 165
-      width: 300
-      height: 150
-  - uniqueID: AG_V.1.1
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-      when an unknown printer took a galley of type and scrambled it to make a type
-      specimen book
-    childrenIDs:
-    - AG_V.2
-    rect:
-      serializedVersion: 2
-      x: 308
-      y: 98
-      width: 300
-      height: 150
-  - uniqueID: AG_V.1.2
-    text: nada2
-    childrenIDs:
-    - AG_V.2
-    rect:
-      serializedVersion: 2
-      x: 305
-      y: 249
-      width: 300
-      height: 150
-  - uniqueID: AG_V.2
-    text: hellooootttttt
-    childrenIDs:
-    - AG_V.2.1
-    - AG_V.2.2
-    rect:
-      serializedVersion: 2
-      x: 706
-      y: 191
-      width: 300
-      height: 150
-  - uniqueID: AG_V.2.1
-    text: hellooootttttt
-    childrenIDs:
-    - AG_V.3
-    rect:
-      serializedVersion: 2
-      x: 1091
-      y: 157
-      width: 300
-      height: 150
-  - uniqueID: AG_V.2.2
-    text: nada5
-    childrenIDs:
-    - AG_V.3
-    rect:
-      serializedVersion: 2
-      x: 1093
-      y: 315
-      width: 300
-      height: 150
-  - uniqueID: AG_V.3
-    text: nada5
-    childrenIDs:
-    - AG_V.3.P
-    - AG_V.3.D
-    - AG_V.3.A
-    - AG_V.3.E
-    rect:
-      serializedVersion: 2
-      x: 1449
-      y: 194
-      width: 200
-      height: 200
-  - uniqueID: AG_V.3.P
-    text: nada8
-    childrenIDs: []
-    rect:
-      serializedVersion: 2
-      x: 1688
-      y: 476
-      width: 300
-      height: 150
-  - uniqueID: AG_V.3.D
-    text: nada9
-    childrenIDs: []
-    rect:
-      serializedVersion: 2
-      x: 1746
-      y: 180
-      width: 300
-      height: 150
-  - uniqueID: AG_V.3.A
-    text: nada10
-    childrenIDs: []
-    rect:
-      serializedVersion: 2
-      x: 1720
-      y: 326
-      width: 300
-      height: 150
-  - uniqueID: AG_V.3.E
-    text: nada11
-    childrenIDs: []
-    rect:
-      serializedVersion: 2
-      x: 1784
-      y: 30
-      width: 300
-      height: 150
+  - {fileID: 8579686826989908315}
+--- !u!114 &8579686826989908315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: e06a201a-69a1-465e-bde2-5d24e439b128
+  m_EditorClassIdentifier: 
+  text: 
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 200

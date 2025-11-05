@@ -111,17 +111,6 @@ namespace The_cofessor.Personajes.Dialogs.Editor
 
             }
         }
-
-        //private void ScrollView()
-        //{
-        //    List<DialogNode> allNodes = new List<DialogNode>(selectedDialog.GetAllNodes());
-        //    float height = allNodes[allNodes.Count - 1].rect.yMax + 200;
-        //    float width = allNodes[allNodes.Capacity - 1].rect.xMax + 200;
-        //    Rect scrollViewRect = GUILayoutUtility.GetRect(height,width);
-            
-        //}
-
-
         private void ProcessEvents()
         {
             if (Event.current.type == EventType.MouseDown && draggingNode == null)
@@ -130,11 +119,13 @@ namespace The_cofessor.Personajes.Dialogs.Editor
                 if (draggingNode !=null)
                 {
                     draggingOffsets = draggingNode.rect.position - Event.current.mousePosition;
+                    Selection.activeObject = draggingNode;
                 }
                 else
                 {
                     isDraggingCanvas = true;
                     draggingCanvasOffset = Event.current.mousePosition + scrollPosition;
+                    Selection.activeObject = selectedDialog;
                 }
             }
             else if (Event.current.type == EventType.MouseDrag && draggingNode != null)
@@ -166,7 +157,7 @@ namespace The_cofessor.Personajes.Dialogs.Editor
 
             EditorGUI.BeginChangeCheck();
 
-            EditorGUILayout.LabelField("ID: " + node.uniqueID, EditorStyles.whiteBoldLabel);
+            EditorGUILayout.LabelField("ID: " + node.name, EditorStyles.whiteBoldLabel);
             EditorGUILayout.LabelField("Dialogue:");
             string newText = EditorGUILayout.TextField(node.text);
             if (EditorGUI.EndChangeCheck())
@@ -179,14 +170,14 @@ namespace The_cofessor.Personajes.Dialogs.Editor
 
             if (GUILayout.Button("x"))
             {
-                Debug.Log(GetNodeAtPoint(Event.current.mousePosition).uniqueID);
+                Debug.Log(GetNodeAtPoint(Event.current.mousePosition).name);
                 deletingNode = node;
             }
             DrawLinkButtons(node);
 
             if (GUILayout.Button("+"))
             {
-                Debug.Log("Add Child to node " + node.uniqueID);
+                Debug.Log("Add Child to node " + node.name);
                 creatingNode = node;
             }
             GUILayout.EndHorizontal();
@@ -209,12 +200,12 @@ namespace The_cofessor.Personajes.Dialogs.Editor
                     linkingParentNode = null;
                 }
             }
-            else if (linkingParentNode.childrenIDs.Contains(node.uniqueID))
+            else if (linkingParentNode.childrenIDs.Contains(node.name))
             {
                 if (GUILayout.Button("Unlink"))
                 {
                     Undo.RecordObject(selectedDialog, "unLink Dialog Nodes");
-                    linkingParentNode.childrenIDs.Remove(node.uniqueID);
+                    linkingParentNode.childrenIDs.Remove(node.name);
                     linkingParentNode = null;
                 }
             }
@@ -223,7 +214,7 @@ namespace The_cofessor.Personajes.Dialogs.Editor
                 if (GUILayout.Button("Child"))
                 {
                     Undo.RecordObject(selectedDialog, "Link Dialog Nodes");
-                    linkingParentNode.childrenIDs.Add(node.uniqueID);
+                    linkingParentNode.childrenIDs.Add(node.name);
                     linkingParentNode = null;
                 }
             }
