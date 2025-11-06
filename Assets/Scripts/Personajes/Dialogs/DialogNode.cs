@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEditor;
-using UnityEditor.Experimental.GraphView;
+//using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 namespace The_cofessor.Personajes.Dialogs
@@ -12,6 +12,7 @@ namespace The_cofessor.Personajes.Dialogs
     public class DialogNode : ScriptableObject
     {
         //public string uniqueID;
+        [SerializeField] private bool isPlayerSpeaking = false;
         [SerializeField] private string text;
         [SerializeField] private List<string> childrenIDs = new();
         [SerializeField] private Rect rect = new(0, 0, 300, 200);
@@ -26,6 +27,10 @@ namespace The_cofessor.Personajes.Dialogs
         public List<string> GetChildren()
         {
             return childrenIDs;
+        }
+        public bool IsPlayerSpeaking()
+        {
+            return isPlayerSpeaking;
         }
 #if UNITY_EDITOR
         public void SetPosition(Vector2 newPosition)
@@ -53,6 +58,13 @@ namespace The_cofessor.Personajes.Dialogs
         {
             Undo.RecordObject(this, "Remove Child From Dialog Node");
             childrenIDs.Remove(childID);
+            EditorUtility.SetDirty(this);
+        }
+
+        public void SetPlayerSpeaking(bool newIsplayerSpeking)
+        {
+            Undo.RecordObject(this, "Set Player Speaking");
+            isPlayerSpeaking = newIsplayerSpeking;
             EditorUtility.SetDirty(this);
         }
 #endif

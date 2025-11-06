@@ -14,6 +14,7 @@ namespace The_cofessor.Personajes.Dialogs
     {
         [SerializeField] List<DialogNode> nodes = new();
         private readonly Dictionary<string, DialogNode> nodeLookup = new();
+        [SerializeField] Vector2 newNodeOffset = new Vector2(250, 0);
 
         private void OnValidate()
         {
@@ -62,7 +63,7 @@ namespace The_cofessor.Personajes.Dialogs
             CleanDanglingChildren(nodeToDelete);
             Undo.DestroyObjectImmediate(nodeToDelete);
         }
-        private static DialogNode MakeNode(DialogNode parent)
+        private DialogNode MakeNode(DialogNode parent)
         {
             DialogNode newNode = CreateInstance<DialogNode>();
             //newNode.SetID(Guid.NewGuid().ToString());
@@ -71,6 +72,9 @@ namespace The_cofessor.Personajes.Dialogs
             {
                 Undo.RecordObject(parent, "Add Child To Dialog Node");
                 parent.AddChild(newNode.name);
+                newNode.SetPlayerSpeaking(!parent.IsPlayerSpeaking());
+                newNode.SetPosition(parent.GetRect().position + newNodeOffset);
+                
             }
 
             return newNode;

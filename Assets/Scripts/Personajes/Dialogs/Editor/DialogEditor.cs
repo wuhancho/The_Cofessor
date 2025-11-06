@@ -12,6 +12,7 @@ namespace The_cofessor.Personajes.Dialogs.Editor
     {
         Dialog selectedDialog = null;
         [NonSerialized] GUIStyle nodeStyle;
+        [NonSerialized] GUIStyle PlayerNodeStyle;
         [NonSerialized] DialogNode draggingNode = null;
         [NonSerialized] Vector2 draggingOffsets;
         [NonSerialized] DialogNode creatingNode = null;
@@ -39,10 +40,8 @@ namespace The_cofessor.Personajes.Dialogs.Editor
             if (dialog != null)
             {
                 ShowEditorWindow();
-                Debug.Log("Abriendo DialogEditor");
                 return true;
             }
-            Debug.Log("no se abre abrir DialogEditor");
             return false;
         }
         private void OnEnable()
@@ -51,9 +50,14 @@ namespace The_cofessor.Personajes.Dialogs.Editor
             nodeStyle = new GUIStyle();
             nodeStyle.normal.background =EditorGUIUtility.Load("node0") as Texture2D;
             nodeStyle.normal.textColor = Color.white;
-
             nodeStyle.padding = new RectOffset(20, 20, 20, 20);
             nodeStyle.border = new RectOffset(12, 12, 12, 12);
+
+            PlayerNodeStyle = new GUIStyle();
+            PlayerNodeStyle.normal.background = EditorGUIUtility.Load("node1") as Texture2D;
+            PlayerNodeStyle.normal.textColor = Color.blue;
+            PlayerNodeStyle.padding = new RectOffset(20, 20, 20, 20);
+            PlayerNodeStyle.border = new RectOffset(12, 12, 12, 12);
 
         }
 
@@ -151,7 +155,12 @@ namespace The_cofessor.Personajes.Dialogs.Editor
 
         private void DrawNode(DialogNode node)
         {
-            GUILayout.BeginArea(node.GetRect(), nodeStyle);
+            GUIStyle style = nodeStyle;
+            if (node.IsPlayerSpeaking())
+            {
+                style = PlayerNodeStyle;
+            }
+            GUILayout.BeginArea(node.GetRect(), style);
 
             EditorGUILayout.LabelField("ID: " + node.name, EditorStyles.whiteBoldLabel);
             EditorGUILayout.LabelField("Dialogue:");
@@ -171,7 +180,27 @@ namespace The_cofessor.Personajes.Dialogs.Editor
                 creatingNode = node;
             }
             GUILayout.EndHorizontal();
+            DrawStatePlayer(node);
+
             GUILayout.EndArea();
+        }
+
+        private static void DrawStatePlayer(DialogNode node)
+        {
+            if (node.IsPlayerSpeaking())
+            {
+                if (GUILayout.Toggle(node.IsPlayerSpeaking(), "Is Player"))
+                {
+                    node.SetPlayerSpeaking(!node.IsPlayerSpeaking());
+                }
+            }
+            else
+            {
+                if (GUILayout.Toggle(node.IsPlayerSpeaking(), "Is NPC"))
+                {
+                    node.SetPlayerSpeaking(!node.IsPlayerSpeaking());
+                }
+            }
         }
 
         private void DrawLinkButtons(DialogNode node)
