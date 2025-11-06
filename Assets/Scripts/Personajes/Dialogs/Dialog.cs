@@ -12,23 +12,16 @@ namespace The_cofessor.Personajes.Dialogs
     [CreateAssetMenu(fileName = "New Dialog Penitent", menuName = "Scriptable Objects/Dialogue/Dialogue penitent", order = 1)]
     public class Dialog : ScriptableObject, ISerializationCallbackReceiver
     {
-        [SerializeField] List<DialogNode> nodes = new List<DialogNode>();
-        Dictionary<string, DialogNode> nodeLookup = new Dictionary<string, DialogNode>();
+        [SerializeField] List<DialogNode> nodes = new();
+        private readonly Dictionary<string, DialogNode> nodeLookup = new();
 
-#if UNITY_EDITOR
-        private void Awake()
-        {
-       
-            Debug.Log($"dialog {name} awake with {nodes.Count} nodes.");
-        }
-#endif
         private void OnValidate()
         {
-
             nodeLookup.Clear();
             foreach (DialogNode node in GetAllNodes())
             {
-                nodeLookup[node.name] = node;
+                if (!nodeLookup.ContainsKey(node.name))
+                    nodeLookup[node.name] = node;
             }
         }
         public IEnumerable<DialogNode> GetAllNodes()
@@ -42,7 +35,7 @@ namespace The_cofessor.Personajes.Dialogs
 
         public IEnumerable<DialogNode> GetAllChildren(DialogNode parentNode)
         {
-            foreach (string childID in parentNode.childrenIDs)
+            foreach (string childID in parentNode.GetChildren())
             {
                 if (nodeLookup.ContainsKey(childID))
                 {
@@ -50,42 +43,61 @@ namespace The_cofessor.Personajes.Dialogs
                 }
             }
         }
-
+#if UNITY_EDITOR
         public void CreateNode(DialogNode parent)
+        {
+            DialogNode newNode = MakeNode(parent);
+            Undo.RegisterCreatedObjectUndo(newNode, "Create Dialog Node");
+            Undo.RecordObject(this, "Create Dialog Node");
+            AddNode(newNode);
+        }
+
+        
+
+        public void DeleteNode(DialogNode nodeToDelete)
+        {
+            Undo.RecordObject(this, "Delete Dialog Node");
+            nodes.Remove(nodeToDelete);
+            OnValidate();
+            CleanDanglingChildren(nodeToDelete);
+            Undo.DestroyObjectImmediate(nodeToDelete);
+        }
+        private static DialogNode MakeNode(DialogNode parent)
         {
             DialogNode newNode = CreateInstance<DialogNode>();
             //newNode.SetID(Guid.NewGuid().ToString());
             newNode.name = Guid.NewGuid().ToString(); //newNode.uniqueID = Guid.NewGuid().ToString();
-            Undo.RegisterCreatedObjectUndo(newNode, "Create Dialog Node");
             if (parent != null)
             {
-                parent.childrenIDs.Add(newNode.name);
+                Undo.RecordObject(parent, "Add Child To Dialog Node");
+                parent.AddChild(newNode.name);
             }
+
+            return newNode;
+        }
+
+        private void AddNode(DialogNode newNode)
+        {
             nodes.Add(newNode);
             //AssetDatabase.AddObjectToAsset(newNode, this);
             OnValidate();
         }
-        public void DeleteNode(DialogNode nodeToDelete)
-        {
-            nodes.Remove(nodeToDelete);
-            Undo.DestroyObjectImmediate(nodeToDelete);
-            OnValidate();
-            CleanDanglingChildren(nodeToDelete);
-        }
-
         private void CleanDanglingChildren(DialogNode nodeToDelete)
         {
             foreach (DialogNode node in GetAllNodes())
             {
-                node.childrenIDs.Remove(nodeToDelete.name);
+                Undo.RecordObject(node, "Clean Dangling Children");
+                node.RemoveChild(nodeToDelete.name);
             }
         }
-
+#endif
         public void OnBeforeSerialize()
         {
+#if UNITY_EDITOR
             if (nodes.Count == 0)
             {
-                CreateNode(null);
+                DialogNode newNode = MakeNode(null);
+                AddNode(newNode);
             }
             if (AssetDatabase.GetAssetPath(this) != "")
             {
@@ -93,10 +105,12 @@ namespace The_cofessor.Personajes.Dialogs
                 {
                     if(AssetDatabase.GetAssetPath(node)== "")
                     {
+                        if(node != null)
                         AssetDatabase.AddObjectToAsset(node, this);
                     }
                 }
             }
+#endif
         }
 
         public void OnAfterDeserialize()

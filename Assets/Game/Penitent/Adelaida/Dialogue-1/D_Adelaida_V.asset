@@ -1,5 +1,46 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7301032785005443876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 165dbf03-ed77-429d-be51-c8e4633208a0
+  m_EditorClassIdentifier: 
+  text: dos
+  childrenIDs:
+  - 6ba07892-b8e5-452d-81db-3d0425b9fab7
+  rect:
+    serializedVersion: 2
+    x: 524
+    y: 318
+    width: 300
+    height: 200
+--- !u!114 &-164470019283056516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 6ba07892-b8e5-452d-81db-3d0425b9fab7
+  m_EditorClassIdentifier: 
+  text: dielo
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 813
+    y: 33
+    width: 300
+    height: 200
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14,6 +55,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodes:
   - {fileID: 8579686826989908315}
+  - {fileID: -164470019283056516}
+  - {fileID: 3665860421770995006}
+  - {fileID: -7301032785005443876}
+--- !u!114 &3665860421770995006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 0cc4a420-6a20-4566-9e05-d74185ff76e2
+  m_EditorClassIdentifier: 
+  text: juano
+  childrenIDs:
+  - 165dbf03-ed77-429d-be51-c8e4633208a0
+  rect:
+    serializedVersion: 2
+    x: 201
+    y: 308
+    width: 300
+    height: 200
 --- !u!114 &8579686826989908315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26,11 +91,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
   m_Name: e06a201a-69a1-465e-bde2-5d24e439b128
   m_EditorClassIdentifier: 
-  text: 
-  childrenIDs: []
+  text: dialoguue
+  childrenIDs:
+  - 6ba07892-b8e5-452d-81db-3d0425b9fab7
+  - 0cc4a420-6a20-4566-9e05-d74185ff76e2
   rect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 12
+    y: 31
     width: 300
     height: 200

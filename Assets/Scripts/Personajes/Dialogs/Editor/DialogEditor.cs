@@ -82,7 +82,7 @@ namespace The_cofessor.Personajes.Dialogs.Editor
 
                 Rect canvas = GUILayoutUtility.GetRect(canvasSize,canvasSize);
                 Texture2D backgroundTex = Resources.Load("background") as Texture2D;
-                Rect texCoords = new Rect(0, 0, canvasSize / backgroundSize, canvasSize / backgroundSize);
+                Rect texCoords = new(0, 0, canvasSize / backgroundSize, canvasSize / backgroundSize);
                 GUI.DrawTextureWithTexCoords(canvas, backgroundTex, texCoords);
 
                 foreach (DialogNode node in selectedDialog.GetAllNodes())
@@ -98,13 +98,11 @@ namespace The_cofessor.Personajes.Dialogs.Editor
 
                 if (creatingNode != null)
                 {
-                    Undo.RecordObject(selectedDialog, "Create Dialog Node");
                     selectedDialog.CreateNode(creatingNode);
                     creatingNode = null;
                 }
                 if (deletingNode != null)
                 {
-                    Undo.RecordObject(selectedDialog, "Delete Dialog Node");
                     selectedDialog.DeleteNode(deletingNode);
                     deletingNode = null;
                 }
@@ -118,7 +116,8 @@ namespace The_cofessor.Personajes.Dialogs.Editor
                 draggingNode = GetNodeAtPoint(Event.current.mousePosition + scrollPosition);
                 if (draggingNode !=null)
                 {
-                    draggingOffsets = draggingNode.rect.position - Event.current.mousePosition;
+
+                    draggingOffsets = draggingNode.GetRect().position - Event.current.mousePosition;
                     Selection.activeObject = draggingNode;
                 }
                 else
@@ -130,8 +129,7 @@ namespace The_cofessor.Personajes.Dialogs.Editor
             }
             else if (Event.current.type == EventType.MouseDrag && draggingNode != null)
             {
-                Undo.RecordObject(selectedDialog, "Drag Dialog Node");
-                draggingNode.rect.position = Event.current.mousePosition + draggingOffsets;
+                draggingNode.SetPosition(Event.current.mousePosition + draggingOffsets);
                 GUI.changed = true;
             }
             else if (Event.current.type == EventType.MouseDrag && isDraggingCanvas)
@@ -153,24 +151,16 @@ namespace The_cofessor.Personajes.Dialogs.Editor
 
         private void DrawNode(DialogNode node)
         {
-            GUILayout.BeginArea(node.rect, nodeStyle);
-
-            EditorGUI.BeginChangeCheck();
+            GUILayout.BeginArea(node.GetRect(), nodeStyle);
 
             EditorGUILayout.LabelField("ID: " + node.name, EditorStyles.whiteBoldLabel);
             EditorGUILayout.LabelField("Dialogue:");
-            string newText = EditorGUILayout.TextField(node.text);
-            if (EditorGUI.EndChangeCheck())
-            {
-                Undo.RecordObject(selectedDialog, "Update Dialog Text");
-                node.text = newText;
-            }
+            node.SetText(EditorGUILayout.TextField(node.GetText()));
 
             GUILayout.BeginHorizontal();
 
             if (GUILayout.Button("x"))
             {
-                Debug.Log(GetNodeAtPoint(Event.current.mousePosition).name);
                 deletingNode = node;
             }
             DrawLinkButtons(node);
@@ -200,12 +190,12 @@ namespace The_cofessor.Personajes.Dialogs.Editor
                     linkingParentNode = null;
                 }
             }
-            else if (linkingParentNode.childrenIDs.Contains(node.name))
+            else if (linkingParentNode.GetChildren().Contains(node.name))
             {
                 if (GUILayout.Button("Unlink"))
                 {
-                    Undo.RecordObject(selectedDialog, "unLink Dialog Nodes");
-                    linkingParentNode.childrenIDs.Remove(node.name);
+                   
+                    linkingParentNode.RemoveChild(node.name);
                     linkingParentNode = null;
                 }
             }
@@ -214,7 +204,7 @@ namespace The_cofessor.Personajes.Dialogs.Editor
                 if (GUILayout.Button("Child"))
                 {
                     Undo.RecordObject(selectedDialog, "Link Dialog Nodes");
-                    linkingParentNode.childrenIDs.Add(node.name);
+                    linkingParentNode.AddChild(node.name);
                     linkingParentNode = null;
                 }
             }
@@ -222,10 +212,10 @@ namespace The_cofessor.Personajes.Dialogs.Editor
 
         private void DrawConnections(DialogNode node)
         {
-            Vector2 startPotition = new Vector2(node.rect.xMax-7, node.rect.center.y);
+            Vector2 startPotition = new(node.GetRect().xMax-7, node.GetRect().center.y);
             foreach (DialogNode childNode in selectedDialog.GetAllChildren(node))
             {
-                Vector2 endPotition = new Vector2(childNode.rect.xMin+7, childNode.rect.center.y);
+                Vector2 endPotition = new(childNode.GetRect().xMin+7, childNode.GetRect().center.y);
                 Vector2 controlPointOffset = endPotition - startPotition;
                 controlPointOffset.y = 0;
                 controlPointOffset.x *= 0.8f;
@@ -239,7 +229,7 @@ namespace The_cofessor.Personajes.Dialogs.Editor
             DialogNode foundNode = null;
             foreach (DialogNode node in selectedDialog.GetAllNodes())
             {
-                if (node.rect.Contains(mousePoint))
+                if (node.GetRect().Contains(mousePoint))
                 {
                     foundNode = node;
                 }
