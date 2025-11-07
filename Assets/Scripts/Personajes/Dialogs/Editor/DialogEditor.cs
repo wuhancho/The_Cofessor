@@ -5,6 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEditor.Callbacks;
+using UnityEditor.ShaderGraph.Serialization;
 using UnityEngine;
 namespace The_cofessor.Personajes.Dialogs.Editor
 {
@@ -185,21 +186,28 @@ namespace The_cofessor.Personajes.Dialogs.Editor
             GUILayout.EndArea();
         }
 
+        // Plan (pseudocódigo detallado):
+        // 1. Obtener el estado actual: bool isPlayer = node.IsPlayerSpeaking()
+        // 2. Mostrar un Toggle que refleje ese estado: bool newIsPlayer = GUILayout.Toggle(isPlayer, "Player Speaking")
+        // 3. Si el estado cambió:
+        //    a. Registrar el cambio para Undo: Undo.RecordObject(node, "Toggle Speaker")
+        //    b. Aplicar el nuevo estado: node.SetPlayerSpeaking(newIsPlayer)
+        //    c. Marcar el objeto como modificado para que Unity lo guarde: EditorUtility.SetDirty(node)
+        // 4. (Opcional) Si se desea mostrar ambos estados como botones, se podría usar dos toggles o radio buttons,
+        //    pero aquí se mantiene un toggle claro y sencillo: activo = Player, inactivo = NPC.
+
         private static void DrawStatePlayer(DialogNode node)
         {
-            if (node.IsPlayerSpeaking())
+            bool current = node.IsPlayerSpeaking();
+            // Mostrar un toggle donde true = Player hablando, false = NPC hablando.
+            string label = "Player Speaking";
+            bool next = GUILayout.Toggle(current, label);
+
+            if (next != current)
             {
-                if (GUILayout.Toggle(node.IsPlayerSpeaking(), "Is Player"))
-                {
-                    node.SetPlayerSpeaking(!node.IsPlayerSpeaking());
-                }
-            }
-            else
-            {
-                if (GUILayout.Toggle(node.IsPlayerSpeaking(), "Is NPC"))
-                {
-                    node.SetPlayerSpeaking(!node.IsPlayerSpeaking());
-                }
+                Undo.RecordObject(node, "Toggle Speaker");
+                node.SetPlayerSpeaking(next);
+                EditorUtility.SetDirty(node);
             }
         }
 
