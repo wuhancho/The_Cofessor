@@ -25,6 +25,11 @@ namespace The_cofessor.Personajes.Dialogs.Editor
         const float canvasSize = 4000f;
         const float backgroundSize = 50f;
 
+        [NonSerialized] float zoom = 1f;
+        const float MinZoom = 0.4f;
+        const float MaxZoom = 2.5f;
+        const float ZoomStep = 0.1f;
+
 
         [MenuItem("Window/Dialogue Editor")]
         public static void ShowEditorWindow()
@@ -116,52 +121,106 @@ namespace The_cofessor.Personajes.Dialogs.Editor
         }
         private void ProcessEvents()
         {
-            if (Event.current.type == EventType.MouseDown && draggingNode == null)
-            {
-                draggingNode = GetNodeAtPoint(Event.current.mousePosition + scrollPosition);
-                if (draggingNode !=null)
-                {
+            #region primera version
+            //if (Event.current.type == EventType.MouseDown && draggingNode == null)
+            //{
+            //    draggingNode = GetNodeAtPoint(Event.current.mousePosition + scrollPosition);
+            //    if (draggingNode !=null)
+            //    {
 
-                    draggingOffsets = draggingNode.GetRect().position - Event.current.mousePosition;
+            //        draggingOffsets = draggingNode.GetRect().position - Event.current.mousePosition;
+            //        Selection.activeObject = draggingNode;
+            //    }
+            //    else
+            //    {
+            //        isDraggingCanvas = true;
+            //        draggingCanvasOffset = Event.current.mousePosition + scrollPosition;
+            //        Selection.activeObject = selectedDialog;
+            //    }
+            //}
+            //else if (Event.current.type == EventType.MouseDrag && draggingNode != null)
+            //{
+            //    draggingNode.SetPosition(Event.current.mousePosition + draggingOffsets);
+            //    GUI.changed = true;
+            //}
+            //else if (Event.current.type == EventType.MouseDrag && isDraggingCanvas)
+            //{
+            //    scrollPosition = draggingCanvasOffset - Event.current.mousePosition;
+            //    GUI.changed = true;
+            //}
+            //else if (Event.current.type == EventType.MouseUp && draggingNode != null)
+            //{
+            //    draggingNode = null;
+            //}
+            //else if (Event.current.type == EventType.MouseUp && isDraggingCanvas)
+            //{
+            //    isDraggingCanvas = false;
+            //}
+            #endregion
+            Event e = Event.current;
+
+            // Zoom con rueda
+            if (e.type == EventType.ScrollWheel && (e.control || e.command))
+            {
+                Vector2 mousePos = e.mousePosition;
+                Vector2 contentPos = (mousePos + scrollPosition) / zoom;
+                float delta = -e.delta.y; // rueda arriba positivo
+                float target = Mathf.Clamp(zoom + delta * ZoomStep * 0.2f, MinZoom, MaxZoom);
+                if (!Mathf.Approximately(target, zoom))
+                {
+                    scrollPosition = contentPos * target - mousePos;
+                    zoom = target;
+                    GUI.changed = true;
+                    e.Use();
+                }
+            }
+
+            if (e.type == EventType.MouseDown && draggingNode == null)
+            {
+                draggingNode = GetNodeAtPoint((e.mousePosition + scrollPosition) / zoom);
+                if (draggingNode != null)
+                {
+                    draggingOffsets = draggingNode.GetRect().position - ((e.mousePosition + scrollPosition) / zoom);
                     Selection.activeObject = draggingNode;
                 }
                 else
                 {
                     isDraggingCanvas = true;
-                    draggingCanvasOffset = Event.current.mousePosition + scrollPosition;
+                    draggingCanvasOffset = e.mousePosition + scrollPosition;
                     Selection.activeObject = selectedDialog;
                 }
             }
-            else if (Event.current.type == EventType.MouseDrag && draggingNode != null)
+            else if (e.type == EventType.MouseDrag && draggingNode != null)
             {
-                draggingNode.SetPosition(Event.current.mousePosition + draggingOffsets);
+                draggingNode.SetPosition(((e.mousePosition + scrollPosition) / zoom) + draggingOffsets);
                 GUI.changed = true;
             }
-            else if (Event.current.type == EventType.MouseDrag && isDraggingCanvas)
+            else if (e.type == EventType.MouseDrag && isDraggingCanvas)
             {
-                scrollPosition = draggingCanvasOffset - Event.current.mousePosition;
+                scrollPosition = draggingCanvasOffset - e.mousePosition;
                 GUI.changed = true;
             }
-            else if (Event.current.type == EventType.MouseUp && draggingNode != null)
-            {
+            else if (e.type == EventType.MouseUp && draggingNode != null)
                 draggingNode = null;
-            }
-            else if (Event.current.type == EventType.MouseUp && isDraggingCanvas)
-            {
+            else if (e.type == EventType.MouseUp && isDraggingCanvas)
                 isDraggingCanvas = false;
-            }
         }
 
       
 
         private void DrawNode(DialogNode node)
         {
-            GUIStyle style = nodeStyle;
-            if (node.IsPlayerSpeaking())
-            {
-                style = PlayerNodeStyle;
-            }
-            GUILayout.BeginArea(node.GetRect(), style);
+            GUIStyle style = node.IsPlayerSpeaking() ? PlayerNodeStyle : nodeStyle;
+            Rect r = node.GetRect();
+            Rect drawRect = new(r.x * zoom, r.y * zoom, r.width * zoom, r.height * zoom);
+            GUILayout.BeginArea(drawRect, style);
+
+            //GUIStyle style = nodeStyle;
+            //if (node.IsPlayerSpeaking())
+            //{
+            //    style = PlayerNodeStyle;
+            //}
+            //GUILayout.BeginArea(node.GetRect(), style);
 
             EditorGUILayout.LabelField("ID: " + node.name, EditorStyles.whiteBoldLabel);
             EditorGUILayout.LabelField("Dialogue:");
@@ -249,29 +308,44 @@ namespace The_cofessor.Personajes.Dialogs.Editor
 
         private void DrawConnections(DialogNode node)
         {
-            Vector2 startPotition = new(node.GetRect().xMax-7, node.GetRect().center.y);
-            foreach (DialogNode childNode in selectedDialog.GetAllChildren(node))
-            {
-                Vector2 endPotition = new(childNode.GetRect().xMin+7, childNode.GetRect().center.y);
-                Vector2 controlPointOffset = endPotition - startPotition;
-                controlPointOffset.y = 0;
-                controlPointOffset.x *= 0.8f;
-                Handles.DrawBezier(startPotition, endPotition, startPotition + controlPointOffset, endPotition - controlPointOffset, Color.white, null, 4f);
+            //Vector2 startPotition = new(node.GetRect().xMax-7, node.GetRect().center.y);
+            //foreach (DialogNode childNode in selectedDialog.GetAllChildren(node))
+            //{
+            //    Vector2 endPotition = new(childNode.GetRect().xMin+7, childNode.GetRect().center.y);
+            //    Vector2 controlPointOffset = endPotition - startPotition;
+            //    controlPointOffset.y = 0;
+            //    controlPointOffset.x *= 0.8f;
+            //    Handles.DrawBezier(startPotition, endPotition, startPotition + controlPointOffset, endPotition - controlPointOffset, Color.white, null, 4f);
 
+            //}
+            Rect r = node.GetRect();
+            Vector2 start = new(r.xMax * zoom - 7 * zoom, r.center.y * zoom);
+            foreach (var child in selectedDialog.GetAllChildren(node))
+            {
+                Rect cr = child.GetRect();
+                Vector2 end = new(cr.xMin * zoom + 7 * zoom, cr.center.y * zoom);
+                Vector2 cp = end - start;
+                cp.y = 0; cp.x *= 0.8f;
+                Handles.DrawBezier(start, end, start + cp, end - cp, Color.white, null, 4f);
             }
         }
 
         private DialogNode GetNodeAtPoint(Vector2 mousePoint)
         {
-            DialogNode foundNode = null;
-            foreach (DialogNode node in selectedDialog.GetAllNodes())
-            {
-                if (node.GetRect().Contains(mousePoint))
-                {
-                    foundNode = node;
-                }
-            }
-            return foundNode;
+            //DialogNode foundNode = null;
+            //foreach (DialogNode node in selectedDialog.GetAllNodes())
+            //{
+            //    if (node.GetRect().Contains(mousePoint))
+            //    {
+            //        foundNode = node;
+            //    }
+            //}
+            //return foundNode;
+            DialogNode found = null;
+            foreach (var n in selectedDialog.GetAllNodes())
+                if (n.GetRect().Contains(mousePoint))
+                    found = n;
+            return found;
         }
     }
 }

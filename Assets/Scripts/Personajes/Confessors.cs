@@ -6,7 +6,7 @@ public class Confessors : MonoBehaviour, IConfessions
     public void GetDialogs()
     {
         if (penitent != null) {
-            Debug.Log($"Dialogs: {penitent.dialogs.Length}");
+            Debug.Log($"Dialogs: {penitent.Dialogs.Length}");
         } else {
             Debug.Log("No penitent assigned.");
         }

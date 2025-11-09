@@ -14,7 +14,7 @@ namespace The_cofessor.Personajes.Dialogs
     {
         [SerializeField] List<DialogNode> nodes = new();
         private readonly Dictionary<string, DialogNode> nodeLookup = new();
-        [SerializeField] Vector2 newNodeOffset = new Vector2(250, 0);
+        [SerializeField] Vector2 newNodeOffset = new (250, 0);
 
         private void OnValidate()
         {
