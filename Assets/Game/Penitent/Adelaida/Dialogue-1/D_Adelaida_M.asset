@@ -63,8 +63,8 @@ MonoBehaviour:
   - 8b6370f9-916d-46c6-af21-08913efcb937
   rect:
     serializedVersion: 2
-    x: 659.05255
-    y: 286.57898
+    x: 635.36835
+    y: 297.1053
     width: 300
     height: 200
 --- !u!114 &-2845033842947680734
@@ -129,8 +129,8 @@ MonoBehaviour:
   - 3dccd8c9-2d4a-4b1f-8bf8-4446733b0650
   rect:
     serializedVersion: 2
-    x: 337.6842
-    y: 307.52634
+    x: 321.73685
+    y: 282.1053
     width: 300
     height: 200
 --- !u!114 &11400000
@@ -216,14 +216,21 @@ MonoBehaviour:
   m_Name: b0bdf59f-8cce-4120-ac85-d9044ad1847b
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: 
+  text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scrambled it to make a type
+    specimen book. It has survived not only five centuries, but also the leap into
+    electronic typesetting, remaining essentially unchanged. It was popularised in
+    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+    and more recently with desktop publishing software like Aldus PageMaker including
+    versions of Lorem Ipsum.
   childrenIDs:
   - 65c28f65-819b-4721-abfd-787101837bbb
   - a21d7b93-e3a1-4bca-8684-92fdae45bf7f
   rect:
     serializedVersion: 2
-    x: 1.3157959
-    y: 146.94736
+    x: 2.315796
+    y: 145.63156
     width: 300
     height: 200
 --- !u!114 &6892030000076560419
@@ -244,8 +251,8 @@ MonoBehaviour:
   - 327b2365-d969-40f5-b656-ad854531e062
   rect:
     serializedVersion: 2
-    x: 332
-    y: 15
+    x: 324.10526
+    y: 11.052628
     width: 300
     height: 200
 --- !u!114 &8811978641405753281
