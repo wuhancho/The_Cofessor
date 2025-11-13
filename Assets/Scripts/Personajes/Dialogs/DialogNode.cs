@@ -11,7 +11,7 @@ namespace The_cofessor.Personajes.Dialogs
     //[CreateAssetMenu(fileName = "New DialogNode", menuName = "Scriptable Objects/Dialogue/DialogNode", order = 1)]
     public class DialogNode : ScriptableObject
     {
-        //public string uniqueID;
+        [SerializeField] public string uniqueID;
         [SerializeField] private bool isPlayerSpeaking = false;
         [SerializeField] private string text;
         [SerializeField] private List<string> childrenIDs = new();
@@ -66,6 +66,18 @@ namespace The_cofessor.Personajes.Dialogs
             Undo.RecordObject(this, "Set Player Speaking");
             isPlayerSpeaking = newIsplayerSpeking;
             EditorUtility.SetDirty(this);
+        }
+        public void SetID(string id)
+        {
+            if (string.IsNullOrEmpty(id)) return;
+
+            if (uniqueID != id || name != id)
+            {
+                uniqueID = id;
+                name = id;
+                UnityEditor.EditorUtility.SetDirty(this);
+
+            }
         }
 #endif
         //        private void OnValidate()

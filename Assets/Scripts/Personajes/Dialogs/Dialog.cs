@@ -14,15 +14,23 @@ namespace The_cofessor.Personajes.Dialogs
     {
         [SerializeField] List<DialogNode> nodes = new();
         private readonly Dictionary<string, DialogNode> nodeLookup = new();
-        [SerializeField] Vector2 newNodeOffset = new (250, 0);
+        [SerializeField] Vector2 newNodeOffset = new(250, 0);
 
         private void OnValidate()
         {
+            Debug.Log($"OnValidate Dialog {name}");
             nodeLookup.Clear();
             foreach (DialogNode node in GetAllNodes())
             {
+                Debug.Log($"--loop");
+                Debug.Log($"--dictionary: {nodeLookup}");
+                Debug.Log($"--list: {nodes.Count}");
+                Debug.Log($"--nodo: {node}");
+                Debug.Log($"--nodo name: {node.name}");
                 if (!nodeLookup.ContainsKey(node.name))
+                {
                     nodeLookup[node.name] = node;
+                }
             }
         }
         public IEnumerable<DialogNode> GetAllNodes()
@@ -53,7 +61,7 @@ namespace The_cofessor.Personajes.Dialogs
             AddNode(newNode);
         }
 
-        
+
 
         public void DeleteNode(DialogNode nodeToDelete)
         {
@@ -66,15 +74,15 @@ namespace The_cofessor.Personajes.Dialogs
         private DialogNode MakeNode(DialogNode parent)
         {
             DialogNode newNode = CreateInstance<DialogNode>();
-            //newNode.SetID(Guid.NewGuid().ToString());
-            newNode.name = Guid.NewGuid().ToString(); //newNode.uniqueID = Guid.NewGuid().ToString();
+            newNode.SetID((nodes.Count + 1).ToString());
+            //newNode.name = Guid.NewGuid().ToString(); //newNode.uniqueID = Guid.NewGuid().ToString();
             if (parent != null)
             {
                 Undo.RecordObject(parent, "Add Child To Dialog Node");
                 parent.AddChild(newNode.name);
                 newNode.SetPlayerSpeaking(!parent.IsPlayerSpeaking());
                 newNode.SetPosition(parent.GetRect().position + newNodeOffset);
-                
+
             }
 
             return newNode;
@@ -107,10 +115,10 @@ namespace The_cofessor.Personajes.Dialogs
             {
                 foreach (DialogNode node in GetAllNodes())
                 {
-                    if(AssetDatabase.GetAssetPath(node)== "")
+                    if (AssetDatabase.GetAssetPath(node) == "")
                     {
-                        if(node != null)
-                        AssetDatabase.AddObjectToAsset(node, this);
+                        if (node != null)
+                            AssetDatabase.AddObjectToAsset(node, this);
                     }
                 }
             }
