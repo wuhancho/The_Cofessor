@@ -1,4 +1,4 @@
-using Microsoft.Win32.SafeHandles;
+﻿using Microsoft.Win32.SafeHandles;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -18,18 +18,72 @@ namespace The_cofessor.Personajes.Dialogs
 
         private void OnValidate()
         {
-            Debug.Log($"OnValidate Dialog {name}");
+            //Debug.Log($"OnValidate Dialog {name}");
+            //nodeLookup.Clear();
+            //foreach (DialogNode node in GetAllNodes())
+            //{
+            //    //Debug.Log($"--loop");
+            //    //Debug.Log($"--dictionary: {nodeLookup}");
+            //    //Debug.Log($"--list: {nodes.Count}");
+            //    //Debug.Log($"--nodo: {node}");
+            //    //Debug.Log($"--nodo name: {node.name}");
+            //    if (!nodeLookup.ContainsKey(node.name))
+            //    {
+            //        nodeLookup[node.name] = node;
+            //    }
+            //}
+
+#if UNITY_EDITOR
+            if (nodes == null || nodes.Count == 0)
+                return;
+
+            // Evitar validaciones durante importación
+            if (EditorApplication.isPlayingOrWillChangePlaymode)
+                return;
+
+            if (EditorApplication.isUpdating || EditorApplication.isCompiling)
+                return;
+
+            nodeLookup.Clear();
+
+            foreach (DialogNode node in nodes)
+            {
+                if (node == null) continue;
+                if (string.IsNullOrEmpty(node.uniqueID)) continue;
+
+                if (!nodeLookup.ContainsKey(node.uniqueID))
+                    nodeLookup[node.uniqueID] = node;
+            }
+#endif
+        }
+        private void OnEnable()
+        {
+#if UNITY_EDITOR
+            if (nodes == null) return;
+
+            // Si cargamos el asset y no tiene nodos → creamos el primero de forma segura
+            if (nodes.Count == 0 && AssetDatabase.Contains(this))
+            {
+                Undo.RecordObject(this, "Create Root Dialog Node");
+
+                var newNode = MakeNode(null);
+                nodes.Add(newNode);
+
+                AssetDatabase.AddObjectToAsset(newNode, this);
+                AssetDatabase.SaveAssets();
+            }
+
+#endif
+            RebuildLookUp();
+        }
+        private void RebuildLookUp()
+        {
             nodeLookup.Clear();
             foreach (DialogNode node in GetAllNodes())
             {
-                Debug.Log($"--loop");
-                Debug.Log($"--dictionary: {nodeLookup}");
-                Debug.Log($"--list: {nodes.Count}");
-                Debug.Log($"--nodo: {node}");
-                Debug.Log($"--nodo name: {node.name}");
-                if (!nodeLookup.ContainsKey(node.name))
+                if (node != null && !string.IsNullOrEmpty(node.uniqueID))
                 {
-                    nodeLookup[node.name] = node;
+                    nodeLookup[node.uniqueID] = node;
                 }
             }
         }
@@ -79,7 +133,7 @@ namespace The_cofessor.Personajes.Dialogs
             if (parent != null)
             {
                 Undo.RecordObject(parent, "Add Child To Dialog Node");
-                parent.AddChild(newNode.name);
+                parent.AddChild(newNode.uniqueID);
                 newNode.SetPlayerSpeaking(!parent.IsPlayerSpeaking());
                 newNode.SetPosition(parent.GetRect().position + newNodeOffset);
 
@@ -91,6 +145,14 @@ namespace The_cofessor.Personajes.Dialogs
         private void AddNode(DialogNode newNode)
         {
             nodes.Add(newNode);
+#if UNITY_EDITOR
+            // si ya somos un asset real, agregamos el nodo ahora mismo
+            if (AssetDatabase.Contains(this))
+            {
+                AssetDatabase.AddObjectToAsset(newNode, this);
+                EditorUtility.SetDirty(this);
+            }
+#endif
             //AssetDatabase.AddObjectToAsset(newNode, this);
             OnValidate();
         }
@@ -99,18 +161,18 @@ namespace The_cofessor.Personajes.Dialogs
             foreach (DialogNode node in GetAllNodes())
             {
                 Undo.RecordObject(node, "Clean Dangling Children");
-                node.RemoveChild(nodeToDelete.name);
+                node.RemoveChild(nodeToDelete.uniqueID);
             }
         }
 #endif
         public void OnBeforeSerialize()
         {
 #if UNITY_EDITOR
-            if (nodes.Count == 0)
-            {
-                DialogNode newNode = MakeNode(null);
-                AddNode(newNode);
-            }
+            //if (nodes.Count == 0)
+            //{
+            //    DialogNode newNode = MakeNode(null);
+            //    AddNode(newNode);
+            //}
             if (AssetDatabase.GetAssetPath(this) != "")
             {
                 foreach (DialogNode node in GetAllNodes())
@@ -127,13 +189,8 @@ namespace The_cofessor.Personajes.Dialogs
 
         public void OnAfterDeserialize()
         {
-
+            RebuildLookUp();
         }
     }
 
 }
-
-
-
-
-

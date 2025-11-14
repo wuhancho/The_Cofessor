@@ -1,5 +1,27 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2443585444001510430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  uniqueID: 2
+  isPlayerSpeaking: 1
+  text: 'hola qure hace '
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 383
+    y: 119
+    width: 300
+    height: 200
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10,12 +32,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2e960bec5b5236749b281289ea60fa82, type: 3}
-  m_Name: D_Adelaida
+  m_Name: New Dialog Penitent
   m_EditorClassIdentifier: 
   nodes:
-  - {fileID: 2975409335066177496}
+  - {fileID: 4565764256287651024}
+  - {fileID: -2443585444001510430}
   newNodeOffset: {x: 250, y: 0}
---- !u!114 &2975409335066177496
+--- !u!114 &4565764256287651024
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -25,14 +48,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
-  m_Name: 0ca4b322-16c3-4586-9091-9f68e0e0a01e
+  m_Name: 1
   m_EditorClassIdentifier: 
+  uniqueID: 1
   isPlayerSpeaking: 0
-  text: 
-  childrenIDs: []
+  text: hoalaaalal
+  childrenIDs:
+  - 2
   rect:
     serializedVersion: 2
-    x: 16
+    x: 0
     y: 0
     width: 300
     height: 200
