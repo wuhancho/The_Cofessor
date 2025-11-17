@@ -11,7 +11,7 @@ namespace The_cofessor.Personajes.Dialogs
     //[CreateAssetMenu(fileName = "New DialogNode", menuName = "Scriptable Objects/Dialogue/DialogNode", order = 1)]
     public class DialogNode : ScriptableObject
     {
-        [SerializeField] public string uniqueID;
+        [SerializeField] private string uniqueID;
         [SerializeField] private bool isPlayerSpeaking = false;
         [SerializeField] private string text;
         [SerializeField] private List<string> childrenIDs = new();
@@ -31,6 +31,10 @@ namespace The_cofessor.Personajes.Dialogs
         public bool IsPlayerSpeaking()
         {
             return isPlayerSpeaking;
+        }
+        public string GetID()
+        {
+            return uniqueID;
         }
 #if UNITY_EDITOR
         public void SetPosition(Vector2 newPosition)
@@ -79,6 +83,7 @@ namespace The_cofessor.Personajes.Dialogs
 
             }
         }
+     
 #endif
         //        private void OnValidate()
         //        {

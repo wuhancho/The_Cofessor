@@ -49,10 +49,10 @@ namespace The_cofessor.Personajes.Dialogs
             foreach (DialogNode node in nodes)
             {
                 if (node == null) continue;
-                if (string.IsNullOrEmpty(node.uniqueID)) continue;
+                if (string.IsNullOrEmpty(node.GetID())) continue;
 
-                if (!nodeLookup.ContainsKey(node.uniqueID))
-                    nodeLookup[node.uniqueID] = node;
+                if (!nodeLookup.ContainsKey(node.GetID()))
+                    nodeLookup[node.GetID()] = node;
             }
 #endif
         }
@@ -81,9 +81,9 @@ namespace The_cofessor.Personajes.Dialogs
             nodeLookup.Clear();
             foreach (DialogNode node in GetAllNodes())
             {
-                if (node != null && !string.IsNullOrEmpty(node.uniqueID))
+                if (node != null && !string.IsNullOrEmpty(node.GetID()))
                 {
-                    nodeLookup[node.uniqueID] = node;
+                    nodeLookup[node.GetID()] = node;
                 }
             }
         }
@@ -103,6 +103,27 @@ namespace The_cofessor.Personajes.Dialogs
                 if (nodeLookup.ContainsKey(childID))
                 {
                     yield return nodeLookup[childID];
+                }
+            }
+        }
+        public IEnumerable<DialogNode> GetAIChildren(DialogNode currentNode)
+        {
+            foreach (DialogNode childNode in GetAllChildren(currentNode))
+            {
+                if (!childNode.IsPlayerSpeaking())
+                {
+                    yield return childNode;
+                }
+            }
+        }
+
+        public IEnumerable<DialogNode> GetPlayerChildren(DialogNode currentNode)
+        {
+            foreach (DialogNode childNode in GetAllChildren(currentNode))
+            {
+                if (childNode.IsPlayerSpeaking())
+                {
+                    yield return childNode;
                 }
             }
         }
@@ -133,7 +154,7 @@ namespace The_cofessor.Personajes.Dialogs
             if (parent != null)
             {
                 Undo.RecordObject(parent, "Add Child To Dialog Node");
-                parent.AddChild(newNode.uniqueID);
+                parent.AddChild(newNode.GetID());
                 newNode.SetPlayerSpeaking(!parent.IsPlayerSpeaking());
                 newNode.SetPosition(parent.GetRect().position + newNodeOffset);
 
@@ -161,7 +182,7 @@ namespace The_cofessor.Personajes.Dialogs
             foreach (DialogNode node in GetAllNodes())
             {
                 Undo.RecordObject(node, "Clean Dangling Children");
-                node.RemoveChild(nodeToDelete.uniqueID);
+                node.RemoveChild(nodeToDelete.GetID());
             }
         }
 #endif
@@ -191,6 +212,8 @@ namespace The_cofessor.Personajes.Dialogs
         {
             RebuildLookUp();
         }
+
+     
     }
 
 }

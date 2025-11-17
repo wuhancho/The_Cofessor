@@ -1,5 +1,50 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5361358175867679231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 6
+  m_EditorClassIdentifier: 
+  uniqueID: 6
+  isPlayerSpeaking: 1
+  text: pepe
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 1046.0525
+    y: 149.99997
+    width: 300
+    height: 200
+--- !u!114 &-3197446631553783752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 5
+  m_EditorClassIdentifier: 
+  uniqueID: 5
+  isPlayerSpeaking: 0
+  text: mastatuano
+  childrenIDs:
+  - 6
+  rect:
+    serializedVersion: 2
+    x: 701.421
+    y: 0.5789032
+    width: 300
+    height: 200
 --- !u!114 &-2443585444001510430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13,13 +58,37 @@ MonoBehaviour:
   m_Name: 2
   m_EditorClassIdentifier: 
   uniqueID: 2
-  isPlayerSpeaking: 1
+  isPlayerSpeaking: 0
   text: 'hola qure hace '
-  childrenIDs: []
+  childrenIDs:
+  - 5
   rect:
     serializedVersion: 2
-    x: 383
-    y: 119
+    x: 354.8421
+    y: -4.5263367
+    width: 300
+    height: 200
+--- !u!114 &-1559418938939884280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 4
+  m_EditorClassIdentifier: 
+  uniqueID: 4
+  isPlayerSpeaking: 0
+  text: martin
+  childrenIDs:
+  - 6
+  rect:
+    serializedVersion: 2
+    x: 686.8421
+    y: 256.57892
     width: 300
     height: 200
 --- !u!114 &11400000
@@ -37,6 +106,10 @@ MonoBehaviour:
   nodes:
   - {fileID: 4565764256287651024}
   - {fileID: -2443585444001510430}
+  - {fileID: 4663354965005140709}
+  - {fileID: -1559418938939884280}
+  - {fileID: -3197446631553783752}
+  - {fileID: -5361358175867679231}
   newNodeOffset: {x: 250, y: 0}
 --- !u!114 &4565764256287651024
 MonoBehaviour:
@@ -55,9 +128,33 @@ MonoBehaviour:
   text: hoalaaalal
   childrenIDs:
   - 2
+  - 3
   rect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: -13.157883
+    y: 96.05264
+    width: 300
+    height: 200
+--- !u!114 &4663354965005140709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  uniqueID: 3
+  isPlayerSpeaking: 1
+  text: patricia
+  childrenIDs:
+  - 4
+  rect:
+    serializedVersion: 2
+    x: 360.5263
+    y: 243.42105
     width: 300
     height: 200
