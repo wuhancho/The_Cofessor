@@ -2,6 +2,7 @@ using UnityEngine;
 using The_cofessor.Personajes.Dialogs;
 using TMPro;
 using UnityEngine.UI;
+using Unity.VisualScripting;
 
 public class DialogueUI : MonoBehaviour
 {
@@ -36,12 +37,21 @@ public class DialogueUI : MonoBehaviour
         {
             BuildChoiseList();
         }
-        else 
+        else
         {
-            AIText.text = playerConversant.GetText();
-            nextButton.gameObject.SetActive(playerConversant.HasNext());
+            BuildTextAI();
         }
-    
+
+    }
+
+    private void BuildTextAI()
+    {
+        foreach(string line in playerConversant.GetText().Split("."))
+        {
+            Debug.Log(line);
+        }
+        AIText.text = playerConversant.GetText();
+        nextButton.gameObject.SetActive(playerConversant.HasNext());
     }
 
     private void BuildChoiseList()
