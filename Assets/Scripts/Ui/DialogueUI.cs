@@ -30,7 +30,10 @@ public class DialogueUI : MonoBehaviour
     // Update is called once per frame
     void UpdateUI()
     {
-       
+        if (!playerConversant.IsActive())
+        {
+            return;
+        }
         AIResponces.SetActive(!playerConversant.IsChoosing());
         choicesRoot.gameObject.SetActive(playerConversant.IsChoosing());
         if (playerConversant.IsChoosing())

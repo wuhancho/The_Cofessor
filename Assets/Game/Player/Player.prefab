@@ -64,4 +64,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a69efdd67a0b29242ba214bb470452f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentDialog: {fileID: 11400000, guid: 28285741984bed44eab77a346a816f9d, type: 2}
+  testDialog: {fileID: 11400000, guid: 8b419dcf882ec924cad4fe71aa9f7bc4, type: 2}

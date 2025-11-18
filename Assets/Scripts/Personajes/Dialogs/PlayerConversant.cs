@@ -8,13 +8,27 @@ namespace The_cofessor.Personajes.Dialogs
 {
     public class PlayerConversant : MonoBehaviour
     {
-        [SerializeField] Dialog currentDialog;
+        [SerializeField] Dialog testDialog;
+        Dialog currentDialog;
         DialogNode currentNode = null;
         bool isChoosing = false;
 
-        private void Awake()
+
+        private IEnumerator Start()
         {
+            yield return new WaitForSeconds(2);
+            StartDialogue(testDialog);
+        }
+
+        public void StartDialogue(Dialog newDialogue)
+        {
+            currentDialog = newDialogue;
             currentNode = currentDialog.GetRootNode();
+        }
+
+        public bool IsActive()
+        {
+            return currentDialog != null;
         }
 
         public bool IsChoosing()
