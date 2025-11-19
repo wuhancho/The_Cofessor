@@ -53,6 +53,7 @@ namespace The_cofessor.Personajes.Dialogs.Editor
         private void OnEnable()
         {
             Selection.selectionChanged += OnSelectionChange;
+
             nodeStyle = new GUIStyle();
             nodeStyle.normal.background =EditorGUIUtility.Load("node0") as Texture2D;
             nodeStyle.normal.textColor = Color.white;

@@ -16,6 +16,7 @@ public class DialogueUI : MonoBehaviour
     void Start()
     {
         playerConversant = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerConversant>();
+        playerConversant.onConversationUpdated += UpdateUI;
         nextButton.onClick.AddListener(Next);
 
         UpdateUI();
@@ -24,7 +25,6 @@ public class DialogueUI : MonoBehaviour
     void Next()
     {
         playerConversant.Next();
-        UpdateUI();
     }
 
     // Update is called once per frame
@@ -68,7 +68,6 @@ public class DialogueUI : MonoBehaviour
             button.onClick.AddListener(() =>
             {
                 playerConversant.SelectChoice(choice);
-                UpdateUI();
             });
         }
     }

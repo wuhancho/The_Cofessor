@@ -13,10 +13,11 @@ namespace The_cofessor.Personajes.Dialogs
         DialogNode currentNode = null;
         bool isChoosing = false;
 
+        public event Action onConversationUpdated;
 
         private IEnumerator Start()
         {
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(0.002f);
             StartDialogue(testDialog);
         }
 
@@ -24,6 +25,7 @@ namespace The_cofessor.Personajes.Dialogs
         {
             currentDialog = newDialogue;
             currentNode = currentDialog.GetRootNode();
+            onConversationUpdated();
         }
 
         public bool IsActive()
@@ -60,12 +62,14 @@ namespace The_cofessor.Personajes.Dialogs
             if(numPlayerResponses > 0)
             {
                 isChoosing = true;
+                onConversationUpdated();
                 return;
             }
 
             DialogNode[] children = currentDialog.GetAIChildren(currentNode).ToArray();
             int randomIndex = UnityEngine.Random.Range(0, children.Count());
             currentNode = children[randomIndex];
+            onConversationUpdated();
         }
         public bool HasNext()
         {
