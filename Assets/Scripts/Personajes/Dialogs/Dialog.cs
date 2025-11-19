@@ -12,7 +12,8 @@ namespace The_cofessor.Personajes.Dialogs
     [CreateAssetMenu(fileName = "New Dialog Penitent", menuName = "Scriptable Objects/Dialogue/Dialogue penitent", order = 1)]
     public class Dialog : ScriptableObject, ISerializationCallbackReceiver
     {
-        [SerializeField] List<DialogNode> nodes = new();
+        
+        [SerializeField,HideInInspector] List<DialogNode> nodes = new();
         private readonly Dictionary<string, DialogNode> nodeLookup = new();
         [SerializeField] Vector2 newNodeOffset = new(250, 0);
 
@@ -149,7 +150,7 @@ namespace The_cofessor.Personajes.Dialogs
         private DialogNode MakeNode(DialogNode parent)
         {
             DialogNode newNode = CreateInstance<DialogNode>();
-            newNode.SetID((nodes.Count + 1).ToString());
+            newNode.SetID(ReName());
             //newNode.name = Guid.NewGuid().ToString(); //newNode.uniqueID = Guid.NewGuid().ToString();
             if (parent != null)
             {
@@ -161,6 +162,11 @@ namespace The_cofessor.Personajes.Dialogs
             }
 
             return newNode;
+        }
+
+        private string ReName()
+        {
+            return (nodes.Count + 1).ToString();
         }
 
         private void AddNode(DialogNode newNode)
