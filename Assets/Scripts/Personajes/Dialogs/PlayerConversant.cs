@@ -28,6 +28,14 @@ namespace The_cofessor.Personajes.Dialogs
             onConversationUpdated();
         }
 
+        public void Quit()
+        {
+            currentDialog = null;
+            currentNode = null;
+            isChoosing = false;
+            onConversationUpdated();
+        }
+
         public bool IsActive()
         {
             return currentDialog != null;

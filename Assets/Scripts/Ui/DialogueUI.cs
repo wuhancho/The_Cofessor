@@ -12,6 +12,7 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] GameObject AIResponces;
     [SerializeField] Transform choicesRoot;
     [SerializeField] GameObject choicesPrefab;
+    [SerializeField] Button quitButton;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -30,6 +31,7 @@ public class DialogueUI : MonoBehaviour
     // Update is called once per frame
     void UpdateUI()
     {
+        gameObject.SetActive(playerConversant.IsActive());
         if (!playerConversant.IsActive())
         {
             return;

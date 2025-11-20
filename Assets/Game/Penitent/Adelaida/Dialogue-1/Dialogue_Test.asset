@@ -234,8 +234,8 @@ MonoBehaviour:
   - 9
   rect:
     serializedVersion: 2
-    x: 3.5742645
-    y: 251.18655
+    x: 2.5742645
+    y: 252.18655
     width: 300
     height: 200
 --- !u!114 &4663354965005140709
