@@ -3,6 +3,7 @@ using PlasticGui.WorkspaceWindow;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEditor;
 using UnityEditor.Callbacks;
 using UnityEditor.ShaderGraph.Serialization;
@@ -114,7 +115,10 @@ namespace The_cofessor.Personajes.Dialogs.Editor
                 }
                 if (deletingNode != null)
                 {
-                    selectedDialog.DeleteNode(deletingNode);
+                    if(selectedDialog.GetAllNodesCount() <= 1)
+                        EditorUtility.DisplayDialog("Delete Node", "Cannot delete the last node in the dialogue.", "OK");
+                    else
+                        selectedDialog.DeleteNode(deletingNode);
                     deletingNode = null;
                 }
 
@@ -225,7 +229,8 @@ namespace The_cofessor.Personajes.Dialogs.Editor
 
             EditorGUILayout.LabelField("ID: " + node.name, EditorStyles.whiteBoldLabel);
             EditorGUILayout.LabelField("Dialogue:");
-            node.SetText(EditorGUILayout.TextField(node.GetText()));
+            node.SetText(EditorGUILayout.TextField(node.GetText(),GUILayout.Height(20)));
+
 
             GUILayout.BeginHorizontal();
 

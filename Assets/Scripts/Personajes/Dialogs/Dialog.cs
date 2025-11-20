@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEditor;
+using UnityEditor.Overlays;
 using UnityEngine;
 
 
@@ -92,6 +93,10 @@ namespace The_cofessor.Personajes.Dialogs
         {
             return nodes;
         }
+        public int GetAllNodesCount()
+        {
+            return nodes.Count;
+        }
         public DialogNode GetRootNode()
         {
             return nodes[0];
@@ -135,6 +140,7 @@ namespace The_cofessor.Personajes.Dialogs
             Undo.RegisterCreatedObjectUndo(newNode, "Create Dialog Node");
             Undo.RecordObject(this, "Create Dialog Node");
             AddNode(newNode);
+            AssetDatabase.SaveAssets();
         }
 
 
@@ -146,6 +152,7 @@ namespace The_cofessor.Personajes.Dialogs
             OnValidate();
             CleanDanglingChildren(nodeToDelete);
             Undo.DestroyObjectImmediate(nodeToDelete);
+            AssetDatabase.SaveAssets();
         }
         private DialogNode MakeNode(DialogNode parent)
         {
@@ -189,6 +196,7 @@ namespace The_cofessor.Personajes.Dialogs
             {
                 Undo.RecordObject(node, "Clean Dangling Children");
                 node.RemoveChild(nodeToDelete.GetID());
+                
             }
         }
 #endif

@@ -117,7 +117,7 @@ namespace The_cofessor.Personajes.Dialogs
                 var seeds = new Queue<int>();
                 for (int i = 0; i < passages.Count; i++)
                 {
-                    if (passages[i].name.IndexOf("Tarde", StringComparison.OrdinalIgnoreCase) >= 0)
+                    if (passages[i].name.IndexOf("#", StringComparison.OrdinalIgnoreCase) >= 0)
                     {
                         seeds.Enqueue(i);
                         toInclude.Add(i);
