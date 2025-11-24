@@ -30,6 +30,7 @@ public class F_tarde : MonoBehaviour, IFases
         {
             A_confecciones accionType = (A_confecciones)accion;
             accionType.onConfession.AddListener(ChangeStatesPlayer);
+            //accionType.TriggerAction();
         }
     }
 

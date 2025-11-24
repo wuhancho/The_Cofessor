@@ -53,7 +53,7 @@ public class A_confecciones : MonoBehaviour, IAcciones
             {
                 if (choice.IsPlayerSpeaking())
                 {
-                    Debug.Log("cambio parametros de playerStatus por confesión");
+                    Debug.Log($"cambio parametros de playerStatus por los que posee node {choice.name}");
                     onConfession.Invoke(choice);
                 }
             }

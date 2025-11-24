@@ -9,4 +9,6 @@ public class PlayerController : MonoBehaviour
 
     public PlayerStatus PlayerStatus { get => playerStatus; set => playerStatus = value; }
     public PlayerConversant PlayerConversant { get => playerConversant; set => playerConversant = value; }
+
+    
 }
