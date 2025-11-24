@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   characterName: Adelaida Garrido, la Posadera
-  characterImage: {fileID: 2800000, guid: 413b1d243ad7380478858b4c7911382c, type: 3}
+  characterImage: []
   dialogs:
   - {fileID: 11400000, guid: a33f38a4c9531214a952eda3e70475bf, type: 2}
   - {fileID: 11400000, guid: 00c43cd8fb96c5f48a648160f8ee2cc7, type: 2}

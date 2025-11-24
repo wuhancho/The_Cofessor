@@ -75,8 +75,8 @@ MonoBehaviour:
   - 9
   rect:
     serializedVersion: 2
-    x: 1351
-    y: 129
+    x: 1347
+    y: 132
     width: 300
     height: 200
   faithCost: 0
@@ -295,6 +295,7 @@ MonoBehaviour:
   - {fileID: 2816187387651695356}
   - {fileID: 2664405150541387646}
   - {fileID: -936220729865665587}
+  isTrueDialogue: 0
   newNodeOffset: {x: 250, y: 0}
 --- !u!114 &158237481448296280
 MonoBehaviour:
@@ -609,8 +610,8 @@ MonoBehaviour:
   - 18
   rect:
     serializedVersion: 2
-    x: 2052
-    y: 450
+    x: 2054
+    y: 453
     width: 300
     height: 200
   faithCost: 1

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: PlayerStatus
   m_EditorClassIdentifier: 
   energy: 2
-  faith: 7
+  faith: 15
   money: 100
-  repIglesia: 7
-  repPueblo: 7
+  repIglesia: 0
+  repPueblo: 15
   food: 100
   Cleaned: 0

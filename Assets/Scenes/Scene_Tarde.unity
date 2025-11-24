@@ -514,6 +514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   includeInactiveChildren: 1
   dia: {fileID: 0}
+  playerController: {fileID: 0}
 --- !u!114 &788912738 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 198634516730350321, guid: 2ed89a007b5d7f0408346f5379f2fe98, type: 3}
@@ -569,9 +570,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb7927860c808d4db0476c81cb9ed78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sPenitents:
-  - {fileID: 11400000, guid: 63e1e23aa3e5d4a4b91ae46bc621b3b9, type: 2}
+  penitentController: {fileID: 788912738}
   day: 0
+  playerController: {fileID: 7077701841565857971}
+  onConfession:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7077701841565857971}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: set_PlayerStatus
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 81b27a3239d17624d9ac74ec8fc3c15f, type: 2}
+          m_ObjectArgumentAssemblyTypeName: PlayerStatus, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &59660401362350187
 PrefabInstance:
   m_ObjectHideFlags: 0
