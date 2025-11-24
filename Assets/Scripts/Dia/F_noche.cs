@@ -21,7 +21,7 @@ public class F_noche : MonoBehaviour, IFases
 
     public IAcciones[] GetAcciones() => acciones;
 
-    public void Initialize(PlayerStatus playerStatus)
+    public void Initialize(PlayerController pController)
     {
         throw new System.NotImplementedException();
     }

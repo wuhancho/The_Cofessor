@@ -12,8 +12,10 @@ public interface IAcciones
     /// el nombre del método o acción a ejecutar.
     /// aqui se pone el nombre de la accion que se desea ejecutar, Por ejemplo: "Comida", "Limpiar","nombre de los personajes", "etc".
     /// </param>
-    public void EjecutarAccion(PlayerStatus playerStatus);
+    public void EjecutarAccion(PlayerController playerController);
     public void TriggerAction();
     public void CancelAction();
+
+    public void InitializePlayer(PlayerController playerController);
 
 }

@@ -1,19 +1,40 @@
 using UnityEngine;
 
-public class Dia : MonoBehaviour
+public class Dia: MonoBehaviour
 {
-     private IFases[] faseActual;
-    PlayerStatus playerStatus;
+    [SerializeField] int numberDay;
+    private IFases[] faseActual;
+    [SerializeField] private PlayerController playerController;
+    [SerializeField] private PenitentController penitentController;
+    //PlayerStatus playerStatus;
 
-    public void Initialize(PlayerStatus playerStatus)
+    private void Start()
+    {
+        Initialize(playerController);
+    }
+
+    public void Initialize(PlayerController pController)
     {
         faseActual = GetComponentsInChildren<IFases>();
 
-        this.playerStatus = playerStatus;
+        this.playerController = pController;
 
         for (int i = 0; i < faseActual.Length; i++)
         {
-            faseActual[i].Initialize(playerStatus);
+            faseActual[i].Initialize(pController);
         }
     }
+    public void UpdateDay()
+    {
+        numberDay++;
+    }
+    public void EndDay()
+    {
+
+    }
+    public int GetNumberDay()
+    {
+        return numberDay;
+    }
+    
 }

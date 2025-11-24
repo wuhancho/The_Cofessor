@@ -16,7 +16,10 @@ namespace The_cofessor.Personajes.Dialogs
         
         [SerializeField,HideInInspector] List<DialogNode> nodes = new();
         private readonly Dictionary<string, DialogNode> nodeLookup = new();
+        [SerializeField] bool isTrueDialogue;
         [SerializeField] Vector2 newNodeOffset = new(250, 0);
+
+        public bool IsTrueDialogue { get => isTrueDialogue; set => isTrueDialogue = value; }
 
         private void OnValidate()
         {

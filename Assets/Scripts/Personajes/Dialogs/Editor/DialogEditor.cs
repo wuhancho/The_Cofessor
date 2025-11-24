@@ -26,6 +26,7 @@ namespace The_cofessor.Personajes.Dialogs.Editor
         const float canvasSize = 4000f;
         const float backgroundSize = 50f;
 
+        [NonSerialized] Dictionary<string, Vector2> nodeTextScrollPositions = new();
         [NonSerialized] float zoom = 1f;
         const float MinZoom = 0.4f;
         const float MaxZoom = 2.5f;
@@ -229,7 +230,57 @@ namespace The_cofessor.Personajes.Dialogs.Editor
 
             EditorGUILayout.LabelField("ID: " + node.name, EditorStyles.whiteBoldLabel);
             EditorGUILayout.LabelField("Dialogue:");
-            node.SetText(EditorGUILayout.TextField(node.GetText(),GUILayout.Height(20)));
+            //node.SetText(EditorGUILayout.TextArea(node.GetText()));
+
+
+            const float maxTextHeight = 60f; // Cambia si quieres más alto (ej. 200f)
+            GUIStyle textAreaStyle = GUI.skin.textArea;
+            string currentText = node.GetText();
+
+            
+            float contentWidth = drawRect.width - 40f;
+            if (contentWidth < 50f) contentWidth = drawRect.width;
+
+            float fullHeight = textAreaStyle.CalcHeight(new GUIContent(currentText), contentWidth);
+            bool overflow = fullHeight > maxTextHeight;
+            float shownHeight = overflow ? maxTextHeight : fullHeight;
+
+           
+            Vector2 scroll;
+            if (!nodeTextScrollPositions.TryGetValue(node.name, out scroll))
+                scroll = Vector2.zero;
+
+            EditorGUI.BeginChangeCheck();
+            if (overflow)
+            {
+                
+                scroll = EditorGUILayout.BeginScrollView(scroll, GUILayout.Height(maxTextHeight));
+                
+                string newText = EditorGUILayout.TextArea(currentText, textAreaStyle, GUILayout.Height(fullHeight));
+                EditorGUILayout.EndScrollView();
+
+                if (EditorGUI.EndChangeCheck() && newText != currentText)
+                {
+                    Undo.RecordObject(node, "Edit Dialogue Text");
+                    node.SetText(newText);
+                    EditorUtility.SetDirty(node);
+                }
+            }
+            else
+            {
+                
+                string newText = EditorGUILayout.TextArea(currentText, textAreaStyle, GUILayout.Height(shownHeight));
+                if (EditorGUI.EndChangeCheck() && newText != currentText)
+                {
+                    Undo.RecordObject(node, "Edit Dialogue Text");
+                    node.SetText(newText);
+                    EditorUtility.SetDirty(node);
+                }
+            }
+
+           
+            nodeTextScrollPositions[node.name] = scroll;
+            
 
 
             GUILayout.BeginHorizontal();

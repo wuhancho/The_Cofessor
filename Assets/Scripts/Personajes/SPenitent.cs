@@ -6,13 +6,46 @@ using UnityEngine.UI;
 [CreateAssetMenu(fileName = "", menuName = "Scriptable Objects/SPenitent", order = 1)]
 public class SPenitent: ScriptableObject
 {
+    [SerializeField] private string id;
     [SerializeField] private string characterName;
     [SerializeField] private Texture2D characterImage;
     [SerializeField] private Dialog[] dialogs;
-    [SerializeField] private Dialog dialogEvent;
+    [SerializeField] bool isTrueDialogue = false;
+    [SerializeField] private int day;
 
     public string CharacterName { get => characterName; set => characterName = value; }
     public Texture2D CharacterImage { get => characterImage; set => characterImage = value; }
     public Dialog[] Dialogs { get => dialogs; set => dialogs = value; }
-    public Dialog DialogEvent { get => dialogEvent; set => dialogEvent = value; }
+    public bool IsTrueDialogue { get => isTrueDialogue; set => isTrueDialogue = value; }
+    public int Day { get => day; set => day = value; }
+    public string Id { get => id; set => id = value; }
+    
+    public Dialog GetAllTrueDialogues()
+    {
+        if (isTrueDialogue)
+        {
+            foreach (var dialog in dialogs)
+            {
+                if(dialog.IsTrueDialogue)
+                {
+                    return dialog;
+                }
+            }
+        }
+        return null;
+    }
+    public Dialog GetAllFalseDialogues()
+    {
+        if (!isTrueDialogue)
+        {
+            foreach (var dialog in dialogs)
+            {
+                if (!dialog.IsTrueDialogue)
+                {
+                    return dialog;
+                }
+            }
+        }
+        return null;
+    }
 }

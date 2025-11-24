@@ -19,7 +19,7 @@ public class A_Capilla : MonoBehaviour, IAccionesEnergia
 
     public int ReputationPeopleCost => 0;
 
-    public void EjecutarAccion(PlayerStatus playerStatus)
+    public void EjecutarAccion(PlayerController playerController)
     {
         Debug.Log("Ejecutando acción de la Capilla.");
         // Aquí va la lógica específica para la acción de la Capilla.
@@ -41,4 +41,8 @@ public class A_Capilla : MonoBehaviour, IAccionesEnergia
         onCapillaOperative.Invoke(energy,faith);
     }
 
+    public void InitializePlayer(PlayerController playerController)
+    {
+        throw new System.NotImplementedException();
+    }
 }

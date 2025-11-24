@@ -17,10 +17,15 @@ public class A_Periodico : MonoBehaviour, IAccionesEnergia
         throw new System.NotImplementedException();
     }
 
-    public void EjecutarAccion(PlayerStatus playerStatus)
+    public void EjecutarAccion(PlayerController playerController)
     {
         Debug.Log($"Ejecutando acción de {actionName}.");
         // Aquí va la lógica específica para la acción del Periódico.
+    }
+
+    public void InitializePlayer(PlayerController playerController)
+    {
+        throw new System.NotImplementedException();
     }
 
     public void TriggerAction()

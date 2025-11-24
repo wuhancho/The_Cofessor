@@ -1,10 +1,11 @@
 using Unity.Mathematics;
 using UnityEngine;
 
-public class PlayerStatus: MonoBehaviour
+[CreateAssetMenu(fileName = "PlayerStatus", menuName = "Scriptable Objects/PlayerStatus", order = 1)]
+public class PlayerStatus: ScriptableObject
 {
     [SerializeField] private float energy;
-    private float maxEnergy = 15;
+    private float maxEnergy = 3;
     private float minEnergy = 0;
     [SerializeField] private float faith;
     private float maxFaith = 15;

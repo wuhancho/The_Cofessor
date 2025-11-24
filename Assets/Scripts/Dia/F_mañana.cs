@@ -5,9 +5,11 @@ public class F_mañana : MonoBehaviour, IFases
 {
     [SerializeField] private bool includeInactiveChildren = true;
     [SerializeField] private IAccionesEnergia[] acciones;
+    [SerializeField] private Dia dia;
 
     private void Awake()
     {
+        dia = GetComponentInParent<Dia>();
         RefrescarAcciones();
     }
 
@@ -25,7 +27,7 @@ public class F_mañana : MonoBehaviour, IFases
         
     }
 
-    public void Initialize(PlayerStatus playerStatus)
+    public void Initialize(PlayerController pController)
     {
         throw new System.NotImplementedException();
     }

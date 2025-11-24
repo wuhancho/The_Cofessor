@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34e3232f5c8baa24d9b33ec14a0dff2e, type: 3}
   m_Name: Adelaida
   m_EditorClassIdentifier: 
+  id: 1
   characterName: Adelaida Garrido, la Posadera
   characterImage: {fileID: 2800000, guid: 413b1d243ad7380478858b4c7911382c, type: 3}
-  dialogs: []
-  dialogEvent: {fileID: 0}
+  dialogs:
+  - {fileID: 11400000, guid: a33f38a4c9531214a952eda3e70475bf, type: 2}
+  - {fileID: 11400000, guid: 00c43cd8fb96c5f48a648160f8ee2cc7, type: 2}
+  isTrueDialogue: 0
+  day: 0

@@ -18,10 +18,10 @@ public class A_Limpiar : MonoBehaviour, IAccionesEnergia
         throw new System.NotImplementedException();
     }
 
-    public void EjecutarAccion(PlayerStatus playerStatus)
+    public void EjecutarAccion(PlayerController playerController)
     {
         Debug.Log($"Ejecutando acción de {actionName}.");
-        bool iscleaned = playerStatus.cleaned;
+        bool iscleaned = playerController.PlayerStatus.cleaned;
         // Aquí va la lógica específica para la acción de Limpiar.
         if (iscleaned)
         {
@@ -30,12 +30,17 @@ public class A_Limpiar : MonoBehaviour, IAccionesEnergia
         }
         else
         {
-            playerStatus.DecreaseEnergy(EnergyCost);
-            playerStatus.IncreaseRepPueblo(ReputationPeopleCost);
-            playerStatus.Spendmoney(moneyCost);
-            playerStatus.SetCleaned(true);
+            playerController.PlayerStatus.DecreaseEnergy(EnergyCost);
+            playerController.PlayerStatus.IncreaseRepPueblo(ReputationPeopleCost);
+            playerController.PlayerStatus.Spendmoney(moneyCost);
+            playerController.PlayerStatus.SetCleaned(true);
             Debug.Log($"El jugador ha limpiado y ha gastado {EnergyCost} de energía.");
         }
+    }
+
+    public void InitializePlayer(PlayerController playerController)
+    {
+        throw new System.NotImplementedException();
     }
 
     public void TriggerAction()

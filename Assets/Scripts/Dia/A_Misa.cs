@@ -17,10 +17,15 @@ public class A_Misa : MonoBehaviour, IAccionesEnergia
         throw new System.NotImplementedException();
     }
 
-    public void EjecutarAccion(PlayerStatus playerStatus)
+    public void EjecutarAccion(PlayerController playerController)
     {
         Debug.Log($"Ejecutando acción de {actionName}.");
         // Aquí va la lógica específica para la acción de la Misa.
+    }
+
+    public void InitializePlayer(PlayerController playerController)
+    {
+        throw new System.NotImplementedException();
     }
 
     public void TriggerAction()

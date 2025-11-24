@@ -16,6 +16,11 @@ namespace The_cofessor.Personajes.Dialogs
         [SerializeField] private string text;
         [SerializeField] private List<string> childrenIDs = new();
         [SerializeField] private Rect rect = new(0, 0, 300, 200);
+        [SerializeField] private float faithCost = 0;
+        [SerializeField] private float RepIglesiaCost = 0;
+        [SerializeField] private float RepPuebloCost = 0;
+        [SerializeField] private float SobornoCost = 0;
+
         public Rect GetRect() 
         { 
             return rect; 
@@ -35,6 +40,22 @@ namespace The_cofessor.Personajes.Dialogs
         public string GetID()
         {
             return uniqueID;
+        }
+        public float GetFaithCost()
+        {
+            return faithCost;
+        }
+        public float GetRepIglesiaCost()
+        {
+            return RepIglesiaCost;
+        }
+        public float GetRepPuebloCost()
+        {
+            return RepPuebloCost;
+        }
+        public float GetSobornoCost()
+        {
+            return SobornoCost;
         }
 #if UNITY_EDITOR
         public void SetPosition(Vector2 newPosition)

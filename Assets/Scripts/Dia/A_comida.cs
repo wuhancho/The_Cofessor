@@ -8,11 +8,16 @@ public class A_comida : MonoBehaviour, IAcciones
         throw new System.NotImplementedException();
     }
 
-    public void EjecutarAccion(PlayerStatus playerStatus)
+    public void EjecutarAccion(PlayerController playerController)
     {
         Debug.Log("Ejecutando acción de Comida.");
         // Aquí va la lógica específica para la acción de Comida.
-        Debug.Log($"Aumentando comida en {playerStatus.Food}.");
+        Debug.Log($"Aumentando comida en {playerController.PlayerStatus.Food}.");
+    }
+
+    public void InitializePlayer(PlayerController playerController)
+    {
+        throw new System.NotImplementedException();
     }
 
     public void TriggerAction()

@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8458055756625270355}
-  - component: {fileID: 8344018378239047904}
   - component: {fileID: 2277817564474526482}
+  - component: {fileID: 1442905857315282833}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -33,25 +33,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8344018378239047904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1734301694718695616}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a403f3a91006464fa40ad7c7fd5b1f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  energy: 0
-  faith: 0
-  money: 0
-  repIglesia: 0
-  repPueblo: 0
-  food: 0
-  Cleaned: 0
 --- !u!114 &2277817564474526482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64,4 +45,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a69efdd67a0b29242ba214bb470452f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  testDialog: {fileID: 11400000, guid: 8b419dcf882ec924cad4fe71aa9f7bc4, type: 2}
+  testDialog: {fileID: 0}
+--- !u!114 &1442905857315282833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734301694718695616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c50eac62302777148bc5346a8d5597dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerStatus: {fileID: 11400000, guid: 81b27a3239d17624d9ac74ec8fc3c15f, type: 2}
+  playerConversant: {fileID: 2277817564474526482}
