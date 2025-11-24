@@ -20,6 +20,16 @@ namespace The_cofessor.Personajes.Dialogs
             yield return new WaitForSeconds(0.002f);
             StartDialogue(testDialog);
         }
+        public void GetTestDialogue(Dialog newDialogue)
+        {
+            if (newDialogue == null) {
+                Debug.LogWarning("No test dialogue assigned.");
+                return;
+            }
+            Debug.Log("Starting test dialogue: " + newDialogue.name);
+            testDialog = newDialogue;
+            StartDialogue(testDialog);
+        }
 
         public void StartDialogue(Dialog newDialogue)
         {

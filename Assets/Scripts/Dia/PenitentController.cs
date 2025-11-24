@@ -16,4 +16,12 @@ public class PenitentController : MonoBehaviour
         }
         throw new Exception("SPenitent with id " + id + " not found.");
     }
+    public SPenitent[] GetSPenitents()
+    {
+        foreach (SPenitent sPenitent in sPenitents)
+        {
+            Debug.Log("SPenitent ID: " + sPenitent.Id + ", Name: " + sPenitent.CharacterName);
+        }
+        return sPenitents;
+    }
 }

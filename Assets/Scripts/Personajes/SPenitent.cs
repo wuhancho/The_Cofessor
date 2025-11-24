@@ -8,18 +8,23 @@ public class SPenitent: ScriptableObject
 {
     [SerializeField] private string id;
     [SerializeField] private string characterName;
-    [SerializeField] private Texture2D characterImage;
+    [SerializeField] private Texture2D[] characterImage;
     [SerializeField] private Dialog[] dialogs;
     [SerializeField] bool isTrueDialogue = false;
     [SerializeField] private int day;
 
     public string CharacterName { get => characterName; set => characterName = value; }
-    public Texture2D CharacterImage { get => characterImage; set => characterImage = value; }
+
     public Dialog[] Dialogs { get => dialogs; set => dialogs = value; }
     public bool IsTrueDialogue { get => isTrueDialogue; set => isTrueDialogue = value; }
     public int Day { get => day; set => day = value; }
     public string Id { get => id; set => id = value; }
     
+    public Texture2D[] GetTexture2Ds()
+    {
+        return characterImage;
+    }
+
     public Dialog GetAllTrueDialogues()
     {
         if (isTrueDialogue)

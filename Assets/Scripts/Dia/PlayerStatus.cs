@@ -38,7 +38,7 @@ public class PlayerStatus: ScriptableObject
     }
     public void Spendmoney(float amount)
     {
-        money = math.clamp(money - amount, minMoney, maxMoney);
+        money = math.clamp(money + amount, minMoney, maxMoney);
     }
     public void RestoreEnergy(float amount)
     {
@@ -46,15 +46,15 @@ public class PlayerStatus: ScriptableObject
     }
     public void DecreaseEnergy(float amount)
     {
-        energy = math.clamp(energy - amount, minEnergy, maxEnergy);
+        energy = math.clamp(energy + amount, minEnergy, maxEnergy);
     }
-    public void RestoreFaith(float amount)
+    public void IncreaseFaith(float amount)
     {
         faith = math.clamp(faith + amount, minFaith, maxFaith);
     }
     public void DecreaseFaith(float amount)
     {
-        faith = math.clamp(faith - amount, minFaith, maxFaith);
+        faith = math.clamp(faith + amount, minFaith, maxFaith);
     }
     public void IncreaseRepIglesia(float amount)
     {
@@ -62,7 +62,7 @@ public class PlayerStatus: ScriptableObject
     }
     public void DecreaseRepIglesia(float amount)
     {
-        repIglesia = math.clamp(repIglesia - amount, minRepIglesia, maxRepIglesia);
+        repIglesia = math.clamp(repIglesia + amount, minRepIglesia, maxRepIglesia);
     }
     public void IncreaseRepPueblo(float amount)
     {
@@ -70,7 +70,7 @@ public class PlayerStatus: ScriptableObject
     }
     public void DecreaseRepPueblo(float amount)
     {
-        repPueblo = math.clamp(repPueblo - amount, minRepPueblo, maxRepPueblo);
+        repPueblo = math.clamp(repPueblo + amount, minRepPueblo, maxRepPueblo);
     }
     public void GetFood(float amount)
     {
@@ -78,7 +78,7 @@ public class PlayerStatus: ScriptableObject
     }
     public void SpendFood(float amount)
     {
-        food = math.clamp(food - amount, minFood, maxFood);
+        food = math.clamp(food + amount, minFood, maxFood);
     }
     public void SetCleaned(bool status)
     {

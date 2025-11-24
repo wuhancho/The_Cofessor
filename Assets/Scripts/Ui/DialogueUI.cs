@@ -51,10 +51,10 @@ public class DialogueUI : MonoBehaviour
 
     private void BuildTextAI()
     {
-        foreach(string line in playerConversant.GetText().Split("."))
-        {
-            Debug.Log(line);
-        }
+        //foreach(string line in playerConversant.GetText().Split("."))
+        //{
+        //    Debug.Log(line);
+        //}
         AIText.text = playerConversant.GetText();
         nextButton.gameObject.SetActive(playerConversant.HasNext());
     }

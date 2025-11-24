@@ -1,3 +1,4 @@
+using System;
 using The_cofessor.Personajes.Dialogs;
 using UnityEngine;
 
