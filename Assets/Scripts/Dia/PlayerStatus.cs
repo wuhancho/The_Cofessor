@@ -43,6 +43,7 @@ public class PlayerStatus: ScriptableObject
     public void RestoreEnergy(float amount)
     {
         energy = math.clamp(energy + amount, minEnergy, maxEnergy);
+
     }
     public void DecreaseEnergy(float amount)
     {

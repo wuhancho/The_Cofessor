@@ -29,7 +29,7 @@ public class F_tarde : MonoBehaviour, IFases
         foreach (var accion in acciones)
         {
             A_confecciones accionType = (A_confecciones)accion;
-            accionType.onConfession.AddListener(ChangeStatesPlayer);
+            accionType.onConfession.AddListener(playerController.ChangeStatesPlayer);
             //accionType.TriggerAction();
         }
     }
@@ -51,56 +51,5 @@ public class F_tarde : MonoBehaviour, IFases
     {
         playerController = pController;
     }
-    public void ChangeStatesPlayer(DialogNode dialogNode)
-    {
-        if (dialogNode.GetFaithCost() != 0)
-        {
-            if (dialogNode.GetFaithCost()<0)
-            {
-                playerController.PlayerStatus.DecreaseFaith(dialogNode.GetFaithCost());
-                return;
-            }
-            else if (dialogNode.GetFaithCost() >= 0)
-            {
-                playerController.PlayerStatus.IncreaseFaith(dialogNode.GetFaithCost());
-            }
-        }
-        if( dialogNode.GetRepIglesiaCost() != 0)
-        {
-            if (dialogNode.GetRepIglesiaCost()<0)
-            {
-                playerController.PlayerStatus.DecreaseRepIglesia(dialogNode.GetRepIglesiaCost());
-                return;
-            }
-            else if (dialogNode.GetRepIglesiaCost() >= 0)
-            {
-                playerController.PlayerStatus.IncreaseRepIglesia(dialogNode.GetRepIglesiaCost());
-            }
-        }
-        if (dialogNode.GetRepPuebloCost() != 0)
-        {
-            if (dialogNode.GetRepPuebloCost()<0)
-            {
-                playerController.PlayerStatus.DecreaseRepPueblo(dialogNode.GetRepPuebloCost());
-                return;
-            }
-            else if (dialogNode.GetRepPuebloCost() >= 0)
-            {
-                playerController.PlayerStatus.IncreaseRepPueblo(dialogNode.GetRepPuebloCost());
-            }
-        }
-        if (dialogNode.GetSobornoCost() != 0)
-        {
-            if (playerController.PlayerStatus.Money < dialogNode.GetSobornoCost())
-            {
-                Debug.Log("No tienes suficiente dinero para sobornar.");
-                return;
-            }
-            else if (playerController.PlayerStatus.Money >= dialogNode.GetSobornoCost())
-            {
-                playerController.PlayerStatus.Spendmoney(dialogNode.GetSobornoCost());
-            }
-            //playerController.ChangeMoney(dialogNode.GetSobornoCost());
-        }
-    }
+    
 }
