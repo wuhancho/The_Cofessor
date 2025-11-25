@@ -3,6 +3,7 @@ using The_cofessor.Personajes.Dialogs;
 using TMPro;
 using UnityEngine.UI;
 using Unity.VisualScripting;
+using UnityEngine.Events;
 
 public class DialogueUI : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] Transform choicesRoot;
     [SerializeField] GameObject choicesPrefab;
     [SerializeField] Button quitButton;
+    [SerializeField] UnityEvent<DialogNode> onConversation;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -70,6 +72,7 @@ public class DialogueUI : MonoBehaviour
             button.onClick.AddListener(() =>
             {
                 playerConversant.SelectChoice(choice);
+                onConversation.Invoke(choice);
             });
         }
     }

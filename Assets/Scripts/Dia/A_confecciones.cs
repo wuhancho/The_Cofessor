@@ -1,14 +1,12 @@
 using The_cofessor.Personajes.Dialogs;
-using TMPro;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class A_confecciones : MonoBehaviour, IAcciones
 {
     [SerializeField] private PenitentController penitentController;
     [SerializeField] private int day;
     [SerializeField] private PlayerController playerController;
-    public UnityEvent<DialogNode> onConfession;
+    
     private void Start()
     {
         EjecutarAccion(playerController);
@@ -54,11 +52,12 @@ public class A_confecciones : MonoBehaviour, IAcciones
                 if (choice.IsPlayerSpeaking())
                 {
                     Debug.Log($"cambio parametros de playerStatus por los que posee node {choice.name}");
-                    onConfession.Invoke(choice);
+                    playerController.ChangeStatesPlayer(choice);
                 }
             }
         }
     }
+
 
     public void SetDay(int day)
     {

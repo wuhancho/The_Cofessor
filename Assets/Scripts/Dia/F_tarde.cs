@@ -26,12 +26,7 @@ public class F_tarde : MonoBehaviour, IFases
     }
     private void Update()
     {
-        foreach (var accion in acciones)
-        {
-            A_confecciones accionType = (A_confecciones)accion;
-            accionType.onConfession.AddListener(playerController.ChangeStatesPlayer);
-            //accionType.TriggerAction();
-        }
+
     }
 
     public void RefrescarAcciones()
