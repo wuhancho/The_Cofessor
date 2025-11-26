@@ -10,6 +10,7 @@ namespace The_cofessor.Personajes.Dialogs
     public class PlayerConversant : PlayerController
     {
         private string currentSpeakerPlayer = "Padre Cael";
+        private string currentSpeakerNPC = "NPC";
         [SerializeField] Dialog testDialog;
         Dialog currentDialog;
         DialogNode currentNode = null;
@@ -102,13 +103,13 @@ namespace The_cofessor.Personajes.Dialogs
 
         public string GetCurrentSpeakerName()
         {
-            if (currentNode.IsPlayerSpeaking())
+            if (isChoosing)
             {
                 return currentSpeakerPlayer;
             }
             else
             {
-                return "NPC";
+                return currentSpeakerNPC;
             }
         }
     }

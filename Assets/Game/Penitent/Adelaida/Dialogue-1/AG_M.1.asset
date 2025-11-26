@@ -42,7 +42,7 @@ MonoBehaviour:
   uniqueID: 18
   isPlayerSpeaking: 0
   text: "Escucharlo de su boca libera la carga en mi coraz\xF3n./n\nSe lo agradezco,
-    padre./n\nMe asegurar\xE9 de que el sacrificio de aquel chico no sea en vano./n"
+    padre./n\nMe asegurar\xE9 de que el sacrificio de aquel chico no sea en vano."
   childrenIDs:
   - 19
   rect:
@@ -132,8 +132,8 @@ MonoBehaviour:
   - 14
   rect:
     serializedVersion: 2
-    x: 2053
-    y: 31
+    x: 2052
+    y: 29
     width: 300
     height: 200
   faithCost: 0
@@ -155,7 +155,7 @@ MonoBehaviour:
   uniqueID: 14
   isPlayerSpeaking: 0
   text: "Entendido, padre./n\r\nEs lo m\xE1s justo si pretendo liberarme de la culpa
-    que siento./n"
+    que siento."
   childrenIDs:
   - 15
   rect:
@@ -184,7 +184,7 @@ MonoBehaviour:
   isPlayerSpeaking: 0
   text: "\xBFPERDONE?/n\r\nPens\xE9 que su santidad respetar\xEDa el secreto de confesi\xF3n./n\r\nSepa
     que, si me denuncia, pondr\xE1 en peligro mi negocio./n\r\nNo puedo permitirlo./n\r\nA
-    los vecinos no les gustar\xE1 esto./n"
+    los vecinos no les gustar\xE1 esto."
   childrenIDs:
   - 17
   rect:
@@ -215,9 +215,9 @@ MonoBehaviour:
 
 
     Los aldeanos aprueban que mantengas sus confesiones
-    en secreto.
+    en secreto./n
 
-    Te sientes bien./n'
+    Te sientes bien.'
   childrenIDs: []
   rect:
     serializedVersion: 2
@@ -249,7 +249,7 @@ MonoBehaviour:
     La iglesia aprueba que sus pecados sean castigados./n
 
     El
-    pueblo desaprueba que delates los secretos que te confiesan./n'
+    pueblo desaprueba que delates los secretos que te confiesan.'
   childrenIDs: []
   rect:
     serializedVersion: 2
@@ -315,7 +315,7 @@ MonoBehaviour:
 
 
     La iglesia acepta la penitencia impuesta para
-    expiar sus pecados./n'
+    expiar sus pecados.'
   childrenIDs: []
   rect:
     serializedVersion: 2
@@ -343,7 +343,7 @@ MonoBehaviour:
   isPlayerSpeaking: 0
   text: "S\xED.../n\r\nHace unos d\xEDas, una mujer vino a mi posada./n\r\nLlevaba
     consigo un lujoso colgante./n\r\nEncaja con la descripci\xF3n de la joya del
-    peri\xF3dico./n"
+    peri\xF3dico."
   childrenIDs:
   - 6
   rect:
@@ -371,7 +371,7 @@ MonoBehaviour:
   uniqueID: 20
   isPlayerSpeaking: 0
   text: "Gracias, padre./n\nAunque eso no cure mi culpa, nunca olvidar\xE9 su comprensi\xF3n
-    y caridad./n"
+    y caridad."
   childrenIDs:
   - 21
   rect:
@@ -404,7 +404,7 @@ MonoBehaviour:
     La iglesia desaprueba que perdones sus pecados./n
 
     Te
-    sientes bien./n'
+    sientes bien.'
   childrenIDs: []
   rect:
     serializedVersion: 2
@@ -432,7 +432,7 @@ MonoBehaviour:
   isPlayerSpeaking: 0
   text: "En mi posada se escuchan rumores de amuletos m\xE1gicos./n\r\nDicen que
     son capaces de cumplir los deseos del portador.../n\r\nA cambio de un alto precio./n\r\nUno
-    que no se puede pagar con dinero./n"
+    que no se puede pagar con dinero."
   childrenIDs:
   - 6
   rect:
@@ -461,7 +461,7 @@ MonoBehaviour:
   isPlayerSpeaking: 0
   text: "Padre, \xBFse ha enterado de lo del hijo del molinero?/n\r\nCreo saber qu\xE9
     le ha sucedido./n\r\nEstoy segura de que el colgante que menciona el peri\xF3dico
-    tiene algo que ver./n"
+    tiene algo que ver."
   childrenIDs:
   - 2
   - 3
@@ -518,7 +518,7 @@ MonoBehaviour:
   isPlayerSpeaking: 0
   text: "En cuanto vi aquella joya en su cuello, le prohib\xED la entrada a la posada./n\r\nSi
     los rumores son ciertos, no puedo dejar que un objeto tan peligroso entre a la
-    posada./n\r\nMas nunca pens\xE9 que acabar\xEDa en manos d eun pobre ni\xF1o./n"
+    posada./n\r\nMas nunca pens\xE9 que acabar\xEDa en manos d eun pobre ni\xF1o."
   childrenIDs:
   - 7
   - 8
@@ -576,7 +576,7 @@ MonoBehaviour:
   isPlayerSpeaking: 0
   text: "Aun as\xED, siento culpa por haber dejado marchar a aquella mujer../n\r\nSi
     hubiera actuado de otra forma en cuanto vi aquel colgante.../n\r\nEl hijo del
-    molinero segur\xEDa hoy con nosotros./n"
+    molinero segur\xEDa hoy con nosotros."
   childrenIDs:
   - 10
   - 11

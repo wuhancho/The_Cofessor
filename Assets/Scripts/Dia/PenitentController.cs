@@ -5,6 +5,7 @@ public class PenitentController : MonoBehaviour
     [SerializeField] private SPenitent[] sPenitents;
     
 
+
     public SPenitent GetSPenitent(string id)
     {
         foreach (SPenitent sPenitent in sPenitents)
@@ -16,12 +17,17 @@ public class PenitentController : MonoBehaviour
         }
         throw new Exception("SPenitent with id " + id + " not found.");
     }
-    public SPenitent[] GetSPenitents()
+    public SPenitent[] GetAllPenitents()
     {
         foreach (SPenitent sPenitent in sPenitents)
         {
             Debug.Log("SPenitent ID: " + sPenitent.Id + ", Name: " + sPenitent.CharacterName);
         }
         return sPenitents;
+    }
+    public Texture2D[] GetPenitentImagesById(string id)
+    {
+        SPenitent sPenitent = GetSPenitent(id);
+        return sPenitent.GetTexture2Ds();
     }
 }

@@ -9,12 +9,22 @@ public class F_tarde : MonoBehaviour, IFases
     [SerializeField] private Dia dia;
     [SerializeField] private PlayerController playerController;
 
+    private void OnBeforeSerialize()
+    {
+        foreach (var accion in acciones)
+        {
+            accion.InitializePlayer(playerController);
+            //A_confecciones accionType = (A_confecciones)accion;
+            //accionType.SetDay(dia.GetNumberDay());
+            ////accionType.InitializePlayer(playerController);
+        }
+    }
 
     private void Awake()
     {
         dia = GetComponentInParent<Dia>();
         RefrescarAcciones();
-        Initialize(dia.GetComponent<PlayerController>());
+        //Initialize(dia.GetComponent<PlayerController>());
         foreach (var accion in acciones)
         {
             //accion.InitializePlayer(playerController);
@@ -24,10 +34,7 @@ public class F_tarde : MonoBehaviour, IFases
         }
 
     }
-    private void Update()
-    {
 
-    }
 
     public void RefrescarAcciones()
     {

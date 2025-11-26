@@ -80,5 +80,4 @@ public class PlayerController : MonoBehaviour
         SetDialogNode(node);
         ChangeStatesPlayer(node);
     }
-
 }

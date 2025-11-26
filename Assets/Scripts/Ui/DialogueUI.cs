@@ -17,6 +17,10 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] Button quitButton;
     //[SerializeField] UnityEvent<DialogNode> onConversation;
 
+    private string[] currentLines;
+    private int currentLineIndex;
+    private string currentNodeText;
+
     void Start()
     {
         playerConversant = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerConversant>();
@@ -28,7 +32,16 @@ public class DialogueUI : MonoBehaviour
 
     void Next()
     {
-        playerConversant.Next();
+        //playerConversant.Next();
+        if (currentLines != null && currentLineIndex < currentLines.Length - 1)
+        {
+            currentLineIndex++;
+            BuildTextAI();
+        }
+        else
+        {
+            playerConversant.Next();
+        }
     }
 
     // Update is called once per frame
@@ -49,20 +62,31 @@ public class DialogueUI : MonoBehaviour
         }
         else
         {
+            if (currentNodeText != playerConversant.GetText())
+            {
+                currentNodeText = playerConversant.GetText();
+                currentLines = currentNodeText.Split("/n");
+                currentLineIndex = 0;
+            }
             BuildTextAI();
         }
 
     }
-
     private void BuildTextAI()
     {
-        //foreach(string line in playerConversant.GetText().Split("/n"))
+        //foreach (string line in playerConversant.GetText().Split("/n"))
         //{
         //    Debug.Log(line);
         //}
-        AIText.text = playerConversant.GetText();
+        //AIText.text = playerConversant.GetText();
 
-        nextButton.gameObject.SetActive(playerConversant.HasNext());
+        //nextButton.gameObject.SetActive(playerConversant.HasNext());
+        if (currentLines == null || currentLines.Length == 0) return;
+
+        AIText.text = currentLines[currentLineIndex];
+
+        bool hasMoreLines = currentLineIndex < currentLines.Length - 1;
+        nextButton.gameObject.SetActive(hasMoreLines || playerConversant.HasNext());
     }
 
     private void BuildChoiseList()

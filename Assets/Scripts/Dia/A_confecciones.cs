@@ -6,7 +6,10 @@ public class A_confecciones : MonoBehaviour, IAcciones
     [SerializeField] private PenitentController penitentController;
     [SerializeField] private int day;
     [SerializeField] private PlayerController playerController;
+
+    private string NamePenitent;
     
+
     private void Start()
     {
         EjecutarAccion(playerController);
@@ -41,6 +44,7 @@ public class A_confecciones : MonoBehaviour, IAcciones
                 Debug.LogWarning($"[A_confecciones] No se encontró diálogo falso para el día {day}.");
                 return;
             }
+            
             playerController.PlayerConversant.GetTestDialogue(dialog);
         }
 
@@ -58,9 +62,11 @@ public class A_confecciones : MonoBehaviour, IAcciones
         this.day = day;
     }
 
+    
+
     private Dialog TrueDialogueUpdate()
     {
-        foreach (SPenitent sPenitent in penitentController.GetSPenitents())
+        foreach (SPenitent sPenitent in penitentController.GetAllPenitents())
         {
             if (sPenitent == null) continue;
             //if (sPenitent.Day == day) continue;
@@ -69,7 +75,10 @@ public class A_confecciones : MonoBehaviour, IAcciones
             {
                 if (dialo == null) continue;
                 if (dialo.IsTrueDialogue)
+                {
+                    NamePenitent = sPenitent.CharacterName;
                     return dialo;
+                }
             }
             break;
         }
@@ -77,7 +86,7 @@ public class A_confecciones : MonoBehaviour, IAcciones
     }
     private Dialog FalseDialogueUpdate()
     {
-        foreach (SPenitent sPenitent in penitentController.GetSPenitents())
+        foreach (SPenitent sPenitent in penitentController.GetAllPenitents())
         {
             //Debug.Log("Revisando penitente...");
             if (sPenitent == null) continue;
@@ -88,7 +97,10 @@ public class A_confecciones : MonoBehaviour, IAcciones
                 if (dialo == null) continue;
                 //Debug.Log($"El dialogo encotrado es {dialo.name}");
                 if (!dialo.IsTrueDialogue)
+                {
+                    NamePenitent = sPenitent.CharacterName;
                     return dialo;
+                }
             }
             break;
         }
