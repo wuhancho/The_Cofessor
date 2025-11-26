@@ -40,7 +40,8 @@ public class DialogueUI : MonoBehaviour
             return;
         }
         CurrentSpeaker.GetComponent<TextMeshProUGUI>().text = playerConversant.GetCurrentSpeakerName();
-        AIResponces.SetActive(!playerConversant.IsChoosing());
+        //AIResponces.SetActive(!playerConversant.IsChoosing());
+        nextButton.gameObject.SetActive(!playerConversant.IsChoosing());
         choicesRoot.gameObject.SetActive(playerConversant.IsChoosing());
         if (playerConversant.IsChoosing())
         {
@@ -55,11 +56,12 @@ public class DialogueUI : MonoBehaviour
 
     private void BuildTextAI()
     {
-        //foreach(string line in playerConversant.GetText().Split("."))
+        //foreach(string line in playerConversant.GetText().Split("/n"))
         //{
         //    Debug.Log(line);
         //}
         AIText.text = playerConversant.GetText();
+
         nextButton.gameObject.SetActive(playerConversant.HasNext());
     }
 
