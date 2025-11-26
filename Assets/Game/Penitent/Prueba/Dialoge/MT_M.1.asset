@@ -1,0 +1,647 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6637274481800485955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  uniqueID: 2
+  isPlayerSpeaking: 1
+  text: "\xBFHab\xEDa visto el amuleto antes?"
+  childrenIDs:
+  - 4
+  rect:
+    serializedVersion: 2
+    x: 333
+    y: 128
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-4482264716366443592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 18
+  m_EditorClassIdentifier: 
+  uniqueID: 18
+  isPlayerSpeaking: 0
+  text: "Escucharlo de su boca libera la carga en mi coraz\xF3n.\nSe lo agradezco,
+    padre.\nMe asegurar\xE9 de que el sacrificio de aquel chico no sea en vano."
+  childrenIDs:
+  - 19
+  rect:
+    serializedVersion: 2
+    x: 2372
+    y: 457
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-4031433879958399830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 7
+  m_EditorClassIdentifier: 
+  uniqueID: 7
+  isPlayerSpeaking: 1
+  text: "No lo vi necesario.\r\nMientras se mantuviera lejos de mi negocio...\r\nLos
+    problemas se mantendr\xEDan al otro lado de la puerta."
+  childrenIDs:
+  - 9
+  rect:
+    serializedVersion: 2
+    x: 1347
+    y: 132
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-3719600038221277022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 8
+  m_EditorClassIdentifier: 
+  uniqueID: 8
+  isPlayerSpeaking: 1
+  text: "No tengo forma de saberlo.\r\nRumores sobre amuletos m\xE1gicos circulan
+    en el pueblo desde hace tiempo.\r\nPuede que alguien los haya estado vendiendo
+    a los incautos."
+  childrenIDs:
+  - 9
+  rect:
+    serializedVersion: 2
+    x: 1349
+    y: 374
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-3156734886151203310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 10
+  m_EditorClassIdentifier: 
+  uniqueID: 10
+  isPlayerSpeaking: 1
+  text: "Penitencia: Pida perd\xF3n a la familia y presta tus servivios en todo lo
+    que necesiten."
+  childrenIDs:
+  - 14
+  rect:
+    serializedVersion: 2
+    x: 2053
+    y: 31
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 1
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-2572561148067046585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 14
+  m_EditorClassIdentifier: 
+  uniqueID: 14
+  isPlayerSpeaking: 0
+  text: "Entendido, padre.\r\nEs lo m\xE1s justo si pretendo liberarme de la culpa
+    que siento."
+  childrenIDs:
+  - 15
+  rect:
+    serializedVersion: 2
+    x: 2368
+    y: 32
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-973457926264050994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 16
+  m_EditorClassIdentifier: 
+  uniqueID: 16
+  isPlayerSpeaking: 0
+  text: "\xBFPERDONE?\r\nPens\xE9 que su santidad respetar\xEDa el secreto de confesi\xF3n.\r\nSepa
+    que, si me denuncia, pondr\xE1 en peligro mi negocio.\r\nNo puedo permitirlo.\r\nA
+    los vecinos no les gustar\xE1 esto."
+  childrenIDs:
+  - 17
+  rect:
+    serializedVersion: 2
+    x: 2366
+    y: 255
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-936220729865665587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 21
+  m_EditorClassIdentifier: 
+  uniqueID: 21
+  isPlayerSpeaking: 0
+  text: '[Adelaida se retira.
+
+
+    Los aldeanos aprueban que mantengas sus confesiones
+    en secreto.
+
+    Te sientes bien.'
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 2693
+    y: 660
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-742754889897782525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 17
+  m_EditorClassIdentifier: 
+  uniqueID: 17
+  isPlayerSpeaking: 0
+  text: '[Adelaida se retira.
+
+
+    La iglesia aprueba que sus pecados sean castigados.
+
+    El
+    pueblo desaprueba que delates los secretos que te confiesan.'
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 2695
+    y: 255
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e960bec5b5236749b281289ea60fa82, type: 3}
+  m_Name: MT_M.1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 4833016678480741690}
+  - {fileID: -6637274481800485955}
+  - {fileID: 8624974288753486224}
+  - {fileID: 555188614452174015}
+  - {fileID: 3469668424652038452}
+  - {fileID: 5843062107677719649}
+  - {fileID: -4031433879958399830}
+  - {fileID: -3719600038221277022}
+  - {fileID: 6554014642214226852}
+  - {fileID: -3156734886151203310}
+  - {fileID: 5919804849505515121}
+  - {fileID: 6674409518860777732}
+  - {fileID: 5551701650870912134}
+  - {fileID: -2572561148067046585}
+  - {fileID: 158237481448296280}
+  - {fileID: -973457926264050994}
+  - {fileID: -742754889897782525}
+  - {fileID: -4482264716366443592}
+  - {fileID: 2816187387651695356}
+  - {fileID: 2664405150541387646}
+  - {fileID: -936220729865665587}
+  isTrueDialogue: 0
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &158237481448296280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 15
+  m_EditorClassIdentifier: 
+  uniqueID: 15
+  isPlayerSpeaking: 0
+  text: 'Adelaida se retira.
+
+
+    La iglesia acepta la penitencia impuesta para
+    expiar sus pecados.'
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 2688
+    y: 33
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &555188614452174015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 4
+  m_EditorClassIdentifier: 
+  uniqueID: 4
+  isPlayerSpeaking: 0
+  text: "S\xED...\r\nHace unos d\xEDas, una mujer vino a mi posada.\r\nLlevaba consigo
+    un lujoso colgante.\r\nEncaja con la descripci\xF3n de la joya del peri\xF3dico."
+  childrenIDs:
+  - 6
+  rect:
+    serializedVersion: 2
+    x: 646
+    y: 130
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &2664405150541387646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 20
+  m_EditorClassIdentifier: 
+  uniqueID: 20
+  isPlayerSpeaking: 0
+  text: "Gracias, padre.\nAunque eso no cure mi culpa, nunca olvidar\xE9 su comprensi\xF3n
+    y caridad."
+  childrenIDs:
+  - 21
+  rect:
+    serializedVersion: 2
+    x: 2370
+    y: 656
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &2816187387651695356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 19
+  m_EditorClassIdentifier: 
+  uniqueID: 19
+  isPlayerSpeaking: 0
+  text: 'Adelaida se retira.
+
+
+    La iglesia desaprueba que perdones sus pecados.
+
+    Te
+    sientes bien.'
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 2696
+    y: 457
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &3469668424652038452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 5
+  m_EditorClassIdentifier: 
+  uniqueID: 5
+  isPlayerSpeaking: 0
+  text: "En mi posada se escuchan rumores de amuletos m\xE1gicos.\r\nDicen que son
+    capaces de cumplir los deseos del portador...\r\nA cambio de un alto precio.\r\nUno
+    que no se puede pagar con dinero."
+  childrenIDs:
+  - 6
+  rect:
+    serializedVersion: 2
+    x: 649
+    y: 342
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &4833016678480741690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  uniqueID: 1
+  isPlayerSpeaking: 0
+  text: "Padre, \xBFse ha enterado de lo del hijo del molinero?\r\nCreo saber qu\xE9
+    le ha sucedido.\r\nEstoy segura de que el colgante que menciona el peri\xF3dico
+    tiene algo que ver."
+  childrenIDs:
+  - 2
+  - 3
+  rect:
+    serializedVersion: 2
+    x: 5
+    y: 245
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &5551701650870912134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 13
+  m_EditorClassIdentifier: 
+  uniqueID: 13
+  isPlayerSpeaking: 1
+  text: "Encubrimiento: Puedes irte. Tus decisiones no se volver\xE1n en tu contra."
+  childrenIDs:
+  - 20
+  rect:
+    serializedVersion: 2
+    x: 2045
+    y: 656
+    width: 300
+    height: 200
+  faithCost: 1
+  RepIglesiaCost: 0
+  RepPuebloCost: 1
+  SobornoCost: 0
+--- !u!114 &5843062107677719649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 6
+  m_EditorClassIdentifier: 
+  uniqueID: 6
+  isPlayerSpeaking: 0
+  text: "En cuanto vi aquella joya en su cuello, le prohib\xED la entrada a la posada.\r\nSi
+    los rumores son ciertos, no puedo dejar que un objeto tan peligroso entre a la
+    posada.\r\nMas nunca pens\xE9 que acabar\xEDa en manos d eun pobre ni\xF1o."
+  childrenIDs:
+  - 7
+  - 8
+  rect:
+    serializedVersion: 2
+    x: 1005
+    y: 234
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &5919804849505515121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 11
+  m_EditorClassIdentifier: 
+  uniqueID: 11
+  isPlayerSpeaking: 1
+  text: 'Denuncia: Ocultas informacion sobre personas peligrosas para el pueblo.
+    No puedo pasarlo por alto.'
+  childrenIDs:
+  - 16
+  rect:
+    serializedVersion: 2
+    x: 2051
+    y: 240
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 1
+  RepPuebloCost: -1
+  SobornoCost: 0
+--- !u!114 &6554014642214226852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 9
+  m_EditorClassIdentifier: 
+  uniqueID: 9
+  isPlayerSpeaking: 0
+  text: "Aun as\xED, siento culpa por haber dejado marchar a aquella mujer..\r\nSi
+    hubiera actuado de otra forma en cuanto vi aquel colgante...\r\nEl hijo del molinero
+    segur\xEDa hoy con nosotros."
+  childrenIDs:
+  - 10
+  - 11
+  - 12
+  - 13
+  rect:
+    serializedVersion: 2
+    x: 1708
+    y: 249
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &6674409518860777732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 12
+  m_EditorClassIdentifier: 
+  uniqueID: 12
+  isPlayerSpeaking: 1
+  text: "Absoluci\xF3n: Solo estabas tratando de hacer lo correcto por ti y los tuyos."
+  childrenIDs:
+  - 18
+  rect:
+    serializedVersion: 2
+    x: 2054
+    y: 453
+    width: 300
+    height: 200
+  faithCost: 1
+  RepIglesiaCost: -1
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &8624974288753486224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  uniqueID: 3
+  isPlayerSpeaking: 1
+  text: "\xBFUn colgante asesino?"
+  childrenIDs:
+  - 5
+  rect:
+    serializedVersion: 2
+    x: 329
+    y: 343
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0

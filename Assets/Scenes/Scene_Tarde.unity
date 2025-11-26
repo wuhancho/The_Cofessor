@@ -927,6 +927,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2277817564474526482, guid: a67449099053f1048b5f74e47bf99c0a, type: 3}
+      propertyPath: onOptionSelect.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2277817564474526482, guid: a67449099053f1048b5f74e47bf99c0a, type: 3}
+      propertyPath: onOptionSelect.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2126793205}
+    - target: {fileID: 2277817564474526482, guid: a67449099053f1048b5f74e47bf99c0a, type: 3}
+      propertyPath: onOptionSelect.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2277817564474526482, guid: a67449099053f1048b5f74e47bf99c0a, type: 3}
+      propertyPath: onOptionSelect.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GetChoices
+      objectReference: {fileID: 0}
+    - target: {fileID: 2277817564474526482, guid: a67449099053f1048b5f74e47bf99c0a, type: 3}
+      propertyPath: onOptionSelect.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: A_confecciones, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2277817564474526482, guid: a67449099053f1048b5f74e47bf99c0a, type: 3}
+      propertyPath: onOptionSelect.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8458055756625270355, guid: a67449099053f1048b5f74e47bf99c0a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1031.5511

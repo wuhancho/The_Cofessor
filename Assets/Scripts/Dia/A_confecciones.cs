@@ -15,7 +15,11 @@ public class A_confecciones : MonoBehaviour, IAcciones
     {
 
     }
-
+    private void GetChoices(DialogNode dialogueNode)
+    {
+        //Debug.Log($"A_confecciones - GetChoices invoked. de node is: {dialogueNode}");
+        playerController.ChangeStatesPlayer(dialogueNode);
+    }
     public void EjecutarAccion(PlayerController playerController)
     {
         if (playerController.PlayerStatus.RepPueblo >= 8)
@@ -45,17 +49,7 @@ public class A_confecciones : MonoBehaviour, IAcciones
 
     public void TriggerAction()
     {
-        if(playerController.PlayerConversant.GetChoices() != null)
-        {
-            foreach (DialogNode choice in playerController.PlayerConversant.GetChoices())
-            {
-                if (choice.IsPlayerSpeaking())
-                {
-                    Debug.Log($"cambio parametros de playerStatus por los que posee node {choice.name}");
-                    playerController.ChangeStatesPlayer(choice);
-                }
-            }
-        }
+       
     }
 
 

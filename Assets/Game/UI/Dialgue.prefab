@@ -820,6 +820,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AIText: {fileID: 4103080596768035610}
   nextButton: {fileID: 3962334297517937124}
+  CurrentSpeaker: {fileID: 1535362204249463374}
   AIResponces: {fileID: 7753795210653315079}
   choicesRoot: {fileID: 1167941079791874641}
   choicesPrefab: {fileID: 3466061749114320955, guid: b9225dd8cea54494396a0c19959a8671, type: 3}

@@ -10,12 +10,13 @@ public class DialogueUI : MonoBehaviour
     PlayerConversant playerConversant;
     [SerializeField] TextMeshProUGUI AIText;
     [SerializeField] Button nextButton;
+    [SerializeField] GameObject CurrentSpeaker;
     [SerializeField] GameObject AIResponces;
     [SerializeField] Transform choicesRoot;
     [SerializeField] GameObject choicesPrefab;
     [SerializeField] Button quitButton;
-    [SerializeField] UnityEvent<DialogNode> onConversation;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    //[SerializeField] UnityEvent<DialogNode> onConversation;
+
     void Start()
     {
         playerConversant = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerConversant>();
@@ -38,6 +39,7 @@ public class DialogueUI : MonoBehaviour
         {
             return;
         }
+        CurrentSpeaker.GetComponent<TextMeshProUGUI>().text = playerConversant.GetCurrentSpeakerName();
         AIResponces.SetActive(!playerConversant.IsChoosing());
         choicesRoot.gameObject.SetActive(playerConversant.IsChoosing());
         if (playerConversant.IsChoosing())
@@ -71,8 +73,9 @@ public class DialogueUI : MonoBehaviour
             Button button = choiceInstance.GetComponentInChildren<Button>();
             button.onClick.AddListener(() =>
             {
+                CurrentSpeaker.GetComponent<TextMeshProUGUI>().text = playerConversant.GetCurrentSpeakerName();
                 playerConversant.SelectChoice(choice);
-                onConversation.Invoke(choice);
+                //onConversation.Invoke(choice);
             });
         }
     }

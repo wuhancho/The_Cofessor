@@ -3,15 +3,18 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace The_cofessor.Personajes.Dialogs
 {
-    public class PlayerConversant : MonoBehaviour
+    public class PlayerConversant : PlayerController
     {
+        private string currentSpeakerPlayer = "Padre Cael";
         [SerializeField] Dialog testDialog;
         Dialog currentDialog;
         DialogNode currentNode = null;
         bool isChoosing = false;
+        [SerializeField] public UnityEvent<DialogNode> onOptionSelect;
 
         public event Action onConversationUpdated;
 
@@ -69,7 +72,9 @@ namespace The_cofessor.Personajes.Dialogs
 
         public void SelectChoice(DialogNode chosenNode)
         {
+            //Debug.Log("Player selected choice: " + chosenNode.name);
             currentNode = chosenNode;
+            onOptionSelect.Invoke(currentNode);
             isChoosing = false;
             Next();
         }
@@ -95,6 +100,17 @@ namespace The_cofessor.Personajes.Dialogs
             return currentDialog.GetAllChildren(currentNode).Count() > 0;
         }
 
+        public string GetCurrentSpeakerName()
+        {
+            if (currentNode.IsPlayerSpeaking())
+            {
+                return currentSpeakerPlayer;
+            }
+            else
+            {
+                return "NPC";
+            }
+        }
     }
 } 
 
