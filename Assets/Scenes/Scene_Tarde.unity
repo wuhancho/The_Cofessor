@@ -514,7 +514,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   includeInactiveChildren: 1
   dia: {fileID: 0}
-  playerController: {fileID: 0}
 --- !u!114 &788912738 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 198634516730350321, guid: 2ed89a007b5d7f0408346f5379f2fe98, type: 3}

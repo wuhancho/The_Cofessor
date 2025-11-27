@@ -20,8 +20,8 @@ MonoBehaviour:
   - 17
   rect:
     serializedVersion: 2
-    x: 2777.093
-    y: -3.657013
+    x: 2791.093
+    y: 6.342987
     width: 300
     height: 200
   faithCost: 0
@@ -655,8 +655,8 @@ MonoBehaviour:
   - 16
   rect:
     serializedVersion: 2
-    x: 2434.093
-    y: 7.342987
+    x: 2442.093
+    y: 5.342987
     width: 300
     height: 200
   faithCost: 0
