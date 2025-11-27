@@ -7,7 +7,7 @@ using UnityEngine.Events;
 
 namespace The_cofessor.Personajes.Dialogs
 {
-    public class PlayerConversant : PlayerController
+    public class PlayerConversant : MonoBehaviour
     {
         private string currentSpeakerPlayer = "Padre Cael";
         private string currentSpeakerNPC = "NPC";
@@ -17,7 +17,10 @@ namespace The_cofessor.Personajes.Dialogs
         bool isChoosing = false;
         [SerializeField] public UnityEvent<DialogNode> onOptionSelect;
 
-        public event Action onConversationUpdated;
+        public string CurrentSpeakerNPC { get => currentSpeakerNPC; set => currentSpeakerNPC = value; }
+
+        public event Action OnConversationUpdated;
+
 
         private IEnumerator Start()
         {
@@ -39,7 +42,7 @@ namespace The_cofessor.Personajes.Dialogs
         {
             currentDialog = newDialogue;
             currentNode = currentDialog.GetRootNode();
-            onConversationUpdated();
+            OnConversationUpdated?.Invoke();
         }
 
         public void Quit()
@@ -47,7 +50,7 @@ namespace The_cofessor.Personajes.Dialogs
             currentDialog = null;
             currentNode = null;
             isChoosing = false;
-            onConversationUpdated();
+            OnConversationUpdated?.Invoke();
         }
 
         public bool IsActive()
@@ -86,14 +89,14 @@ namespace The_cofessor.Personajes.Dialogs
             if(numPlayerResponses > 0)
             {
                 isChoosing = true;
-                onConversationUpdated();
+                OnConversationUpdated?.Invoke();
                 return;
             }
 
             DialogNode[] children = currentDialog.GetAIChildren(currentNode).ToArray();
             int randomIndex = UnityEngine.Random.Range(0, children.Count());
             currentNode = children[randomIndex];
-            onConversationUpdated();
+            OnConversationUpdated?.Invoke();
         }
         public bool HasNext()
         {

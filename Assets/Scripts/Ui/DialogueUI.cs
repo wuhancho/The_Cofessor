@@ -24,7 +24,7 @@ public class DialogueUI : MonoBehaviour
     void Start()
     {
         playerConversant = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerConversant>();
-        playerConversant.onConversationUpdated += UpdateUI;
+        playerConversant.OnConversationUpdated += UpdateUI;
         nextButton.onClick.AddListener(Next);
 
         UpdateUI();

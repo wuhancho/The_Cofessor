@@ -6,8 +6,6 @@ public class A_confecciones : MonoBehaviour, IAcciones
     [SerializeField] private PenitentController penitentController;
     [SerializeField] private int day;
     [SerializeField] private PlayerController playerController;
-
-    private string NamePenitent;
     
 
     private void Start()
@@ -76,7 +74,7 @@ public class A_confecciones : MonoBehaviour, IAcciones
                 if (dialo == null) continue;
                 if (dialo.IsTrueDialogue)
                 {
-                    NamePenitent = sPenitent.CharacterName;
+                    playerController.PlayerConversant.CurrentSpeakerNPC = sPenitent.CharacterName;
                     return dialo;
                 }
             }
@@ -98,7 +96,7 @@ public class A_confecciones : MonoBehaviour, IAcciones
                 //Debug.Log($"El dialogo encotrado es {dialo.name}");
                 if (!dialo.IsTrueDialogue)
                 {
-                    NamePenitent = sPenitent.CharacterName;
+                    playerController.PlayerConversant.CurrentSpeakerNPC = sPenitent.CharacterName;
                     return dialo;
                 }
             }

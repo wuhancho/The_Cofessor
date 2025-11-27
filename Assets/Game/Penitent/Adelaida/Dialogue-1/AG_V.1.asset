@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uniqueID: 16
   isPlayerSpeaking: 0
-  text: "Entendido, padre.\nEs lo m\xE1s justo si pretendo liberarme de la culpa
+  text: "Entendido, padre./nEs lo m\xE1s justo si pretendo liberarme de la culpa
     que siento."
   childrenIDs:
   - 17
   rect:
     serializedVersion: 2
-    x: 2797.093
-    y: 5.342987
+    x: 2777.093
+    y: -3.657013
     width: 300
     height: 200
   faithCost: 0
@@ -42,9 +42,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uniqueID: 10
   isPlayerSpeaking: 0
-  text: "No estoy del todo segura.\r\nAunque \xC9dgar, el mercader errante, es famoso
-    en la regi\xF3n por vender toda clase de objetos extra\xF1os.\r\nQuiz\xE1 \xE9l
-    sepa algo.\r\nLa mujer asegur\xF3 que, quien se lo vendi\xF3, le asegur\xF3 que
+  text: "No estoy del todo segura./nAunque \xC9dgar, el mercader errante, es famoso
+    en la regi\xF3n por vender toda clase de objetos extra\xF1os./nQuiz\xE1 \xE9l
+    sepa algo./nLa mujer asegur\xF3 que, quien se lo vendi\xF3, le asegur\xF3 que
     el colgante har\xEDa que su aspecto quedara congelado en el tiempo."
   childrenIDs:
   - 11
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uniqueID: 22
   isPlayerSpeaking: 0
-  text: "Gracias, padre.\r\nAunque eso no cure mi culpa, nunca olvidar\xE9 su comprensi\xF3n
+  text: "Gracias, padre./nAunque eso no cure mi culpa, nunca olvidar\xE9 su comprensi\xF3n
     y caridad."
   childrenIDs:
   - 23
@@ -154,13 +154,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uniqueID: 21
   isPlayerSpeaking: 0
-  text: 'Adelaida se retira.
-
-
-    La iglesia desaprueba que perdones sus pecados.
-
-    Te
-    sientes bien.'
+  text: Adelaida se retira./nLa iglesia desaprueba que perdones sus pecados./nTe
+    sientes bien.
   childrenIDs: []
   rect:
     serializedVersion: 2
@@ -186,8 +181,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uniqueID: 1
   isPlayerSpeaking: 0
-  text: "Padre, \xBFse ha enterado de lo del hijo del molinero?\nCreo saber qu\xE9
-    le ha sucedido. \nEstoy segura de que el colgante que menciona el peri\xF3dico
+  text: "Padre, \xBFse ha enterado de lo del hijo del molinero?/nCreo saber qu\xE9
+    le ha sucedido./nEstoy segura de que el colgante que menciona el peri\xF3dico
     tiene algo que ver. \n"
   childrenIDs:
   - 2
@@ -216,8 +211,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uniqueID: 18
   isPlayerSpeaking: 0
-  text: "\xBFPERDONE?\r\nPens\xE9 que su santidad respetar\xEDa el secreto de confesi\xF3n.\r\nSepa
-    que, si me denuncia, pondr\xE1 en peligro mi negocio.\r\nNo puedo permitirlo.\r\nA
+  text: "\xBFPERDONE?/nPens\xE9 que su santidad respetar\xEDa el secreto de confesi\xF3n./nSepa
+    que, si me denuncia, pondr\xE1 en peligro mi negocio./nNo puedo permitirlo./nA
     los vecinos no les gustar\xE1 esto."
   childrenIDs:
   - 19
@@ -245,9 +240,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uniqueID: 5
   isPlayerSpeaking: 0
-  text: "S\xE9 que es dif\xEDcil de creer, padre.\nLa anterior due\xF1a de ese colgante
-    se hospedaba en mi posada hasta hace escasos d\xEDas.\r\nDec\xEDa que, desde
-    que lo obtuvo, la muerte le susurraba al o\xEDdo."
+  text: "S\xE9 que es dif\xEDcil de creer, padre./nLa anterior due\xF1a de ese colgante
+    se hospedaba en mi posada hasta hace escasos d\xEDas./nDec\xEDa que, desde que
+    lo obtuvo, la muerte le susurraba al o\xEDdo."
   childrenIDs:
   - 6
   rect:
@@ -366,9 +361,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uniqueID: 4
   isPlayerSpeaking: 0
-  text: "S\xED...\nEscasos d\xEDas atr\xE1s, una mujer se hospedaba en mi posada.\nLlevaba
-    un colgante, del que no se separar\xEDa ni para utilizar el excusado.\nEstoy
-    segura de que es el mismo colgante del hijo del molinero.\nA pesar de que jam\xE1s
+  text: "S\xED.../nEscasos d\xEDas atr\xE1s, una mujer se hospedaba en mi posada./nLlevaba
+    un colgante, del que no se separar\xEDa ni para utilizar el excusado./nEstoy
+    segura de que es el mismo colgante del hijo del molinero./nA pesar de que jam\xE1s
     se la quitaba,  aseguraba que hab\xEDa algo en aquella joya que la aterrorizaba."
   childrenIDs:
   - 6
@@ -423,11 +418,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uniqueID: 9
   isPlayerSpeaking: 0
-  text: "Porque era mi cliente.\r\nLa pol\xEDtica de mi posada es que todos los clientes
-    gocen de m\xE1xima privacidad.\r\nTodos tenemos nuestros secretos.\r\nNo puedo
-    permitirme manchar mi negocio revelando los de mis clientes.\r\nUsted me entender\xE1,
-    lleva este confesionario.\r\nSimplemente pens\xE9 que, si se deshac\xEDa del
-    colgante, la posada no correr\xEDa peligro."
+  text: "Porque era mi cliente./nLa pol\xEDtica de mi posada es que todos los clientes
+    gocen de m\xE1xima privacidad./nTodos tenemos nuestros secretos./nNo puedo permitirme
+    manchar mi negocio revelando los de mis clientes./nUsted me entender\xE1, lleva
+    este confesionario./nSimplemente pens\xE9 que, si se deshac\xEDa del colgante,
+    la posada no correr\xEDa peligro."
   childrenIDs:
   - 11
   rect:
@@ -481,9 +476,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uniqueID: 6
   isPlayerSpeaking: 0
-  text: "Yo misma le dije que se desiciera del amuleto.\r\nNo pod\xEDa permitir que
-    un objeto m\xE1gico pusiera en peligro mi negocio.\r\nMas nunca pens\xE9 que
-    se lo entregar\xEDa a un ni\xF1o...\r\nLa mujer abandon\xF3 el pueblo poco despu\xE9s.\r\nTal
+  text: "Yo misma le dije que se desiciera del amuleto./nNo pod\xEDa permitir que
+    un objeto m\xE1gico pusiera en peligro mi negocio./nMas nunca pens\xE9 que se
+    lo entregar\xEDa a un ni\xF1o.../nLa mujer abandon\xF3 el pueblo poco despu\xE9s./nTal
     vez, carcomida por la culpa de lo que hab\xEDa hecho."
   childrenIDs:
   - 7
@@ -512,13 +507,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uniqueID: 19
   isPlayerSpeaking: 0
-  text: 'Adelaida se retira
-
-
-    La iglesia aprueba que sus pecados sean castigados.
-
-    Al
-    pueblo le disgustan tus acusaciones.'
+  text: Adelaida se retira./nLa iglesia aprueba que sus pecados sean castigados./nAl
+    pueblo le disgustan tus acusaciones.
   childrenIDs: []
   rect:
     serializedVersion: 2
@@ -572,9 +562,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uniqueID: 11
   isPlayerSpeaking: 0
-  text: "La culpa pesa en mi coraz\xF3n.\r\nNo puedo evitar pensar que, por mi af\xE1n
-    de proteger el negocio evit\xE9 el destino que le aguardaba.\r\nY ahora un ni\xF1o
-    inocente ha muerto en su lugar.\r\nPadre, \xBFme equivoqu\xE9 al proteger a esa
+  text: "La culpa pesa en mi coraz\xF3n./nNo puedo evitar pensar que, por mi af\xE1n
+    de proteger el negocio evit\xE9 el destino que le aguardaba./nY ahora un ni\xF1o
+    inocente ha muerto en su lugar./nPadre, \xBFme equivoqu\xE9 al proteger a esa
     mujer?"
   childrenIDs:
   - 12
@@ -605,14 +595,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uniqueID: 23
   isPlayerSpeaking: 0
-  text: 'Adelaida se retira.]
-
-
-
-    Los aldeanos aprueban que mantengas sus confesiones
-    en secreto.
-
-    Te sientes bien.'
+  text: Adelaida se retira./nLos aldeanos aprueban que mantengas sus confesiones
+    en secreto./nTe sientes bien.
   childrenIDs: []
   rect:
     serializedVersion: 2
@@ -638,10 +622,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uniqueID: 17
   isPlayerSpeaking: 0
-  text: 'Adelaida se retira.
-
-    La iglesia acepta la penitencia impuesta para expiar
-    sus pecados.'
+  text: Adelaida se retira./nLa iglesia acepta la penitencia impuesta para expiar
+    sus pecados.
   childrenIDs: []
   rect:
     serializedVersion: 2
@@ -695,8 +677,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uniqueID: 20
   isPlayerSpeaking: 0
-  text: "Escucharlo de su boca libera la carga en mi coraz\xF3n.\r\nSe lo agradezco,
-    padre.\r\nMe asegurar\xE9 de que el sacrificio de aquel chico no sea en vano."
+  text: "Escucharlo de su boca libera la carga en mi coraz\xF3n./nSe lo agradezco,
+    padre./nMe asegurar\xE9 de que el sacrificio de aquel chico no sea en vano."
   childrenIDs:
   - 21
   rect:

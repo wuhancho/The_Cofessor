@@ -341,15 +341,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uniqueID: 4
   isPlayerSpeaking: 0
-  text: "S\xED.../n\r\nHace unos d\xEDas, una mujer vino a mi posada./n\r\nLlevaba
-    consigo un lujoso colgante./n\r\nEncaja con la descripci\xF3n de la joya del
-    peri\xF3dico."
+  text: "S\xED.../nHace unos d\xEDas, una mujer vino a mi posada./nLlevaba consigo
+    un lujoso colgante./nEncaja con la descripci\xF3n de la joya del peri\xF3dico."
   childrenIDs:
   - 6
   rect:
     serializedVersion: 2
-    x: 646
-    y: 130
+    x: 649.8462
+    y: 133.84615
     width: 300
     height: 200
   faithCost: 0
@@ -459,8 +458,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uniqueID: 1
   isPlayerSpeaking: 0
-  text: "Padre, \xBFse ha enterado de lo del hijo del molinero?/n\r\nCreo saber qu\xE9
-    le ha sucedido./n\r\nEstoy segura de que el colgante que menciona el peri\xF3dico
+  text: "Padre, \xBFse ha enterado de lo del hijo del molinero?/nCreo saber qu\xE9
+    le ha sucedido./nEstoy segura de que el colgante que menciona el peri\xF3dico
     tiene algo que ver."
   childrenIDs:
   - 2
