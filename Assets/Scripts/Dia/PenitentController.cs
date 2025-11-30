@@ -3,7 +3,7 @@ using UnityEngine;
 public class PenitentController : MonoBehaviour
 {
     [SerializeField] private SPenitent[] sPenitents;
-    
+    [SerializeField] private GameObject EntracePenitent;
 
 
     public SPenitent GetSPenitent(string id)

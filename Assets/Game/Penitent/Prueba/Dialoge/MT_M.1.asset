@@ -458,8 +458,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uniqueID: 1
   isPlayerSpeaking: 0
-  text: "Padre, \xBFse ha enterado de lo del hijo del molinero?\r\nCreo saber qu\xE9
-    le ha sucedido.\r\nEstoy segura de que el colgante que menciona el peri\xF3dico
+  text: "Padre, \xBFse ha enterado de lo del hijo del molinero?rrrrrrr\r\nCreo saber
+    qu\xE9 le ha sucedido.\r\nEstoy segura de que el colgante que menciona el peri\xF3dico
     tiene algo que ver."
   childrenIDs:
   - 2
