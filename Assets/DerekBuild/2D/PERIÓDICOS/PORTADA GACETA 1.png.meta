@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 658cdda425056554495e870ef436820a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3633603704275774151
+    second: PORTADA GACETA 1_0
+  - first:
+      213: -2045330301911701143
+    second: PORTADA GACETA 1_1
+  - first:
+      213: 3406425317394374443
+    second: PORTADA GACETA 1_2
+  - first:
+      213: 8772897693271087486
+    second: PORTADA GACETA 1_3
+  - first:
+      213: -1940449297286928808
+    second: PORTADA GACETA 1_4
+  - first:
+      213: -2867239083494012934
+    second: PORTADA GACETA 1_5
+  - first:
+      213: -5461657887674201815
+    second: PORTADA GACETA 1_6
+  - first:
+      213: -8576502023408779753
+    second: PORTADA GACETA 1_7
+  - first:
+      213: 839329163522070304
+    second: PORTADA GACETA 1_8
+  - first:
+      213: -7247281689800933153
+    second: PORTADA GACETA 1_9
+  - first:
+      213: -5180756340215588249
+    second: PORTADA GACETA 1_10
+  - first:
+      213: -2910108150908392154
+    second: PORTADA GACETA 1_11
+  - first:
+      213: -2470908188862778989
+    second: PORTADA GACETA 1_12
+  - first:
+      213: 518120679048207813
+    second: PORTADA GACETA 1_13
+  - first:
+      213: -3696115436216960449
+    second: PORTADA GACETA 1_14
+  - first:
+      213: 5641884416888126016
+    second: PORTADA GACETA 1_15
+  - first:
+      213: 8177953575533939808
+    second: PORTADA GACETA 1_16
+  - first:
+      213: 8105908624610394777
+    second: PORTADA GACETA 1_17
+  - first:
+      213: -403927840697429958
+    second: PORTADA GACETA 1_18
+  - first:
+      213: 2528029959348435212
+    second: PORTADA GACETA 1_19
+  - first:
+      213: 3606949797818124695
+    second: PORTADA GACETA 1_20
+  - first:
+      213: -4222405686333965227
+    second: PORTADA GACETA 1_21
+  - first:
+      213: 6682793414252423015
+    second: PORTADA GACETA 1_22
+  - first:
+      213: -5351004022566915730
+    second: PORTADA GACETA 1_23
+  - first:
+      213: 834743716849206244
+    second: PORTADA GACETA 1_24
+  - first:
+      213: 5240741199580431563
+    second: PORTADA GACETA 1_25
+  - first:
+      213: -2468396382692937828
+    second: PORTADA GACETA 1_26
+  - first:
+      213: -5150960635571874316
+    second: PORTADA GACETA 1_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_0
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 248
+        width: 1421
+        height: 1833
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9355910cea8d29dc0800000000000000
+      internalID: -3633603704275774151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_1
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 2055
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969e5325de68d93e0800000000000000
+      internalID: -2045330301911701143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_2
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 1858
+        width: 14
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f503537cd064f20800000000000000
+      internalID: 3406425317394374443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_3
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1782
+        width: 19
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e795442a8f79fb970800000000000000
+      internalID: 8772897693271087486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_4
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1661
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8566e8225a32215e0800000000000000
+      internalID: -1940449297286928808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_5
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 1687
+        width: 15
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7093eae358538d0800000000000000
+      internalID: -2867239083494012934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_6
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1707
+        width: 7
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9290878961b4434b0800000000000000
+      internalID: -5461657887674201815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_7
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1664
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71efc4799d42af880800000000000000
+      internalID: -8576502023408779753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1609
+        width: 12
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027db516d65e5ab00800000000000000
+      internalID: 839329163522070304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_9
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1586
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0093c63bb7c6b90800000000000000
+      internalID: -7247281689800933153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_10
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1294
+        width: 8
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ad891be814a18b0800000000000000
+      internalID: -5180756340215588249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_11
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1298
+        width: 12
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62de22f1e083d97d0800000000000000
+      internalID: -2910108150908392154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_12
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 1340
+        width: 12
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391fa3af71295bdd0800000000000000
+      internalID: -2470908188862778989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_13
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 1285
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cdd371330cb03700800000000000000
+      internalID: 518120679048207813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_14
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1256
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a3377f792c4bcc0800000000000000
+      internalID: -3696115436216960449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_15
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1162
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04abd643cfffb4e40800000000000000
+      internalID: 5641884416888126016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_16
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1083
+        width: 12
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c0653c27ded7170800000000000000
+      internalID: 8177953575533939808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_17
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 963
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9928da772f8fd7070800000000000000
+      internalID: 8105908624610394777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_18
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 880
+        width: 18
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30d65cd4c5f46af0800000000000000
+      internalID: -403927840697429958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_19
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 563
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09328c9add551320800000000000000
+      internalID: 2528029959348435212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_20
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 248
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799cd9d0bb57e0230800000000000000
+      internalID: 3606949797818124695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_21
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 248
+        width: 101
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c797846600765c0800000000000000
+      internalID: -4222405686333965227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_22
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 248
+        width: 86
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767e5db043d0ebc50800000000000000
+      internalID: 6682793414252423015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_23
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 248
+        width: 82
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61763b313a6db5b0800000000000000
+      internalID: -5351004022566915730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_24
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 251
+        width: 61
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e34941ecfa959b00800000000000000
+      internalID: 834743716849206244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_25
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 248
+        width: 48
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc40fb8ba5adab840800000000000000
+      internalID: 5240741199580431563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_26
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 258
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f6abc619e7ebdd0800000000000000
+      internalID: -2468396382692937828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PORTADA GACETA 1_27
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 248
+        width: 114
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5d7b8c79c1488b0800000000000000
+      internalID: -5150960635571874316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PORTADA GACETA 1_0: -3633603704275774151
+      PORTADA GACETA 1_1: -2045330301911701143
+      PORTADA GACETA 1_10: -5180756340215588249
+      PORTADA GACETA 1_11: -2910108150908392154
+      PORTADA GACETA 1_12: -2470908188862778989
+      PORTADA GACETA 1_13: 518120679048207813
+      PORTADA GACETA 1_14: -3696115436216960449
+      PORTADA GACETA 1_15: 5641884416888126016
+      PORTADA GACETA 1_16: 8177953575533939808
+      PORTADA GACETA 1_17: 8105908624610394777
+      PORTADA GACETA 1_18: -403927840697429958
+      PORTADA GACETA 1_19: 2528029959348435212
+      PORTADA GACETA 1_2: 3406425317394374443
+      PORTADA GACETA 1_20: 3606949797818124695
+      PORTADA GACETA 1_21: -4222405686333965227
+      PORTADA GACETA 1_22: 6682793414252423015
+      PORTADA GACETA 1_23: -5351004022566915730
+      PORTADA GACETA 1_24: 834743716849206244
+      PORTADA GACETA 1_25: 5240741199580431563
+      PORTADA GACETA 1_26: -2468396382692937828
+      PORTADA GACETA 1_27: -5150960635571874316
+      PORTADA GACETA 1_3: 8772897693271087486
+      PORTADA GACETA 1_4: -1940449297286928808
+      PORTADA GACETA 1_5: -2867239083494012934
+      PORTADA GACETA 1_6: -5461657887674201815
+      PORTADA GACETA 1_7: -8576502023408779753
+      PORTADA GACETA 1_8: 839329163522070304
+      PORTADA GACETA 1_9: -7247281689800933153
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

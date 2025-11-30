@@ -1,0 +1,305 @@
+fileFormatVersion: 2
+guid: 77af612fd0a036b438d7c438b9d6725d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6439141640761632747
+    second: ajustes de sonido_0
+  - first:
+      213: -5084919251046235401
+    second: ajustes de sonido_1
+  - first:
+      213: 2861768501426140696
+    second: ajustes de sonido_2
+  - first:
+      213: -1054396972542779223
+    second: ajustes de sonido_3
+  - first:
+      213: 3489738119193649345
+    second: ajustes de sonido_4
+  - first:
+      213: 4327106376392524712
+    second: ajustes de sonido_5
+  - first:
+      213: -6927514961789980648
+    second: ajustes de sonido_6
+  - first:
+      213: -697125345798185283
+    second: ajustes de sonido_7
+  - first:
+      213: -5953669620965703921
+    second: ajustes de sonido_8
+  - first:
+      213: -1215181300099508295
+    second: ajustes de sonido_9
+  - first:
+      213: -2843211594236369144
+    second: ajustes de sonido_10
+  - first:
+      213: -8003159955981402720
+    second: ajustes de sonido_11
+  - first:
+      213: 580599001393830322
+    second: ajustes de sonido_12
+  - first:
+      213: 6593418592727119054
+    second: ajustes de sonido_13
+  - first:
+      213: 1052748420017928788
+    second: ajustes de sonido_14
+  - first:
+      213: -4400711024972869426
+    second: ajustes de sonido_15
+  - first:
+      213: 4914700363110642706
+    second: ajustes de sonido_16
+  - first:
+      213: -3501790147631508438
+    second: ajustes de sonido_17
+  - first:
+      213: -9194896712885641171
+    second: ajustes de sonido_18
+  - first:
+      213: 3430491914965037136
+    second: ajustes de sonido_19
+  - first:
+      213: 2923125112589318093
+    second: ajustes de sonido_20
+  - first:
+      213: -2869921682908534081
+    second: ajustes de sonido_21
+  - first:
+      213: -8651990480239461289
+    second: ajustes de sonido_22
+  - first:
+      213: 663356698915569045
+    second: ajustes de sonido_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ajustes de sonido_0
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 667
+        width: 273
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7e50cc43d6c5950800000000000000
+      internalID: 6439141640761632747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ajustes de sonido_1
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 508
+        width: 253
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f208d9d1ecbe69b0800000000000000
+      internalID: -5084919251046235401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ajustes de sonido_2
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 353
+        width: 267
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81638ec2a4b07b720800000000000000
+      internalID: 2861768501426140696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6b6aeb08399920749a1c681db8464131
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ajustes de sonido_0: 6439141640761632747
+      ajustes de sonido_1: -5084919251046235401
+      ajustes de sonido_10: -2843211594236369144
+      ajustes de sonido_11: -8003159955981402720
+      ajustes de sonido_12: 580599001393830322
+      ajustes de sonido_13: 6593418592727119054
+      ajustes de sonido_14: 1052748420017928788
+      ajustes de sonido_15: -4400711024972869426
+      ajustes de sonido_16: 4914700363110642706
+      ajustes de sonido_17: -3501790147631508438
+      ajustes de sonido_18: -9194896712885641171
+      ajustes de sonido_19: 3430491914965037136
+      ajustes de sonido_2: 2861768501426140696
+      ajustes de sonido_20: 2923125112589318093
+      ajustes de sonido_21: -2869921682908534081
+      ajustes de sonido_22: -8651990480239461289
+      ajustes de sonido_23: 663356698915569045
+      ajustes de sonido_3: -1054396972542779223
+      ajustes de sonido_4: 3489738119193649345
+      ajustes de sonido_5: 4327106376392524712
+      ajustes de sonido_6: -6927514961789980648
+      ajustes de sonido_7: -697125345798185283
+      ajustes de sonido_8: -5953669620965703921
+      ajustes de sonido_9: -1215181300099508295
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

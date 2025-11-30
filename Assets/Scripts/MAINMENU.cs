@@ -28,7 +28,7 @@ public class MAINMENU : MonoBehaviour
 
     public void Play()
     {
-        SceneManager.LoadScene("Scene_Mañana");
+        SceneManager.LoadScene("DÍA 1 - MAÑANA");
     }
 
    

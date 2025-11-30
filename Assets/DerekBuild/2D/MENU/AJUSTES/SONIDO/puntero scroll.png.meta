@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: 4d815bb30849db64685fc1e8ca023967
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4839112288963163398
+    second: puntero scroll_0
+  - first:
+      213: -5656704165220588354
+    second: puntero scroll_1
+  - first:
+      213: -7660777320965765078
+    second: puntero scroll_2
+  - first:
+      213: -6341978993628540107
+    second: puntero scroll_3
+  - first:
+      213: 6109872022822369919
+    second: puntero scroll_4
+  - first:
+      213: -6671261584205222246
+    second: puntero scroll_5
+  - first:
+      213: 777039402468388737
+    second: puntero scroll_6
+  - first:
+      213: 1382764650179287935
+    second: puntero scroll_7
+  - first:
+      213: -6329530830265229732
+    second: puntero scroll_8
+  - first:
+      213: 3867045394761837887
+    second: puntero scroll_9
+  - first:
+      213: 3265302658396008479
+    second: puntero scroll_10
+  - first:
+      213: 6409019703559734738
+    second: puntero scroll_11
+  - first:
+      213: -7999440810869197219
+    second: puntero scroll_12
+  - first:
+      213: 6321175509106315012
+    second: puntero scroll_13
+  - first:
+      213: 3591015098911020709
+    second: puntero scroll_14
+  - first:
+      213: 8003240481177308734
+    second: puntero scroll_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: puntero scroll_9
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 608
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3de61d4c418aa530800000000000000
+      internalID: 3867045394761837887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2efd3099b853bf847a1720188593efaf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      puntero scroll_0: -4839112288963163398
+      puntero scroll_1: -5656704165220588354
+      puntero scroll_10: 3265302658396008479
+      puntero scroll_11: 6409019703559734738
+      puntero scroll_12: -7999440810869197219
+      puntero scroll_13: 6321175509106315012
+      puntero scroll_14: 3591015098911020709
+      puntero scroll_15: 8003240481177308734
+      puntero scroll_2: -7660777320965765078
+      puntero scroll_3: -6341978993628540107
+      puntero scroll_4: 6109872022822369919
+      puntero scroll_5: -6671261584205222246
+      puntero scroll_6: 777039402468388737
+      puntero scroll_7: 1382764650179287935
+      puntero scroll_8: -6329530830265229732
+      puntero scroll_9: 3867045394761837887
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

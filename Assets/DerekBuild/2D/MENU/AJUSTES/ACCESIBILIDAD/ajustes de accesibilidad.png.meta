@@ -1,0 +1,359 @@
+fileFormatVersion: 2
+guid: f1b40700ef957e24ba22dceba123d6f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8420754927431168121
+    second: ajustes de accesibilidad_0
+  - first:
+      213: 6222339946739224837
+    second: ajustes de accesibilidad_1
+  - first:
+      213: 8444097495592845162
+    second: ajustes de accesibilidad_2
+  - first:
+      213: 3135193362701709701
+    second: ajustes de accesibilidad_3
+  - first:
+      213: -4485329751063616292
+    second: ajustes de accesibilidad_4
+  - first:
+      213: 4574574703980301287
+    second: ajustes de accesibilidad_5
+  - first:
+      213: -6296560851002629790
+    second: ajustes de accesibilidad_6
+  - first:
+      213: -731124798066490123
+    second: ajustes de accesibilidad_7
+  - first:
+      213: -2269040428264587746
+    second: ajustes de accesibilidad_8
+  - first:
+      213: -8500031840834482795
+    second: ajustes de accesibilidad_9
+  - first:
+      213: -9145440804991200152
+    second: ajustes de accesibilidad_10
+  - first:
+      213: -922629984466572441
+    second: ajustes de accesibilidad_11
+  - first:
+      213: 5735460921412296241
+    second: ajustes de accesibilidad_12
+  - first:
+      213: -7338294476793731562
+    second: ajustes de accesibilidad_13
+  - first:
+      213: 6100619900797050041
+    second: ajustes de accesibilidad_14
+  - first:
+      213: -1801239122944645175
+    second: ajustes de accesibilidad_15
+  - first:
+      213: 2348237923564492655
+    second: ajustes de accesibilidad_16
+  - first:
+      213: 4258553499383174174
+    second: ajustes de accesibilidad_17
+  - first:
+      213: -3858243030732834953
+    second: ajustes de accesibilidad_18
+  - first:
+      213: 8674147931449457628
+    second: ajustes de accesibilidad_19
+  - first:
+      213: 7583221162874646100
+    second: ajustes de accesibilidad_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ajustes de accesibilidad_0
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 669
+        width: 172
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970b72ecdf78cd470800000000000000
+      internalID: 8420754927431168121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ajustes de accesibilidad_1
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 466
+        width: 95
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5015d15d6313a5650800000000000000
+      internalID: 6222339946739224837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ajustes de accesibilidad_2
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 450
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fb399fee57f2570800000000000000
+      internalID: 8444097495592845162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ajustes de accesibilidad_3
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 339
+        width: 290
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5817ffd90c1728b20800000000000000
+      internalID: 3135193362701709701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ajustes de accesibilidad_4
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 451
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2a9322abe62c748bb2f4ad4f70e265
+      internalID: -4485329751063616292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ajustes de accesibilidad_5
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 446
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fba401e5f7965408866c1dbfc4bbad
+      internalID: 4574574703980301287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3b218aa93a301d4408f8e7db2cd17f3a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ajustes de accesibilidad_0: 8420754927431168121
+      ajustes de accesibilidad_1: 6222339946739224837
+      ajustes de accesibilidad_10: -9145440804991200152
+      ajustes de accesibilidad_11: -922629984466572441
+      ajustes de accesibilidad_12: 5735460921412296241
+      ajustes de accesibilidad_13: -7338294476793731562
+      ajustes de accesibilidad_14: 6100619900797050041
+      ajustes de accesibilidad_15: -1801239122944645175
+      ajustes de accesibilidad_16: 2348237923564492655
+      ajustes de accesibilidad_17: 4258553499383174174
+      ajustes de accesibilidad_18: -3858243030732834953
+      ajustes de accesibilidad_19: 8674147931449457628
+      ajustes de accesibilidad_2: 8444097495592845162
+      ajustes de accesibilidad_20: 7583221162874646100
+      ajustes de accesibilidad_3: 3135193362701709701
+      ajustes de accesibilidad_4: -4485329751063616292
+      ajustes de accesibilidad_5: 4574574703980301287
+      ajustes de accesibilidad_6: -6296560851002629790
+      ajustes de accesibilidad_7: -731124798066490123
+      ajustes de accesibilidad_8: -2269040428264587746
+      ajustes de accesibilidad_9: -8500031840834482795
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

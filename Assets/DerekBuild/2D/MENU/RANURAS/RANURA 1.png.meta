@@ -1,0 +1,379 @@
+fileFormatVersion: 2
+guid: 182fda3f675e746448113015e9e03689
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1396560779027512905
+    second: RANURA 1_0
+  - first:
+      213: -6959860514577744705
+    second: RANURA 1_1
+  - first:
+      213: 2703606943461219843
+    second: RANURA 1_2
+  - first:
+      213: -1708913991280207722
+    second: RANURA 1_3
+  - first:
+      213: 5358541900079956721
+    second: RANURA 1_4
+  - first:
+      213: 7198943552528624810
+    second: RANURA 1_5
+  - first:
+      213: 2837640680774215604
+    second: RANURA 1_6
+  - first:
+      213: 4643697990743945873
+    second: RANURA 1_7
+  - first:
+      213: -4474724440838731897
+    second: RANURA 1_8
+  - first:
+      213: -4019425121809916045
+    second: RANURA 1_9
+  - first:
+      213: 2912966090276692202
+    second: RANURA 1_10
+  - first:
+      213: 5504292143667132031
+    second: RANURA 1_11
+  - first:
+      213: 5971960978130320404
+    second: RANURA 1_12
+  - first:
+      213: 4746116274215710817
+    second: RANURA 1_13
+  - first:
+      213: -4327537577147568763
+    second: RANURA 1_14
+  - first:
+      213: 5637380922813734916
+    second: RANURA 1_15
+  - first:
+      213: 4482623835516090308
+    second: RANURA 1_16
+  - first:
+      213: 7616927101257813766
+    second: RANURA 1_17
+  - first:
+      213: 1154904508780803400
+    second: RANURA 1_18
+  - first:
+      213: 6121401127302161173
+    second: RANURA 1_19
+  - first:
+      213: -5902332018347051701
+    second: RANURA 1_20
+  - first:
+      213: 9066844744989094965
+    second: RANURA 1_21
+  - first:
+      213: -234066234454787015
+    second: RANURA 1_22
+  - first:
+      213: 1888557642744948331
+    second: RANURA 1_23
+  - first:
+      213: -5006641855719797603
+    second: RANURA 1_24
+  - first:
+      213: 4456612926721896392
+    second: RANURA 1_25
+  - first:
+      213: 1274734489585692691
+    second: RANURA 1_26
+  - first:
+      213: -7937168408294948123
+    second: RANURA 1_27
+  - first:
+      213: 8081752001613405584
+    second: RANURA 1_28
+  - first:
+      213: -7809628807086957911
+    second: RANURA 1_29
+  - first:
+      213: 35653970311012153
+    second: RANURA 1_30
+  - first:
+      213: 2031200907059576080
+    second: RANURA 1_31
+  - first:
+      213: -6624433959197822338
+    second: RANURA 1_32
+  - first:
+      213: 4290367590742282951
+    second: RANURA 1_33
+  - first:
+      213: -3021487043333307709
+    second: RANURA 1_34
+  - first:
+      213: -1848552621634266689
+    second: RANURA 1_35
+  - first:
+      213: 6934172666445587289
+    second: RANURA 1_36
+  - first:
+      213: 4628810137129012099
+    second: RANURA 1_37
+  - first:
+      213: -1262169078180529162
+    second: RANURA 1_38
+  - first:
+      213: -5907633378733094244
+    second: RANURA 1_39
+  - first:
+      213: 6099416186714099309
+    second: RANURA 1_40
+  - first:
+      213: -3601612756110963805
+    second: RANURA 1_41
+  - first:
+      213: -2050738996050660610
+    second: RANURA 1_42
+  - first:
+      213: -178113416959778313
+    second: RANURA 1_43
+  - first:
+      213: -8074987556543656111
+    second: RANURA 1_44
+  - first:
+      213: 9218211891876720702
+    second: RANURA 1_45
+  - first:
+      213: 8552424177422250122
+    second: RANURA 1_46
+  - first:
+      213: 8126989079168634809
+    second: RANURA 1_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RANURA 1_0
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 622
+        width: 575
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b182daee5b6e9ce0800000000000000
+      internalID: -1396560779027512905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RANURA 1_44
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 606
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f0486b991efef80800000000000000
+      internalID: -8074987556543656111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0235446f0723c5e4d92df63eab897d9d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RANURA 1_0: -1396560779027512905
+      RANURA 1_1: -6959860514577744705
+      RANURA 1_10: 2912966090276692202
+      RANURA 1_11: 5504292143667132031
+      RANURA 1_12: 5971960978130320404
+      RANURA 1_13: 4746116274215710817
+      RANURA 1_14: -4327537577147568763
+      RANURA 1_15: 5637380922813734916
+      RANURA 1_16: 4482623835516090308
+      RANURA 1_17: 7616927101257813766
+      RANURA 1_18: 1154904508780803400
+      RANURA 1_19: 6121401127302161173
+      RANURA 1_2: 2703606943461219843
+      RANURA 1_20: -5902332018347051701
+      RANURA 1_21: 9066844744989094965
+      RANURA 1_22: -234066234454787015
+      RANURA 1_23: 1888557642744948331
+      RANURA 1_24: -5006641855719797603
+      RANURA 1_25: 4456612926721896392
+      RANURA 1_26: 1274734489585692691
+      RANURA 1_27: -7937168408294948123
+      RANURA 1_28: 8081752001613405584
+      RANURA 1_29: -7809628807086957911
+      RANURA 1_3: -1708913991280207722
+      RANURA 1_30: 35653970311012153
+      RANURA 1_31: 2031200907059576080
+      RANURA 1_32: -6624433959197822338
+      RANURA 1_33: 4290367590742282951
+      RANURA 1_34: -3021487043333307709
+      RANURA 1_35: -1848552621634266689
+      RANURA 1_36: 6934172666445587289
+      RANURA 1_37: 4628810137129012099
+      RANURA 1_38: -1262169078180529162
+      RANURA 1_39: -5907633378733094244
+      RANURA 1_4: 5358541900079956721
+      RANURA 1_40: 6099416186714099309
+      RANURA 1_41: -3601612756110963805
+      RANURA 1_42: -2050738996050660610
+      RANURA 1_43: -178113416959778313
+      RANURA 1_44: -8074987556543656111
+      RANURA 1_45: 9218211891876720702
+      RANURA 1_46: 8552424177422250122
+      RANURA 1_47: 8126989079168634809
+      RANURA 1_5: 7198943552528624810
+      RANURA 1_6: 2837640680774215604
+      RANURA 1_7: 4643697990743945873
+      RANURA 1_8: -4474724440838731897
+      RANURA 1_9: -4019425121809916045
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
