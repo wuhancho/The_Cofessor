@@ -41,7 +41,7 @@ public class A_Capilla : MonoBehaviour, IAccionesEnergia
         onCapillaOperative.Invoke(energy,faith);
     }
 
-    public void InitializePlayer(PlayerController playerController)
+    public void Initialize(PlayerController playerController)
     {
         throw new System.NotImplementedException();
     }

@@ -27,7 +27,7 @@ public class F_mañana : MonoBehaviour, IFases
         
     }
 
-    public void Initialize(PlayerController pController)
+    public void Initialize(PlayerController pController, PenitentController ptController)
     {
         throw new System.NotImplementedException();
     }

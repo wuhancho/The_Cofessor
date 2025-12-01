@@ -6,14 +6,21 @@ public class Dia: MonoBehaviour
     private IFases[] faseActual;
     [SerializeField] private PlayerController playerController;
     [SerializeField] private PenitentController penitentController;
-    //PlayerStatus playerStatus;
 
-    private void Start()
+    public void Awake()
     {
-        Initialize(playerController);
+        if (playerController == null)
+        {
+            playerController = FindAnyObjectByType<PlayerController>();
+        }
+        if (penitentController == null)
+        {
+            penitentController = FindAnyObjectByType<PenitentController>();
+        }
+        Initialize(playerController,penitentController);
     }
 
-    public void Initialize(PlayerController pController)
+    public void Initialize(PlayerController pController, PenitentController ptController)
     {
         faseActual = GetComponentsInChildren<IFases>();
 
@@ -21,7 +28,7 @@ public class Dia: MonoBehaviour
 
         for (int i = 0; i < faseActual.Length; i++)
         {
-            faseActual[i].Initialize(pController);
+            faseActual[i].Initialize(pController,ptController);
         }
     }
     public void UpdateDay()

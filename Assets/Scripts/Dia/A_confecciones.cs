@@ -12,56 +12,25 @@ public class A_confecciones : MonoBehaviour, IAcciones
     {
         EjecutarAccion(playerController);
     }
+    public void Initialize(PlayerController playerController)
+    {
+        this.playerController = playerController;
+    }
+    public void Initialize(PlayerController playerController,PenitentController penitentController)
+    {
+        this.playerController = playerController;
+        this.penitentController = penitentController;
+    }
     public void CancelAction()
     {
 
     }
-    private void GetChoices(DialogNode dialogueNode)
+
+    public void GetChoices(DialogNode dialogueNode)
     {
         //Debug.Log($"A_confecciones - GetChoices invoked. de node is: {dialogueNode}");
         playerController.ChangeStatesPlayer(dialogueNode);
     }
-    public void EjecutarAccion(PlayerController playerController)
-    {
-        if (playerController.PlayerStatus.RepPueblo >= 8)
-        {
-            Dialog dialog = TrueDialogueUpdate();
-            if (dialog == null)
-            {
-                Debug.LogWarning($"[A_confecciones] No se encontró diálogo verdadero para el día {day}.");
-                return;
-            }
-            Debug.Log($"a playerController le doy el diálogo {dialog.name}");
-            playerController.PlayerConversant.GetTestDialogue(dialog);
-        }
-        else
-        {
-            Dialog dialog = FalseDialogueUpdate();
-            if (dialog == null)
-            {
-                Debug.LogWarning($"[A_confecciones] No se encontró diálogo falso para el día {day}.");
-                return;
-            }
-            
-            playerController.PlayerConversant.GetTestDialogue(dialog);
-        }
-
-        //playerController.PlayerConversant.StartDialogue(dialog);
-    }
-
-    public void TriggerAction()
-    {
-       
-    }
-
-
-    public void SetDay(int day)
-    {
-        this.day = day;
-    }
-
-    
-
     private Dialog TrueDialogueUpdate()
     {
         foreach (SPenitent sPenitent in penitentController.GetAllPenitents())
@@ -104,9 +73,53 @@ public class A_confecciones : MonoBehaviour, IAcciones
         }
         return null;
     }
-
-    public void InitializePlayer(PlayerController playerController)
+    public void EjecutarAccion(PlayerController playerController)
     {
-        this.playerController = playerController;
+        if (playerController.PlayerStatus.RepPueblo >= 8)
+        {
+            Dialog dialog = TrueDialogueUpdate();
+            if (dialog == null)
+            {
+                Debug.LogWarning($"[A_confecciones] No se encontró diálogo verdadero para el día {day}.");
+                return;
+            }
+            Debug.Log($"a playerController le doy el diálogo {dialog.name}");
+            playerController.PlayerConversant.GetTestDialogue(dialog);
+        }
+        else
+        {
+            Dialog dialog = FalseDialogueUpdate();
+            if (dialog == null)
+            {
+                Debug.LogWarning($"[A_confecciones] No se encontró diálogo falso para el día {day}.");
+                return;
+            }
+            
+            playerController.PlayerConversant.GetTestDialogue(dialog);
+        }
+
+        //playerController.PlayerConversant.StartDialogue(dialog);
     }
+
+    public void TriggerAction()
+    {
+       Debug.Log("TriggerAction en A_confecciones");
+    }
+
+
+    public void SetDay(int day)
+    {
+        this.day = day;
+    }
+
+    public void IsConfession(bool isLast)
+    {
+        if (isLast == true)
+        {
+            TriggerAction();
+        }
+    }
+
+
+
 }

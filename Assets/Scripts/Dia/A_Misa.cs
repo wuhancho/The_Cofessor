@@ -23,7 +23,7 @@ public class A_Misa : MonoBehaviour, IAccionesEnergia
         // Aquí va la lógica específica para la acción de la Misa.
     }
 
-    public void InitializePlayer(PlayerController playerController)
+    public void Initialize(PlayerController playerController)
     {
         throw new System.NotImplementedException();
     }

@@ -16,6 +16,6 @@ public interface IAcciones
     public void TriggerAction();
     public void CancelAction();
 
-    public void InitializePlayer(PlayerController playerController);
+    public void Initialize(PlayerController playerController);
 
 }

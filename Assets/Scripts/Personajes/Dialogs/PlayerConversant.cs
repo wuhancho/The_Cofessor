@@ -16,6 +16,7 @@ namespace The_cofessor.Personajes.Dialogs
         DialogNode currentNode = null;
         bool isChoosing = false;
         [SerializeField] public UnityEvent<DialogNode> onOptionSelect;
+        [SerializeField] public UnityEvent<bool> isTheLastNode;
 
         public string CurrentSpeakerNPC { get => currentSpeakerNPC; set => currentSpeakerNPC = value; }
 
@@ -42,6 +43,7 @@ namespace The_cofessor.Personajes.Dialogs
         {
             currentDialog = newDialogue;
             currentNode = currentDialog.GetRootNode();
+            isTheLastNode.Invoke(false);
             OnConversationUpdated?.Invoke();
         }
 
@@ -85,23 +87,52 @@ namespace The_cofessor.Personajes.Dialogs
 
         public void Next()
         {
-            int numPlayerResponses = currentDialog.GetPlayerChildren(currentNode).Count();
-            if(numPlayerResponses > 0)
+            //int numPlayerResponses = currentDialog.GetPlayerChildren(currentNode).Count();
+            //if(numPlayerResponses > 0)
+            //{
+            //    isChoosing = true;
+            //    OnConversationUpdated?.Invoke();
+            //    return;
+            //}
+
+            //DialogNode[] children = currentDialog.GetAIChildren(currentNode).ToArray();
+            //int randomIndex = UnityEngine.Random.Range(0, children.Count());
+            //currentNode = children[randomIndex];
+            //OnConversationUpdated?.Invoke();
+            if (currentNode == null) return;
+
+            // Comprobar si hay opciones para el jugador
+            var playerChildren = currentDialog.GetPlayerChildren(currentNode);
+            if (playerChildren.Any())
             {
                 isChoosing = true;
                 OnConversationUpdated?.Invoke();
                 return;
             }
 
-            DialogNode[] children = currentDialog.GetAIChildren(currentNode).ToArray();
-            int randomIndex = UnityEngine.Random.Range(0, children.Count());
-            currentNode = children[randomIndex];
-            OnConversationUpdated?.Invoke();
+            // Si no, buscar respuesta de la IA
+            var aiChildren = currentDialog.GetAIChildren(currentNode).ToArray();
+            if (aiChildren.Any())
+            {
+                int randomIndex = UnityEngine.Random.Range(0, aiChildren.Length);
+                currentNode = aiChildren[randomIndex];
+                OnConversationUpdated?.Invoke();
+            }
+            else
+            {
+                // Si no hay hijos de ningún tipo, es el final de la rama
+                Debug.Log($"Reached the end of the dialogue, The value of isTheLast: {isTheLastNode}");
+                isTheLastNode.Invoke(true);
+              
+                // Opcional: podrías llamar a Quit() aquí si quieres que el diálogo termine automáticamente.
+                // Quit();
+            }
         }
         public bool HasNext()
         {
-           
-            return currentDialog.GetAllChildren(currentNode).Count() > 0;
+            //return currentDialog.GetAllChildren(currentNode).Count() > 0;
+            if (currentNode == null) return false;
+            return currentDialog.GetAllChildren(currentNode).Any();
         }
 
         public string GetCurrentSpeakerName()

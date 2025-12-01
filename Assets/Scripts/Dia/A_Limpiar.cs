@@ -38,7 +38,7 @@ public class A_Limpiar : MonoBehaviour, IAccionesEnergia
         }
     }
 
-    public void InitializePlayer(PlayerController playerController)
+    public void Initialize(PlayerController playerController)
     {
         throw new System.NotImplementedException();
     }

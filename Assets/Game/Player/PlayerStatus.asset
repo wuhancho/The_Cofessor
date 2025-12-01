@@ -15,7 +15,7 @@ MonoBehaviour:
   energy: 2
   faith: 7
   money: 100
-  repIglesia: 8
+  repIglesia: 6
   repPueblo: 6
   food: 100
   Cleaned: 0

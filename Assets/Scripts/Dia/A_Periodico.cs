@@ -23,7 +23,7 @@ public class A_Periodico : MonoBehaviour, IAccionesEnergia
         // Aquí va la lógica específica para la acción del Periódico.
     }
 
-    public void InitializePlayer(PlayerController playerController)
+    public void Initialize(PlayerController playerController)
     {
         throw new System.NotImplementedException();
     }

@@ -10,5 +10,5 @@ public interface IFases
 
     //public event Action onPhaseComplete;
     IAcciones[] GetAcciones();
-    void Initialize(PlayerController pController);
+    void Initialize(PlayerController pController,PenitentController ptController);
 }

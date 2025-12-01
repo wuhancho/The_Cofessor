@@ -7,7 +7,8 @@ public class F_tarde : MonoBehaviour, IFases
     [SerializeField] private bool includeInactiveChildren = true;
     private IAcciones[] acciones;
     [SerializeField] private Dia dia;
-    private PlayerController playerController;
+    [SerializeField] private PlayerController playerController;
+    [SerializeField] private PenitentController penitentController;
 
     //private void OnBeforeSerialize()
     //{
@@ -23,6 +24,7 @@ public class F_tarde : MonoBehaviour, IFases
     private void Awake()
     {
         dia = GetComponentInParent<Dia>();
+        penitentController = GetComponentInParent<PenitentController>();
         RefrescarAcciones();
         //Initialize(dia.GetComponent<PlayerController>());
         foreach (var accion in acciones)
@@ -30,6 +32,7 @@ public class F_tarde : MonoBehaviour, IFases
             //accion.InitializePlayer(playerController);
             A_confecciones accionType = (A_confecciones)accion;
             accionType.SetDay(dia.GetNumberDay());
+            
             //accionType.InitializePlayer(playerController);
         }
 
@@ -49,12 +52,17 @@ public class F_tarde : MonoBehaviour, IFases
 
     public IAcciones[] GetAcciones() => acciones;
 
-    public void Initialize(PlayerController pController)
+    public void Initialize(PlayerController pController, PenitentController ptController)
     {
         playerController = pController;
+        penitentController = ptController;
         foreach (var accion in acciones)
         {
-            accion.InitializePlayer(playerController);
+            accion.Initialize(playerController);
+            if (accion is A_confecciones accionType)
+            {
+                accionType.Initialize(playerController,penitentController);
+            }
         }
     }
     

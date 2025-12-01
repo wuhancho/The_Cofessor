@@ -15,7 +15,7 @@ public class A_comida : MonoBehaviour, IAcciones
         Debug.Log($"Aumentando comida en {playerController.PlayerStatus.Food}.");
     }
 
-    public void InitializePlayer(PlayerController playerController)
+    public void Initialize(PlayerController playerController)
     {
         throw new System.NotImplementedException();
     }
