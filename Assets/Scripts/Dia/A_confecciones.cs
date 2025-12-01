@@ -18,6 +18,7 @@ public class A_confecciones : MonoBehaviour, IAcciones
     }
     public void Initialize(PlayerController playerController,PenitentController penitentController)
     {
+        Debug.Log("A_confecciones - Initialize invoked.");
         this.playerController = playerController;
         this.penitentController = penitentController;
     }

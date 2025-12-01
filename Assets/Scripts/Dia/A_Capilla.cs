@@ -6,6 +6,7 @@ public class A_Capilla : MonoBehaviour, IAccionesEnergia
     [SerializeField] private int energy;
     [SerializeField] private int faith;
     [SerializeField] private string nameAction;
+    private int day;
 
     public UnityEvent<string> onCapillaAction;
     public UnityEvent onCapillaCancel;
@@ -18,6 +19,11 @@ public class A_Capilla : MonoBehaviour, IAccionesEnergia
     public int ReputationChurchCost => 0;
 
     public int ReputationPeopleCost => 0;
+
+    public void SetDay(int day)
+    {
+        this.day = day;
+    }
 
     public void EjecutarAccion(PlayerController playerController)
     {

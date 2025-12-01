@@ -4,7 +4,6 @@ using UnityEngine.UI;
 
 public interface IAcciones
 {
-
     /// <summary>
     /// ejecutarAccion - Método para ejecutar una acción específica basada en el nombre proporcionado.
     /// </summary>
@@ -17,5 +16,5 @@ public interface IAcciones
     public void CancelAction();
 
     public void Initialize(PlayerController playerController);
-
+    void SetDay(int day);
 }

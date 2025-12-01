@@ -5,6 +5,7 @@ public class A_Limpiar : MonoBehaviour, IAccionesEnergia
     [SerializeField] private int energyCost;
     [SerializeField] private float moneyCost;
     [SerializeField] private string actionName;
+    private int day;
     public int EnergyCost => energyCost;
 
     public int FaithCost => 0;
@@ -13,6 +14,10 @@ public class A_Limpiar : MonoBehaviour, IAccionesEnergia
 
     public int ReputationPeopleCost => 0;
 
+    public void SetDay(int day)
+    {
+        throw new System.NotImplementedException();
+    }
     public void CancelAction()
     {
         throw new System.NotImplementedException();

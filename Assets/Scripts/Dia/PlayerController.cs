@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private PlayerStatus playerStatus;
     [SerializeField] private PlayerConversant playerConversant;
     private DialogNode dialogNode;
+    private DialogNode currentChoices;
+
 
 
     public PlayerStatus PlayerStatus { get => playerStatus; set => playerStatus = value; }
@@ -15,6 +17,12 @@ public class PlayerController : MonoBehaviour
     {
         dialogNode = node;
     }
+    public void SetCurrentChoices(DialogNode choices)
+    {
+        Debug.Log("SetCurrentChoices invoked in PlayerController.");
+        currentChoices = choices;
+    }
+
     public void ChangeStatesPlayer(DialogNode dialogNode)
     {
         

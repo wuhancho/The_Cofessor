@@ -24,16 +24,17 @@ public class F_tarde : MonoBehaviour, IFases
     private void Awake()
     {
         dia = GetComponentInParent<Dia>();
-        penitentController = GetComponentInParent<PenitentController>();
         RefrescarAcciones();
-        //Initialize(dia.GetComponent<PlayerController>());
         foreach (var accion in acciones)
         {
-            //accion.InitializePlayer(playerController);
-            A_confecciones accionType = (A_confecciones)accion;
-            accionType.SetDay(dia.GetNumberDay());
-            
-            //accionType.InitializePlayer(playerController);
+            accion.Initialize(playerController);
+
+            accion.SetDay(dia.GetNumberDay());
+            if (accion is A_confecciones accionType)
+            {
+                Debug.Log("Inicializando A_confecciones en F_tarde");
+                accionType.Initialize(playerController, penitentController);
+            }
         }
 
     }
@@ -54,16 +55,9 @@ public class F_tarde : MonoBehaviour, IFases
 
     public void Initialize(PlayerController pController, PenitentController ptController)
     {
-        playerController = pController;
-        penitentController = ptController;
-        foreach (var accion in acciones)
-        {
-            accion.Initialize(playerController);
-            if (accion is A_confecciones accionType)
-            {
-                accionType.Initialize(playerController,penitentController);
-            }
-        }
+        //Debug.Log($"Inicializando F_tarde con las variables {pController.name}  {ptController.name}");
+        this.playerController = pController;
+        this.penitentController = ptController;
     }
     
 }

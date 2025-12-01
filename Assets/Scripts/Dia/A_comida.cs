@@ -3,6 +3,13 @@ using UnityEngine;
 public class A_comida : MonoBehaviour, IAcciones
 {
     [SerializeField] private float cuantityFood;
+    private int day;
+
+    public void SetDay(int day)
+    {
+        throw new System.NotImplementedException();
+    }
+
     public void CancelAction()
     {
         throw new System.NotImplementedException();

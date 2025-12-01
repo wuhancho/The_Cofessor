@@ -4,8 +4,8 @@ public class Dia: MonoBehaviour
 {
     [SerializeField] int numberDay;
     private IFases[] faseActual;
-    [SerializeField] private PlayerController playerController;
-    [SerializeField] private PenitentController penitentController;
+    private PlayerController playerController;
+    private PenitentController penitentController;
 
     public void Awake()
     {

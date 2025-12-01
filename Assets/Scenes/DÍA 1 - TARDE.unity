@@ -5173,8 +5173,8 @@ Transform:
   m_Children:
   - {fileID: 7077701841565857972}
   - {fileID: 59660401362350188}
-  - {fileID: 69040116}
   - {fileID: 6900342638222944309}
+  - {fileID: 69040116}
   m_Father: {fileID: 283035577}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &847696591
@@ -12094,9 +12094,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2625622175506823532, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+    - {fileID: 7147368398242222625, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8579153791372699782, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      insertIndex: 2
+      insertIndex: 1
       addedObject: {fileID: 2034994203}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
@@ -12194,6 +12195,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 803326510}
     m_Modifications:
+    - target: {fileID: 198634516730350321, guid: 2ed89a007b5d7f0408346f5379f2fe98, type: 3}
+      propertyPath: penitentText
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 198634516730350321, guid: 2ed89a007b5d7f0408346f5379f2fe98, type: 3}
       propertyPath: sPenitents.Array.size
       value: 2

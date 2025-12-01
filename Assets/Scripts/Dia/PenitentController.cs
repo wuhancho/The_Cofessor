@@ -1,11 +1,15 @@
 ﻿using System;
+using TMPro;
 using UnityEngine;
 public class PenitentController : MonoBehaviour
 {
     [SerializeField] private SPenitent[] sPenitents;
     [SerializeField] private GameObject EntracePenitent;
-
-
+    [SerializeField] private TextMeshProUGUI penitentText;
+    private void Awake()
+    {
+        penitentText = EntracePenitent.GetComponentInChildren<TextMeshProUGUI>();
+    }
     public SPenitent GetSPenitent(string id)
     {
         foreach (SPenitent sPenitent in sPenitents)
@@ -30,4 +34,20 @@ public class PenitentController : MonoBehaviour
         SPenitent sPenitent = GetSPenitent(id);
         return sPenitent.GetTexture2Ds();
     }
+    public GameObject GetEntracePenitent()
+    {
+        return EntracePenitent;
+    }
+    public void UpdatePenitentText(string newText)
+    {
+        if (penitentText != null)
+        {
+            penitentText.text = newText;
+        }
+        else
+        {
+            Debug.LogWarning("Penitent TextMeshProUGUI reference is not set.");
+        }
+    }
+
 }
