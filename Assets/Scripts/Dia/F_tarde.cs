@@ -29,12 +29,13 @@ public class F_tarde : MonoBehaviour, IFases
         {
             accion.Initialize(playerController);
 
-            accion.SetDay(dia.GetNumberDay());
             if (accion is A_confecciones accionType)
             {
                 Debug.Log("Inicializando A_confecciones en F_tarde");
                 accionType.Initialize(playerController, penitentController);
+                //accion.SetDay(dia.GetNumberDay());
             }
+            accion.SetDay(dia.GetNumberDay());
         }
 
     }
@@ -59,5 +60,5 @@ public class F_tarde : MonoBehaviour, IFases
         this.playerController = pController;
         this.penitentController = ptController;
     }
-    
+
 }

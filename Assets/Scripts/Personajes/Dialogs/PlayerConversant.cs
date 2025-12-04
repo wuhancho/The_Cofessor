@@ -117,15 +117,16 @@ namespace The_cofessor.Personajes.Dialogs
                 int randomIndex = UnityEngine.Random.Range(0, aiChildren.Length);
                 currentNode = aiChildren[randomIndex];
                 OnConversationUpdated?.Invoke();
-            }
-            else
-            {
-                // Si no hay hijos de ningún tipo, es el final de la rama
-                Debug.Log($"Reached the end of the dialogue, The value of isTheLast: {isTheLastNode}");
-                isTheLastNode.Invoke(true);
-              
-                // Opcional: podrías llamar a Quit() aquí si quieres que el diálogo termine automáticamente.
-                // Quit();
+                if (HasNext())
+                {
+                    //Debug.Log($"Reached the end of the dialogue, The value of isTheLast: {isTheLastNode}");
+                    isTheLastNode.Invoke(false);
+                }
+                else
+                {
+                    //Debug.Log($"Reached the end of the dialogue, The value of isTheLast: {isTheLastNode}");
+                    isTheLastNode.Invoke(true);
+                }
             }
         }
         public bool HasNext()

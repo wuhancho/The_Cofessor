@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 public class PenitentController : MonoBehaviour
@@ -20,6 +21,20 @@ public class PenitentController : MonoBehaviour
             }
         }
         throw new Exception("SPenitent with id " + id + " not found.");
+    }
+    public SPenitent[] GetSPenitents(int day)
+    {
+        List<SPenitent> matchedPenitents = new List<SPenitent>();
+
+        foreach (SPenitent sPenitent in sPenitents)
+        {
+            if (sPenitent.Day == day)
+            {
+                Debug.Log("consigo los penitent del dia");
+                matchedPenitents.Add(sPenitent);
+            }
+        }
+        return matchedPenitents.ToArray();
     }
     public SPenitent[] GetAllPenitents()
     {

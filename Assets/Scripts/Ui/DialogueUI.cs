@@ -8,6 +8,7 @@ using UnityEngine.Events;
 public class DialogueUI : MonoBehaviour
 {
     PlayerConversant playerConversant;
+    [SerializeField] Image speakerImage;
     [SerializeField] TextMeshProUGUI AIText;
     [SerializeField] Button nextButton;
     [SerializeField] GameObject CurrentSpeaker;

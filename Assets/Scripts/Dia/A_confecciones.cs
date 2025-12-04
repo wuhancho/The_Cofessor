@@ -6,7 +6,8 @@ public class A_confecciones : MonoBehaviour, IAcciones
     [SerializeField] private PenitentController penitentController;
     [SerializeField] private int day;
     [SerializeField] private PlayerController playerController;
-    
+    private SPenitent[] todayPenitents;
+    private int todayPenintentIndex = 0;
 
     private void Start()
     {
@@ -16,9 +17,9 @@ public class A_confecciones : MonoBehaviour, IAcciones
     {
         this.playerController = playerController;
     }
-    public void Initialize(PlayerController playerController,PenitentController penitentController)
+    public void Initialize(PlayerController playerController, PenitentController penitentController)
     {
-        Debug.Log("A_confecciones - Initialize invoked.");
+        //Debug.Log("A_confecciones - Initialize invoked.");
         this.playerController = playerController;
         this.penitentController = penitentController;
     }
@@ -34,46 +35,71 @@ public class A_confecciones : MonoBehaviour, IAcciones
     }
     private Dialog TrueDialogueUpdate()
     {
-        foreach (SPenitent sPenitent in penitentController.GetAllPenitents())
-        {
-            if (sPenitent == null) continue;
-            //if (sPenitent.Day == day) continue;
-
-            foreach (Dialog dialo in sPenitent.Dialogs)
-            {
-                if (dialo == null) continue;
-                if (dialo.IsTrueDialogue)
-                {
-                    playerController.PlayerConversant.CurrentSpeakerNPC = sPenitent.CharacterName;
-                    return dialo;
-                }
-            }
-            break;
-        }
-        return null;
+        //foreach (SPenitent sPenitent in penitentController.GetAllPenitents())
+        //{
+        //    if (sPenitent == null) continue;
+        //    if (sPenitent.Day != day) continue;
+        //    if (sPenitent != currentPenitent) continue;
+        //    foreach (Dialog dialo in sPenitent.Dialogs)
+        //    {
+        //        if (dialo == null) continue;
+        //        if (dialo.IsTrueDialogue)
+        //        {
+        //            playerController.PlayerConversant.CurrentSpeakerNPC = sPenitent.CharacterName;
+        //            return dialo;
+        //        }
+        //    }
+        //    break;
+        //}
+        return GetDialogue(true);
     }
+
     private Dialog FalseDialogueUpdate()
     {
-        foreach (SPenitent sPenitent in penitentController.GetAllPenitents())
+        //foreach (SPenitent sPenitent in penitentController.GetAllPenitents())
+        //{
+        //    //Debug.Log("Revisando penitente...");
+        //    if (sPenitent == null) continue;
+        //    if (sPenitent.Day != day) continue;
+        //    //Debug.Log($"El penitente encontrado es {sPenitent.CharacterName}");
+        //    foreach (Dialog dialo in sPenitent.Dialogs)
+        //    {
+        //        //Debug.Log("Revisando diálogo falso...");
+        //        if (dialo == null) continue;
+        //        //Debug.Log($"El dialogo encotrado es {dialo.name}");
+        //        if (!dialo.IsTrueDialogue)
+        //        {
+        //            playerController.PlayerConversant.CurrentSpeakerNPC = sPenitent.CharacterName;
+        //            return dialo;
+        //        }
+        //    }
+        //    break;
+        //}
+        //return null;
+
+        return GetDialogue(false);
+    }
+
+    private Dialog GetDialogue(bool isTrueDialogue)
+    {
+        SPenitent penitent = todayPenitents[todayPenintentIndex];
+        if (penitent != null)
         {
-            //Debug.Log("Revisando penitente...");
-            if (sPenitent == null) continue;
-            //Debug.Log($"El penitente encontrado es {sPenitent.CharacterName}");
-            foreach (Dialog dialo in sPenitent.Dialogs)
+            foreach (Dialog dialo in penitent.Dialogs)
             {
-                //Debug.Log("Revisando diálogo falso...");
                 if (dialo == null) continue;
-                //Debug.Log($"El dialogo encotrado es {dialo.name}");
-                if (!dialo.IsTrueDialogue)
+                if (dialo.IsTrueDialogue == isTrueDialogue)
                 {
-                    playerController.PlayerConversant.CurrentSpeakerNPC = sPenitent.CharacterName;
+                    playerController.PlayerConversant.CurrentSpeakerNPC = penitent.CharacterName;
                     return dialo;
                 }
             }
-            break;
         }
+
         return null;
     }
+
+
     public void EjecutarAccion(PlayerController playerController)
     {
         if (playerController.PlayerStatus.RepPueblo >= 8)
@@ -85,6 +111,7 @@ public class A_confecciones : MonoBehaviour, IAcciones
                 return;
             }
             Debug.Log($"a playerController le doy el diálogo {dialog.name}");
+
             playerController.PlayerConversant.GetTestDialogue(dialog);
         }
         else
@@ -95,7 +122,7 @@ public class A_confecciones : MonoBehaviour, IAcciones
                 Debug.LogWarning($"[A_confecciones] No se encontró diálogo falso para el día {day}.");
                 return;
             }
-            
+
             playerController.PlayerConversant.GetTestDialogue(dialog);
         }
 
@@ -104,20 +131,33 @@ public class A_confecciones : MonoBehaviour, IAcciones
 
     public void TriggerAction()
     {
-       Debug.Log("TriggerAction en A_confecciones");
+        //Debug.Log("TriggerAction en A_confecciones");
+        EjecutarAccion(playerController);
     }
 
 
     public void SetDay(int day)
     {
         this.day = day;
+        Debug.Log($"A_confecciones - SetDay invoked. Day set to: {day}");
+        todayPenitents = penitentController.GetSPenitents(day);
+        todayPenintentIndex = 0;
     }
 
     public void IsConfession(bool isLast)
     {
+        //Debug.Log($"IsConfession invoked with isLast = {isLast}");
         if (isLast == true)
         {
-            TriggerAction();
+            todayPenintentIndex++;
+            if (todayPenintentIndex < todayPenitents.Length)
+            {
+                TriggerAction();
+            }
+            else
+            {
+                //pasar a lo siguiente;
+            }
         }
     }
 
