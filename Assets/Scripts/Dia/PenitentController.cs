@@ -47,7 +47,7 @@ public class PenitentController : MonoBehaviour
     public Texture2D[] GetPenitentImagesById(string id)
     {
         SPenitent sPenitent = GetSPenitent(id);
-        return sPenitent.GetTexture2Ds();
+        return sPenitent.GetTextures2D();
     }
     public GameObject GetEntracePenitent()
     {

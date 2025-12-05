@@ -4,6 +4,7 @@ using TMPro;
 using UnityEngine.UI;
 using Unity.VisualScripting;
 using UnityEngine.Events;
+using System;
 
 public class DialogueUI : MonoBehaviour
 {
@@ -37,6 +38,7 @@ public class DialogueUI : MonoBehaviour
         if (currentLines != null && currentLineIndex < currentLines.Length - 1)
         {
             currentLineIndex++;
+            BuildImageAI();
             BuildTextAI();
         }
         else
@@ -69,10 +71,18 @@ public class DialogueUI : MonoBehaviour
                 currentLines = currentNodeText.Split("/n");
                 currentLineIndex = 0;
             }
+            BuildImageAI();
             BuildTextAI();
         }
 
     }
+
+    private void BuildImageAI()
+    {
+        speakerImage.sprite = Sprite.Create(playerConversant.IconNPC, new Rect(0, 0, playerConversant.IconNPC.width, playerConversant.IconNPC.height), new Vector2(0.5f, 0.5f));
+        Debug.Log($"DialogueUI - Building speaker image. the name at the image is {speakerImage.sprite.name}");
+    }
+
     private void BuildTextAI()
     {
         //foreach (string line in playerConversant.GetText().Split("/n"))

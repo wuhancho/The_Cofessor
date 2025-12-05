@@ -1,13 +1,18 @@
+using System;
 using The_cofessor.Personajes.Dialogs;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class A_confecciones : MonoBehaviour, IAcciones
 {
-    [SerializeField] private PenitentController penitentController;
     [SerializeField] private int day;
+    [SerializeField] private PenitentController penitentController;
     [SerializeField] private PlayerController playerController;
+
+
     private SPenitent[] todayPenitents;
     private int todayPenintentIndex = 0;
+    [SerializeField] private Texture2D[] penitentImages;
 
     private void Start()
     {
@@ -76,7 +81,6 @@ public class A_confecciones : MonoBehaviour, IAcciones
         //    break;
         //}
         //return null;
-
         return GetDialogue(false);
     }
 
@@ -90,6 +94,7 @@ public class A_confecciones : MonoBehaviour, IAcciones
                 if (dialo == null) continue;
                 if (dialo.IsTrueDialogue == isTrueDialogue)
                 {
+                    UpdatePenitentImage(penitent);
                     playerController.PlayerConversant.CurrentSpeakerNPC = penitent.CharacterName;
                     return dialo;
                 }
@@ -98,7 +103,15 @@ public class A_confecciones : MonoBehaviour, IAcciones
 
         return null;
     }
-
+    
+    private void UpdatePenitentImage(SPenitent penitent)
+    {
+        penitentImages = penitent.GetTextures2D();
+        if (penitentImages != null && penitentImages.Length > 0)
+        {
+            playerController.PlayerConversant.SetIconNPC(penitentImages[0]);
+        }
+    }
 
     public void EjecutarAccion(PlayerController playerController)
     {

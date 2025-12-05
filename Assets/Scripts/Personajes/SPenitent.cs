@@ -20,7 +20,7 @@ public class SPenitent: ScriptableObject
     public int Day { get => day; set => day = value; }
     public string Id { get => id; set => id = value; }
     
-    public Texture2D[] GetTexture2Ds()
+    public Texture2D[] GetTextures2D()
     {
         return characterImage;
     }

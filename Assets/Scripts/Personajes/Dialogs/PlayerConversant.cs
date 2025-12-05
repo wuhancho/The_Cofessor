@@ -15,13 +15,20 @@ namespace The_cofessor.Personajes.Dialogs
         Dialog currentDialog;
         DialogNode currentNode = null;
         bool isChoosing = false;
+        [SerializeField] private Texture2D iconNPC;
+
         [SerializeField] public UnityEvent<DialogNode> onOptionSelect;
         [SerializeField] public UnityEvent<bool> isTheLastNode;
 
         public string CurrentSpeakerNPC { get => currentSpeakerNPC; set => currentSpeakerNPC = value; }
+        public Texture2D IconNPC { get => iconNPC; }
 
         public event Action OnConversationUpdated;
 
+        public void SetIconNPC(Texture2D newIcon)
+        {
+            iconNPC = newIcon;
+        }
 
         private IEnumerator Start()
         {
