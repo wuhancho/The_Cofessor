@@ -22,7 +22,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 2735.915
-    y: 236.97878
+    y: 234.47878
     width: 300
     height: 200
   faithCost: 0
@@ -416,7 +416,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 2387.7874
-    y: 423.46808
+    y: 421.46808
     width: 300
     height: 200
   faithCost: 1

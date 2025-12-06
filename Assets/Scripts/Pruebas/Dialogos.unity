@@ -289,25 +289,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   day: 1
-  penitentController: {fileID: 0}
-  playerController: {fileID: 0}
   penitentImages: []
+  entrancePenitent: {fileID: 0}
 --- !u!1 &883810212 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3998334033260357013, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
   m_PrefabInstance: {fileID: 1058869854}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &941071190 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8126339776342951011, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-  m_PrefabInstance: {fileID: 1058869854}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &956487054
 GameObject:
   m_ObjectHideFlags: 0
@@ -354,9 +342,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   includeInactiveChildren: 1
-  dia: {fileID: 0}
-  playerController: {fileID: 0}
-  penitentController: {fileID: 0}
 --- !u!1 &1052265504
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,10 +494,26 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5000810889815814366, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: speakerImage
-      value: 
-      objectReference: {fileID: 941071190}
+    - target: {fileID: 3015121599142057982, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3998334033260357013, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814343382447657872, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -189
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814343382447657872, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -48
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635177597572387579, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: displayDuration
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6879194584201136773, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -564,6 +565,22 @@ PrefabInstance:
     - target: {fileID: 7827716438751310900, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8126339776342951011, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8126339776342951011, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8126339776342951011, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8126339776342951011, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8416568664726968060, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_AnchorMax.y
@@ -811,18 +828,6 @@ PrefabInstance:
       propertyPath: EntracePenitent
       value: 
       objectReference: {fileID: 883810212}
-    - target: {fileID: 198634516730350321, guid: 2ed89a007b5d7f0408346f5379f2fe98, type: 3}
-      propertyPath: sPenitents.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 198634516730350321, guid: 2ed89a007b5d7f0408346f5379f2fe98, type: 3}
-      propertyPath: 'sPenitents.Array.data[1]'
-      value: 
-      objectReference: {fileID: 11400000, guid: 2a4e3b527a227fa49b3e088c0830b6da, type: 2}
-    - target: {fileID: 198634516730350321, guid: 2ed89a007b5d7f0408346f5379f2fe98, type: 3}
-      propertyPath: 'sPenitents.Array.data[2]'
-      value: 
-      objectReference: {fileID: 11400000, guid: 2a4e3b527a227fa49b3e088c0830b6da, type: 2}
     - target: {fileID: 520945868748214626, guid: 2ed89a007b5d7f0408346f5379f2fe98, type: 3}
       propertyPath: m_Name
       value: Penitents

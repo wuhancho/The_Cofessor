@@ -17,6 +17,10 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] Transform choicesRoot;
     [SerializeField] GameObject choicesPrefab;
     [SerializeField] Button quitButton;
+
+
+
+
     //[SerializeField] UnityEvent<DialogNode> onConversation;
 
     private string[] currentLines;
@@ -115,5 +119,10 @@ public class DialogueUI : MonoBehaviour
                 //onConversation.Invoke(choice);
             });
         }
+    }
+
+    private void BuildEntracePenitent()
+    {
+        
     }
 }

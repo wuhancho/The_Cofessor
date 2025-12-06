@@ -46,4 +46,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sPenitents:
   - {fileID: 11400000, guid: 63e1e23aa3e5d4a4b91ae46bc621b3b9, type: 2}
-  EntracePenitent: {fileID: 3597111361269436710, guid: 74fcdeb8794812d40b0df5dfe3dee0e2, type: 3}
+  - {fileID: 11400000, guid: 2a4e3b527a227fa49b3e088c0830b6da, type: 2}
+  EntracePenitent: {fileID: 0}
+  penitentText: {fileID: 0}

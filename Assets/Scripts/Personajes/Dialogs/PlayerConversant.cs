@@ -16,6 +16,7 @@ namespace The_cofessor.Personajes.Dialogs
         DialogNode currentNode = null;
         bool isChoosing = false;
         [SerializeField] private Texture2D iconNPC;
+        [SerializeField] private float testDelay = 2;
 
         [SerializeField] public UnityEvent<DialogNode> onOptionSelect;
         [SerializeField] public UnityEvent<bool> isTheLastNode;
@@ -30,20 +31,20 @@ namespace The_cofessor.Personajes.Dialogs
             iconNPC = newIcon;
         }
 
-        private IEnumerator Start()
+        private IEnumerator StartD(Dialog d)
         {
-            yield return new WaitForSeconds(0.002f);
+            yield return new WaitForSeconds(testDelay);
             StartDialogue(testDialog);
         }
         public void GetTestDialogue(Dialog newDialogue)
         {
             if (newDialogue == null) {
                 Debug.LogWarning("No test dialogue assigned.");
-                return;
             }
             Debug.Log("Starting test dialogue: " + newDialogue.name);
             testDialog = newDialogue;
-            StartDialogue(testDialog);
+            StartCoroutine(StartD(testDialog));
+            //StartDialogue(testDialog);
         }
 
         public void StartDialogue(Dialog newDialogue)

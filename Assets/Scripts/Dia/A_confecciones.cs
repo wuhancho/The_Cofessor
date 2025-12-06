@@ -6,13 +6,14 @@ using UnityEngine;
 public class A_confecciones : MonoBehaviour, IAcciones
 {
     [SerializeField] private int day;
-    [SerializeField] private PenitentController penitentController;
-    [SerializeField] private PlayerController playerController;
+    private PenitentController penitentController;
+    private PlayerController playerController;
 
 
     private SPenitent[] todayPenitents;
     private int todayPenintentIndex = 0;
     [SerializeField] private Texture2D[] penitentImages;
+    [SerializeField] EntrancePenitent entrancePenitent;
 
     private void Start()
     {
@@ -94,6 +95,8 @@ public class A_confecciones : MonoBehaviour, IAcciones
                 if (dialo == null) continue;
                 if (dialo.IsTrueDialogue == isTrueDialogue)
                 {
+                    ShowEntrancePenitent(penitent);
+                    HideEntrancePenitent();
                     UpdatePenitentImage(penitent);
                     playerController.PlayerConversant.CurrentSpeakerNPC = penitent.CharacterName;
                     return dialo;
@@ -148,6 +151,21 @@ public class A_confecciones : MonoBehaviour, IAcciones
         EjecutarAccion(playerController);
     }
 
+    private void ShowEntrancePenitent(SPenitent penitent)
+    {
+        if (entrancePenitent != null)
+        {
+            entrancePenitent.SetActive();
+            entrancePenitent.SetEntrancePenitentText(penitent.CharacterName);
+        }
+    }
+    private void HideEntrancePenitent()
+    {
+        if (entrancePenitent != null)
+        {
+            entrancePenitent.SetInactive();
+        }
+    }
 
     public void SetDay(int day)
     {

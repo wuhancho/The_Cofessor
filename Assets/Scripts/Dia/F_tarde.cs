@@ -6,9 +6,9 @@ public class F_tarde : MonoBehaviour, IFases
 {
     [SerializeField] private bool includeInactiveChildren = true;
     private IAcciones[] acciones;
-    [SerializeField] private Dia dia;
-    [SerializeField] private PlayerController playerController;
-    [SerializeField] private PenitentController penitentController;
+    private Dia dia;
+    private PlayerController playerController;
+    private PenitentController penitentController;
 
     //private void OnBeforeSerialize()
     //{
