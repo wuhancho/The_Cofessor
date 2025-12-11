@@ -13,11 +13,12 @@ public class A_confecciones : MonoBehaviour, IAcciones
     private SPenitent[] todayPenitents;
     private int todayPenintentIndex = 0;
     [SerializeField] private Texture2D[] penitentImages;
-    [SerializeField] EntrancePenitent entrancePenitent;
+    [SerializeField] GameObject entrancePenitent;
 
     private void Start()
     {
         EjecutarAccion(playerController);
+        entrancePenitent.GetComponent<EntrancePenitent>().DisplayDuration = playerController.PlayerConversant.TestDelay;
     }
     public void Initialize(PlayerController playerController)
     {
@@ -95,9 +96,9 @@ public class A_confecciones : MonoBehaviour, IAcciones
                 if (dialo == null) continue;
                 if (dialo.IsTrueDialogue == isTrueDialogue)
                 {
+                    //UpdatePenitentImage(penitent);
                     ShowEntrancePenitent(penitent);
                     HideEntrancePenitent();
-                    UpdatePenitentImage(penitent);
                     playerController.PlayerConversant.CurrentSpeakerNPC = penitent.CharacterName;
                     return dialo;
                 }
@@ -118,8 +119,11 @@ public class A_confecciones : MonoBehaviour, IAcciones
 
     public void EjecutarAccion(PlayerController playerController)
     {
+        entrancePenitent.GetComponent<EntrancePenitent>().StopAnimation();
         if (playerController.PlayerStatus.RepPueblo >= 8)
         {
+            UpdatePenitentImage(todayPenitents[todayPenintentIndex]);
+            entrancePenitent.GetComponent<EntrancePenitent>().PlayEntranceAnimation();
             Dialog dialog = TrueDialogueUpdate();
             if (dialog == null)
             {
@@ -127,18 +131,18 @@ public class A_confecciones : MonoBehaviour, IAcciones
                 return;
             }
             Debug.Log($"a playerController le doy el diálogo {dialog.name}");
-
             playerController.PlayerConversant.GetTestDialogue(dialog);
         }
         else
         {
+            UpdatePenitentImage(todayPenitents[todayPenintentIndex]);
+            entrancePenitent.GetComponent<EntrancePenitent>().PlayEntranceAnimation();
             Dialog dialog = FalseDialogueUpdate();
             if (dialog == null)
             {
                 Debug.LogWarning($"[A_confecciones] No se encontró diálogo falso para el día {day}.");
                 return;
             }
-
             playerController.PlayerConversant.GetTestDialogue(dialog);
         }
 
@@ -155,15 +159,15 @@ public class A_confecciones : MonoBehaviour, IAcciones
     {
         if (entrancePenitent != null)
         {
-            entrancePenitent.SetActive();
-            entrancePenitent.SetEntrancePenitentText(penitent.CharacterName);
+            
+            //entrancePenitent.GetComponent<EntrancePenitent>().
         }
     }
     private void HideEntrancePenitent()
     {
         if (entrancePenitent != null)
         {
-            entrancePenitent.SetInactive();
+            //entrancePenitent.GetComponent<EntrancePenitent>().StopAnimation();
         }
     }
 
@@ -180,6 +184,7 @@ public class A_confecciones : MonoBehaviour, IAcciones
         //Debug.Log($"IsConfession invoked with isLast = {isLast}");
         if (isLast == true)
         {
+            entrancePenitent.GetComponent<EntrancePenitent>().PlayExitAnimation();
             todayPenintentIndex++;
             if (todayPenintentIndex < todayPenitents.Length)
             {

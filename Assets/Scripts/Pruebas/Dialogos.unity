@@ -290,7 +290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   day: 1
   penitentImages: []
-  entrancePenitent: {fileID: 0}
+  entrancePenitent: {fileID: 883810212}
 --- !u!1 &883810212 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3998334033260357013, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
@@ -353,6 +353,7 @@ GameObject:
   - component: {fileID: 1052265507}
   - component: {fileID: 1052265506}
   - component: {fileID: 1052265505}
+  - component: {fileID: 1052265508}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -434,6 +435,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1052265508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052265504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1001 &1058869854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -494,25 +539,9 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3015121599142057982, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3998334033260357013, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4814343382447657872, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -189
-      objectReference: {fileID: 0}
-    - target: {fileID: 4814343382447657872, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -48
-      objectReference: {fileID: 0}
     - target: {fileID: 6635177597572387579, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: displayDuration
-      value: 1.5
+      propertyPath: entrancePenitentText
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6879194584201136773, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_AnchorMax.y
@@ -565,22 +594,6 @@ PrefabInstance:
     - target: {fileID: 7827716438751310900, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8126339776342951011, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8126339776342951011, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8126339776342951011, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8126339776342951011, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_Color.r
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8416568664726968060, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_AnchorMax.y

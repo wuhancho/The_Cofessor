@@ -10833,7 +10833,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6916035696378692922, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7794461712165519368, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_Name
@@ -10877,7 +10877,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8126339776342951011, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8416568664726968060, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_AnchorMax.y

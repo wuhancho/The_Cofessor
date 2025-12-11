@@ -21,6 +21,7 @@ namespace The_cofessor.Personajes.Dialogs
         [SerializeField] public UnityEvent<DialogNode> onOptionSelect;
         [SerializeField] public UnityEvent<bool> isTheLastNode;
 
+        public float TestDelay { get => testDelay; set => testDelay = value; }
         public string CurrentSpeakerNPC { get => currentSpeakerNPC; set => currentSpeakerNPC = value; }
         public Texture2D IconNPC { get => iconNPC; }
 
@@ -33,6 +34,7 @@ namespace The_cofessor.Personajes.Dialogs
 
         private IEnumerator StartD(Dialog d)
         {
+
             yield return new WaitForSeconds(testDelay);
             StartDialogue(testDialog);
         }
