@@ -7,37 +7,31 @@ public class EntrancePenitent : MonoBehaviour
 
 
 
+
     public float DisplayDuration { get => displayDuration; set => displayDuration = value; }
     private void Start()
     {
-        StopAnimation();
+        //StopAnimation();
     }
-    public void PlayEntranceAnimation()
+
+    public void PlayEntranceAnimation(bool isChangeEntrance)
     {
-        entranceAnimation.enabled = true;
-        if (entranceAnimation != null)
+        //entranceAnimation.enabled = true;
+        if (isChangeEntrance == true)
         {
-            entranceAnimation.SetTrigger("changeEntrance");
-        }
-        else
-        {
-            Debug.LogWarning("Entrance animation reference is not set.");
+            entranceAnimation.SetBool("changeEntrance", isChangeEntrance);
         }
     }
-    public void PlayExitAnimation()
+    public void PlayExitAnimation(bool isChangeEntrance)
     {
-        entranceAnimation.enabled = true;
-        if (entranceAnimation != null)
+        if (isChangeEntrance == false)
         {
-            entranceAnimation.SetTrigger("changeEntrance");
+            entranceAnimation.SetBool("changeEntrance", isChangeEntrance);
         }
-        else
-        {
-            Debug.LogWarning("Exit animation reference is not set.");
-        }
+        //entranceAnimation.enabled = true;
     }
     public void StopAnimation()
     {
-        entranceAnimation.enabled = false;
+        entranceAnimation.StopPlayback();
     }
 }

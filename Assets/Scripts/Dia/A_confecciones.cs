@@ -97,7 +97,7 @@ public class A_confecciones : MonoBehaviour, IAcciones
                 if (dialo.IsTrueDialogue == isTrueDialogue)
                 {
                     //UpdatePenitentImage(penitent);
-                    ShowEntrancePenitent(penitent);
+                    ShowEntrancePenitent();
                     HideEntrancePenitent();
                     playerController.PlayerConversant.CurrentSpeakerNPC = penitent.CharacterName;
                     return dialo;
@@ -119,11 +119,11 @@ public class A_confecciones : MonoBehaviour, IAcciones
 
     public void EjecutarAccion(PlayerController playerController)
     {
-        entrancePenitent.GetComponent<EntrancePenitent>().StopAnimation();
+        //entrancePenitent.GetComponent<EntrancePenitent>().StopAnimation();
         if (playerController.PlayerStatus.RepPueblo >= 8)
         {
             UpdatePenitentImage(todayPenitents[todayPenintentIndex]);
-            entrancePenitent.GetComponent<EntrancePenitent>().PlayEntranceAnimation();
+            //entrancePenitent.GetComponent<EntrancePenitent>().PlayEntranceAnimation();
             Dialog dialog = TrueDialogueUpdate();
             if (dialog == null)
             {
@@ -136,7 +136,7 @@ public class A_confecciones : MonoBehaviour, IAcciones
         else
         {
             UpdatePenitentImage(todayPenitents[todayPenintentIndex]);
-            entrancePenitent.GetComponent<EntrancePenitent>().PlayEntranceAnimation();
+            //entrancePenitent.GetComponent<EntrancePenitent>().PlayEntranceAnimation();
             Dialog dialog = FalseDialogueUpdate();
             if (dialog == null)
             {
@@ -155,18 +155,19 @@ public class A_confecciones : MonoBehaviour, IAcciones
         EjecutarAccion(playerController);
     }
 
-    private void ShowEntrancePenitent(SPenitent penitent)
+    private void ShowEntrancePenitent()
     {
+
         if (entrancePenitent != null)
         {
-            
-            //entrancePenitent.GetComponent<EntrancePenitent>().
+            entrancePenitent.GetComponent<EntrancePenitent>().PlayEntranceAnimation(true);
         }
     }
     private void HideEntrancePenitent()
     {
         if (entrancePenitent != null)
         {
+            playerController.PlayerConversant.isTheLastNode.AddListener(IsConfession);
             //entrancePenitent.GetComponent<EntrancePenitent>().StopAnimation();
         }
     }
@@ -184,10 +185,11 @@ public class A_confecciones : MonoBehaviour, IAcciones
         //Debug.Log($"IsConfession invoked with isLast = {isLast}");
         if (isLast == true)
         {
-            entrancePenitent.GetComponent<EntrancePenitent>().PlayExitAnimation();
+            entrancePenitent.GetComponent<EntrancePenitent>().PlayExitAnimation(false);
             todayPenintentIndex++;
             if (todayPenintentIndex < todayPenitents.Length)
             {
+                //entrancePenitent.GetComponent<EntrancePenitent>().PlayEntranceAnimation();
                 TriggerAction();
             }
             else
@@ -196,6 +198,7 @@ public class A_confecciones : MonoBehaviour, IAcciones
             }
         }
     }
+
 
 
 
