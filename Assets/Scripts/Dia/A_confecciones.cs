@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using The_cofessor.Personajes.Dialogs;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -14,11 +15,13 @@ public class A_confecciones : MonoBehaviour, IAcciones
     private int todayPenintentIndex = 0;
     [SerializeField] private Texture2D[] penitentImages;
     [SerializeField] GameObject entrancePenitent;
+    private Action vara;
 
     private void Start()
     {
         EjecutarAccion(playerController);
         entrancePenitent.GetComponent<EntrancePenitent>().DisplayDuration = playerController.PlayerConversant.TestDelay;
+        
     }
     public void Initialize(PlayerController playerController)
     {
@@ -97,8 +100,8 @@ public class A_confecciones : MonoBehaviour, IAcciones
                 if (dialo.IsTrueDialogue == isTrueDialogue)
                 {
                     //UpdatePenitentImage(penitent);
-                    ShowEntrancePenitent();
-                    HideEntrancePenitent();
+                    ShowEntrancePenitent(true);
+                    //playerController.PlayerConversant.isTheLastNode.AddListener(HideEntrancePenitent);
                     playerController.PlayerConversant.CurrentSpeakerNPC = penitent.CharacterName;
                     return dialo;
                 }
@@ -122,7 +125,6 @@ public class A_confecciones : MonoBehaviour, IAcciones
         //entrancePenitent.GetComponent<EntrancePenitent>().StopAnimation();
         if (playerController.PlayerStatus.RepPueblo >= 8)
         {
-            UpdatePenitentImage(todayPenitents[todayPenintentIndex]);
             //entrancePenitent.GetComponent<EntrancePenitent>().PlayEntranceAnimation();
             Dialog dialog = TrueDialogueUpdate();
             if (dialog == null)
@@ -131,11 +133,11 @@ public class A_confecciones : MonoBehaviour, IAcciones
                 return;
             }
             Debug.Log($"a playerController le doy el diálogo {dialog.name}");
+            UpdatePenitentImage(todayPenitents[todayPenintentIndex]);
             playerController.PlayerConversant.GetTestDialogue(dialog);
         }
         else
         {
-            UpdatePenitentImage(todayPenitents[todayPenintentIndex]);
             //entrancePenitent.GetComponent<EntrancePenitent>().PlayEntranceAnimation();
             Dialog dialog = FalseDialogueUpdate();
             if (dialog == null)
@@ -143,6 +145,7 @@ public class A_confecciones : MonoBehaviour, IAcciones
                 Debug.LogWarning($"[A_confecciones] No se encontró diálogo falso para el día {day}.");
                 return;
             }
+            UpdatePenitentImage(todayPenitents[todayPenintentIndex]);
             playerController.PlayerConversant.GetTestDialogue(dialog);
         }
 
@@ -155,19 +158,28 @@ public class A_confecciones : MonoBehaviour, IAcciones
         EjecutarAccion(playerController);
     }
 
-    private void ShowEntrancePenitent()
+    public IEnumerator ShowEntrancePenitent(bool isChange)
     {
 
         if (entrancePenitent != null)
         {
-            entrancePenitent.GetComponent<EntrancePenitent>().PlayEntranceAnimation(true);
+            if(isChange == true)
+            {
+                yield return new WaitForSeconds(entrancePenitent.GetComponent<EntrancePenitent>().DisplayDuration);
+                entrancePenitent.GetComponent<EntrancePenitent>().PlayEntranceAnimation(isChange);
+            }
+            
         }
     }
-    private void HideEntrancePenitent()
+    public IEnumerator HideEntrancePenitent(bool isChange)
     {
         if (entrancePenitent != null)
         {
-            playerController.PlayerConversant.isTheLastNode.AddListener(IsConfession);
+            if (isChange == false)
+            {
+                yield return new WaitForSeconds(entrancePenitent.GetComponent<EntrancePenitent>().DisplayDuration);
+                entrancePenitent.GetComponent<EntrancePenitent>().PlayExitAnimation(isChange);
+            }
             //entrancePenitent.GetComponent<EntrancePenitent>().StopAnimation();
         }
     }
@@ -185,7 +197,8 @@ public class A_confecciones : MonoBehaviour, IAcciones
         //Debug.Log($"IsConfession invoked with isLast = {isLast}");
         if (isLast == true)
         {
-            entrancePenitent.GetComponent<EntrancePenitent>().PlayExitAnimation(false);
+            //playerController.PlayerConversant.isTheLastNode.AddListener(HideEntrancePenitent);
+            //entrancePenitent.GetComponent<EntrancePenitent>().PlayExitAnimation(false);
             todayPenintentIndex++;
             if (todayPenintentIndex < todayPenitents.Length)
             {

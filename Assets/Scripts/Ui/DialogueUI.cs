@@ -18,7 +18,7 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] GameObject choicesPrefab;
     [SerializeField] Button quitButton;
 
-    //[SerializeField] UnityEvent<DialogNode> onConversation;
+    [SerializeField] UnityEvent onConversation;
 
     private string[] currentLines;
     private int currentLineIndex;
@@ -72,6 +72,7 @@ public class DialogueUI : MonoBehaviour
                 currentLines = currentNodeText.Split("/n");
                 currentLineIndex = 0;
             }
+
             BuildImageAI();
             BuildTextAI();
         }
@@ -81,7 +82,7 @@ public class DialogueUI : MonoBehaviour
     private void BuildImageAI()
     {
         speakerImage.sprite = Sprite.Create(playerConversant.IconNPC, new Rect(0, 0, playerConversant.IconNPC.width, playerConversant.IconNPC.height), new Vector2(0.5f, 0.5f));
-        Debug.Log($"DialogueUI - Building speaker image. the name at the image is {speakerImage.sprite.name}");
+        //Debug.Log($"DialogueUI - Building speaker image. the name at the image is {speakerImage.sprite.name}");
     }
 
     private void BuildTextAI()
