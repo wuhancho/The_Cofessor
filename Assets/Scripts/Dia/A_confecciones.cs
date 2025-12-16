@@ -101,7 +101,6 @@ public class A_confecciones : MonoBehaviour, IAcciones
                 {
                     //UpdatePenitentImage(penitent);
                     ShowEntrancePenitent(true);
-                    //playerController.PlayerConversant.isTheLastNode.AddListener(HideEntrancePenitent);
                     playerController.PlayerConversant.CurrentSpeakerNPC = penitent.CharacterName;
                     return dialo;
                 }
@@ -171,7 +170,12 @@ public class A_confecciones : MonoBehaviour, IAcciones
             
         }
     }
-    public IEnumerator HideEntrancePenitent(bool isChange)
+    public void PlayExitAnim(bool isChange)
+    {
+        if(isChange == true)
+            StartCoroutine(ShowExitPenitent(!isChange));
+    }
+    private IEnumerator ShowExitPenitent(bool isChange)
     {
         if (entrancePenitent != null)
         {
@@ -187,7 +191,7 @@ public class A_confecciones : MonoBehaviour, IAcciones
     public void SetDay(int day)
     {
         this.day = day;
-        Debug.Log($"A_confecciones - SetDay invoked. Day set to: {day}");
+        //Debug.Log($"A_confecciones - SetDay invoked. Day set to: {day}");
         todayPenitents = penitentController.GetSPenitents(day);
         todayPenintentIndex = 0;
     }

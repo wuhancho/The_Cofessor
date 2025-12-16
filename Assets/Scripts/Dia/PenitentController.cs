@@ -30,7 +30,7 @@ public class PenitentController : MonoBehaviour
         {
             if (sPenitent.Day == day)
             {
-                Debug.Log("consigo los penitent del dia");
+                //Debug.Log("consigo los penitent del dia");
                 matchedPenitents.Add(sPenitent);
             }
         }
