@@ -253,9 +253,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 866941094}
+  - component: {fileID: 866941096}
   - component: {fileID: 866941095}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Confesiones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -285,17 +286,44 @@ MonoBehaviour:
   m_GameObject: {fileID: 866941093}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cb7927860c808d4db0476c81cb9ed78, type: 3}
+  m_Script: {fileID: 11500000, guid: bc3868f5dd8ed034588339f1d1aee68c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  day: 1
+  day: 0
   penitentImages: []
-  entrancePenitent: {fileID: 883810212}
+  entrancePenitent: {fileID: 883810213}
+--- !u!114 &866941096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866941093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94f5a2444530a2941a39b3d21965db46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  confessions: {fileID: 866941095}
+  playerConversant: {fileID: 1950968524}
+  dialogueUI: {fileID: 1807670980}
+  entrancePenitent: {fileID: 883810213}
 --- !u!1 &883810212 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3998334033260357013, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
   m_PrefabInstance: {fileID: 1058869854}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &883810213 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6635177597572387579, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+  m_PrefabInstance: {fileID: 1058869854}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883810212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b81008eaa6303f45bc3734ec13a28ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &956487054
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,7 +335,7 @@ GameObject:
   - component: {fileID: 956487055}
   - component: {fileID: 956487056}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Tarde
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -734,11 +762,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2277817564474526482, guid: a67449099053f1048b5f74e47bf99c0a, type: 3}
       propertyPath: isTheLastNode.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2277817564474526482, guid: a67449099053f1048b5f74e47bf99c0a, type: 3}
       propertyPath: isTheLastNode.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2277817564474526482, guid: a67449099053f1048b5f74e47bf99c0a, type: 3}
       propertyPath: isTheLastNode.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -758,11 +786,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2277817564474526482, guid: a67449099053f1048b5f74e47bf99c0a, type: 3}
       propertyPath: isTheLastNode.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: IsConfession
       objectReference: {fileID: 0}
     - target: {fileID: 2277817564474526482, guid: a67449099053f1048b5f74e47bf99c0a, type: 3}
       propertyPath: isTheLastNode.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayExitAnim
+      value: IsConfession
       objectReference: {fileID: 0}
     - target: {fileID: 2277817564474526482, guid: a67449099053f1048b5f74e47bf99c0a, type: 3}
       propertyPath: isTheLastNode.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
@@ -878,6 +906,28 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ed89a007b5d7f0408346f5379f2fe98, type: 3}
+--- !u!114 &1807670980 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5000810889815814366, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+  m_PrefabInstance: {fileID: 1058869854}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac6f1025431cd594d974f31340a96a55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1950968524 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2277817564474526482, guid: a67449099053f1048b5f74e47bf99c0a, type: 3}
+  m_PrefabInstance: {fileID: 1078221245}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a69efdd67a0b29242ba214bb470452f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

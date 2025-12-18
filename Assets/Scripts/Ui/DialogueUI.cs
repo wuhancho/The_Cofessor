@@ -23,6 +23,9 @@ public class DialogueUI : MonoBehaviour
     private string[] currentLines;
     private int currentLineIndex;
     private string currentNodeText;
+    private bool isBuildingText = false;
+
+    public event Action onDialogueEnd;
 
     void Start()
     {
@@ -39,12 +42,16 @@ public class DialogueUI : MonoBehaviour
         if (currentLines != null && currentLineIndex < currentLines.Length - 1)
         {
             currentLineIndex++;
-            BuildImageAI();
+            //BuildImageAI();
             BuildTextAI();
+        }
+        else if(playerConversant.HasNext())
+        {
+            playerConversant.Next();
         }
         else
         {
-            playerConversant.Next();
+            onDialogueEnd?.Invoke();
         }
     }
 
@@ -73,7 +80,7 @@ public class DialogueUI : MonoBehaviour
                 currentLineIndex = 0;
             }
 
-            BuildImageAI();
+            //BuildImageAI();
             BuildTextAI();
         }
 
@@ -83,6 +90,11 @@ public class DialogueUI : MonoBehaviour
     {
         speakerImage.sprite = Sprite.Create(playerConversant.IconNPC, new Rect(0, 0, playerConversant.IconNPC.width, playerConversant.IconNPC.height), new Vector2(0.5f, 0.5f));
         //Debug.Log($"DialogueUI - Building speaker image. the name at the image is {speakerImage.sprite.name}");
+    }
+
+    public void SetupSpeakerSprite(Sprite sprite)
+    {
+        speakerImage.sprite = sprite;
     }
 
     private void BuildTextAI()
@@ -95,11 +107,16 @@ public class DialogueUI : MonoBehaviour
 
         //nextButton.gameObject.SetActive(playerConversant.HasNext());
         if (currentLines == null || currentLines.Length == 0) return;
-
+        isBuildingText = true;
         AIText.text = currentLines[currentLineIndex];
+        
 
         bool hasMoreLines = currentLineIndex < currentLines.Length - 1;
-        nextButton.gameObject.SetActive(hasMoreLines || playerConversant.HasNext());
+        //if(!playerConversant.HasNext() && hasMoreLines)
+        //{
+        //    playerConversant.isTheLastNode.Invoke(true);
+        //}
+        //nextButton.gameObject.SetActive(hasMoreLines || playerConversant.HasNext());
     }
 
     private void BuildChoiseList()
@@ -119,5 +136,9 @@ public class DialogueUI : MonoBehaviour
         }
     }
 
-
+    public void SetDialogueBoxVisible(bool isVisible)
+    {
+        CurrentSpeaker.SetActive(isVisible);
+        AIResponces.SetActive(isVisible);
+    }
 }

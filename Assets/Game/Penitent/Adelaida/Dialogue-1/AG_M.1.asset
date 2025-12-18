@@ -214,8 +214,8 @@ MonoBehaviour:
   - 23
   rect:
     serializedVersion: 2
-    x: 2730.7236
-    y: 620.149
+    x: 2733.3997
+    y: 621.149
     width: 300
     height: 200
   faithCost: 0
@@ -242,7 +242,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 3068.7874
-    y: 429.46808
+    y: 430.46808
     width: 300
     height: 200
   faithCost: 0
@@ -268,8 +268,8 @@ MonoBehaviour:
   childrenIDs: []
   rect:
     serializedVersion: 2
-    x: 3075.7876
-    y: 42.680893
+    x: 3070.7876
+    y: 43.680893
     width: 300
     height: 200
   faithCost: 0

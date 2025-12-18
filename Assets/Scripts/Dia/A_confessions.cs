@@ -4,7 +4,7 @@ using The_cofessor.Personajes.Dialogs;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class A_confecciones : MonoBehaviour, IAcciones
+public class A_confessions : MonoBehaviour, IAcciones
 {
     [SerializeField] private int day;
     private PenitentController penitentController;
@@ -14,15 +14,16 @@ public class A_confecciones : MonoBehaviour, IAcciones
     private SPenitent[] todayPenitents;
     private int todayPenintentIndex = 0;
     [SerializeField] private Texture2D[] penitentImages;
-    [SerializeField] GameObject entrancePenitent;
+    [SerializeField] EntrancePenitent entrancePenitent;
     private Action vara;
 
-    private void Start()
-    {
-        EjecutarAccion(playerController);
-        entrancePenitent.GetComponent<EntrancePenitent>().DisplayDuration = playerController.PlayerConversant.TestDelay;
-        
-    }
+    //private void Start()
+    //{
+    //    EjecutarAccion(playerController);
+    //    entrancePenitent.DisplayDuration = playerController.PlayerConversant.TestDelay;
+
+    //}
+
     public void Initialize(PlayerController playerController)
     {
         this.playerController = playerController;
@@ -94,22 +95,22 @@ public class A_confecciones : MonoBehaviour, IAcciones
         SPenitent penitent = todayPenitents[todayPenintentIndex];
         if (penitent != null)
         {
-            foreach (Dialog dialo in penitent.Dialogs)
+            foreach (Dialog dialog in penitent.Dialogs)
             {
-                if (dialo == null) continue;
-                if (dialo.IsTrueDialogue == isTrueDialogue)
+                if (dialog == null) continue;
+                if (dialog.IsTrueDialogue == isTrueDialogue)
                 {
                     //UpdatePenitentImage(penitent);
-                    ShowEntrancePenitent(true);
+                    //ShowEntrancePenitent(true);
                     playerController.PlayerConversant.CurrentSpeakerNPC = penitent.CharacterName;
-                    return dialo;
+                    return dialog;
                 }
             }
         }
 
         return null;
     }
-    
+
     private void UpdatePenitentImage(SPenitent penitent)
     {
         penitentImages = penitent.GetTextures2D();
@@ -119,34 +120,37 @@ public class A_confecciones : MonoBehaviour, IAcciones
         }
     }
 
+    public void StartConfession()
+    {
+        EjecutarAccion(playerController);
+    }
+
     public void EjecutarAccion(PlayerController playerController)
     {
+        Dialog dialog;
         //entrancePenitent.GetComponent<EntrancePenitent>().StopAnimation();
         if (playerController.PlayerStatus.RepPueblo >= 8)
         {
             //entrancePenitent.GetComponent<EntrancePenitent>().PlayEntranceAnimation();
-            Dialog dialog = TrueDialogueUpdate();
+            dialog = TrueDialogueUpdate();
             if (dialog == null)
             {
                 Debug.LogWarning($"[A_confecciones] No se encontró diálogo verdadero para el día {day}.");
                 return;
             }
             Debug.Log($"a playerController le doy el diálogo {dialog.name}");
-            UpdatePenitentImage(todayPenitents[todayPenintentIndex]);
-            playerController.PlayerConversant.GetTestDialogue(dialog);
         }
         else
         {
             //entrancePenitent.GetComponent<EntrancePenitent>().PlayEntranceAnimation();
-            Dialog dialog = FalseDialogueUpdate();
+            dialog = FalseDialogueUpdate();
             if (dialog == null)
             {
                 Debug.LogWarning($"[A_confecciones] No se encontró diálogo falso para el día {day}.");
                 return;
             }
-            UpdatePenitentImage(todayPenitents[todayPenintentIndex]);
-            playerController.PlayerConversant.GetTestDialogue(dialog);
         }
+        playerController.PlayerConversant.GetTestDialogue(dialog);
 
         //playerController.PlayerConversant.StartDialogue(dialog);
     }
@@ -157,66 +161,82 @@ public class A_confecciones : MonoBehaviour, IAcciones
         EjecutarAccion(playerController);
     }
 
-    public IEnumerator ShowEntrancePenitent(bool isChange)
-    {
+    //public void ShowEntrancePenitent(bool isChange)
+    //{
+    //    if (entrancePenitent != null)
+    //    {
+    //        if (isChange == true)
+    //        {
+    //            //yield return new WaitForSeconds(entrancePenitent.DisplayDuration);
+    //            entrancePenitent.PlayEntranceAnimation(isChange);
+    //        }
 
-        if (entrancePenitent != null)
-        {
-            if(isChange == true)
-            {
-                yield return new WaitForSeconds(entrancePenitent.GetComponent<EntrancePenitent>().DisplayDuration);
-                entrancePenitent.GetComponent<EntrancePenitent>().PlayEntranceAnimation(isChange);
-            }
-            
-        }
-    }
-    public void PlayExitAnim(bool isChange)
-    {
-        if(isChange == true)
-            StartCoroutine(ShowExitPenitent(!isChange));
-    }
-    private IEnumerator ShowExitPenitent(bool isChange)
-    {
-        if (entrancePenitent != null)
-        {
-            if (isChange == false)
-            {
-                yield return new WaitForSeconds(entrancePenitent.GetComponent<EntrancePenitent>().DisplayDuration);
-                entrancePenitent.GetComponent<EntrancePenitent>().PlayExitAnimation(isChange);
-            }
-            //entrancePenitent.GetComponent<EntrancePenitent>().StopAnimation();
-        }
-    }
+    //    }
+    //}
+
+    //public void PlayExitAnim(bool isChange)
+    //{
+    //    if (isChange == true)
+    //        StartCoroutine(ShowExitPenitent(!isChange));
+    //}
+    //private IEnumerator ShowExitPenitent(bool isChange)
+    //{
+    //    if (entrancePenitent != null)
+    //    {
+    //        if (isChange == false)
+    //        {
+    //            yield return new WaitForSeconds(entrancePenitent.DisplayDuration);
+    //            entrancePenitent.PlayExitAnimation(isChange);
+    //        }
+    //        //entrancePenitent.GetComponent<EntrancePenitent>().StopAnimation();
+    //    }
+    //}
 
     public void SetDay(int day)
     {
         this.day = day;
-        //Debug.Log($"A_confecciones - SetDay invoked. Day set to: {day}");
+        Debug.Log($"A_confecciones - SetDay invoked. Day set to: {day}");
         todayPenitents = penitentController.GetSPenitents(day);
         todayPenintentIndex = 0;
     }
 
-    public void IsConfession(bool isLast)
+    public bool ToNextPenitent()
     {
         //Debug.Log($"IsConfession invoked with isLast = {isLast}");
-        if (isLast == true)
-        {
-            //playerController.PlayerConversant.isTheLastNode.AddListener(HideEntrancePenitent);
-            //entrancePenitent.GetComponent<EntrancePenitent>().PlayExitAnimation(false);
-            todayPenintentIndex++;
-            if (todayPenintentIndex < todayPenitents.Length)
-            {
-                //entrancePenitent.GetComponent<EntrancePenitent>().PlayEntranceAnimation();
-                TriggerAction();
-            }
-            else
-            {
-                //pasar a lo siguiente;
-            }
-        }
+
+        //playerController.PlayerConversant.isTheLastNode.AddListener(HideEntrancePenitent);
+        //entrancePenitent.GetComponent<EntrancePenitent>().PlayExitAnimation(false);
+        todayPenintentIndex++;
+        return todayPenintentIndex < todayPenitents.Length;
+        //if ()
+        //{
+        ////entrancePenitent.GetComponent<EntrancePenitent>().PlayEntranceAnimation();
+        ////TriggerAction();
+        //return true;
+        //}
+        //else
+        //{
+        //    //pasar a lo siguiente;
+        //}
     }
 
+    public void UpdatePenitent()
+    {
+        UpdatePenitentImage(todayPenitents[todayPenintentIndex]);
+    }
 
-
-
+    public Sprite GetCurrentPeninentSprite()
+    {
+        SPenitent penitent = todayPenitents[todayPenintentIndex];
+        if (penitent != null)
+        {
+            Texture2D[] textures = penitent.GetTextures2D();
+            if (textures != null && textures.Length > 0)
+            {
+                Texture2D texture = textures[0];
+                return Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(0.5f, 0.5f));
+            }
+        }
+        return null;
+    }
 }

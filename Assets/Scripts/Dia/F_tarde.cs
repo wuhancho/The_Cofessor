@@ -29,7 +29,7 @@ public class F_tarde : MonoBehaviour, IFases
         {
             accion.Initialize(playerController);
 
-            if (accion is A_confecciones accionType)
+            if (accion is A_confessions accionType)
             {
                 Debug.Log("Inicializando A_confecciones en F_tarde");
                 accionType.Initialize(playerController, penitentController);

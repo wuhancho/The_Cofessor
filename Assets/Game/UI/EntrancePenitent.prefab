@@ -89,9 +89,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b81008eaa6303f45bc3734ec13a28ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  entrancePenitentText: {fileID: 3353540970295926964}
   entranceAnimation: {fileID: 0}
-  displayDuration: 3
+  entranceDuration: 1.1
+  exitDuration: 1.1
 --- !u!1 &9184360191053453429
 GameObject:
   m_ObjectHideFlags: 0
