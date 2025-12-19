@@ -19,7 +19,7 @@ namespace The_cofessor.Personajes.Dialogs
         [SerializeField] private float testDelay = 2;
 
         [SerializeField] public UnityEvent<DialogNode> onOptionSelect;
-        [SerializeField] public UnityEvent<bool> isTheLastNode;
+        [SerializeField] public Action<bool> isTheLastNode;
 
         public float TestDelay { get => testDelay; set => testDelay = value; }
         public string CurrentSpeakerNPC { get => currentSpeakerNPC; set => currentSpeakerNPC = value; }

@@ -12,24 +12,25 @@ public class ConfessionsDialogueMediator : MonoBehaviour
 
     private void Start()
     {
-        dialogueUI.onDialogueEnd += OnDialogueEnd;
+        dialogueUI.OnDialogueEnd += OnDialogueEnd;
+        playerConversant.isTheLastNode += (bool _) => OnDialogueFinalNode();
         StartCoroutine(StartDialogue());
     }
 
     private IEnumerator StartDialogue()
     {
-        dialogueUI.SetDialogueBoxVisible(false);
+        dialogueUI.SetDialogueAllBoxVisible(false);
         Sprite sprite = confessions.GetCurrentPeninentSprite();
         dialogueUI.SetupSpeakerSprite(sprite);
         entrancePenitent.PlayEntranceAnimation();
         yield return new WaitForSeconds(entrancePenitent.EntranceDuration);
-        dialogueUI.SetDialogueBoxVisible(true);
+        dialogueUI.SetDialogueAllBoxVisible(true);
         confessions.StartConfession();
     }
 
     private void OnDialogueEnd()
     {
-        dialogueUI.SetDialogueBoxVisible(false);
+        dialogueUI.SetDialogueAllBoxVisible(false);
         bool morePenitents = confessions.ToNextPenitent();
         if (morePenitents)
         {
@@ -40,6 +41,10 @@ public class ConfessionsDialogueMediator : MonoBehaviour
             //acaba la tarde
             print("Ha acabado la tarde de confesiones.");
         }
+    }
+    private void OnDialogueFinalNode()
+    {
+        Debug.Log("Llega al nodo final de la conversación.");
     }
 
     private IEnumerator ChangePenitent()

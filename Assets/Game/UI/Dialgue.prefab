@@ -825,6 +825,9 @@ MonoBehaviour:
   choicesRoot: {fileID: 1167941079791874641}
   choicesPrefab: {fileID: 3466061749114320955, guid: b9225dd8cea54494396a0c19959a8671, type: 3}
   quitButton: {fileID: 0}
+  onConversation:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8603753379934990991
 GameObject:
   m_ObjectHideFlags: 0

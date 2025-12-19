@@ -17,15 +17,14 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] Transform choicesRoot;
     [SerializeField] GameObject choicesPrefab;
     [SerializeField] Button quitButton;
-
     [SerializeField] UnityEvent onConversation;
 
     private string[] currentLines;
     private int currentLineIndex;
     private string currentNodeText;
-    private bool isBuildingText = false;
+    //private bool isBuildingText = false;
 
-    public event Action onDialogueEnd;
+    public event Action OnDialogueEnd;
 
     void Start()
     {
@@ -51,7 +50,7 @@ public class DialogueUI : MonoBehaviour
         }
         else
         {
-            onDialogueEnd?.Invoke();
+            OnDialogueEnd?.Invoke();
         }
     }
 
@@ -107,11 +106,11 @@ public class DialogueUI : MonoBehaviour
 
         //nextButton.gameObject.SetActive(playerConversant.HasNext());
         if (currentLines == null || currentLines.Length == 0) return;
-        isBuildingText = true;
+        //isBuildingText = true;
         AIText.text = currentLines[currentLineIndex];
         
 
-        bool hasMoreLines = currentLineIndex < currentLines.Length - 1;
+        //bool hasMoreLines = currentLineIndex < currentLines.Length - 1;
         //if(!playerConversant.HasNext() && hasMoreLines)
         //{
         //    playerConversant.isTheLastNode.Invoke(true);
@@ -136,9 +135,12 @@ public class DialogueUI : MonoBehaviour
         }
     }
 
-    public void SetDialogueBoxVisible(bool isVisible)
+    public void SetDialogueAllBoxVisible(bool isVisible)
     {
         CurrentSpeaker.SetActive(isVisible);
         AIResponces.SetActive(isVisible);
+        //Debug.Log($"DialogueUI - {gameObject.GetComponent<Image>().name}");
+        gameObject.GetComponent<Image>().enabled = isVisible;
     }
+
 }

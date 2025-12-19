@@ -36,6 +36,7 @@ public class F_tarde : MonoBehaviour, IFases
                 //accion.SetDay(dia.GetNumberDay());
             }
             accion.SetDay(dia.GetNumberDay());
+            Debug.Log($"F_tarde - Acción inicializada: {accion.GetType().Name} para el día {dia.GetNumberDay()}");
         }
 
     }

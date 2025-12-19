@@ -9,7 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1966744043417432995}
-  - component: {fileID: 2634108104806276462}
+  - component: {fileID: 8724630621877922417}
+  - component: {fileID: 7040174714064070508}
   m_Layer: 0
   m_Name: Confeciones
   m_TagString: Untagged
@@ -32,7 +33,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2634108104806276462
+--- !u!114 &8724630621877922417
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,11 +42,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 5668978081012224688}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cb7927860c808d4db0476c81cb9ed78, type: 3}
+  m_Script: {fileID: 11500000, guid: 94f5a2444530a2941a39b3d21965db46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  confessions: {fileID: 7040174714064070508}
+  playerConversant: {fileID: 0}
+  dialogueUI: {fileID: 0}
+  entrancePenitent: {fileID: 0}
+--- !u!114 &7040174714064070508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5668978081012224688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc3868f5dd8ed034588339f1d1aee68c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   day: 0
-  penitentController: {fileID: 0}
-  playerController: {fileID: 0}
   penitentImages: []
-  entrancePenitent: {fileID: 6522211689738577480, guid: 74fcdeb8794812d40b0df5dfe3dee0e2, type: 3}
+  entrancePenitent: {fileID: 0}

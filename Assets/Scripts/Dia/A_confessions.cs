@@ -7,15 +7,15 @@ using UnityEngine;
 public class A_confessions : MonoBehaviour, IAcciones
 {
     [SerializeField] private int day;
-    private PenitentController penitentController;
-    private PlayerController playerController;
+    [SerializeField] private PenitentController penitentController;
+    [SerializeField] private PlayerController playerController;
 
 
     private SPenitent[] todayPenitents;
     private int todayPenintentIndex = 0;
     [SerializeField] private Texture2D[] penitentImages;
     [SerializeField] EntrancePenitent entrancePenitent;
-    private Action vara;
+    //private Action vara;
 
     //private void Start()
     //{
@@ -197,6 +197,7 @@ public class A_confessions : MonoBehaviour, IAcciones
         this.day = day;
         Debug.Log($"A_confecciones - SetDay invoked. Day set to: {day}");
         todayPenitents = penitentController.GetSPenitents(day);
+        Debug.Log($"A_confecciones - Found {todayPenitents.Length} penitents for day {day}.");
         todayPenintentIndex = 0;
     }
 
