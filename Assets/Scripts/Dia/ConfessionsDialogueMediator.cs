@@ -13,7 +13,7 @@ public class ConfessionsDialogueMediator : MonoBehaviour
     private void Start()
     {
         dialogueUI.OnDialogueEnd += OnDialogueEnd;
-        playerConversant.isTheLastNode += (bool _) => OnDialogueFinalNode();
+        playerConversant.isTheLastNode += (bool onAccion) => OnDialogueFinalNode(onAccion);
         StartCoroutine(StartDialogue());
     }
 
@@ -42,9 +42,17 @@ public class ConfessionsDialogueMediator : MonoBehaviour
             print("Ha acabado la tarde de confesiones.");
         }
     }
-    private void OnDialogueFinalNode()
+    private void OnDialogueFinalNode(bool onDialogue)
     {
-        Debug.Log("Llega al nodo final de la conversación.");
+        if (onDialogue)
+        {
+            dialogueUI.SetDialogueSpeakerBoxVisible(false);
+            Debug.Log("Llega al nodo final de la conversación.");
+        }
+        else
+        {
+            Debug.Log("No es el nodo final de la conversación.");
+        }
     }
 
     private IEnumerator ChangePenitent()

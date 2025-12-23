@@ -62,5 +62,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   day: 0
+  penitentController: {fileID: 0}
+  playerController: {fileID: 0}
   penitentImages: []
   entrancePenitent: {fileID: 0}

@@ -142,5 +142,9 @@ public class DialogueUI : MonoBehaviour
         //Debug.Log($"DialogueUI - {gameObject.GetComponent<Image>().name}");
         gameObject.GetComponent<Image>().enabled = isVisible;
     }
+    public void SetDialogueSpeakerBoxVisible(bool isVisible)
+    {
+        CurrentSpeaker.SetActive(isVisible);
+    }
 
 }
