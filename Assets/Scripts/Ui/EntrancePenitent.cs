@@ -7,6 +7,7 @@ public class EntrancePenitent : MonoBehaviour
     [SerializeField] private float exitDuration;
     [SerializeField] private AudioClip entranceSound;
     [SerializeField] private AudioClip exitSound;
+    [SerializeField] private AudioClip TocTocSound;
     private bool isChangeEntrance = false;
 
     public float EntranceDuration { get => entranceDuration; }

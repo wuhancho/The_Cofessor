@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Dia: MonoBehaviour
+public class Dia : MonoBehaviour
 {
     [SerializeField] int numberDay;
     private IFases[] faseActual;
@@ -17,7 +17,7 @@ public class Dia: MonoBehaviour
         {
             penitentController = FindAnyObjectByType<PenitentController>();
         }
-        Initialize(playerController,penitentController);
+        Initialize(playerController, penitentController);
     }
 
     public void Initialize(PlayerController pController, PenitentController ptController)
@@ -28,7 +28,7 @@ public class Dia: MonoBehaviour
 
         for (int i = 0; i < faseActual.Length; i++)
         {
-            faseActual[i].Initialize(pController,ptController);
+            faseActual[i].Initialize(pController, ptController);
         }
     }
     public void UpdateDay()
@@ -43,5 +43,5 @@ public class Dia: MonoBehaviour
     {
         return numberDay;
     }
-    
+
 }
