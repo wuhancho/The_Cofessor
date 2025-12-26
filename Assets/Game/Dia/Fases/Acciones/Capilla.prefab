@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   energy: 1
   faith: 2
-  nameAction: "\xBFQuieres hacer la misa?"
+  nameAction: "\xBFQuieres hacer la rezar?"
   onCapillaAction:
     m_PersistentCalls:
       m_Calls:

@@ -135,7 +135,6 @@ namespace The_cofessor.Personajes.Dialogs
                 else
                 {
                     //Debug.Log($"Reached the end of the dialogue, The value of isTheLast: {isTheLastNode}");
-
                     isTheLastNode.Invoke(true);
                 }
             }

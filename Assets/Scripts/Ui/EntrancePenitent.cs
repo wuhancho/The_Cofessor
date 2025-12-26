@@ -5,9 +5,13 @@ public class EntrancePenitent : MonoBehaviour
     [SerializeField] private Animator entranceAnimation;
     [SerializeField] private float entranceDuration;
     [SerializeField] private float exitDuration;
+    [SerializeField] private AudioClip entranceSound;
+    [SerializeField] private AudioClip exitSound;
+    private bool isChangeEntrance = false;
 
     public float EntranceDuration { get => entranceDuration; }
     public float ExitDuration { get => exitDuration; }
+    public bool IsChangeEntrance { get => isChangeEntrance; set => isChangeEntrance = value; }
 
 
 

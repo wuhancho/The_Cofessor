@@ -12,6 +12,7 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] Image speakerImage;
     [SerializeField] TextMeshProUGUI AIText;
     [SerializeField] Button nextButton;
+    [SerializeField] Button nextButton2;
     [SerializeField] GameObject CurrentSpeaker;
     [SerializeField] GameObject AIResponces;
     [SerializeField] Transform choicesRoot;
@@ -22,6 +23,9 @@ public class DialogueUI : MonoBehaviour
     private string[] currentLines;
     private int currentLineIndex;
     private string currentNodeText;
+
+    public Button NextButton { get => nextButton2; set => nextButton2 = value; }
+
     //private bool isBuildingText = false;
 
     public event Action OnDialogueEnd;
@@ -52,6 +56,7 @@ public class DialogueUI : MonoBehaviour
         {
             OnDialogueEnd?.Invoke();
         }
+
     }
 
     // Update is called once per frame
@@ -117,6 +122,10 @@ public class DialogueUI : MonoBehaviour
         //}
         //nextButton.gameObject.SetActive(hasMoreLines || playerConversant.HasNext());
     }
+    public void BuildTextAI(string text)
+    {
+        AIText.text = text;
+    }
 
     private void BuildChoiseList()
     {
@@ -145,6 +154,12 @@ public class DialogueUI : MonoBehaviour
     public void SetDialogueSpeakerBoxVisible(bool isVisible)
     {
         CurrentSpeaker.SetActive(isVisible);
+    }
+    public void SetDialogueAIBoxVisible(bool isVisible)
+    {
+        nextButton.gameObject.SetActive(false);
+        gameObject.GetComponent<Image>().enabled = isVisible;
+        AIResponces.SetActive(isVisible);
     }
 
 }

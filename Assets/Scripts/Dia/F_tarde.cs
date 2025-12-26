@@ -7,8 +7,8 @@ public class F_tarde : MonoBehaviour, IFases
     [SerializeField] private bool includeInactiveChildren = true;
     private IAcciones[] acciones;
     private Dia dia;
-    private PlayerController playerController;
-    private PenitentController penitentController;
+    [SerializeField] private PlayerController playerController;
+    [SerializeField] private PenitentController penitentController;
 
     //private void OnBeforeSerialize()
     //{
@@ -27,7 +27,6 @@ public class F_tarde : MonoBehaviour, IFases
         RefrescarAcciones();
         foreach (var accion in acciones)
         {
-            accion.Initialize(playerController);
 
             if (accion is A_confessions accionType)
             {
@@ -35,8 +34,9 @@ public class F_tarde : MonoBehaviour, IFases
                 accionType.Initialize(playerController, penitentController);
                 //accion.SetDay(dia.GetNumberDay());
             }
-            accion.SetDay(dia.GetNumberDay());
+            accion.Initialize(playerController);
             Debug.Log($"F_tarde - Acción inicializada: {accion.GetType().Name} para el día {dia.GetNumberDay()}");
+            accion.SetDay(dia.GetNumberDay());
         }
 
     }

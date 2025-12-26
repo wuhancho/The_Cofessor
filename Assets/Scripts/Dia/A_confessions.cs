@@ -122,6 +122,7 @@ public class A_confessions : MonoBehaviour, IAcciones
 
     public void StartConfession()
     {
+        //Debug.Log($"start confession with playerController{playerController.name} and penitentController{penitentController.name}");
         EjecutarAccion(playerController);
     }
 
@@ -195,7 +196,7 @@ public class A_confessions : MonoBehaviour, IAcciones
     public void SetDay(int day)
     {
         this.day = day;
-        Debug.Log($"A_confecciones - SetDay invoked. Day set to: {day}");
+        //Debug.Log($"A_confecciones - SetDay invoked. Day set to: {day}");
         todayPenitents = penitentController.GetSPenitents(day);
         Debug.Log($"A_confecciones - Found {todayPenitents.Length} penitents for day {day}.");
         todayPenintentIndex = 0;

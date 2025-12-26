@@ -6,6 +6,8 @@ public class F_mañana : MonoBehaviour, IFases
     [SerializeField] private bool includeInactiveChildren = true;
     [SerializeField] private IAccionesEnergia[] acciones;
     [SerializeField] private Dia dia;
+    private PlayerController playerController;
+    private PenitentController penitentController;
 
     private void Awake()
     {
@@ -29,6 +31,7 @@ public class F_mañana : MonoBehaviour, IFases
 
     public void Initialize(PlayerController pController, PenitentController ptController)
     {
-        throw new System.NotImplementedException();
+        this.playerController = pController;
+        this.penitentController = ptController;
     }
 }

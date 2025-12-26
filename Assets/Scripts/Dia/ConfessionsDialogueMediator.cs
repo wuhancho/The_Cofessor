@@ -12,6 +12,7 @@ public class ConfessionsDialogueMediator : MonoBehaviour
 
     private void Start()
     {
+        dialogueUI.NextButton.gameObject.SetActive(false);
         dialogueUI.OnDialogueEnd += OnDialogueEnd;
         playerConversant.isTheLastNode += (bool onAccion) => OnDialogueFinalNode(onAccion);
         StartCoroutine(StartDialogue());
@@ -30,11 +31,20 @@ public class ConfessionsDialogueMediator : MonoBehaviour
 
     private void OnDialogueEnd()
     {
-        dialogueUI.SetDialogueAllBoxVisible(false);
         bool morePenitents = confessions.ToNextPenitent();
         if (morePenitents)
         {
-            StartCoroutine(ChangePenitent());
+            entrancePenitent.IsChangeEntrance = false;
+            dialogueUI.SetDialogueAIBoxVisible(true);
+            dialogueUI.SetDialogueSpeakerBoxVisible(false);
+            dialogueUI.BuildTextAI("El siguiente penitente va a entrar...");
+            dialogueUI.NextButton.gameObject.SetActive(true);
+            dialogueUI.NextButton.onClick.RemoveAllListeners();
+            dialogueUI.NextButton.onClick.AddListener(OnNextPenitentButtonClicked);
+            // Elimina el listener anterior si existe para evitar múltiples suscripciones
+            //dialogueUI.NextButton.onClick.RemoveListener(OnNextPenitentButtonClicked);
+            //dialogueUI.NextButton.onClick.AddListener(OnNextPenitentButtonClicked);
+
         }
         else
         {
@@ -42,11 +52,22 @@ public class ConfessionsDialogueMediator : MonoBehaviour
             print("Ha acabado la tarde de confesiones.");
         }
     }
+
+    // Nuevo método void para usar como listener
+    private void OnNextPenitentButtonClicked()
+    {
+        dialogueUI.SetDialogueAllBoxVisible(false);
+        entrancePenitent.IsChangeEntrance = true;
+        ChangePenitent();
+        dialogueUI.NextButton.gameObject.SetActive(false);
+    }
+
     private void OnDialogueFinalNode(bool onDialogue)
     {
         if (onDialogue)
         {
             dialogueUI.SetDialogueSpeakerBoxVisible(false);
+            StartCoroutine(ExitPenitent());
             Debug.Log("Llega al nodo final de la conversación.");
         }
         else
@@ -55,10 +76,10 @@ public class ConfessionsDialogueMediator : MonoBehaviour
         }
     }
 
-    private IEnumerator ChangePenitent()
+    private void ChangePenitent()
     {
         //yield return StartCoroutine(ExitPenitent());
-        yield return ExitPenitent();
+        //yield return ExitPenitent();
         StartCoroutine(StartDialogue());
     }
 
