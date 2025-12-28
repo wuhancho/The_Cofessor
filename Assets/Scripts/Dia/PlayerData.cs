@@ -6,6 +6,7 @@ public class PlayerData
     public float repIglesia;
     public float repPueblo;
     public float food;
+    public int day;
 
     public PlayerData (PlayerStatus status)
     {
@@ -14,5 +15,6 @@ public class PlayerData
         repIglesia = status.RepIglesia;
         repPueblo = status.RepPueblo;
         food = status.Food;
+        day = status.Day;
     }
 }
