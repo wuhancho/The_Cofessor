@@ -23,6 +23,7 @@ public class PlayerStatus: ScriptableObject
     private float maxFood = 9999;
     private float minFood = 0;
     [SerializeField] private bool Cleaned;
+    [SerializeField] private int day = 1;
     
     public float Energy { get => energy; }
     public float Faith { get => faith; }
@@ -31,6 +32,7 @@ public class PlayerStatus: ScriptableObject
     public float RepPueblo { get => repPueblo; }
     public float Food { get => food; }
     public bool cleaned { get => Cleaned; }
+    public int Day { get => day; }
 
     public void Getmoney(float amount)
     {
@@ -84,5 +86,10 @@ public class PlayerStatus: ScriptableObject
     public void SetCleaned(bool status)
     {
         Cleaned = status;
+    }
+
+    public void SetDay(int dayNumber)
+    {
+        day = dayNumber;
     }
 }
