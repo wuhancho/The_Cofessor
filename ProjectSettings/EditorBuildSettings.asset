@@ -12,13 +12,13 @@ EditorBuildSettings:
     path: Assets/Scenes/MAIN MENU.unity
     guid: 300536e145c610a46b3d400af5b1a2ab
   - enabled: 1
-    path: "Assets/Scenes/D\xCDA 1 - MA\xD1ANA.unity"
+    path: "Assets/Scenes/D\xCDA 1 - TUTORIAL/D\xCDA 1 - MA\xD1ANA.unity"
     guid: e9ef484e08a8b33418c74809ca220e58
   - enabled: 1
-    path: "Assets/Scenes/D\xCDA 1 - TARDE.unity"
+    path: "Assets/Scenes/D\xCDA 1 - TUTORIAL/D\xCDA 1 - TARDE.unity"
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: "Assets/Scenes/D\xCDA 1 - NOCHE.unity"
+    path: "Assets/Scenes/D\xCDA 1 - TUTORIAL/D\xCDA 1 - NOCHE.unity"
     guid: ff0d4f5d230ca3b45a575db5cf2edd1c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
