@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3824629158580465961}
   - component: {fileID: 6638206120767702839}
   m_Layer: 0
-  m_Name: Capilla
+  m_Name: Rezar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

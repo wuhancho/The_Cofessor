@@ -1,12 +1,13 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class A_Capilla : MonoBehaviour, IAccionesEnergia
+public class A_Resar : MonoBehaviour, IAccionesEnergia
 {
     [SerializeField] private int energy;
     [SerializeField] private int faith;
     [SerializeField] private string nameAction;
     private int day;
+    private PlayerController playerController;
 
     public UnityEvent<string> onCapillaAction;
     public UnityEvent onCapillaCancel;
@@ -49,6 +50,8 @@ public class A_Capilla : MonoBehaviour, IAccionesEnergia
 
     public void Initialize(PlayerController playerController)
     {
-        throw new System.NotImplementedException();
+        this.playerController = playerController;
     }
+
+    
 }
