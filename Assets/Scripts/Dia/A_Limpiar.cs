@@ -6,6 +6,7 @@ public class A_Limpiar : MonoBehaviour, IAccionesEnergia
     [SerializeField] private float moneyCost;
     [SerializeField] private string actionName;
     private int day;
+    private PlayerController playerController;
     public int EnergyCost => energyCost;
 
     public int FaithCost => 0;
@@ -45,7 +46,7 @@ public class A_Limpiar : MonoBehaviour, IAccionesEnergia
 
     public void Initialize(PlayerController playerController)
     {
-        throw new System.NotImplementedException();
+        this.playerController = playerController;
     }
 
     public void TriggerAction()

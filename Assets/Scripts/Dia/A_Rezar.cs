@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class A_Resar : MonoBehaviour, IAccionesEnergia
+public class A_Rezar : MonoBehaviour, IAccionesEnergia
 {
     [SerializeField] private int energy;
     [SerializeField] private int faith;

@@ -4,6 +4,7 @@ public class A_comida : MonoBehaviour, IAcciones
 {
     [SerializeField] private float cuantityFood;
     private int day;
+    private PlayerController playerController;
 
     public void SetDay(int day)
     {
@@ -24,7 +25,7 @@ public class A_comida : MonoBehaviour, IAcciones
 
     public void Initialize(PlayerController playerController)
     {
-        throw new System.NotImplementedException();
+        this.playerController = playerController;
     }
 
     public void TriggerAction()
