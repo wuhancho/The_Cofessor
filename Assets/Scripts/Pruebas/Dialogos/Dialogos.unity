@@ -1832,13 +1832,21 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 188.86
       objectReference: {fileID: 0}
+    - target: {fileID: 3550126882799979568, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3998334033260357013, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4814343382447657872, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -261
+      objectReference: {fileID: 0}
     - target: {fileID: 5014547587917828334, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5178271149423082441, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_AnchorMax.y
@@ -4835,6 +4843,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018962452}
   m_CullTransparentMesh: 1
+--- !u!1001 &2030278911
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8653719598885068355, guid: 5f093517da4e5cd41a08852d943979f6, type: 3}
+      propertyPath: m_Name
+      value: Iglesia_bocetos 3 copia
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 5f093517da4e5cd41a08852d943979f6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 5f093517da4e5cd41a08852d943979f6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 5f093517da4e5cd41a08852d943979f6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 5f093517da4e5cd41a08852d943979f6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 5f093517da4e5cd41a08852d943979f6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 5f093517da4e5cd41a08852d943979f6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 5f093517da4e5cd41a08852d943979f6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 5f093517da4e5cd41a08852d943979f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 5f093517da4e5cd41a08852d943979f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 5f093517da4e5cd41a08852d943979f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 4843985084834002234, guid: 5f093517da4e5cd41a08852d943979f6, type: 3}
 --- !u!1001 &2094394005
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5149,3 +5214,4 @@ SceneRoots:
   - {fileID: 669966580}
   - {fileID: 1783921514}
   - {fileID: 1355995733}
+  - {fileID: 2030278911}

@@ -1,0 +1,1095 @@
+fileFormatVersion: 2
+guid: 5f093517da4e5cd41a08852d943979f6
+importerOverride:
+  nativeImporterType: 2089858483
+  scriptedImporterType:
+    serializedVersion: 2
+    Hash: b10b55a1aa6a1aa32521bc0cab59632e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  singleSpriteImportData:
+  - name: Iglesia_bocetos 3 copia_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 3508
+      height: 1737
+    spriteID: b93f9b2e02af73b4bb98146ffc210c80
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  multiSpriteImportData: []
+  layeredSpriteImportData:
+  - name: Relleno degradado 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 3508
+      height: 1737
+    spriteID: 31992dc6b69d8fe4ebbdd5b46e5ebc3a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: Relleno degradado 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 3520
+      y: 4
+      width: 3508
+      height: 1737
+    spriteID: d58d79460a5378048acb65afe332fb91
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3520, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: SOMBRA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1749
+      width: 3508
+      height: 1737
+    spriteID: db275531c7f313141a6c878c6afa7121
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1749}
+    spritePosition: {x: 0, y: 0}
+  - name: ILUMINACION VENTANA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3494
+      width: 2668
+      height: 1737
+    spriteID: e04a5441c85b3bb45b686aba30d1b883
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3494}
+    spritePosition: {x: 0, y: 0}
+  - name: INCENSARIO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7036
+      y: 381
+      width: 191
+      height: 724
+    spriteID: 1001d196d16ed24499510dee771dbcb0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7036, y: 381}
+    spritePosition: {x: 2177, y: 1013}
+  - name: LIBRO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7036
+      y: 4
+      width: 696
+      height: 369
+    spriteID: 761f3ce9d826fff41b75456dd2df1d13
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7036, y: 4}
+    spritePosition: {x: 1355, y: 196}
+  - name: VENTANA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5457
+      y: 3494
+      width: 1440
+      height: 1495
+    spriteID: 135866ee66c586242bada753b2e007a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5457, y: 3494}
+    spritePosition: {x: 661, y: 242}
+  - name: VELAS
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1612
+      y: 6771
+      width: 797
+      height: 445
+    spriteID: 839c6ef5ffb377a40960fdba4c915196
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1612, y: 6771}
+    spritePosition: {x: 1372, y: 244}
+  - name: PUERTA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 2680
+      y: 3494
+      width: 2769
+      height: 1654
+    spriteID: f236ff5cffaa47e42bc043e6dcaf31da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2680, y: 3494}
+    spritePosition: {x: 739, y: 0}
+  - name: MESA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 6771
+      width: 1600
+      height: 590
+    spriteID: ceaadf5eb6f80fc42914b1387d651aae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 6771}
+    spritePosition: {x: 656, y: 0}
+  - name: FONDO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 3520
+      y: 1749
+      width: 3508
+      height: 1737
+    spriteID: a8d889dec6bd79f4fab072f1dee8267b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3520, y: 1749}
+    spritePosition: {x: 0, y: 0}
+  - name: Capa 119
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 2867
+      y: 5239
+      width: 1395
+      height: 1446
+    spriteID: 9ed4b97d2428c73489f85e58dcd7da19
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2867, y: 5239}
+    spritePosition: {x: 694, y: 291}
+  - name: Capa 119 copia
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5239
+      width: 2855
+      height: 1524
+    spriteID: 4bd248eede36eac4485be6469b110d54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 5239}
+    spritePosition: {x: 653, y: 213}
+  spriteImportData: []
+  rigSpriteImportData: []
+  sharedRigSpriteImportData: []
+  mosaicSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  padding: 4
+  spriteSizeExpand: 0
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 1
+  pSDLayerImportSetting: []
+  psdLayers:
+  - name: VISTA MESA
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 10638b58c3c0df64e86a19d3fcf11057
+    layerID: 388
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: SOMBRA
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 2644a85234123ae439c08fc0b3486b8f
+    layerID: 450
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DEGRADADO
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 25284d79ffbf134488044310e606f136
+    layerID: 499
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Relleno degradado 1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 2
+    spriteID: 99a25fa73833a8b408a12bb65d327458
+    layerID: 449
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Relleno degradado 1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 2
+    spriteID: deb84e484c18b1a40bc6c5638adf15d4
+    layerID: 392
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: VISTA MESA
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 112c9b31449bbfb40bdb0ca4e2ee2e19
+    layerID: 360
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: SERAFIN
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 85e5f4c1aeda084438fc3eac45bd2502
+    layerID: 463
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: TRAMA
+    spriteName: 
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 95b13f97ad4722041942162884a54478
+    layerID: 460
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: LINEA
+    spriteName: 
+    isGroup: 1
+    parentIndex: 6
+    spriteID: 94b6585ba909c2848add30c35e53cf99
+    layerID: 461
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Capa 157
+    spriteName: 
+    isGroup: 0
+    parentIndex: 8
+    spriteID: c44b293f70f54be4fb7b172edf2ceb5c
+    layerID: 459
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Capa 131
+    spriteName: 
+    isGroup: 0
+    parentIndex: 8
+    spriteID: fc8223fb8f626624db34d2fb1f023c7c
+    layerID: 342
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Capa 160
+    spriteName: 
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 008abbb4a65743e46bdfd44df0a1814c
+    layerID: 467
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Capa 159
+    spriteName: 
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 988812ca2cc15bd4fab1007fb721c27b
+    layerID: 466
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Capa 158
+    spriteName: 
+    isGroup: 0
+    parentIndex: 6
+    spriteID: bbbea6f4b6eeaba49b98c216fb29a612
+    layerID: 465
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vista interior confesionario
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 156a892af7a351c429a4a99c883249ad
+    layerID: 283
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DEGRADADO
+    spriteName: 
+    isGroup: 1
+    parentIndex: 14
+    spriteID: 0f70ff78138a1c54cab0e73a50b45f30
+    layerID: 506
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Relleno degradado 1
+    spriteName: Relleno degradado 1
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 31992dc6b69d8fe4ebbdd5b46e5ebc3a
+    layerID: 505
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Relleno degradado 1
+    spriteName: Relleno degradado 1
+    isGroup: 0
+    parentIndex: 15
+    spriteID: d58d79460a5378048acb65afe332fb91
+    layerID: 504
+    mosaicPosition: {x: 3520, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: SOMBRA
+    spriteName: SOMBRA
+    isGroup: 0
+    parentIndex: 14
+    spriteID: db275531c7f313141a6c878c6afa7121
+    layerID: 448
+    mosaicPosition: {x: 4, y: 1749}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: COLOR
+    spriteName: 
+    isGroup: 1
+    parentIndex: 14
+    spriteID: 76685e4e5e85a2a4ea3e9bf19201eac3
+    layerID: 318
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ILUMINACION VENTANA
+    spriteName: ILUMINACION VENTANA
+    isGroup: 0
+    parentIndex: 19
+    spriteID: e04a5441c85b3bb45b686aba30d1b883
+    layerID: 530
+    mosaicPosition: {x: 4, y: 3494}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: INCENSARIO
+    spriteName: INCENSARIO
+    isGroup: 0
+    parentIndex: 19
+    spriteID: 1001d196d16ed24499510dee771dbcb0
+    layerID: 303
+    mosaicPosition: {x: 7036, y: 381}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: LIBRO
+    spriteName: LIBRO
+    isGroup: 0
+    parentIndex: 19
+    spriteID: 761f3ce9d826fff41b75456dd2df1d13
+    layerID: 300
+    mosaicPosition: {x: 7036, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: VENTANA
+    spriteName: VENTANA
+    isGroup: 0
+    parentIndex: 19
+    spriteID: 135866ee66c586242bada753b2e007a1
+    layerID: 290
+    mosaicPosition: {x: 5457, y: 3494}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: VELAS
+    spriteName: VELAS
+    isGroup: 0
+    parentIndex: 19
+    spriteID: 839c6ef5ffb377a40960fdba4c915196
+    layerID: 299
+    mosaicPosition: {x: 1612, y: 6771}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: PUERTA
+    spriteName: PUERTA
+    isGroup: 0
+    parentIndex: 19
+    spriteID: f236ff5cffaa47e42bc043e6dcaf31da
+    layerID: 286
+    mosaicPosition: {x: 2680, y: 3494}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MESA
+    spriteName: MESA
+    isGroup: 0
+    parentIndex: 19
+    spriteID: ceaadf5eb6f80fc42914b1387d651aae
+    layerID: 285
+    mosaicPosition: {x: 4, y: 6771}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: FONDO
+    spriteName: FONDO
+    isGroup: 0
+    parentIndex: 19
+    spriteID: a8d889dec6bd79f4fab072f1dee8267b
+    layerID: 284
+    mosaicPosition: {x: 3520, y: 1749}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: ILUMINACION
+    spriteName: 
+    isGroup: 1
+    parentIndex: 19
+    spriteID: 5f0ac5c80fd4c594994e151f2f7954d6
+    layerID: 524
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Capa 119
+    spriteName: Capa 119
+    isGroup: 0
+    parentIndex: 28
+    spriteID: 9ed4b97d2428c73489f85e58dcd7da19
+    layerID: 324
+    mosaicPosition: {x: 2867, y: 5239}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Capa 119 copia
+    spriteName: Capa 119 copia
+    isGroup: 0
+    parentIndex: 28
+    spriteID: 4bd248eede36eac4485be6469b110d54
+    layerID: 326
+    mosaicPosition: {x: 4, y: 5239}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: confesionario exterior
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 8fbc138da42604c4c9fff267f88eeb4d
+    layerID: 237
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: DEGRADADO
+    spriteName: 
+    isGroup: 1
+    parentIndex: 31
+    spriteID: b769844389405114db6776f6b15ce019
+    layerID: 513
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Relleno degradado 1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 80e09d977e708ff41b38caea3e1f0c85
+    layerID: 512
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Relleno degradado 1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: e38933c33fe02e547b3a61013b5787c5
+    layerID: 511
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Grupo 11
+    spriteName: 
+    isGroup: 1
+    parentIndex: 31
+    spriteID: 9a58a63f44988344995bf80bd965047c
+    layerID: 507
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Relleno degradado 1 copia 3
+    spriteName: 
+    isGroup: 0
+    parentIndex: 35
+    spriteID: 8341b27dee62f9846b951ab343a47bb6
+    layerID: 470
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Relleno degradado 1 copia 2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 35
+    spriteID: 2b79009d7dbc6794b9f48f4b97e3b979
+    layerID: 469
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Relleno degradado 1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 35
+    spriteID: eab32f79cb8c4024bba8dc935dd988f6
+    layerID: 440
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: SOMBRAS
+    spriteName: 
+    isGroup: 0
+    parentIndex: 31
+    spriteID: b2f2c1bcbde71954da02d794a40d7e6d
+    layerID: 514
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ILUMINACION
+    spriteName: 
+    isGroup: 0
+    parentIndex: 31
+    spriteID: ff8f9a0ba22dbcb4a932f53cb1b2b5e7
+    layerID: 442
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: EXTERIOR CONFESIONARIO
+    spriteName: 
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 643509798ef2a2c4689c042e14896164
+    layerID: 473
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vista lateral
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 9967938686a426244b55a0ead936acbf
+    layerID: 98
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Capa 164
+    spriteName: 
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 2f2d7409c03880f47883024cc29fd7f7
+    layerID: 522
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DEGRADADO
+    spriteName: 
+    isGroup: 1
+    parentIndex: 42
+    spriteID: 764e562c6cde52346b08370bae8c3964
+    layerID: 521
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Relleno degradado 1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 44
+    spriteID: b077e5f24e0ab5c4cb8889dc9ebc4692
+    layerID: 520
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Relleno degradado 1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 44
+    spriteID: 4295e5c0d9a797642b6fb5fce019a4c8
+    layerID: 519
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Grupo 12
+    spriteName: 
+    isGroup: 1
+    parentIndex: 42
+    spriteID: f55d95ee6131cff4bb6d084a25c4ef9c
+    layerID: 516
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Relleno degradado 1 copia 5
+    spriteName: 
+    isGroup: 0
+    parentIndex: 47
+    spriteID: 37195a1e35d56294e878e0153f32bcef
+    layerID: 492
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Relleno degradado 1 copia 4
+    spriteName: 
+    isGroup: 0
+    parentIndex: 47
+    spriteID: 7fb2bc4fd76d41646a3c5e5a996f0366
+    layerID: 491
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Relleno degradado 1 copia
+    spriteName: 
+    isGroup: 0
+    parentIndex: 47
+    spriteID: a341f3552a414b140a99100caec2e3da
+    layerID: 428
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ILUMINACION
+    spriteName: 
+    isGroup: 0
+    parentIndex: 42
+    spriteID: a2bf59f714920394cb16e8d9db69a5d4
+    layerID: 425
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: COLOR
+    spriteName: 
+    isGroup: 1
+    parentIndex: 42
+    spriteID: 0d8d2eaf8dedbe248a462c1c1066ae0c
+    layerID: 415
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Sombra
+    spriteName: 
+    isGroup: 0
+    parentIndex: 52
+    spriteID: f6942164d552d6c4ba61321cb2fb76c2
+    layerID: 563
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CONFESIONARIO
+    spriteName: 
+    isGroup: 0
+    parentIndex: 52
+    spriteID: 3e11a630062e4da499dffdfa055fd7c6
+    layerID: 476
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: PARED
+    spriteName: 
+    isGroup: 0
+    parentIndex: 52
+    spriteID: ee0c6ac500befc846bb43114b1d6dfba
+    layerID: 151
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 'BANCOS '
+    spriteName: 
+    isGroup: 0
+    parentIndex: 52
+    spriteID: 7a3704678ae09884aa6b763f101d7403
+    layerID: 163
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: COLUMNAS
+    spriteName: 
+    isGroup: 0
+    parentIndex: 52
+    spriteID: 8dcdd38a9e596f54495159558ace7aab
+    layerID: 107
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: SUELO
+    spriteName: 
+    isGroup: 0
+    parentIndex: 52
+    spriteID: 2b2e90d23c562c248887421058181f3f
+    layerID: 278
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: FONDO
+    spriteName: 
+    isGroup: 0
+    parentIndex: 52
+    spriteID: 51337ed2a235b5b4f82ef5b952a46baf
+    layerID: 197
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BOCETO
+    spriteName: 
+    isGroup: 0
+    parentIndex: 42
+    spriteID: e0c6b71f01ec4f94db5ee54998633285
+    layerID: 97
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Fondo
+    spriteName: Fondo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 18603690516eb4148a789d7e255d9756
+    layerID: 1
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  mosaicPSDLayers: []
+  rigPSDLayers: []
+  sharedRigPSDLayers: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 1
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
