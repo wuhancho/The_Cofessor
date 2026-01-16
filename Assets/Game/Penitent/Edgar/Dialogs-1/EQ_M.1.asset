@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8692692993521589572
+--- !u!114 &-8435626257973166133
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,25 +10,55 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
-  m_Name: 14
+  m_Name: 10
   m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/14
-  isPlayerSpeaking: 1
-  text: "Absoluci\xF3n: No es tu culpa que el colgante acabara a manos del ni\xF1o."
+  uniqueID: EQ_M.1/10
+  isPlayerSpeaking: 0
+  text: "Por supuesto que s\xED./nMis art\xEDculos son capaces de cumplir los deseos
+    de mis clientes./nPero ninguno m\xE1s all\xE1 de peque\xF1as cosas mundanas./nEn
+    el pueblo vecino, vend\xED un fertilizante capaz de hacer que las fragarias den
+    fruto durante el m\xE1s fr\xEDo invierno./nPues as\xED lo deseaba su due\xF1o."
   childrenIDs:
-  - CL_V.1/18
-  - 18
+  - EQ_M.1/11
+  - 11
   rect:
     serializedVersion: 2
-    x: 2546
-    y: 392
+    x: 1845
+    y: 276
     width: 300
     height: 200
-  faithCost: 1
-  RepIglesiaCost: -1
-  RepPuebloCost: 1
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
   SobornoCost: 0
---- !u!114 &-7930384875181232847
+--- !u!114 &-7571384318442907708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 25
+  m_EditorClassIdentifier: 
+  uniqueID: EQ_M.1/25
+  isPlayerSpeaking: 0
+  text: "\xC9dgar se retira./nEl pueblo aprueba que perdones sus pecados./nTe sientes
+    sucio."
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 3347
+    y: 594
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-7466897768705524889
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,24 +70,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
   m_Name: 15
   m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/15
+  uniqueID: EQ_M.1/15
   isPlayerSpeaking: 1
-  text: "Encubrimiento: No dir\xE9 nada, pero tu conciencia ser\xE1 la que juzgue
-    tu pecado de omisi\xF3n."
+  text: "Encubrimiento: No revelar\xE9 los entreshijos de tu negocio, a cambio de
+    un precio (+20$)."
   childrenIDs:
-  - CL_V.1/19
+  - EQ_M.1/19
   - 19
   rect:
     serializedVersion: 2
-    x: 2542.5796
-    y: 596
+    x: 2594
+    y: 595
     width: 300
     height: 200
-  faithCost: 1
+  faithCost: -1
+  RepIglesiaCost: 0
+  RepPuebloCost: -1
+  SobornoCost: 20
+--- !u!114 &-6217410250671694638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 12
+  m_EditorClassIdentifier: 
+  uniqueID: EQ_M.1/12
+  isPlayerSpeaking: 1
+  text: "Penitencia: Deber\xE1 dejar de estafar a sus clientes. Venda productos \xFAtiles
+    de verdad y done parte de su beneficio a la iglesia."
+  childrenIDs:
+  - EQ_M.1/16
+  - 16
+  rect:
+    serializedVersion: 2
+    x: 2593
+    y: -7
+    width: 300
+    height: 200
+  faithCost: 0
   RepIglesiaCost: 1
   RepPuebloCost: 0
   SobornoCost: 0
---- !u!114 &-6124407356527343084
+--- !u!114 &-5682831271383413728
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -67,29 +126,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
-  m_Name: 6
+  m_Name: 22
   m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/6
+  uniqueID: EQ_M.1/22
   isPlayerSpeaking: 0
-  text: "Estoy seguro de que el mercader sab\xEDa que algo estaba mal con aquel colgante./nCelebr\xF3
-    tras deshacerse de \xE9l./nPodr\xEDa ser ese el amuleto que acab\xF3 con la vida
-    del hijo del molinero."
-  childrenIDs:
-  - CL_V.1/7
-  - CL_V.1/8
-  - 7
-  - 8
+  text: "\xC9dgar se retira./nEl pueblo aprueba el castigo./nTe sientes mal."
+  childrenIDs: []
   rect:
     serializedVersion: 2
-    x: 1084
-    y: 127
+    x: 3747
+    y: -9
     width: 300
     height: 200
   faithCost: 0
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
---- !u!114 &-4637506094358042446
+--- !u!114 &-5681462022559683292
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -99,34 +152,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
-  m_Name: 11
+  m_Name: 18
   m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/11
+  uniqueID: EQ_M.1/18
   isPlayerSpeaking: 0
-  text: "Yo sab\xEDa que el colgante era peligroso./nPero estaba aterrorizado por
-    lo que podr\xEDa pasarme./nSent\xED como si, hablaba de \xE9l, el colgante me
-    har\xEDa da\xF1o./nNo puedo evitar pensar que yo mismo soy responsable de la
-    muerte del chico."
+  text: "\xBFEso es todo?/nA decir verdad, no esperaba que me dejaras marchar sin
+    m\xE1s./nTomar\xE9 esta oportunidad para limpiar mi imagen y arreglar este malentendido."
   childrenIDs:
-  - CL_V.1/12
-  - CL_V.1/13
-  - CL_V.1/14
-  - CL_V.1/15
-  - 12
-  - 13
-  - 14
-  - 15
+  - EQ_M.1/25
+  - 25
   rect:
     serializedVersion: 2
-    x: 2192
-    y: 135
+    x: 2946
+    y: 392
     width: 300
     height: 200
   faithCost: 0
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
---- !u!114 &-4395317018739754460
+--- !u!114 &-5636181506300693389
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -136,87 +181,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
-  m_Name: 4
+  m_Name: 26
   m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/4
-  isPlayerSpeaking: 1
-  text: "S\xED. Sin duda, uno de ellos se trataba de \xC9dgar, el comerciante./nLa
-    otra era una mujer./nNo pude verle el rostro.../nPero la vi entrar en la posada
-    Garrido."
-  childrenIDs:
-  - CL_V.1/6
-  - 6
-  rect:
-    serializedVersion: 2
-    x: 693
-    y: 1
-    width: 300
-    height: 200
-  faithCost: 0
-  RepIglesiaCost: 0
-  RepPuebloCost: 0
-  SobornoCost: 0
---- !u!114 &-3700958590071576319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
-  m_Name: 7
-  m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/7
-  isPlayerSpeaking: 1
-  text: "\xBFQu\xE9 pudes decirme de \xC9dgar?"
-  childrenIDs:
-  - CL_V.1/9
-  - 9
-  rect:
-    serializedVersion: 2
-    x: 1440
-    y: -8
-    width: 300
-    height: 200
-  faithCost: 0
-  RepIglesiaCost: 0
-  RepPuebloCost: 0
-  SobornoCost: 0
---- !u!114 &-3115589513559225906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
-  m_Name: 1
-  m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/1
+  uniqueID: EQ_M.1/26
   isPlayerSpeaking: 0
-  text: "Padre, hay algo que necesito contarle./nHace unos d\xEDas, vi a dos personas
-    detr\xE1s de la iglesia./nUna le estaba entregando a la otra un colgante a cambio
-    de dinero."
-  childrenIDs:
-  - CL_V.1/2
-  - CL_V.1/3
-  - 2
-  - 3
+  text: "\xC9dgar se retira./nEl pueblo sospecha de tu corrupci\xF3n./nTe sientes
+    sucio."
+  childrenIDs: []
   rect:
     serializedVersion: 2
-    x: -4
-    y: 3
+    x: 3346
+    y: 794
     width: 300
     height: 200
   faithCost: 0
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
---- !u!114 &-2066226742369860214
+--- !u!114 &-4967607096313314959
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -226,25 +208,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
-  m_Name: 8
+  m_Name: 17
   m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/8
-  isPlayerSpeaking: 1
-  text: "\xBFQu\xE9 crees que era el colgante?"
+  uniqueID: EQ_M.1/17
+  isPlayerSpeaking: 0
+  text: "\xA1Rayos!/nHe de huir antes de que arruine del todo mi negocio./nPero que
+    te quede claro que, en mi \xFAltimo paso por el pueblo, pienso decirles a todos
+    lo poco confiable que eres."
   childrenIDs:
-  - CL_V.1/10
-  - 10
+  - EQ_M.1/24
+  - 22
+  - 24
   rect:
     serializedVersion: 2
-    x: 1441
-    y: 281
+    x: 2944
+    y: 195
     width: 300
     height: 200
   faithCost: 0
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
---- !u!114 &-1392353701084979269
+--- !u!114 &-1971457109990477766
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -256,15 +241,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
   m_Name: 3
   m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/3
+  uniqueID: EQ_M.1/3
   isPlayerSpeaking: 1
-  text: "\xBFPor qu\xE9 no me dijiste nada?"
+  text: Tengo entendido que sabe sobre los amuletos.
   childrenIDs:
-  - CL_V.1/5
+  - EQ_M.1/5
   - 5
   rect:
     serializedVersion: 2
-    x: 344
+    x: 336
     y: 245
     width: 300
     height: 200
@@ -272,7 +257,7 @@ MonoBehaviour:
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
---- !u!114 &-802693068398978832
+--- !u!114 &-1456845894742725276
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -282,24 +267,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
-  m_Name: 20
+  m_Name: 8
   m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/20
-  isPlayerSpeaking: 0
-  text: Carlitos se retira./nLa iglesia aprueba la penitencia impuesta para expiar
-    sus pecados./nTe sientes bien.
-  childrenIDs: []
+  uniqueID: EQ_M.1/8
+  isPlayerSpeaking: 1
+  text: "\xBFSus productos son art\xEDculos m\xE1gicos?"
+  childrenIDs:
+  - EQ_M.1/10
+  - 10
   rect:
     serializedVersion: 2
-    x: 3245
-    y: -6
+    x: 1442
+    y: 277
     width: 300
     height: 200
   faithCost: 0
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
---- !u!114 &-783545019219105655
+--- !u!114 &-16353747363659431
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -309,49 +295,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
-  m_Name: 9
+  m_Name: 2
   m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/9
-  isPlayerSpeaking: 0
-  text: "Le est\xE1 mintiendo./nNo s\xE9 en qu\xE9, pero puedo sentirlo./nEse hombre
-    es experto en ocultar sus verdaderas intenciones./nY no solo \xE9l.../nEl alcalde
-    tambi\xE9n oculta algo."
+  uniqueID: EQ_M.1/2
+  isPlayerSpeaking: 1
+  text: "\xBFUsted no le dio el colgante al ni\xF1o?"
   childrenIDs:
-  - CL_V.1/11
-  - 11
+  - EQ_M.1/4
+  - 4
   rect:
     serializedVersion: 2
-    x: 1794
-    y: -9
-    width: 300
-    height: 200
-  faithCost: 0
-  RepIglesiaCost: 0
-  RepPuebloCost: 0
-  SobornoCost: 0
---- !u!114 &-467322774127043055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
-  m_Name: 5
-  m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/5
-  isPlayerSpeaking: 0
-  text: "Ten\xEDa mucho miedo./nAunque solo hab\xEDa dos personas, escuch\xE9 tres
-    voces./nEstaba seguro de que no deber\xEDa haber visto aquello."
-  childrenIDs:
-  - CL_V.1/6
-  - 6
-  rect:
-    serializedVersion: 2
-    x: 694
-    y: 246
+    x: 344
+    y: 2
     width: 300
     height: 200
   faithCost: 0
@@ -368,62 +323,38 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2e960bec5b5236749b281289ea60fa82, type: 3}
-  m_Name: CL_V.1
+  m_Name: EQ_M.1
   m_EditorClassIdentifier: 
   nodes:
-  - {fileID: -3115589513559225906}
-  - {fileID: 8632946942803064637}
-  - {fileID: -1392353701084979269}
-  - {fileID: -4395317018739754460}
-  - {fileID: -467322774127043055}
-  - {fileID: -6124407356527343084}
-  - {fileID: -3700958590071576319}
-  - {fileID: -2066226742369860214}
-  - {fileID: -783545019219105655}
-  - {fileID: 4129213942553528069}
-  - {fileID: -4637506094358042446}
-  - {fileID: 8714018127257998101}
-  - {fileID: 1704922232146425532}
-  - {fileID: -8692692993521589572}
-  - {fileID: -7930384875181232847}
-  - {fileID: 8611341951757540951}
-  - {fileID: 8636567512318624491}
-  - {fileID: 7950145480109007152}
-  - {fileID: 1688605838012437786}
-  - {fileID: -802693068398978832}
-  - {fileID: 1880110795338611348}
-  - {fileID: 164285766098798077}
-  - {fileID: 7740339909931725322}
-  isTrueDialogue: 1
+  - {fileID: 1362154410313605573}
+  - {fileID: -16353747363659431}
+  - {fileID: -1971457109990477766}
+  - {fileID: 7952399773047666836}
+  - {fileID: 5206159983005471382}
+  - {fileID: 6464469902923441527}
+  - {fileID: 4432496726281865532}
+  - {fileID: -1456845894742725276}
+  - {fileID: 4778300712384706665}
+  - {fileID: -8435626257973166133}
+  - {fileID: 6699269849251703795}
+  - {fileID: -6217410250671694638}
+  - {fileID: 8951884022024085775}
+  - {fileID: 1652018856758523282}
+  - {fileID: -7466897768705524889}
+  - {fileID: 3863975131166288050}
+  - {fileID: -4967607096313314959}
+  - {fileID: -5681462022559683292}
+  - {fileID: 767516194384851836}
+  - {fileID: 5815537456255325394}
+  - {fileID: 5221056901338328499}
+  - {fileID: -5682831271383413728}
+  - {fileID: 7532603960281677078}
+  - {fileID: 3709601589760471708}
+  - {fileID: -7571384318442907708}
+  - {fileID: -5636181506300693389}
+  isTrueDialogue: 0
   newNodeOffset: {x: 250, y: 0}
---- !u!114 &164285766098798077
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
-  m_Name: 22
-  m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/22
-  isPlayerSpeaking: 0
-  text: Carlitos se retira./nTe sientes bien./nLa Iglesia desaprueba que absuelvas
-    sus pecados.
-  childrenIDs: []
-  rect:
-    serializedVersion: 2
-    x: 3244
-    y: 393
-    width: 300
-    height: 200
-  faithCost: 0
-  RepIglesiaCost: 0
-  RepPuebloCost: 0
-  SobornoCost: 0
---- !u!114 &1688605838012437786
+--- !u!114 &767516194384851836
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -435,128 +366,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
   m_Name: 19
   m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/19
+  uniqueID: EQ_M.1/19
   isPlayerSpeaking: 0
-  text: "Jam\xE1s olvidar\xE9 este d\xEDa./nLa muerte de aquel chico siempre permanecer\xE1
-    en mi memoria./nComo un recordatorio de mi miedo y ego\xEDsmo."
+  text: "Por supuesto./nAqu\xED tiene./nA cambio de este favor, la pr\xF3xima vez
+    te ofrecer\xE9 art\xEDculos exclusivos."
   childrenIDs:
-  - CL_V.1/23
-  - 23
+  - EQ_M.1/26
+  - 26
   rect:
     serializedVersion: 2
-    x: 2886.5422
-    y: 597
-    width: 300
-    height: 200
-  faithCost: 0
-  RepIglesiaCost: 0
-  RepPuebloCost: 0
-  SobornoCost: 0
---- !u!114 &1704922232146425532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
-  m_Name: 13
-  m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/13
-  isPlayerSpeaking: 1
-  text: "Denuncia: Fuiste ego\xEDsta al pensar solo en tu propia seguridad."
-  childrenIDs:
-  - CL_V.1/17
-  - 17
-  rect:
-    serializedVersion: 2
-    x: 2546
-    y: 193
-    width: 300
-    height: 200
-  faithCost: -1
-  RepIglesiaCost: 0
-  RepPuebloCost: -1
-  SobornoCost: 0
---- !u!114 &1880110795338611348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
-  m_Name: 21
-  m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/21
-  isPlayerSpeaking: 0
-  text: Carlitos se retira./nAl pueblo le disgustan tus acusaciones./nTe sientes
-    sucio.
-  childrenIDs: []
-  rect:
-    serializedVersion: 2
-    x: 3243
-    y: 195
-    width: 300
-    height: 200
-  faithCost: 0
-  RepIglesiaCost: 0
-  RepPuebloCost: 0
-  SobornoCost: 0
---- !u!114 &4129213942553528069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
-  m_Name: 10
-  m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/10
-  isPlayerSpeaking: 0
-  text: "No lo s\xE9, padre./nPero le puedo asegurar que su naturaleza era malvada./nSu
-    sola presencia fue suficiente para helarme la sangre./n.../nCreo que no deber\xEDa
-    hablar m\xE1s de ello."
-  childrenIDs:
-  - CL_V.1/11
-  - 11
-  rect:
-    serializedVersion: 2
-    x: 1794
-    y: 282
-    width: 300
-    height: 200
-  faithCost: 0
-  RepIglesiaCost: 0
-  RepPuebloCost: 0
-  SobornoCost: 0
---- !u!114 &7740339909931725322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
-  m_Name: 23
-  m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/23
-  isPlayerSpeaking: 0
-  text: Carlitos se retira./nEl pueblo aprueba que calles sus pecados./nTe sientes
-    bien.
-  childrenIDs: []
-  rect:
-    serializedVersion: 2
-    x: 3249.4185
+    x: 2943
     y: 595
     width: 300
     height: 200
@@ -564,7 +383,7 @@ MonoBehaviour:
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
---- !u!114 &7950145480109007152
+--- !u!114 &1362154410313605573
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -574,26 +393,85 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
-  m_Name: 18
+  m_Name: 1
   m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/18
+  uniqueID: EQ_M.1/1
   isPlayerSpeaking: 0
-  text: "Agradezco su compasi\xF3n, padre./nSolo espero que el alma del hijo del
-    molinero pueda perdonarme tambi\xE9n."
+  text: "Estoy muy preocupado, padre./nLos rumores sobre el colgante maldito son
+    cada vez m\xE1s fuertes./nY muchos ya empiezan a creer que yo tengo algo que
+    ver./nSi no consigo limpiar mi nombre, mi negocio se hundir\xE1."
   childrenIDs:
-  - CL_V.1/22
-  - 22
+  - EQ_M.1/2
+  - EQ_M.1/3
+  - 2
+  - 3
   rect:
     serializedVersion: 2
-    x: 2893
-    y: 392
+    x: 0
+    y: 0
     width: 300
     height: 200
   faithCost: 0
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
---- !u!114 &8611341951757540951
+--- !u!114 &1652018856758523282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 14
+  m_EditorClassIdentifier: 
+  uniqueID: EQ_M.1/14
+  isPlayerSpeaking: 1
+  text: "Absoluci\xF3n: Quiz\xE1 utilices el enga\xF1o, pero intentas que las vidas
+    de los dem\xE1s sean felices."
+  childrenIDs:
+  - EQ_M.1/18
+  - 18
+  rect:
+    serializedVersion: 2
+    x: 2591
+    y: 395
+    width: 300
+    height: 200
+  faithCost: -1
+  RepIglesiaCost: 1
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &3709601589760471708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 24
+  m_EditorClassIdentifier: 
+  uniqueID: EQ_M.1/24
+  isPlayerSpeaking: 0
+  text: "\xC9dgar se retira./nEl pueblo no conf\xEDa en \xC9dgar. Aplauden tu decisi\xF3n./nTe
+    sientes bien."
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 3355
+    y: 397
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &3863975131166288050
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -605,15 +483,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
   m_Name: 16
   m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/16
+  uniqueID: EQ_M.1/16
   isPlayerSpeaking: 0
-  text: "S\xED, padre./nRezar\xE9 por el ni\xF1o hasta que me quede dormido"
+  text: "AhahaAHAHAH.../nAl final, hasta t\xFA buscas c\xF3mo sacar tajada./nPadre,
+    creo que t\xFA y yo podr\xEDamos llevarnos muy bien./nSin embargo, soy un charlat\xE1n./nPodr\xEDa
+    irme de la lengua y, durante una desafortunada embriaguez, revelar sus... Intereses
+    econ\xF3micos./nClaro que por unas monedas, evitaremos que ocurra./nYa sabe,
+    por el porvenir de nuestra amistad."
   childrenIDs:
-  - CL_V.1/20
+  - EQ_M.1/20
+  - EQ_M.1/21
   - 20
+  - 21
   rect:
     serializedVersion: 2
-    x: 2893
+    x: 2941
     y: -6
     width: 300
     height: 200
@@ -621,7 +505,7 @@ MonoBehaviour:
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
---- !u!114 &8632946942803064637
+--- !u!114 &4432496726281865532
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -631,17 +515,258 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
-  m_Name: 2
+  m_Name: 7
   m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/2
+  uniqueID: EQ_M.1/7
   isPlayerSpeaking: 1
-  text: "\xBFSabr\xEDas decirme quienes eran?"
+  text: "\xBFQu\xE9 clase de prodcutos vende?"
   childrenIDs:
-  - CL_V.1/4
-  - 4
+  - EQ_M.1/9
+  - 9
   rect:
     serializedVersion: 2
-    x: 342
+    x: 1444
+    y: 0
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &4778300712384706665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 9
+  m_EditorClassIdentifier: 
+  uniqueID: EQ_M.1/9
+  isPlayerSpeaking: 0
+  text: "Productos exclusivos de la m\xE1s alta calidad./nDurante mis viajes, me
+    preocupo por recolectar los art\xEDculos m\xE1s exclusivos que pueda encontrar./nEsa
+    es mi oferta./nOfrezco pociones y objetos con los que la gente de este pueblucho
+    no podr\xEDa ni so\xF1ar."
+  childrenIDs:
+  - EQ_M.1/11
+  - 11
+  rect:
+    serializedVersion: 2
+    x: 1843
+    y: 0
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &5206159983005471382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 5
+  m_EditorClassIdentifier: 
+  uniqueID: EQ_M.1/5
+  isPlayerSpeaking: 0
+  text: "No mucho en realidad, padre./nEn mis viajes, recolecto objetos extra\xF1os
+    y curiosos que luego vendo en los pueblos./nHonestamente, la mayor\xEDa de las
+    veces no tengo ni idea de qu\xE9 son./nQu\xE9 quiere que le diga, as\xED me gano
+    yo el pan."
+  childrenIDs:
+  - EQ_M.1/6
+  - 6
+  rect:
+    serializedVersion: 2
+    x: 692
+    y: 244
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &5221056901338328499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 21
+  m_EditorClassIdentifier: 
+  uniqueID: EQ_M.1/21
+  isPlayerSpeaking: 1
+  text: "M\xE1rchate, \xC9dgar"
+  childrenIDs:
+  - EQ_M.1/23
+  - 23
+  rect:
+    serializedVersion: 2
+    x: 3353
+    y: 194
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: -1
+  SobornoCost: 0
+--- !u!114 &5815537456255325394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 20
+  m_EditorClassIdentifier: 
+  uniqueID: EQ_M.1/20
+  isPlayerSpeaking: 1
+  text: "Aqu\xED tienes (-10$)."
+  childrenIDs:
+  - EQ_M.1/22
+  rect:
+    serializedVersion: 2
+    x: 3354
+    y: -6
+    width: 300
+    height: 200
+  faithCost: -1
+  RepIglesiaCost: 0
+  RepPuebloCost: 1
+  SobornoCost: -10
+--- !u!114 &6464469902923441527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 6
+  m_EditorClassIdentifier: 
+  uniqueID: EQ_M.1/6
+  isPlayerSpeaking: 0
+  text: "Y ahora mi negocio se va a la mierda./nHe intentado vender mis productos
+    en la plaza, pero los aldeanos temen acabar como el dichoso hijo del molinero./nSi
+    tuviera un objeto maldito de tal poder, se lo vender\xEDa a alg\xFAn rey avaricioso
+    a cambio de una fortuna."
+  childrenIDs:
+  - EQ_M.1/7
+  - EQ_M.1/8
+  - 7
+  - 8
+  rect:
+    serializedVersion: 2
+    x: 1091
+    y: 125
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &6699269849251703795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 11
+  m_EditorClassIdentifier: 
+  uniqueID: EQ_M.1/11
+  isPlayerSpeaking: 1
+  text: "Mi negocio se nutre de la avaricia de los aldeanos./nNi te imaginas los
+    deseos que puden llegar a tener esa gente./nY yo siempre tengo lo que necesitan
+    para cumplirlos./nSiempre a cambio de un precio, claro est\xE1."
+  childrenIDs:
+  - EQ_M.1/12
+  - EQ_M.1/13
+  - EQ_M.1/14
+  - EQ_M.1/15
+  - 12
+  - 13
+  - 14
+  - 15
+  rect:
+    serializedVersion: 2
+    x: 2242
+    y: 149
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &7532603960281677078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 23
+  m_EditorClassIdentifier: 
+  uniqueID: EQ_M.1/23
+  isPlayerSpeaking: 0
+  text: "\xC9dgar se retira./n\xC9dgar le habla mal al pueblo de ti."
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 3740
+    y: 196
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &7952399773047666836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 4
+  m_EditorClassIdentifier: 
+  uniqueID: EQ_M.1/4
+  isPlayerSpeaking: 0
+  text: "Por supuesto que no./nNo vendo mis art\xEDculos a mocosos./nTampoco es que
+    tengan dinero para comprarlos..."
+  childrenIDs:
+  - EQ_M.1/6
+  - 6
+  rect:
+    serializedVersion: 2
+    x: 696
     y: 2
     width: 300
     height: 200
@@ -649,7 +774,7 @@ MonoBehaviour:
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
---- !u!114 &8636567512318624491
+--- !u!114 &8951884022024085775
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -659,51 +784,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
-  m_Name: 17
+  m_Name: 13
   m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/17
-  isPlayerSpeaking: 0
-  text: "Lo s\xE9./nY merezco ser castigado por ello./nUn ni\xF1o ha perdido la vida
-    por mi culpa./nNi siquiera merezco ser su sirviente, padre."
+  uniqueID: EQ_M.1/13
+  isPlayerSpeaking: 1
+  text: "Denuncia: Eres un estafador. Que el pueblo decida qu\xE9 hacer contigo."
   childrenIDs:
-  - CL_V.1/21
-  - 21
+  - EQ_M.1/17
+  - 17
   rect:
     serializedVersion: 2
-    x: 2893
+    x: 2594
     y: 194
     width: 300
     height: 200
-  faithCost: 0
-  RepIglesiaCost: 0
-  RepPuebloCost: 0
-  SobornoCost: 0
---- !u!114 &8714018127257998101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
-  m_Name: 12
-  m_EditorClassIdentifier: 
-  uniqueID: CL_V.1/12
-  isPlayerSpeaking: 1
-  text: 'Penitencia: Reza todas las noches por su alma. Hasta que la culpa te deje
-    descansar.'
-  childrenIDs:
-  - CL_V.1/16
-  - 16
-  rect:
-    serializedVersion: 2
-    x: 2544
-    y: -7
-    width: 300
-    height: 200
   faithCost: 1
-  RepIglesiaCost: 1
-  RepPuebloCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 1
   SobornoCost: 0

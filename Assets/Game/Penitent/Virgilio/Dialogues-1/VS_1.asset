@@ -1,0 +1,349 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8648888751439689947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 5
+  m_EditorClassIdentifier: 
+  uniqueID: VS_1/5
+  isPlayerSpeaking: 0
+  text: "Te equivocas, padre Abraham./nEres el gu\xEDa espiritual de este pueblo./nTu
+    deber es traer luz en tiempos de oscuridad./nDebemos asegurarnos de que la fe
+    del pueblo se mantenga alta./nNo me decepciones"
+  childrenIDs:
+  - VS_1/6
+  - 6
+  rect:
+    serializedVersion: 2
+    x: 744
+    y: 241
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-7310150126230113902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 4
+  m_EditorClassIdentifier: 
+  uniqueID: VS_1/4
+  isPlayerSpeaking: 0
+  text: "La gente del pueblo necesita ver que alguien paga por este incidente./nEstamos
+    hablando de brujer\xEDa./nAlguien deber\xEDa acabar en la hoguera./nAs\xED ha
+    sido siempre y as\xED ha de ser."
+  childrenIDs:
+  - VS_1/6
+  - 6
+  rect:
+    serializedVersion: 2
+    x: 743
+    y: 2
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-4340110804942931581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 8
+  m_EditorClassIdentifier: 
+  uniqueID: VS_1/8
+  isPlayerSpeaking: 1
+  text: "\xBFY si me niego?"
+  childrenIDs:
+  - 10
+  - 10
+  rect:
+    serializedVersion: 2
+    x: 1488
+    y: 294
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-2335033598057391087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  uniqueID: VS_1/1
+  isPlayerSpeaking: 0
+  text: "Esto es un desastre./nTodo el pueblo habla ya sobre los amuletos m\xE1gicos
+    que atraen la desgracia./nNo podemos permitir que estas blasfemias contin\xFAen./nAbraham,
+    debes ponerle fin a esto de una vez."
+  childrenIDs:
+  - VS_1/2
+  - VS_1/3
+  - 2
+  - 3
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-764028926739377961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 7
+  m_EditorClassIdentifier: 
+  uniqueID: VS_1/7
+  isPlayerSpeaking: 1
+  text: "\xBFY si castigo a un inocente por error?"
+  childrenIDs:
+  - VS_1/9
+  - 9
+  rect:
+    serializedVersion: 2
+    x: 1495
+    y: -9
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e960bec5b5236749b281289ea60fa82, type: 3}
+  m_Name: VS_1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -2335033598057391087}
+  - {fileID: 2926819685389530313}
+  - {fileID: 6258869251789035882}
+  - {fileID: -7310150126230113902}
+  - {fileID: -8648888751439689947}
+  - {fileID: 3213220201847426655}
+  - {fileID: -764028926739377961}
+  - {fileID: -4340110804942931581}
+  - {fileID: 1536450941421858299}
+  - {fileID: 3632259333728871713}
+  - {fileID: 4176741206527474325}
+  isTrueDialogue: 0
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1536450941421858299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 9
+  m_EditorClassIdentifier: 
+  uniqueID: VS_1/9
+  isPlayerSpeaking: 0
+  text: "Me trae sin cuidado./nAl menos nos servir\xE1 como chivo expiatorio./nCon
+    suerte, su alma podr\xE1 descansar en paz.../n\"Sabiendo que su muerte contribuy\xF3
+    al bienestar del pueblo y su Iglesia."
+  childrenIDs:
+  - 11
+  rect:
+    serializedVersion: 2
+    x: 1904
+    y: -8
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &2926819685389530313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  uniqueID: VS_1/2
+  isPlayerSpeaking: 1
+  text: "\xBFY c\xF3mo podr\xEDa hacerlo?"
+  childrenIDs:
+  - VS_1/4
+  - 4
+  rect:
+    serializedVersion: 2
+    x: 394
+    y: 1
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &3213220201847426655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 6
+  m_EditorClassIdentifier: 
+  uniqueID: VS_1/6
+  isPlayerSpeaking: 0
+  text: "Seguro que entre los que han visitado la iglesia hoy, tienes alg\xFAn sospechoso
+    de haber causado esta tragedia./nEncu\xE9ntralo y cast\xEDgalo./nPuedes utilizar
+    la cripta de la iglesia para ello./nCon eso el pueblo quedar\xE1 complacido.../nY
+    el pecado expiado."
+  childrenIDs:
+  - VS_1/7
+  - VS_1/8
+  - 7
+  - 8
+  rect:
+    serializedVersion: 2
+    x: 1141
+    y: 114
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &3632259333728871713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 10
+  m_EditorClassIdentifier: 
+  uniqueID: VS_1/10
+  isPlayerSpeaking: 0
+  text: "T\xFA sabr\xE1s lo que te haces./nEste es tu trabajo./nTe guste o no./nAunque
+    debo decirlo, los tienes bien puestos para llevarle la contraria a tu superior."
+  childrenIDs:
+  - VS_1/11
+  - 11
+  rect:
+    serializedVersion: 2
+    x: 1913
+    y: 293
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &4176741206527474325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 11
+  m_EditorClassIdentifier: 
+  uniqueID: VS_1/11
+  isPlayerSpeaking: 0
+  text: El caso es que hagas algo./nY que lo hagas ya./n
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 2342
+    y: 145
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &6258869251789035882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  uniqueID: VS_1/3
+  isPlayerSpeaking: 1
+  text: "Las autoridades deber\xEDan encargarse de esto."
+  childrenIDs:
+  - VS_1/5
+  - 5
+  rect:
+    serializedVersion: 2
+    x: 391
+    y: 241
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
