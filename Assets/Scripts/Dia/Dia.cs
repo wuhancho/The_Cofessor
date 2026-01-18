@@ -1,13 +1,17 @@
+using System.Linq;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Dia : MonoBehaviour
 {
-    [SerializeField] PlayerStatus playerStatus;
-
     [SerializeField] int numberDay;
-    private IFases[] faseActual;
+    private IFases[] fasesActuales;
     private PlayerController playerController;
     private PenitentController penitentController;
+    [SerializeField] private GameObject[] energyPrefab;
+    [SerializeField] private TextMeshProUGUI moneyText;
+
 
     public void Awake()
     {
@@ -24,36 +28,103 @@ public class Dia : MonoBehaviour
 
     public void Initialize(PlayerController pController, PenitentController ptController)
     {
-        faseActual = GetComponentsInChildren<IFases>();
+        playerController = pController;
+        penitentController = ptController;
 
-        this.playerController = pController;
+        // Obtener fases en children y inicializarlas
+        fasesActuales = GetComponentsInChildren<MonoBehaviour>(true)
+            .OfType<IFases>()
+            .ToArray();
 
-        if (playerStatus != null)
+        foreach (var fase in fasesActuales)
         {
-            numberDay = playerStatus.Day;
+            fase.Initialize(playerController, penitentController);
         }
 
-        for (int i = 0; i < faseActual.Length; i++)
+        Debug.Log($"Dia.Initialize: inicializadas {fasesActuales.Length} fases para el día {numberDay}");
+    }
+
+    public int GetNumberDay() => numberDay;
+    public void AddEnergy(int energycount)
+    {
+        // Buscar el primer prefab de energía activo y retirarlo una sola vez
+        foreach (var energy in energyPrefab)
         {
-            faseActual[i].Initialize(pController, ptController);
+            if (energy.activeSelf) continue;
+
+            if (playerController.PlayerStatus.Energy > playerController.PlayerStatus.MinEnergy &&
+                playerController.PlayerStatus.Energy <= playerController.PlayerStatus.MaxEnergy)
+            {
+                playerController.PlayerStatus.DecreaseEnergy(energycount);
+                energy.SetActive(true);
+                Debug.Log("Energía añadida: " + energy.name);
+                break; // salir para que sólo se retire una energía
+            }
         }
     }
-    public void UpdateDay()
+    public void RemoveEnergy(int energycount)
     {
-        numberDay++;
-
-        if (playerStatus != null)
+        // Buscar el primer prefab de energía activo y retirarlo una sola vez
+        foreach (var energy in energyPrefab)
         {
-            playerStatus.SetDay(numberDay);
+            if (!energy.activeSelf) continue;
+
+            if (playerController.PlayerStatus.Energy > playerController.PlayerStatus.MinEnergy &&
+                playerController.PlayerStatus.Energy <= playerController.PlayerStatus.MaxEnergy)
+            {
+                playerController.PlayerStatus.DecreaseEnergy(energycount);
+                energy.SetActive(false);
+                Debug.Log("Energía removida: " + energy.name);
+                if(playerController.PlayerStatus.Energy == playerController.PlayerStatus.MinEnergy)
+                {
+                    Debug.Log("Energía al mínimo, activar evento de fin de día.");
+                    if (playerController.PlayerStatus.Day == 0)
+
+                        SceneManager.LoadScene("DÍA 1 - TARDE");
+                    else if (playerController.PlayerStatus.Day >= 1)
+                        SceneManager.LoadScene("DÍA 2 - TARDE");
+                    // Aquí puedes activar un evento o llamar a un método para manejar el fin del día
+                }
+                break; // salir para que sólo se retire una energía
+            }
         }
     }
-    public void EndDay()
+    public void AddMoney(int moneycount)
     {
-
+        // Lógica para añadir dinero al jugador
+        playerController.PlayerStatus.Getmoney(moneycount);
+        moneyText.text = playerController.PlayerStatus.Money.ToString();
+        Debug.Log($"Dinero añadido: {moneycount}, Dinero Total: {moneyText.text}");
     }
-    public int GetNumberDay()
+    public void RemoveMoney(int moneycount)
     {
-        return numberDay;
+        // Lógica para quitar dinero al jugador
+        if (playerController.PlayerStatus.Money > playerController.PlayerStatus.MinMoney)
+        {
+            playerController.PlayerStatus.Spendmoney(moneycount);
+            moneyText.text = playerController.PlayerStatus.Money.ToString();
+        }
+        Debug.Log($"Dinero removido: {moneycount}, Dinero Total: {moneyText.text}");
+    }
+    public void AddFaith(int faithcount)
+    {
+        playerController.PlayerStatus.IncreaseFaith(faithcount);
+        Debug.Log("Fe añadida: " + faithcount);
+    }
+    public void RemoveFaith(int faithcount)
+    {
+        playerController.PlayerStatus.DecreaseFaith(faithcount);
+        Debug.Log("Fe removida: " + faithcount);
+    }
+    public void AddReputationPeople(int reputationcount)
+    {
+        playerController.PlayerStatus.IncreaseRepPueblo(reputationcount);
+        Debug.Log("Reputación con el pueblo añadida: " + reputationcount);
+    }
+    public void RemoveReputationPeople(int reputationcount)
+    {
+        playerController.PlayerStatus.DecreaseRepPueblo(reputationcount);
+        Debug.Log("Reputación con el pueblo removida: " + reputationcount);
     }
 
 }

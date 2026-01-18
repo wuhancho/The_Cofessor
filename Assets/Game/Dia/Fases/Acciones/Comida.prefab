@@ -45,3 +45,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cuantityFood: 0
+  PrefabFood: {fileID: 0}
+  FoodText: {fileID: 0}

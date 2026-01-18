@@ -7,11 +7,24 @@ public class A_Rezar : MonoBehaviour, IAccionesEnergia
     [SerializeField] private int faith;
     [SerializeField] private string nameAction;
     private int day;
-    private PlayerController playerController;
+     private PlayerController _playerController;
 
-    public UnityEvent<string> onCapillaAction;
+    [Header("Configuración de la acción")]
+    [Space]
+    [Tooltip("Evento que se dispara para habilitar el boton.\n objetos necesarios(DEBEN ESTAR EN EL ESCENARIO)\n " +
+        "Altar - mesa interactuable\n" +
+        "REZO\n " +
+        "ENERGIA DIARIA")]
+    public UnityEvent onCapillaAction;
+    [Tooltip("Evento que se dispara al cancelar la Capilla.\n objetos necesarios(DEBEN ESTAR EN EL ESCENARIO)\n " +
+        "Altar - mesa interactuable\n" +
+        "REZO\n " +
+        "ENERGIA DIARIA")]
     public UnityEvent onCapillaCancel;
-    public UnityEvent<int,int> onCapillaOperative;
+    [Tooltip("Evento que se dispara al activar la Capilla.\n objetos necesarios(DEBEN ESTAR EN EL ESCENARIO)\n Dia")]
+    public UnityEvent<int> onCapillaOperativeEnergyCost;
+    [Tooltip("Evento que se dispara al activar la Capilla.\n objetos necesarios(DEBEN ESTAR EN EL ESCENARIO)\n Dia")]
+    public UnityEvent<int> onCapillaOperativeFaithCost;
 
     public int EnergyCost => energy;
 
@@ -35,7 +48,7 @@ public class A_Rezar : MonoBehaviour, IAccionesEnergia
     public void TriggerAction()
     {
         Debug.Log("Acción de la Capilla activada.");
-        onCapillaAction.Invoke(nameAction);
+        onCapillaAction.Invoke();
     }
     public void CancelAction()
     {
@@ -45,13 +58,19 @@ public class A_Rezar : MonoBehaviour, IAccionesEnergia
     public void OperateCapilla()
     {
         Debug.Log("Operando la Capilla.");
-        onCapillaOperative.Invoke(energy,faith);
+        onCapillaOperativeEnergyCost.Invoke(energy);
+        onCapillaOperativeFaithCost.Invoke(faith);
+
     }
 
     public void Initialize(PlayerController playerController)
     {
-        this.playerController = playerController;
+        _playerController = playerController;
+        //SetDay(playerController.PlayerStatus.Day);
+    }
+    public void DebugAccion() 
+    {
+        Debug.Log($"{_playerController.PlayerStatus.Day} - Acción de Rezar - Día: {day}, Costo de Energía: {energy}, Costo de Fe: {faith}");
     }
 
-    
 }

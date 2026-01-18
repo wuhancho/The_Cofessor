@@ -241,4 +241,8 @@ public class A_confessions : MonoBehaviour, IAcciones
         }
         return null;
     }
+    public void DebugAccion() 
+    {
+        Debug.Log($"{playerController.PlayerStatus.Day} - Acción de confesion - Día: {day}");
+    }
 }

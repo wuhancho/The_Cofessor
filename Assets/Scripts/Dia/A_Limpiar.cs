@@ -4,9 +4,9 @@ public class A_Limpiar : MonoBehaviour, IAccionesEnergia
 {
     [SerializeField] private int energyCost;
     [SerializeField] private float moneyCost;
-    [SerializeField] private string actionName;
+    [SerializeField] private string actionName = "limpiar";
     private int day;
-    private PlayerController playerController;
+    private PlayerController _playerController;
     public int EnergyCost => energyCost;
 
     public int FaithCost => 0;
@@ -17,7 +17,7 @@ public class A_Limpiar : MonoBehaviour, IAccionesEnergia
 
     public void SetDay(int day)
     {
-        throw new System.NotImplementedException();
+        this.day = day;
     }
     public void CancelAction()
     {
@@ -46,11 +46,17 @@ public class A_Limpiar : MonoBehaviour, IAccionesEnergia
 
     public void Initialize(PlayerController playerController)
     {
-        this.playerController = playerController;
+        _playerController = playerController;
+        //SetDay(playerController.PlayerStatus.Day);
+        //Debug.Log($"playerController.Day: {playerController.PlayerStatus.Day}");
     }
 
     public void TriggerAction()
     {
         throw new System.NotImplementedException();
+    }
+    public void DebugAccion()
+    {
+        Debug.Log($"{_playerController.PlayerStatus.Day} - Acción de {actionName} - Día: {day}, Costo de Energía: {energyCost}, Costo de Dinero: {moneyCost}");
     }
 }

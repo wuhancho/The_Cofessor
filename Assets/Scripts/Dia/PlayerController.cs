@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
 
 
 
-    public PlayerStatus PlayerStatus { get => playerStatus; set => playerStatus = value; }
+    public PlayerStatus PlayerStatus { get => playerStatus; /*set => playerStatus = value; */}
     public PlayerConversant PlayerConversant { get => playerConversant; set => playerConversant = value; }
     public void SetDialogNode(DialogNode node)
     {
@@ -22,6 +22,29 @@ public class PlayerController : MonoBehaviour
         Debug.Log("SetCurrentChoices invoked in PlayerController.");
         currentChoices = choices;
     }
+    public void changeStatusMoney(int amount)
+    {
+        if (amount < 0)
+        {
+            PlayerStatus.Spendmoney(-amount);
+        }
+        else
+        {
+            PlayerStatus.Getmoney(amount);
+        }
+    }
+    public void ChangeSetCleaned(bool value)
+    {
+        if (value == true)
+        {
+            PlayerStatus.SetCleaned(value);
+        }
+        else
+        {
+            PlayerStatus.SetCleaned(value);
+        }
+    }
+
 
     public void ChangeStatesPlayer(DialogNode dialogNode)
     {

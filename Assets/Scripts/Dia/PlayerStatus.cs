@@ -22,17 +22,49 @@ public class PlayerStatus: ScriptableObject
     [SerializeField] private float food;
     private float maxFood = 9999;
     private float minFood = 0;
-    [SerializeField] private bool Cleaned;
     [SerializeField] private int day = 1;
-    
-    public float Energy { get => energy; }
+    [SerializeField] private bool Cleaned;
+    [SerializeField] private bool misaDone;
+
+    #region Getters
+    //energy
+    public float Energy { get => energy;}
+    public float MaxEnergy { get => maxEnergy;}
+    public float MinEnergy { get => minEnergy;}
+
+    //faith
     public float Faith { get => faith; }
+    public float MaxFaith { get => maxFaith; }
+    public float MinFaith { get => minFaith; }
+
+    //money
     public float Money { get => money; }
+    public float MaxMoney { get => maxMoney; }
+    public float MinMoney { get => minMoney; }
+
+    //reputation iglesia
     public float RepIglesia { get => repIglesia; }
+    public float MaxRepIglesia { get => maxRepIglesia; }
+    public float MinRepIglesia { get => minRepIglesia; }
+
+    //reputation pueblo
     public float RepPueblo { get => repPueblo; }
+    public float MaxRepPueblo { get => maxRepPueblo; }
+    public float MinRepPueblo { get => minRepPueblo; }
+
+    //food
     public float Food { get => food; }
+    public float MaxFood { get => maxFood; }
+    public float MinFood { get => minFood; }
+
+    //estado de limpieza
     public bool cleaned { get => Cleaned; }
+    //day
     public int Day { get => day; }
+    
+    //misa done
+    public bool MisaDone { get => misaDone; }
+    #endregion
 
     public void Getmoney(float amount)
     {
@@ -40,7 +72,7 @@ public class PlayerStatus: ScriptableObject
     }
     public void Spendmoney(float amount)
     {
-        money = math.clamp(money + amount, minMoney, maxMoney);
+        money = math.clamp(money - amount, minMoney, maxMoney);
     }
     public void RestoreEnergy(float amount)
     {
@@ -49,7 +81,7 @@ public class PlayerStatus: ScriptableObject
     }
     public void DecreaseEnergy(float amount)
     {
-        energy = math.clamp(energy + amount, minEnergy, maxEnergy);
+        energy = math.clamp(energy - amount, minEnergy, maxEnergy);
     }
     public void IncreaseFaith(float amount)
     {
@@ -57,7 +89,7 @@ public class PlayerStatus: ScriptableObject
     }
     public void DecreaseFaith(float amount)
     {
-        faith = math.clamp(faith + amount, minFaith, maxFaith);
+        faith = math.clamp(faith - amount, minFaith, maxFaith);
     }
     public void IncreaseRepIglesia(float amount)
     {
@@ -65,7 +97,7 @@ public class PlayerStatus: ScriptableObject
     }
     public void DecreaseRepIglesia(float amount)
     {
-        repIglesia = math.clamp(repIglesia + amount, minRepIglesia, maxRepIglesia);
+        repIglesia = math.clamp(repIglesia - amount, minRepIglesia, maxRepIglesia);
     }
     public void IncreaseRepPueblo(float amount)
     {
@@ -73,7 +105,7 @@ public class PlayerStatus: ScriptableObject
     }
     public void DecreaseRepPueblo(float amount)
     {
-        repPueblo = math.clamp(repPueblo + amount, minRepPueblo, maxRepPueblo);
+        repPueblo = math.clamp(repPueblo - amount, minRepPueblo, maxRepPueblo);
     }
     public void GetFood(float amount)
     {
@@ -81,11 +113,15 @@ public class PlayerStatus: ScriptableObject
     }
     public void SpendFood(float amount)
     {
-        food = math.clamp(food + amount, minFood, maxFood);
+        food = math.clamp(food - amount, minFood, maxFood);
     }
     public void SetCleaned(bool status)
     {
         Cleaned = status;
+    }
+    public void SetMisaDone(bool status)
+    {
+        misaDone = status;
     }
 
     public void SetDay(int dayNumber)

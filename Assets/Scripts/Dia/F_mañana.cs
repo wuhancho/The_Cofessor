@@ -4,34 +4,57 @@ using UnityEngine;
 public class F_mañana : MonoBehaviour, IFases
 {
     [SerializeField] private bool includeInactiveChildren = true;
-    [SerializeField] private IAccionesEnergia[] acciones;
-    [SerializeField] private Dia dia;
+    private IAcciones[] acciones;
+    private Dia dia;
     private PlayerController playerController;
     private PenitentController penitentController;
-
-    private void Awake()
-    {
-        dia = GetComponentInParent<Dia>();
-        RefrescarAcciones();
-    }
+    
 
     [ContextMenu("Refrescar acciones")]
     public void RefrescarAcciones()
     {
-        acciones = GetComponentsInChildren<IAccionesEnergia>(includeInactiveChildren);
+        var nuevas = GetComponentsInChildren<MonoBehaviour>(includeInactiveChildren)
+            .OfType<IAcciones>()
+            .ToArray();
+
+        // Si cambian las referencias, reemplaza y (re)inicializa
+        if (acciones == null || acciones.Length != nuevas.Length)
+        {
+            acciones = nuevas;
+        }
+        else
+        {
+            // opcional: comparar elementos por InstanceID si se requiere exactitud
+            acciones = nuevas;
+        }
     }
 
     public IAcciones[] GetAcciones() => acciones;
 
-    private void Start()
-    {
-        Debug.Log("Fase de la mañana iniciada con " + acciones.Length + " acciones disponibles.");
-        
-    }
-
     public void Initialize(PlayerController pController, PenitentController ptController)
     {
-        this.playerController = pController;
-        this.penitentController = ptController;
+        playerController = pController;
+        penitentController = ptController;
+        dia = GetComponentInParent<Dia>();
+
+        // Asegúrate de refrescar antes de inicializar
+        RefrescarAcciones();
+
+        // Inicializar cada acción y registrar si falta playerController
+        foreach (var accion in acciones)
+        {
+            if (accion == null)
+            {
+                Debug.LogWarning("F_mañana.Initialize: accion NULL encontrada.");
+                continue;
+            }
+
+            accion.Initialize(playerController);
+            accion.SetDay(dia != null ? dia.GetNumberDay() : 0);
+            accion.DebugAccion();
+
+            Debug.Log($"F_mañana - Inicializada {((MonoBehaviour)accion).name} con playerController={(playerController==null?"NULL":playerController.name)}");
+        }
     }
+    
 }
