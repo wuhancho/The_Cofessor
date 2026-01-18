@@ -36,6 +36,7 @@ public class F_mañana : MonoBehaviour, IFases
         playerController = pController;
         penitentController = ptController;
         dia = GetComponentInParent<Dia>();
+        playerController.PlayerStatus.RestoreEnergy(2);
 
         // Asegúrate de refrescar antes de inicializar
         RefrescarAcciones();
