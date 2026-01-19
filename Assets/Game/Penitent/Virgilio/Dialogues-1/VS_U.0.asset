@@ -1,0 +1,317 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8085238658660600620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  uniqueID: 2
+  isPlayerSpeaking: 0
+  text: "Es un gusto ver que retoma sus viejas actividades./n\xA1Y lo ha hecho por
+    todo lo alto!/nTodo el pueblo ha venido a verle."
+  childrenIDs:
+  - 3
+  rect:
+    serializedVersion: 2
+    x: 345
+    y: 2
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-6075348997985960139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 5
+  m_EditorClassIdentifier: 
+  uniqueID: 5
+  isPlayerSpeaking: 0
+  text: "Hay algo que debo confesarle./n\"Desde que abandon\xF3 su puesto, he dejado
+    de escuchar las respuestas del se\xF1or durante mis oraciones./nCreo que me ha
+    abandonado.../n\xBFO ser\xE1 mi fe la que se ha agotado?"
+  childrenIDs:
+  - 6
+  - 7
+  rect:
+    serializedVersion: 2
+    x: 1392
+    y: -1
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-5719078038062884864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 8
+  m_EditorClassIdentifier: 
+  uniqueID: 8
+  isPlayerSpeaking: 0
+  text: "Kej\u2026 kejeje./nSin duda la absoluci\xF3n es lo que desear\xE1n la mayor\xEDa
+    de los que acudan aqu\xED./n\"Puede otorgarla si lo ve adecuado.../nMas recuerde
+    que los pecados deben ser castigados como corresponde./nTengo fe en que tomar\xE1
+    las decisiones correctas."
+  childrenIDs:
+  - 10
+  rect:
+    serializedVersion: 2
+    x: 2100
+    y: -6
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-2993282744099717530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  uniqueID: 3
+  isPlayerSpeaking: 0
+  text: "Don Justo me ha informado de que le ha pedido que ayude a los ciudadanos/nY
+    estoy completamente de acuerdo./nSin embargo, hay algo que deber\xEDa saber./nDurante
+    su ausencia, han aumentado los casos de brujer\xEDa y toda clase de herej\xEDas
+    en la regi\xF3n./nLa Santa Inquisici\xF3n vigila con pu\xF1o de hierro que la
+    situaci\xF3n no se salga de control./nMe gustar\xEDa que me ayude a, desde su
+    posici\xF3n, encontrar cualquier peligroso indicio y cortar el problema de ra\xEDz./nA
+    Castroviejo no le conviene ener problemas con la Iglesia; cuento con usted."
+  childrenIDs:
+  - 4
+  rect:
+    serializedVersion: 2
+    x: 692
+    y: 2
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-1298815467566079881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 7
+  m_EditorClassIdentifier: 
+  uniqueID: 7
+  isPlayerSpeaking: 1
+  text: "Penitencia: Ayune durante tres d\xEDas para demostrar su fe hacia el Se\xF1or."
+  childrenIDs:
+  - 9
+  rect:
+    serializedVersion: 2
+    x: 1741
+    y: 240
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-474708573093139940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 6
+  m_EditorClassIdentifier: 
+  uniqueID: 6
+  isPlayerSpeaking: 1
+  text: "Absoluci\xF3n: Es natural que se sienta perdido. No tema; su gu\xEDa espiritual
+    ha regresado."
+  childrenIDs:
+  - 8
+  rect:
+    serializedVersion: 2
+    x: 1744
+    y: -2
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e960bec5b5236749b281289ea60fa82, type: 3}
+  m_Name: VS_U.0
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 3966601042404322209}
+  - {fileID: -8085238658660600620}
+  - {fileID: -2993282744099717530}
+  - {fileID: 2639277014555994808}
+  - {fileID: -6075348997985960139}
+  - {fileID: -474708573093139940}
+  - {fileID: -1298815467566079881}
+  - {fileID: -5719078038062884864}
+  - {fileID: 1935754355343599189}
+  - {fileID: 8252326029411549296}
+  isTrueDialogue: 0
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1935754355343599189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 9
+  m_EditorClassIdentifier: 
+  uniqueID: 9
+  isPlayerSpeaking: 0
+  text: "Una sabia decisi\xF3n./nLos pecadores desean ser perdonados, mas debe cumplirse
+    un precio./nEl sacramento de la penitencia es el castigo que debemos imponer
+    sobre los pecadores./nSolo de esa forma podr\xE1n ganarse de nuevo el favor del
+    todopoderoso./nTengo fe en que tomar\xE1 las decisiones correctas."
+  childrenIDs:
+  - 10
+  rect:
+    serializedVersion: 2
+    x: 2090
+    y: 243
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &2639277014555994808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 4
+  m_EditorClassIdentifier: 
+  uniqueID: 4
+  isPlayerSpeaking: 0
+  text: "Ya sabe que tenemos unos dogmas que debemos cumplir./nMe gustar\xEDa verlo
+    en acci\xF3n, padre./nHagamos un peque\xF1o juego./nMe har\xE9 pasar por una
+    pobre alma en pena que acude a usted."
+  childrenIDs:
+  - 5
+  rect:
+    serializedVersion: 2
+    x: 1044
+    y: 0
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &3966601042404322209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  uniqueID: 1
+  isPlayerSpeaking: 0
+  text: "Es una alegr\xEDa verlo de nuevo, padre Abraham./nDon Justo me ha puesto
+    al corriente de su... Situaci\xF3n./nAs\xED que ser\xE9 breve./nSoy el arzobispo
+    Virgilio Sandoval, su superior directo."
+  childrenIDs:
+  - 2
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &8252326029411549296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 10
+  m_EditorClassIdentifier: 
+  uniqueID: 10
+  isPlayerSpeaking: 0
+  text: Virgilio se retira.
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 2457
+    y: 121
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0

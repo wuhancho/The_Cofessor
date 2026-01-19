@@ -17,6 +17,7 @@ MonoBehaviour:
   characterImage:
   - {fileID: 2800000, guid: abaab1c186de56b4bb4736f03d1c46a1, type: 3}
   dialogs:
+  - {fileID: 11400000, guid: 1a74c160a9e81a745a01835b0485387b, type: 2}
   - {fileID: 11400000, guid: 9141b652a58de5b4bb48e43bbc091eda, type: 2}
   - {fileID: 11400000, guid: 3c4fde4b89eb7ae44a2fc7fc5388b197, type: 2}
   isTrueDialogue: 0

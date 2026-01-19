@@ -1,0 +1,438 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9100866464215395641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  uniqueID: 1
+  isPlayerSpeaking: 0
+  text: "Buenas tardes, padre Abraham./nNo se imagina cu\xE1nto me alegro de verle./n\xBFC\xF3mo
+    se encuentra?"
+  childrenIDs:
+  - 2
+  - 3
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-6412295095494058709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  uniqueID: 3
+  isPlayerSpeaking: 1
+  text: "\xBFQui\xE9n es usted?"
+  childrenIDs:
+  - 5
+  rect:
+    serializedVersion: 2
+    x: 389
+    y: 236
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-5424980360767016420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 8
+  m_EditorClassIdentifier: 
+  uniqueID: 8
+  isPlayerSpeaking: 0
+  text: "Como ocurr\xEDa antes, los feligreses acudir\xE1n a usted./nLe hablar\xE1n
+    sobre sus preocupaciones, penas y pecados./nQuiero pedirle que los escuche y
+    ayude para que se sientan mejor./nSi lo hace, m\xE1s confiar\xE1n es usted y
+    m\xE1s feliz ser\xE1 la gente de Castroviejo./n.../nYa s\xE9, hagamos una prueba
+    para ver si su famoso don de gentes se mantiene./nImagine que soy un aldeano
+    cualquiere que viene a hablar con usted."
+  childrenIDs:
+  - 9
+  rect:
+    serializedVersion: 2
+    x: 1897
+    y: 119
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-4360878960426316070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 10
+  m_EditorClassIdentifier: 
+  uniqueID: 10
+  isPlayerSpeaking: 1
+  text: "Denuncia: Robar es un delito, deber\xEDa ser juzgado y castigado como corresponde."
+  childrenIDs:
+  - 12
+  rect:
+    serializedVersion: 2
+    x: 2595
+    y: -3
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-1824015978232414972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 6
+  m_EditorClassIdentifier: 
+  uniqueID: 6
+  isPlayerSpeaking: 0
+  text: "Ver\xE1.../nEn su ausencia, el pueblo no ha pasado por su mejor momento./nCon
+    su partida, los vecinos perdieron su fe, su prop\xF3sito./nYa sabe a lo que me
+    refiero; se encuentran perdidos./nYo he hecho lo mejor que he podido por mi gente,
+    mas soy un hombre pragm\xE1tico, de n\xFAmeros.Poco puedo hacer para curar sus
+    corazones."
+  childrenIDs:
+  - 7
+  rect:
+    serializedVersion: 2
+    x: 1191
+    y: 117
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e960bec5b5236749b281289ea60fa82, type: 3}
+  m_Name: JC_U.0
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -9100866464215395641}
+  - {fileID: 1452827835572530537}
+  - {fileID: -6412295095494058709}
+  - {fileID: 4327481157443560928}
+  - {fileID: 8782408601429756060}
+  - {fileID: -1824015978232414972}
+  - {fileID: 2384929094580413501}
+  - {fileID: -5424980360767016420}
+  - {fileID: 7883545100239545041}
+  - {fileID: -4360878960426316070}
+  - {fileID: 470515429823686833}
+  - {fileID: 7344291516922027993}
+  - {fileID: 5136890913472066043}
+  - {fileID: 4046174555186861942}
+  isTrueDialogue: 0
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &470515429823686833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 11
+  m_EditorClassIdentifier: 
+  uniqueID: 11
+  isPlayerSpeaking: 1
+  text: "Encubrimiento: Robar para alimemtar a su familia est\xE1 justificado. Su
+    secreto est\xE1 a salvo conmigo."
+  childrenIDs:
+  - 13
+  rect:
+    serializedVersion: 2
+    x: 2589
+    y: 252
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &1452827835572530537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  uniqueID: 2
+  isPlayerSpeaking: 1
+  text: Algo desorientado...
+  childrenIDs:
+  - 4
+  rect:
+    serializedVersion: 2
+    x: 395
+    y: 1
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &2384929094580413501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 7
+  m_EditorClassIdentifier: 
+  uniqueID: 7
+  isPlayerSpeaking: 0
+  text: "Por eso quer\xEDa pedirle que retomara su lugar como gu\xEDa espiritual
+    del pueblo./nLos aldeanos necesitan una luz que seguir, una esperanza a la que
+    agarrarse en tiempos de oscuridad./n\"Usted, padre, es esa esperanza."
+  childrenIDs:
+  - 8
+  rect:
+    serializedVersion: 2
+    x: 1546
+    y: 118
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &4046174555186861942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 14
+  m_EditorClassIdentifier: 
+  uniqueID: 14
+  isPlayerSpeaking: 0
+  text: Don Justo se retira
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 3343
+    y: 105
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &4327481157443560928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 4
+  m_EditorClassIdentifier: 
+  uniqueID: 4
+  isPlayerSpeaking: 0
+  text: Le entiendo perfectamente, padre./nAcaba de despertar y todo es confuso./nEl
+    pueblo estaba muy preocupado por usted./nanto los aldeanos como yo estaremos
+    encantados de ayudarle con lo que necesite.
+  childrenIDs:
+  - 6
+  rect:
+    serializedVersion: 2
+    x: 788
+    y: 4
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &5136890913472066043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 13
+  m_EditorClassIdentifier: 
+  uniqueID: 13
+  isPlayerSpeaking: 0
+  text: "Hehehehe../nGuardarte los secretos de la gente es, sin duda, la mejor forma
+    de ganarte su confianza./nMas debes ser cauto, pues, si beneficias demasiado
+    a algunos pueblerinos.../nEl resto podr\xEDa empezar a sospechar de su corrupci\xF3n./nAl
+    final del d\xEDa, su decisi\xF3n depender\xE1 de sus propios valores."
+  childrenIDs:
+  - 14
+  rect:
+    serializedVersion: 2
+    x: 2935
+    y: 245
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &7344291516922027993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 12
+  m_EditorClassIdentifier: 
+  uniqueID: 12
+  isPlayerSpeaking: 0
+  text: "Denunciar los delitos de los aldeanos es parte de su deber como autoridad
+    que es./nMas tenga cuidado./nPues si denuncia hasta la m\xE1s leve falta, correr\xE1
+    el riesgo de perder la confianza de los pueblerinos./n"
+  childrenIDs:
+  - 14
+  rect:
+    serializedVersion: 2
+    x: 2944
+    y: -4
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &7883545100239545041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 9
+  m_EditorClassIdentifier: 
+  uniqueID: 9
+  isPlayerSpeaking: 0
+  text: "Padre.../nHay algo que llevo tiempo escondiendo en mi coraz\xF3n./nMas ya
+    no puedo soportar esta culpa./nMi vecino ten\xEDa dos vacas./nHac\xEDa un lustro
+    que en mi casa no se com\xEDa buena carne, as\xED que, una noche, me col\xE9
+    en su granja y me llev\xE9 una de ellas./nCuando me pregunt\xF3 por ella, le
+    ment\xED diciendo que la vi escapar hacia el bosque durante las horas nocturnas./nS\xE9
+    que hice mal, pero lo hice para dar de comer a mi familia."
+  childrenIDs:
+  - 10
+  - 11
+  rect:
+    serializedVersion: 2
+    x: 2242
+    y: 121
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &8782408601429756060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 5
+  m_EditorClassIdentifier: 
+  uniqueID: 5
+  isPlayerSpeaking: 0
+  text: "Hehehehe.../nEl monaguillo me ha puesto al corriente de su amnesia./nEs
+    un chiquillo muy... rico./nEn ese caso no tendr\xE9 problema en presentarme de
+    nuevo./nSoy Don Justo Caballero, el alcalde del solemne Castroviejo./nEstoy deseoso
+    de trabajar junto a usted por el bien de este nuestro pueblo."
+  childrenIDs:
+  - 6
+  rect:
+    serializedVersion: 2
+    x: 780
+    y: 234
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
