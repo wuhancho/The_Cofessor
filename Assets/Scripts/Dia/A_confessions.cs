@@ -98,6 +98,14 @@ public class A_confessions : MonoBehaviour, IAcciones
             foreach (Dialog dialog in penitent.Dialogs)
             {
                 if (dialog == null) continue;
+                if (day != penitent.DayDialogue) continue;
+                if (penitent.TypeDialogue == "U")
+                {
+                    playerController.PlayerConversant.CurrentSpeakerNPC = penitent.CharacterName;
+                    Debug.Log($"Diálogo único encontrado: {dialog.name} para el penitente {penitent.CharacterName} en el día {day}");
+                    return dialog;
+                }
+                if (penitent.TypeDialogue == "M" || penitent.TypeDialogue == "V") continue;
                 if (dialog.IsTrueDialogue == isTrueDialogue)
                 {
                     //UpdatePenitentImage(penitent);

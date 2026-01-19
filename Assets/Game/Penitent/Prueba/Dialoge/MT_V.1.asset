@@ -374,8 +374,8 @@ MonoBehaviour:
   - 6
   rect:
     serializedVersion: 2
-    x: 659.093
-    y: -13.657013
+    x: 647.093
+    y: -10.657013
     width: 300
     height: 200
   faithCost: 0

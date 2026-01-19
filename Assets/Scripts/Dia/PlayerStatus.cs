@@ -1,3 +1,4 @@
+using System;
 using Unity.Mathematics;
 using UnityEngine;
 
@@ -127,5 +128,25 @@ public class PlayerStatus: ScriptableObject
     public void SetDay(int dayNumber)
     {
         day = dayNumber;
+    }
+
+    internal void ResetFaith()
+    {
+        faith = 7;
+    }
+
+    internal void ResetRepIglesia()
+    {
+       repIglesia = 7;
+    }
+
+    internal void ResetRepPueblo()
+    {
+        repPueblo = 7;
+    }
+    internal void ResetFood()
+    {
+        food = 20;
+
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "", menuName = "Scriptable Objects/SPenitent", order = 1)]
-public class SPenitent: ScriptableObject
+public class SPenitent : ScriptableObject
 {
     [SerializeField] private string id;
     [SerializeField] private string characterName;
@@ -19,7 +19,8 @@ public class SPenitent: ScriptableObject
     public bool IsTrueDialogue { get => isTrueDialogue; set => isTrueDialogue = value; }
     public int Day { get => day; set => day = value; }
     public string Id { get => id; set => id = value; }
-    
+
+
     public Texture2D[] GetTextures2D()
     {
         return characterImage;
@@ -31,7 +32,7 @@ public class SPenitent: ScriptableObject
         {
             foreach (var dialog in dialogs)
             {
-                if(dialog.IsTrueDialogue)
+                if (dialog.IsTrueDialogue)
                 {
                     return dialog;
                 }
@@ -52,5 +53,38 @@ public class SPenitent: ScriptableObject
             }
         }
         return null;
+    }
+    public string IDDialogue
+    {
+        get
+        {
+            foreach (var dialog in dialogs)
+            {
+                return dialog.name.Split('_')[0];
+            }
+            return null; // Agregado para asegurar que todas las rutas devuelvan un valor
+        }
+    }
+    public string TypeDialogue
+    {
+        get
+        {
+            foreach (var dialog in dialogs)
+            {
+                return dialog.name.Split('_')[1].Split('.')[0];
+            }
+            return null; // Agregado para asegurar que todas las rutas devuelvan un valor
+        }
+    }
+    public int DayDialogue
+    {
+        get
+        {
+            foreach (var dialog in dialogs)
+            {
+                return int.Parse(dialog.name.Split('_')[1].Split('.')[1]);
+            }
+            return 0; // Cambiado de null a 0 para evitar CS0037
+        }
     }
 }

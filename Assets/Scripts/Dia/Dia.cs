@@ -40,7 +40,17 @@ public class Dia : MonoBehaviour
         {
             fase.Initialize(playerController, penitentController);
         }
-
+        if(playerController.PlayerStatus.Day == 0)
+        {
+            playerController.PlayerStatus.RestoreEnergy(2);
+            playerController.PlayerStatus.Spendmoney(playerController.PlayerStatus.MinMoney);
+            playerController.PlayerStatus.ResetFaith();
+            playerController.PlayerStatus.ResetRepPueblo();
+            playerController.PlayerStatus.ResetRepIglesia();
+            playerController.PlayerStatus.ResetFood();
+            playerController.PlayerStatus.SetCleaned(false);
+            playerController.PlayerStatus.SetMisaDone(false);
+        }
         Debug.Log($"Dia.Initialize: inicializadas {fasesActuales.Length} fases para el día {numberDay}");
     }
 
