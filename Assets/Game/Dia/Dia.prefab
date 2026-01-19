@@ -49,3 +49,4 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   moneyText: {fileID: 0}
+  fadeDuration: 2

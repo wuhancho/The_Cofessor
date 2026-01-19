@@ -3,7 +3,7 @@ using Unity.Mathematics;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "PlayerStatus", menuName = "Scriptable Objects/PlayerStatus", order = 1)]
-public class PlayerStatus: ScriptableObject
+public class PlayerStatus : ScriptableObject
 {
     [SerializeField] private float energy;
     private float maxEnergy = 3;
@@ -29,9 +29,9 @@ public class PlayerStatus: ScriptableObject
 
     #region Getters
     //energy
-    public float Energy { get => energy;}
-    public float MaxEnergy { get => maxEnergy;}
-    public float MinEnergy { get => minEnergy;}
+    public float Energy { get => energy; }
+    public float MaxEnergy { get => maxEnergy; }
+    public float MinEnergy { get => minEnergy; }
 
     //faith
     public float Faith { get => faith; }
@@ -62,7 +62,7 @@ public class PlayerStatus: ScriptableObject
     public bool cleaned { get => Cleaned; }
     //day
     public int Day { get => day; }
-    
+
     //misa done
     public bool MisaDone { get => misaDone; }
     #endregion
@@ -137,7 +137,7 @@ public class PlayerStatus: ScriptableObject
 
     internal void ResetRepIglesia()
     {
-       repIglesia = 7;
+        repIglesia = 7;
     }
 
     internal void ResetRepPueblo()
@@ -147,6 +147,32 @@ public class PlayerStatus: ScriptableObject
     internal void ResetFood()
     {
         food = 20;
-
+    }
+    internal void ResetEnergy()
+    {
+        energy = 3;
+    }
+    internal void ResetMoney()
+    {
+        money = 0;
+    }
+    internal void ResetCleaned()
+    {
+        Cleaned = false;
+    }
+    internal void ResetMisaDone()
+    {
+        misaDone = false;
+    }
+    internal void ResetAllStatus()
+    {
+        ResetEnergy();
+        ResetFaith();
+        ResetMoney();
+        ResetRepIglesia();
+        ResetRepPueblo();
+        ResetFood();
+        ResetCleaned();
+        ResetMisaDone();
     }
 }

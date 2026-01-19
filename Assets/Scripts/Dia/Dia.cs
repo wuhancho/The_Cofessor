@@ -11,6 +11,7 @@ public class Dia : MonoBehaviour
     private PenitentController penitentController;
     [SerializeField] private GameObject[] energyPrefab;
     [SerializeField] private TextMeshProUGUI moneyText;
+    [SerializeField] private float fadeDuration = 1f;
 
 
     public void Awake()
@@ -35,12 +36,18 @@ public class Dia : MonoBehaviour
         fasesActuales = GetComponentsInChildren<MonoBehaviour>(true)
             .OfType<IFases>()
             .ToArray();
+        if (playerController.PlayerStatus.Day == 0)
+        {
+            playerController.PlayerStatus.ResetAllStatus();
+            RemoveEnergy(1);
+        }
+        numberDay = playerController.PlayerStatus.Day;
 
         foreach (var fase in fasesActuales)
         {
             fase.Initialize(playerController, penitentController);
         }
-
+        
         Debug.Log($"Dia.Initialize: inicializadas {fasesActuales.Length} fases para el día {numberDay}");
     }
 
@@ -79,10 +86,15 @@ public class Dia : MonoBehaviour
                 {
                     Debug.Log("Energía al mínimo, activar evento de fin de día.");
                     if (playerController.PlayerStatus.Day == 0)
-
-                        SceneManager.LoadScene("DÍA 1 - TARDE");
+                    {
+                        FadeController.Instance.FadeAndLoadScene("DÍA 1 - TARDE", fadeDuration);
+                        //SceneManager.LoadScene("DÍA 1 - TARDE");
+                    }
                     else if (playerController.PlayerStatus.Day >= 1)
-                        SceneManager.LoadScene("DÍA 2 - TARDE");
+                    {
+                        FadeController.Instance.FadeAndLoadScene("DÍA 2 - TARDE", fadeDuration);
+                        //SceneManager.LoadScene("DÍA 2 - TARDE");
+                    }
                     // Aquí puedes activar un evento o llamar a un método para manejar el fin del día
                 }
                 break; // salir para que sólo se retire una energía

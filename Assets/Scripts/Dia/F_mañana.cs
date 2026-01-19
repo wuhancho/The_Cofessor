@@ -36,7 +36,6 @@ public class F_mañana : MonoBehaviour, IFases
         playerController = pController;
         penitentController = ptController;
         dia = GetComponentInParent<Dia>();
-        playerController.PlayerStatus.RestoreEnergy(2);
 
         // Asegúrate de refrescar antes de inicializar
         RefrescarAcciones();
@@ -52,6 +51,10 @@ public class F_mañana : MonoBehaviour, IFases
 
             accion.Initialize(playerController);
             accion.SetDay(dia != null ? dia.GetNumberDay() : 0);
+            if (dia.GetNumberDay() >= 1)
+            {
+                playerController.ChangeSetCleaned(false);
+            }
             accion.DebugAccion();
 
             Debug.Log($"F_mañana - Inicializada {((MonoBehaviour)accion).name} con playerController={(playerController==null?"NULL":playerController.name)}");
