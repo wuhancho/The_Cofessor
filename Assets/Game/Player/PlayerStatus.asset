@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a403f3a91006464fa40ad7c7fd5b1f0, type: 3}
   m_Name: PlayerStatus
   m_EditorClassIdentifier: 
-  energy: 2
-  faith: 7
-  money: 100
-  repIglesia: 6
-  repPueblo: 6
-  food: 100
-  Cleaned: 0
+  energy: 0
+  faith: 15
+  money: 200
+  repIglesia: 7
+  repPueblo: 7
+  food: 20
+  day: 0
+  Cleaned: 1
+  misaDone: 1

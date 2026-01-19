@@ -44,5 +44,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87ab41264dc13b143bf51dcef3a575eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  energyCost: 0
+  energyCost: 1
+  faithCost: 1
   actionName: 
+  onMisaAction:
+    m_PersistentCalls:
+      m_Calls: []
+  onMisaCancel:
+    m_PersistentCalls:
+      m_Calls: []
+  onMisaOperativeEnergyCost:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: Dia, Assembly-CSharp
+        m_MethodName: RemoveEnergy
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onMisaOperativeFaithCost:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: Dia, Assembly-CSharp
+        m_MethodName: AddFaith
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

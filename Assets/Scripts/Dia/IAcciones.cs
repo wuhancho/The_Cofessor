@@ -16,5 +16,7 @@ public interface IAcciones
     public void CancelAction();
 
     public void Initialize(PlayerController playerController);
+
+    public void DebugAccion();
     void SetDay(int day);
 }

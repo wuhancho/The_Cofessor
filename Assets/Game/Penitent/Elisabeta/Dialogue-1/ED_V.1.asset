@@ -1,0 +1,383 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8341921546217772776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 9
+  m_EditorClassIdentifier: 
+  uniqueID: ED_V.1/9
+  isPlayerSpeaking: 0
+  text: "Es un colgante m\xE1gico tan antiguo como el hambre./nOtorga la vida eterna
+    a su portador.../nSolo si su poder ha sido cargado./nPara ello, el colgante absorve
+    la esperanza de vida de sus portadores previos./nSin duda, alguien conoc\xEDa
+    sus efectos y decidi\xF3 deshacerse de \xE9l."
+  childrenIDs:
+  - ED_V.1/11
+  - 11
+  rect:
+    serializedVersion: 2
+    x: 1797
+    y: -5
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-8319638898687170277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 7
+  m_EditorClassIdentifier: 
+  uniqueID: ED_V.1/7
+  isPlayerSpeaking: 1
+  text: "\xBFQu\xE9 me puedes decir sobre el colgante?"
+  childrenIDs:
+  - ED_V.1/9
+  - 9
+  rect:
+    serializedVersion: 2
+    x: 1439
+    y: -7
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-8014375369093902613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 12
+  m_EditorClassIdentifier: 
+  uniqueID: ED_V.1/12
+  isPlayerSpeaking: 0
+  text: "No tengo nada m\xE1s que decirle, Abraham./n\xBFHar\xE1 usted justicia?/nEl
+    pueblo reclama que alguien pague por este atroz acto./nMe pregunto a qui\xE9n
+    escoger\xE1."
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 2565
+    y: 121
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-6784573747032316508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  uniqueID: ED_V.1/1
+  isPlayerSpeaking: 0
+  text: "Ya est\xE1 anocheciendo, Abraham./n\xBFSabe ya qui\xE9n es el culpable de
+    la tragedia del ni\xF1o?"
+  childrenIDs:
+  - ED_V.1/2
+  - ED_V.1/3
+  - 2
+  - 3
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-4270820596399405758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 11
+  m_EditorClassIdentifier: 
+  uniqueID: ED_V.1/11
+  isPlayerSpeaking: 0
+  text: "El amuleto tiene voluntad propia./nDesea cargarse, as\xED que incita a las
+    personas a pon\xE9rselo y as\xED arrebatarles la vida./nRequiere una voluntad
+    muy fuerte para deshacerse de su influencia./nA menudo, requiere ayuda externa
+    para quit\xE1rselo."
+  childrenIDs:
+  - ED_V.1/12
+  - 12
+  rect:
+    serializedVersion: 2
+    x: 2195
+    y: 119
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-2743117271843856823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 6
+  m_EditorClassIdentifier: 
+  uniqueID: ED_V.1/6
+  isPlayerSpeaking: 0
+  text: "Me interesa, Abraham./nY por ello, quiero ayudarle./nMe hospedo en la posada
+    Garrido./nAll\xED, se hospedaba la mujer que llevaba el colgante maldito en su
+    cuello./nLo reconoc\xED al instante./nY s\xE9 qu\xE9 le sucedi\xF3 al chico."
+  childrenIDs:
+  - ED_V.1/7
+  - ED_V.1/8
+  - 7
+  - 8
+  rect:
+    serializedVersion: 2
+    x: 1098
+    y: 135
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e960bec5b5236749b281289ea60fa82, type: 3}
+  m_Name: ED_V.1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -6784573747032316508}
+  - {fileID: 6929547054750627560}
+  - {fileID: 6553255897931516299}
+  - {fileID: 5147466379584944915}
+  - {fileID: 5848094428438556292}
+  - {fileID: -2743117271843856823}
+  - {fileID: -8319638898687170277}
+  - {fileID: 8946730907051499686}
+  - {fileID: -8341921546217772776}
+  - {fileID: 2983474971339193965}
+  - {fileID: -4270820596399405758}
+  - {fileID: -8014375369093902613}
+  isTrueDialogue: 1
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &2983474971339193965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 10
+  m_EditorClassIdentifier: 
+  uniqueID: ED_V.1/10
+  isPlayerSpeaking: 0
+  text: "El colgante lo mat\xF3./nEn cuesti\xF3n de horas, absorvi\xF3 toda la esperanza
+    de vida del muchacho./nRedujo su cuerpo a una masa reseca y \xE1spera, como el
+    tronco de un \xE1rbol./nFui a ver el cad\xE1ver con mis propios ojos cuando me
+    enter\xE9 de lo ocurrido./nAh./nCuando fui hacia all\xED, vi al alcalde y al
+    mercader salir corriendo."
+  childrenIDs:
+  - ED_V.1/11
+  - 11
+  rect:
+    serializedVersion: 2
+    x: 1793
+    y: 295
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &5147466379584944915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 4
+  m_EditorClassIdentifier: 
+  uniqueID: ED_V.1/4
+  isPlayerSpeaking: 0
+  text: "Ya veo. Eso es bueno./nEl alma de ese chico merece que se haga justicia./n\xBFY
+    usted?/n\xBFHar\xE1 justicia?"
+  childrenIDs:
+  - ED_V.1/6
+  - 6
+  rect:
+    serializedVersion: 2
+    x: 744
+    y: 40
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &5848094428438556292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 5
+  m_EditorClassIdentifier: 
+  uniqueID: ED_V.1/5
+  isPlayerSpeaking: 0
+  text: "\xBFConfesarme? \xBFYo?/nFufufufu.../nSolo estoy aqu\xED como una mera observadora."
+  childrenIDs:
+  - ED_V.1/6
+  - 6
+  rect:
+    serializedVersion: 2
+    x: 742
+    y: 245
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &6553255897931516299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  uniqueID: ED_V.1/3
+  isPlayerSpeaking: 1
+  text: "\xBFNo viene a confesarse?"
+  childrenIDs:
+  - ED_V.1/5
+  - 5
+  rect:
+    serializedVersion: 2
+    x: 389
+    y: 247
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &6929547054750627560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  uniqueID: ED_V.1/2
+  isPlayerSpeaking: 1
+  text: Creo que tengo un sospechoso.
+  childrenIDs:
+  - ED_V.1/4
+  - 4
+  rect:
+    serializedVersion: 2
+    x: 392
+    y: 35
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &8946730907051499686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 8
+  m_EditorClassIdentifier: 
+  uniqueID: ED_V.1/8
+  isPlayerSpeaking: 1
+  text: "\xBFQu\xE9 le ocurri\xF3 al hijo del molinero?"
+  childrenIDs:
+  - ED_V.1/10
+  - 10
+  rect:
+    serializedVersion: 2
+    x: 1443
+    y: 296
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0

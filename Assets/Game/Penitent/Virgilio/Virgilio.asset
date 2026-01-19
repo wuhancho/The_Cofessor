@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e3232f5c8baa24d9b33ec14a0dff2e, type: 3}
+  m_Name: Virgilio
+  m_EditorClassIdentifier: 
+  id: 6
+  characterName: Virgilio Sandoval, el Arzovispo
+  characterImage:
+  - {fileID: 2800000, guid: 86ffc185b129e914aa75e4926ad30aaa, type: 3}
+  dialogs:
+  - {fileID: 11400000, guid: bebbdcadbf39d204a91479f488e36654, type: 2}
+  isTrueDialogue: 0
+  day: 0

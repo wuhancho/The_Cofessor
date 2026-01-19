@@ -1,0 +1,690 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8137221023811123097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 11
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/11
+  isPlayerSpeaking: 1
+  text: "No pienso dejar que nadie m\xE1s vea el cad\xE1ver./nY pienso asegurarme
+    de que en el informe de la autopsia ponga que el muchacho muri\xF3 de lepra./nSoy
+    consciente de que no es lo m\xE1s \xE9tico./nPero responda, padre./n\xBFEs un
+    pecado mentir a mi pueblo... si con ello evito un caos mayor?/nSi me guarda el
+    secreto, le recompensar\xE9 debidamente."
+  childrenIDs:
+  - JC_V.1/12
+  - JC_V.1/13
+  - JC_V.1/14
+  - JC_V.1/15
+  rect:
+    serializedVersion: 2
+    x: 2238
+    y: 147
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-8045171639687850742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 21
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/21
+  isPlayerSpeaking: 0
+  text: Don Justo se retira./nAl pueblo le disgustan tus acusaciones./nTe sientes
+    bien.
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 3330
+    y: 193
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-6886921839287461072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 15
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/15
+  isPlayerSpeaking: 1
+  text: "Encubrimiento: Guardar\xE9 silencio. El pueblo no entender\xEDa su decisi\xF3n
+    (+20$)."
+  childrenIDs:
+  - 19
+  rect:
+    serializedVersion: 2
+    x: 2601.3613
+    y: 591
+    width: 300
+    height: 200
+  faithCost: -1
+  RepIglesiaCost: 0
+  RepPuebloCost: 1
+  SobornoCost: 20
+--- !u!114 &-5318615668664465597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 10
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/10
+  isPlayerSpeaking: 0
+  text: "Hehehehe.../nNi que fuera la primera vez que se hace/nResulta muy sencillo./nUn
+    par de sellos por aqu\xED, otro par por all\xE1 y.../nLa verdad debe ser la que
+    m\xE1s me conviene./nAs\xED es como se mantiene un pueblo en orden."
+  childrenIDs:
+  - JC_V.1/11
+  rect:
+    serializedVersion: 2
+    x: 1844
+    y: 289
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-4742227157459718578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 12
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/12
+  isPlayerSpeaking: 1
+  text: "Penitencia: Debe disculparse p\xFAblicamente y asegurar que har\xE1 todo
+    lo que est\xE9 en su mano hasta llegar al fondo de esto."
+  childrenIDs:
+  - 16
+  rect:
+    serializedVersion: 2
+    x: 2592
+    y: -13
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 1
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-4586949365766781308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 22
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/22
+  isPlayerSpeaking: 0
+  text: Don Justo se retira./nEl pueblo aprueba que perdones sus pecados./nTe sientes
+    sucio.
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 3341
+    y: 393
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-4290082421060970763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 5
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/5
+  isPlayerSpeaking: 0
+  text: "Ehem.../nPuede que tenga raz\xF3n./nRuego que disculpe mi osad\xEDa./nMas
+    no me resulta conveniente que el pueblo viva con el temor a ser maldecidos por
+    extra\xF1os objetos."
+  childrenIDs:
+  - JC_V.1/6
+  rect:
+    serializedVersion: 2
+    x: 790
+    y: 283
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-3762275137246590826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 19
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/19
+  isPlayerSpeaking: 0
+  text: "Hehehehe../nSab\xEDa yo que su santidad era un hombre inteligente./nSolo
+    p\xEDdalo y le devolver\xE9 gustosamente el favor."
+  childrenIDs:
+  - 23
+  rect:
+    serializedVersion: 2
+    x: 2991.1343
+    y: 593
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-3025296523846772455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 13
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/13
+  isPlayerSpeaking: 1
+  text: 'Denuncia: Miente a los aldeanos. Usted no es digno de su confianza.'
+  childrenIDs:
+  - 17
+  rect:
+    serializedVersion: 2
+    x: 2595
+    y: 194
+    width: 300
+    height: 200
+  faithCost: -1
+  RepIglesiaCost: 0
+  RepPuebloCost: 1
+  SobornoCost: 0
+--- !u!114 &-2591812397738392348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 18
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/18
+  isPlayerSpeaking: 0
+  text: "Sab\xEDa que lo entender\xEDa, padre./nEste pueblo necesita alguien que
+    los lidere./nIncluso si, a veces, es necesario hacer peque\xF1os sacrificios."
+  childrenIDs:
+  - 22
+  rect:
+    serializedVersion: 2
+    x: 2995
+    y: 394
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-1886493288239368091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 6
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/6
+  isPlayerSpeaking: 0
+  text: "Sea como fuere, yo mismo he de encargarme de acabar con estos rumores./nEl
+    hijo del molinero falleci\xF3 a causa de una enfermedad./nEsa es la \xFAnica
+    verdad./nLa \xFAnica verdad que necesita Castroviejo."
+  childrenIDs:
+  - JC_V.1/7
+  - JC_V.1/8
+  rect:
+    serializedVersion: 2
+    x: 1140
+    y: 143
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-1844490012441231084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 8
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/8
+  isPlayerSpeaking: 1
+  text: "\xBFPiensa manipular las creencias del pueblo?"
+  childrenIDs:
+  - JC_V.1/10
+  rect:
+    serializedVersion: 2
+    x: 1492
+    y: 291
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-1690813825159798082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 9
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/9
+  isPlayerSpeaking: 0
+  text: "Eh.../nVera.../nComo alcalde, pude ver la escena antes de que llegara a
+    o\xEDdos de la prensa./nReconozco que el cad\xE1ver no se parec\xEDa a nada que
+    hubiera visto antes./nLo \xFAltimo que quiero es que cunda el p\xE1nico colectivo"
+  childrenIDs:
+  - JC_V.1/11
+  rect:
+    serializedVersion: 2
+    x: 1846
+    y: -1
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-1338797127801241426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 4
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/4
+  isPlayerSpeaking: 0
+  text: "Imposible./nEl muchacho apareci\xF3 reseco como una hoja.../n\xA1Eso es
+    la lepra de toda la vida de Dios!/nO, al menos, eso es lo que necesito que los
+    aldeanos piensen."
+  childrenIDs:
+  - JC_V.1/6
+  rect:
+    serializedVersion: 2
+    x: 790
+    y: -7
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-1247333345274539369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/1
+  isPlayerSpeaking: 0
+  text: "El pueblo est\xE1 envuelto en caos./nAparece un ni\xF1o muerto y todo el
+    mundo pierde la cabeza./n\xBFSe puede creer que los aldeanos piensan que la causa
+    es alguna clase de objeto m\xE1gico?/nNo puedo perder el tiempo con est\xFApidas
+    supersticiones."
+  childrenIDs:
+  - JC_V.1/2
+  - JC_V.1/3
+  rect:
+    serializedVersion: 2
+    x: -10
+    y: 124
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e960bec5b5236749b281289ea60fa82, type: 3}
+  m_Name: JC_V.1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -1247333345274539369}
+  - {fileID: 7703539840335292626}
+  - {fileID: 2177665483952587848}
+  - {fileID: -1338797127801241426}
+  - {fileID: -4290082421060970763}
+  - {fileID: -1886493288239368091}
+  - {fileID: 2207615884731827997}
+  - {fileID: -1844490012441231084}
+  - {fileID: -1690813825159798082}
+  - {fileID: -5318615668664465597}
+  - {fileID: -8137221023811123097}
+  - {fileID: -4742227157459718578}
+  - {fileID: -3025296523846772455}
+  - {fileID: 4964331586719655731}
+  - {fileID: -6886921839287461072}
+  - {fileID: 1971119810489791951}
+  - {fileID: 486218575603321962}
+  - {fileID: -2591812397738392348}
+  - {fileID: -3762275137246590826}
+  - {fileID: 5029123722320878149}
+  - {fileID: -8045171639687850742}
+  - {fileID: -4586949365766781308}
+  - {fileID: 3353529560791453191}
+  isTrueDialogue: 1
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &486218575603321962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 17
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/17
+  isPlayerSpeaking: 0
+  text: "Hehehehe../nDenuncie todo lo que quiera./nYo soy el orden y la verdad en
+    este pueblo./nNadie le creer\xE1./nT\xE9ngalo en mente antes de cometer una idiotez."
+  childrenIDs:
+  - 21
+  rect:
+    serializedVersion: 2
+    x: 2986
+    y: 193
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &1971119810489791951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 16
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/16
+  isPlayerSpeaking: 0
+  text: "Est\xE1 bien, si eso es lo que dice usted./nA\xFAn tendr\xE9 opciones para
+    alejar al pueblo de la superstici\xF3n y mantener el orden."
+  childrenIDs:
+  - 20
+  rect:
+    serializedVersion: 2
+    x: 2988
+    y: -11
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &2177665483952587848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/3
+  isPlayerSpeaking: 1
+  text: "Tal vez esta era la voluntad del Se\xF1or."
+  childrenIDs:
+  - JC_V.1/5
+  rect:
+    serializedVersion: 2
+    x: 440
+    y: 284
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &2207615884731827997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 7
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/7
+  isPlayerSpeaking: 1
+  text: "Ten\xEDa entendido que no se conoc\xEDan detalles sobre el cuerpo."
+  childrenIDs:
+  - JC_V.1/9
+  rect:
+    serializedVersion: 2
+    x: 1485
+    y: -2
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &3353529560791453191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 23
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/23
+  isPlayerSpeaking: 0
+  text: "Don Justo se retira./nTe has ganado un poco de la simpat\xEDa del alcalde./nTe
+    sientes sucio."
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 3344.1343
+    y: 594
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &4964331586719655731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 14
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/14
+  isPlayerSpeaking: 1
+  text: "Absoluci\xF3n: Miente, pero lo hace por Castroviejo. No podr\xEDa castigarle
+    por ello."
+  childrenIDs:
+  - 18
+  rect:
+    serializedVersion: 2
+    x: 2595
+    y: 391
+    width: 300
+    height: 200
+  faithCost: -1
+  RepIglesiaCost: 0
+  RepPuebloCost: 1
+  SobornoCost: 0
+--- !u!114 &5029123722320878149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 20
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/20
+  isPlayerSpeaking: 0
+  text: Don Justo se retira./nLa iglesia acepta la penitencia impuesta para expiar
+    sus pecados.
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 3331
+    y: -7
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &7703539840335292626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  uniqueID: JC_V.1/2
+  isPlayerSpeaking: 1
+  text: "\xBFNo cree que haya podido ser el colgante?"
+  childrenIDs:
+  - JC_V.1/4
+  rect:
+    serializedVersion: 2
+    x: 445
+    y: -7
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0

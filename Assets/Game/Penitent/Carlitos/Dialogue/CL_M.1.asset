@@ -1,0 +1,702 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9145635867927618249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 16
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/16
+  isPlayerSpeaking: 0
+  text: "S\xED, padre./nRezar\xE9 por el ni\xF1o hasta que me quede dormido"
+  childrenIDs:
+  - CL_M.1/20
+  - 20
+  rect:
+    serializedVersion: 2
+    x: 2945
+    y: -8
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-8263462211272502935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 22
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/22
+  isPlayerSpeaking: 0
+  text: Carlitos se retira./nTe sientes bien./nLa Iglesia desaprueba que absuelvas
+    sus pecados.
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 3294
+    y: 391
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-8188299459582032919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 19
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/19
+  isPlayerSpeaking: 0
+  text: "Jam\xE1s olvidar\xE9 este d\xEDa./nLa muerte de aquel chico siempre permanecer\xE1
+    en mi memoria./nComo un recordatorio de mi miedo y ego\xEDsmo."
+  childrenIDs:
+  - CL_M.1/23
+  - 23
+  rect:
+    serializedVersion: 2
+    x: 2941
+    y: 593
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-6479707240358757141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 10
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/10
+  isPlayerSpeaking: 0
+  text: ".../nNo deber\xEDa hablar de esto."
+  childrenIDs:
+  - CL_M.1/11
+  - 11
+  rect:
+    serializedVersion: 2
+    x: 1838
+    y: 238
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-5952523456190080373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 17
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/17
+  isPlayerSpeaking: 0
+  text: "Lo s\xE9./nY merezco ser castigado por ello./nUn ni\xF1o ha perdido la vida
+    por mi culpa./nNi siquiera merezco ser su sirviente, padre."
+  childrenIDs:
+  - CL_M.1/21
+  - 21
+  rect:
+    serializedVersion: 2
+    x: 2943
+    y: 194
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-4442506676157160297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 11
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/11
+  isPlayerSpeaking: 0
+  text: "Yo sab\xEDa que el objeto que vi era peligroso./nPero ten\xEDa miedo de
+    lo que podr\xEDa pasarme./nNo puedo evitar pensar que yo mismo soy responsable
+    de la muerte del chico."
+  childrenIDs:
+  - CL_M.1/12
+  - CL_M.1/13
+  - CL_M.1/14
+  - CL_M.1/15
+  - 12
+  - 13
+  - 14
+  - 15
+  rect:
+    serializedVersion: 2
+    x: 2245
+    y: 115
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-4249332025215122271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 6
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/6
+  isPlayerSpeaking: 0
+  text: "El hombre parec\xEDa estar desesperado por deshacerse de aquel objeto./nPodr\xEDa
+    tener que ver con la muerte del hijo del molinero."
+  childrenIDs:
+  - CL_M.1/7
+  - CL_M.1/8
+  - 7
+  - 8
+  rect:
+    serializedVersion: 2
+    x: 1142
+    y: 129
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-2289215850792088812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 5
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/5
+  isPlayerSpeaking: 0
+  text: "No s\xE9.../nEstaba muy asustado./nTengo miedo por lo que pueda pasar si
+    hablo de m\xE1s."
+  childrenIDs:
+  - CL_M.1/6
+  - 6
+  rect:
+    serializedVersion: 2
+    x: 744
+    y: 245
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-536116086724554452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 15
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/15
+  isPlayerSpeaking: 1
+  text: "Encubrimiento: No dir\xE9 nada, pero tu conciencia ser\xE1 la que juzgue
+    tu pecado de omisi\xF3n."
+  childrenIDs:
+  - CL_M.1/19
+  - 19
+  rect:
+    serializedVersion: 2
+    x: 2591
+    y: 594
+    width: 300
+    height: 200
+  faithCost: 1
+  RepIglesiaCost: 1
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e960bec5b5236749b281289ea60fa82, type: 3}
+  m_Name: CL_M.1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 4751502643537937458}
+  - {fileID: 4785923207937654514}
+  - {fileID: 1510097715121233832}
+  - {fileID: 5173109210343764764}
+  - {fileID: -2289215850792088812}
+  - {fileID: -4249332025215122271}
+  - {fileID: 8436138081542555355}
+  - {fileID: 3024306866293871680}
+  - {fileID: 1199592820228872791}
+  - {fileID: -6479707240358757141}
+  - {fileID: -4442506676157160297}
+  - {fileID: 7841919906406646974}
+  - {fileID: 2785485698588612555}
+  - {fileID: 2670265201302687912}
+  - {fileID: -536116086724554452}
+  - {fileID: -9145635867927618249}
+  - {fileID: -5952523456190080373}
+  - {fileID: 7104568766325336314}
+  - {fileID: -8188299459582032919}
+  - {fileID: 3172302059390897990}
+  - {fileID: 543894654380171493}
+  - {fileID: -8263462211272502935}
+  - {fileID: 195781649831764015}
+  isTrueDialogue: 0
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &195781649831764015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 23
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/23
+  isPlayerSpeaking: 0
+  text: Carlitos se retira./nEl pueblo aprueba que calles sus pecados./nTe sientes
+    bien.
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 3294
+    y: 594
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &543894654380171493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 21
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/21
+  isPlayerSpeaking: 0
+  text: Carlitos se retira./nAl pueblo le disgustan tus acusaciones./nTe sientes
+    sucio.
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 3294
+    y: 195
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &1199592820228872791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 9
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/9
+  isPlayerSpeaking: 0
+  text: "Le ha estado mintiendo./nY no es el \xFAnico..."
+  childrenIDs:
+  - CL_M.1/11
+  - 11
+  rect:
+    serializedVersion: 2
+    x: 1846
+    y: -3
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &1510097715121233832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/3
+  isPlayerSpeaking: 1
+  text: "\xBFPor qu\xE9 no me dijiste nada?"
+  childrenIDs:
+  - CL_M.1/5
+  - 5
+  rect:
+    serializedVersion: 2
+    x: 392
+    y: 247
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &2670265201302687912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 14
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/14
+  isPlayerSpeaking: 1
+  text: "Absoluci\xF3n: No es tu culpa que el colgante acabara a manos del ni\xF1o."
+  childrenIDs:
+  - CL_M.1/18
+  - 18
+  rect:
+    serializedVersion: 2
+    x: 2595
+    y: 391
+    width: 300
+    height: 200
+  faithCost: 1
+  RepIglesiaCost: -1
+  RepPuebloCost: 1
+  SobornoCost: 0
+--- !u!114 &2785485698588612555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 13
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/13
+  isPlayerSpeaking: 1
+  text: "Denuncia: Fuiste ego\xEDsta al pensar solo en tu propia seguridad."
+  childrenIDs:
+  - CL_M.1/17
+  - 17
+  rect:
+    serializedVersion: 2
+    x: 2594
+    y: 194
+    width: 300
+    height: 200
+  faithCost: -1
+  RepIglesiaCost: 0
+  RepPuebloCost: -1
+  SobornoCost: 0
+--- !u!114 &3024306866293871680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 8
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/8
+  isPlayerSpeaking: 1
+  text: "\xBFQu\xE9 crees que era el colgante?"
+  childrenIDs:
+  - 10
+  - CL_M.1/10
+  rect:
+    serializedVersion: 2
+    x: 1491
+    y: 237
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &3172302059390897990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 20
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/20
+  isPlayerSpeaking: 0
+  text: Carlitos se retira./nLa iglesia aprueba la penitencia impuesta para expiar
+    sus pecados./nTe sientes bien.
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 3294
+    y: -7
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &4751502643537937458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/1
+  isPlayerSpeaking: 0
+  text: "Padre, hay algo que necesito contarle./nHace unos d\xEDas, vi a dos personas
+    detr\xE1s de la iglesia. /nUna le compr\xF3 a la otra un extra\xF1o objeto."
+  childrenIDs:
+  - CL_M.1/2
+  - CL_M.1/3
+  - 2
+  - 3
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &4785923207937654514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/2
+  isPlayerSpeaking: 1
+  text: "\xBFSabr\xEDas decirme quienes eran?"
+  childrenIDs:
+  - CL_M.1/4
+  - 4
+  rect:
+    serializedVersion: 2
+    x: 395
+    y: -1
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &5173109210343764764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 4
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/4
+  isPlayerSpeaking: 0
+  text: "No. Apenas pude verles el rostro./nHab\xEDa una mujer./nNunca hab\xEDa escuchado
+    su voz./n\"El otro era un hombre con una voz... Familiar./nCreo que podr\xEDa
+    tratarse de \xC9dgar, el mercader."
+  childrenIDs:
+  - CL_M.1/6
+  - 6
+  rect:
+    serializedVersion: 2
+    x: 745
+    y: 0
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &7104568766325336314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 18
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/18
+  isPlayerSpeaking: 0
+  text: "Agradezco su compasi\xF3n, padre./nSolo espero que el alma del hijo del
+    molinero pueda perdonarme tambi\xE9n."
+  childrenIDs:
+  - CL_M.1/22
+  - 22
+  rect:
+    serializedVersion: 2
+    x: 2941
+    y: 392
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &7841919906406646974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 12
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/12
+  isPlayerSpeaking: 1
+  text: 'Penitencia: Reza todas las noches por su alma. Hasta que la culpa te deje
+    descansar.'
+  childrenIDs:
+  - CL_M.1/16
+  - 16
+  rect:
+    serializedVersion: 2
+    x: 2594
+    y: -9
+    width: 300
+    height: 200
+  faithCost: 1
+  RepIglesiaCost: 1
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &8436138081542555355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 7
+  m_EditorClassIdentifier: 
+  uniqueID: CL_M.1/7
+  isPlayerSpeaking: 1
+  text: "\xBFQu\xE9 pudes decirme de \xC9dgar?"
+  childrenIDs:
+  - CL_M.1/9
+  - 9
+  rect:
+    serializedVersion: 2
+    x: 1491
+    y: -6
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0

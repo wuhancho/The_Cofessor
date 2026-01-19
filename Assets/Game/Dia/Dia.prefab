@@ -45,3 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numberDay: 0
+  energyPrefab:
+  - {fileID: 0}
+  - {fileID: 0}
+  moneyText: {fileID: 0}
