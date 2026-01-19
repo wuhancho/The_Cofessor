@@ -52,8 +52,8 @@ MonoBehaviour:
   - 6
   rect:
     serializedVersion: 2
-    x: 749
-    y: 0
+    x: 743
+    y: 2
     width: 300
     height: 200
   faithCost: 0
@@ -76,6 +76,7 @@ MonoBehaviour:
   isPlayerSpeaking: 1
   text: "\xBFY si me niego?"
   childrenIDs:
+  - 10
   - 10
   rect:
     serializedVersion: 2
@@ -281,10 +282,11 @@ MonoBehaviour:
     debo decirlo, los tienes bien puestos para llevarle la contraria a tu superior."
   childrenIDs:
   - VS_1/11
+  - 11
   rect:
     serializedVersion: 2
-    x: 1906.1818
-    y: 311.18182
+    x: 1913
+    y: 293
     width: 300
     height: 200
   faithCost: 0

@@ -20,4 +20,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9141b652a58de5b4bb48e43bbc091eda, type: 2}
   - {fileID: 11400000, guid: 3c4fde4b89eb7ae44a2fc7fc5388b197, type: 2}
   isTrueDialogue: 0
-  day: 0
+  day: 1
