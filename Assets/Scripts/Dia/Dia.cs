@@ -36,11 +36,11 @@ public class Dia : MonoBehaviour
         fasesActuales = GetComponentsInChildren<MonoBehaviour>(true)
             .OfType<IFases>()
             .ToArray();
-        if (playerController.PlayerStatus.Day == 0)
-        {
-            playerController.PlayerStatus.ResetAllStatus();
-            RemoveEnergy(1);
-        }
+        //if (playerController.PlayerStatus.Day == 0)
+        //{
+        //    playerController.PlayerStatus.ResetAllStatus();
+        //    RemoveEnergy(1);
+        //}
         numberDay = playerController.PlayerStatus.Day;
 
         foreach (var fase in fasesActuales)

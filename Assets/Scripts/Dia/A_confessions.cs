@@ -105,7 +105,7 @@ public class A_confessions : MonoBehaviour, IAcciones
                     Debug.Log($"Diálogo único encontrado: {dialog.name} para el penitente {penitent.CharacterName} en el día {day}");
                     return dialog;
                 }
-                if (penitent.TypeDialogue == "M" || penitent.TypeDialogue == "V") continue;
+                //if (penitent.TypeDialogue == "M" || penitent.TypeDialogue == "V") continue;
                 if (dialog.IsTrueDialogue == isTrueDialogue)
                 {
                     //UpdatePenitentImage(penitent);

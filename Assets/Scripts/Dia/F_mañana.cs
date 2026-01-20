@@ -8,7 +8,7 @@ public class F_mañana : MonoBehaviour, IFases
     private Dia dia;
     private PlayerController playerController;
     private PenitentController penitentController;
-    
+
 
     [ContextMenu("Refrescar acciones")]
     public void RefrescarAcciones()
@@ -40,6 +40,16 @@ public class F_mañana : MonoBehaviour, IFases
         // Asegúrate de refrescar antes de inicializar
         RefrescarAcciones();
 
+        if (playerController.PlayerStatus.Day == 0)
+        {
+            playerController.PlayerStatus.ResetAllStatus();
+            dia.RemoveEnergy(1);
+        }
+        if (dia.GetNumberDay() >= 1)
+        {
+            playerController.ChangeSetCleaned(false);
+        }
+
         // Inicializar cada acción y registrar si falta playerController
         foreach (var accion in acciones)
         {
@@ -51,14 +61,10 @@ public class F_mañana : MonoBehaviour, IFases
 
             accion.Initialize(playerController);
             accion.SetDay(dia != null ? dia.GetNumberDay() : 0);
-            if (dia.GetNumberDay() >= 1)
-            {
-                playerController.ChangeSetCleaned(false);
-            }
             accion.DebugAccion();
 
-            Debug.Log($"F_mañana - Inicializada {((MonoBehaviour)accion).name} con playerController={(playerController==null?"NULL":playerController.name)}");
+            Debug.Log($"F_mañana - Inicializada {((MonoBehaviour)accion).name} con playerController={(playerController == null ? "NULL" : playerController.name)}");
         }
     }
-    
+
 }
