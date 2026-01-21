@@ -3,6 +3,7 @@ using System.Collections;
 using The_cofessor.Personajes.Dialogs;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class A_confessions : MonoBehaviour, IAcciones
 {
@@ -15,6 +16,12 @@ public class A_confessions : MonoBehaviour, IAcciones
     private int todayPenintentIndex = 0;
     [SerializeField] private Texture2D[] penitentImages;
     [SerializeField] EntrancePenitent entrancePenitent;
+
+    private bool halfPenitentTriggered = false;
+    private int halfCount = 0;
+
+    public UnityEvent onHalfPenitent;
+    public UnityEvent SecondPartConfessions;
     //private Action vara;
 
     //private void Start()
@@ -206,6 +213,9 @@ public class A_confessions : MonoBehaviour, IAcciones
         this.day = day;
         //Debug.Log($"A_confecciones - SetDay invoked. Day set to: {day}");
         todayPenitents = penitentController.GetSPenitents(day);
+        todayPenintentIndex = 0;
+        halfPenitentTriggered = false;
+        halfCount = Mathf.FloorToInt(todayPenitents.Length / 2);
         Debug.Log($"A_confecciones - Found {todayPenitents.Length} penitents for day {day}.");
         todayPenintentIndex = 0;
     }
@@ -217,7 +227,21 @@ public class A_confessions : MonoBehaviour, IAcciones
         //playerController.PlayerConversant.isTheLastNode.AddListener(HideEntrancePenitent);
         //entrancePenitent.GetComponent<EntrancePenitent>().PlayExitAnimation(false);
         todayPenintentIndex++;
-        return todayPenintentIndex < todayPenitents.Length;
+        //mitad de los penitentes alcanzada
+        if (!halfPenitentTriggered && todayPenintentIndex >= halfCount)
+        {
+            halfPenitentTriggered = true;
+            Debug.Log("Mitad de penitentes alcanzada. Disparando onHalfPenitent.");
+            onHalfPenitent?.Invoke();
+            return true; // hay más por hacer tras la pausa
+        }
+        bool more = todayPenintentIndex < todayPenitents.Length;
+        if (!more)
+        {
+            Debug.Log("Todas las confesiones finalizadas.");
+        }
+        return more;
+        //return todayPenintentIndex < todayPenitents.Length;
         //if ()
         //{
         ////entrancePenitent.GetComponent<EntrancePenitent>().PlayEntranceAnimation();
@@ -229,6 +253,15 @@ public class A_confessions : MonoBehaviour, IAcciones
         //    //pasar a lo siguiente;
         //}
     }
+
+    // Llamado por el objeto externo al terminar su evento intermedio
+    public void ContinueSecondPart()
+    {
+        Debug.Log("Reanudando segunda parte de confesiones.");
+        SecondPartConfessions?.Invoke();
+        TriggerAction(); // lanzar siguiente diálogo inmediatamente
+    }
+
 
     public void UpdatePenitent()
     {

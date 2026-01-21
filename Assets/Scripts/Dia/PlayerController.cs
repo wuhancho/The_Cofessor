@@ -44,6 +44,17 @@ public class PlayerController : MonoBehaviour
             PlayerStatus.SetCleaned(value);
         }
     }
+    public void ChangeSetMisa(bool value)
+    {
+        if (value == true)
+        {
+            PlayerStatus.SetMisaDone(value);
+        }
+        else
+        {
+            PlayerStatus.SetMisaDone(value);
+        }
+    }
 
 
     public void ChangeStatesPlayer(DialogNode dialogNode)

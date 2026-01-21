@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using The_cofessor.Personajes.Dialogs;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ConfessionsDialogueMediator : MonoBehaviour
 {
@@ -9,12 +10,20 @@ public class ConfessionsDialogueMediator : MonoBehaviour
     [SerializeField] private PlayerConversant playerConversant;
     [SerializeField] private DialogueUI dialogueUI;
     [SerializeField] private EntrancePenitent entrancePenitent;
+    private bool isPausedAtHalf = false;
+
+    public UnityEvent OnAllConfessionsEnded;
 
     private void Start()
     {
         dialogueUI.NextButton.gameObject.SetActive(false);
         dialogueUI.OnDialogueEnd += OnDialogueEnd;
         playerConversant.isTheLastNode += (bool onAccion) => OnDialogueFinalNode(onAccion);
+
+        // Suscribirse a eventos de A_confessions
+        confessions.onHalfPenitent.AddListener(OnHalfPenitentReached);
+        confessions.SecondPartConfessions.AddListener(OnSecondPartStart);
+
         StartCoroutine(StartDialogue());
     }
 
@@ -34,6 +43,8 @@ public class ConfessionsDialogueMediator : MonoBehaviour
         bool morePenitents = confessions.ToNextPenitent();
         if (morePenitents)
         {
+            if (isPausedAtHalf) return;
+
             entrancePenitent.IsChangeEntrance = false;
             dialogueUI.SetDialogueAIBoxVisible(true);
             dialogueUI.SetDialogueSpeakerBoxVisible(false);
@@ -49,9 +60,29 @@ public class ConfessionsDialogueMediator : MonoBehaviour
         else
         {
             //acaba la tarde
+            OnAllConfessionsEnded?.Invoke();
             print("Ha acabado la tarde de confesiones.");
         }
     }
+
+
+    private void OnHalfPenitentReached()
+    {
+        isPausedAtHalf = true;
+        // Oculta cajas y muestra mensaje de intermedio
+        dialogueUI.SetDialogueAllBoxVisible(false);
+        dialogueUI.SetDialogueAIBoxVisible(true);
+        dialogueUI.BuildTextAI("Intermedio... esperando evento del escenario");
+        dialogueUI.NextButton.gameObject.SetActive(false);
+    }
+
+    private void OnSecondPartStart()
+    {
+        isPausedAtHalf = false;
+        // Reanudar flujo normal
+        StartCoroutine(StartDialogue());
+    }
+
 
     // Nuevo método void para usar como listener
     private void OnNextPenitentButtonClicked()

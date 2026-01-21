@@ -11,7 +11,7 @@ public class A_Misa : MonoBehaviour, IAccionesEnergia
 
     [Header("Configuración de la acción")]
     [Space]
-    [Tooltip("Evento que se dispara para habilitar el boton.\n objetos necesarios")]
+    [Tooltip("Evento que se dispara para habilitar el boton.\n objetos necesarios")]   
     public UnityEvent onMisaAction;
     [Tooltip("Evento que se dispara al cancelar la Misa.")]
     public UnityEvent onMisaCancel;

@@ -1,6 +1,8 @@
+using NUnit.Framework;
 using System.Linq;
 using The_cofessor.Personajes.Dialogs;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class F_tarde : MonoBehaviour, IFases
 {
@@ -9,6 +11,14 @@ public class F_tarde : MonoBehaviour, IFases
     private Dia dia;
     [SerializeField] private PlayerController playerController;
     [SerializeField] private PenitentController penitentController;
+
+
+    [Header("Configuración de la acción misa hecha/ no hecha")]
+    [Space]
+    [Tooltip("Evento que escucha que la misa esta hecha.\n objetos necesarios")]
+    public UnityEvent onMisaDone;
+    [Tooltip("Evento que escucha que la misa no esta hecha.\n objetos necesarios")]
+    public  UnityEvent onMisaNotDone;
 
     //private void OnBeforeSerialize()
     //{
@@ -64,6 +74,25 @@ public class F_tarde : MonoBehaviour, IFases
         this.playerController = pController;
         this.penitentController = ptController;
         InitializeActions();
+    }
+
+    public void CheckMisaDone()
+    {
+        MisaDone();
+    }
+
+    public bool MisaDone()
+    {
+        if(playerController.PlayerStatus.MisaDone==true) 
+        {
+            onMisaDone.Invoke();
+            return true;
+        }
+        else
+        {
+            onMisaNotDone.Invoke();
+            return false;
+        }
     }
 
 }
