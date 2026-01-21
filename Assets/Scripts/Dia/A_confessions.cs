@@ -232,7 +232,14 @@ public class A_confessions : MonoBehaviour, IAcciones
         {
             halfPenitentTriggered = true;
             Debug.Log("Mitad de penitentes alcanzada. Disparando onHalfPenitent.");
-            onHalfPenitent?.Invoke();
+
+            FadeController.Instance.FadeOut(1.5f, () =>
+            {
+                Debug.Log("Fade out completo. Invocando onHalfPenitent.");
+                FadeController.Instance.FadeIn(1.5f);
+                onHalfPenitent?.Invoke();
+            });
+            //onHalfPenitent?.Invoke();
             return true; // hay más por hacer tras la pausa
         }
         bool more = todayPenintentIndex < todayPenitents.Length;
@@ -258,8 +265,14 @@ public class A_confessions : MonoBehaviour, IAcciones
     public void ContinueSecondPart()
     {
         Debug.Log("Reanudando segunda parte de confesiones.");
-        SecondPartConfessions?.Invoke();
-        TriggerAction(); // lanzar siguiente diálogo inmediatamente
+        //FadeController.Instance.FadeOut(1.5f, () =>
+        //{
+            Debug.Log("Fade in completo. Invocando SecondPartConfessions.");
+            SecondPartConfessions?.Invoke();
+            TriggerAction(); // lanzar siguiente diálogo inmediatamente
+            //FadeController.Instance.FadeIn(1.5f);
+        //});
+
     }
 
 
@@ -282,7 +295,7 @@ public class A_confessions : MonoBehaviour, IAcciones
         }
         return null;
     }
-    public void DebugAccion() 
+    public void DebugAccion()
     {
         Debug.Log($"{playerController.PlayerStatus.Day} - Acción de confesion - Día: {day}");
     }

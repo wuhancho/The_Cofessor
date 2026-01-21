@@ -20,4 +20,4 @@ MonoBehaviour:
   food: 20
   day: 0
   Cleaned: 0
-  misaDone: 0
+  misaDone: 1

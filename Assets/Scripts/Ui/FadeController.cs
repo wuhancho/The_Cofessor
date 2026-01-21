@@ -47,6 +47,7 @@ public class FadeController : MonoBehaviour
 
     public void FadeIn(float duration, Action onComplete = null)
     {
+        Debug.Log("FadeIn started");
         StartCoroutine(FadeRoutine(1f, 0f, duration, onComplete));
     }
 
@@ -61,6 +62,7 @@ public class FadeController : MonoBehaviour
 
     private IEnumerator FadeRoutine(float from, float to, float duration, Action onComplete)
     {
+        
         yield return FadeRoutineCoroutine(from, to, duration);
         onComplete?.Invoke();
     }
@@ -72,11 +74,14 @@ public class FadeController : MonoBehaviour
         Color c = fadeImage.color;
         while (t < duration)
         {
+            fadeImage.raycastTarget = true;
             t += Time.unscaledDeltaTime;
             float a = Mathf.Lerp(from, to, Mathf.Clamp01(t / duration));
             fadeImage.color = new Color(c.r, c.g, c.b, a);
             yield return null;
         }
+        fadeImage.raycastTarget = to > 0f;
         fadeImage.color = new Color(c.r, c.g, c.b, to);
     }
+
 }

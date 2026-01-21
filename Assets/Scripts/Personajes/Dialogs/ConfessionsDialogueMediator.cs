@@ -43,7 +43,10 @@ public class ConfessionsDialogueMediator : MonoBehaviour
         bool morePenitents = confessions.ToNextPenitent();
         if (morePenitents)
         {
-            if (isPausedAtHalf) return;
+            if (isPausedAtHalf)
+            {
+                return;
+            }
 
             entrancePenitent.IsChangeEntrance = false;
             dialogueUI.SetDialogueAIBoxVisible(true);
@@ -55,11 +58,13 @@ public class ConfessionsDialogueMediator : MonoBehaviour
             // Elimina el listener anterior si existe para evitar múltiples suscripciones
             //dialogueUI.NextButton.onClick.RemoveListener(OnNextPenitentButtonClicked);
             //dialogueUI.NextButton.onClick.AddListener(OnNextPenitentButtonClicked);
+            
 
         }
         else
         {
             //acaba la tarde
+            FadeController.Instance.FadeOut(2f);
             OnAllConfessionsEnded?.Invoke();
             print("Ha acabado la tarde de confesiones.");
         }
@@ -72,8 +77,9 @@ public class ConfessionsDialogueMediator : MonoBehaviour
         // Oculta cajas y muestra mensaje de intermedio
         dialogueUI.SetDialogueAllBoxVisible(false);
         dialogueUI.SetDialogueAIBoxVisible(true);
-        dialogueUI.BuildTextAI("Intermedio... esperando evento del escenario");
+        dialogueUI.BuildTextAI("Vale ... no hay nadie mas para las confeciones");
         dialogueUI.NextButton.gameObject.SetActive(false);
+
     }
 
     private void OnSecondPartStart()
