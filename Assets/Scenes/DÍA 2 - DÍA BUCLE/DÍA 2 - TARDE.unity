@@ -5911,6 +5911,12 @@ MonoBehaviour:
   includeInactiveChildren: 1
   playerController: {fileID: 0}
   penitentController: {fileID: 0}
+  onMisaDone:
+    m_PersistentCalls:
+      m_Calls: []
+  onMisaNotDone:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &588665086
 GameObject:
   m_ObjectHideFlags: 0
@@ -11532,6 +11538,12 @@ MonoBehaviour:
   playerController: {fileID: 0}
   penitentImages: []
   entrancePenitent: {fileID: 666891455}
+  onHalfPenitent:
+    m_PersistentCalls:
+      m_Calls: []
+  SecondPartConfessions:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1134679772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11548,6 +11560,9 @@ MonoBehaviour:
   playerConversant: {fileID: 7077701841565857973}
   dialogueUI: {fileID: 133554383}
   entrancePenitent: {fileID: 666891455}
+  OnAllConfessionsEnded:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1149779558
 GameObject:
   m_ObjectHideFlags: 0
@@ -11593,8 +11608,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06999c4b29748ea4f8601320156dbbd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerStatus: {fileID: 0}
   numberDay: 0
+  energyPrefab: []
+  moneyText: {fileID: 0}
+  fadeDuration: 1
 --- !u!1 &1160158253
 GameObject:
   m_ObjectHideFlags: 0

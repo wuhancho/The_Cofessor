@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-775537151167093785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  uniqueID: 2
+  isPlayerSpeaking: 1
+  text: Perdonar
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 342
+    y: 1
+    width: 300
+    height: 200
+  faithCost: 3
+  RepIglesiaCost: -3
+  RepPuebloCost: -3
+  SobornoCost: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e960bec5b5236749b281289ea60fa82, type: 3}
+  m_Name: VS_C.1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 8577151992909212304}
+  - {fileID: -775537151167093785}
+  - {fileID: 9151844363189356345}
+  isTrueDialogue: 0
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &8577151992909212304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  uniqueID: 1
+  isPlayerSpeaking: 0
+  text: "Ser\xE1 una broma, \xBFverdad, padre Abraham?/nSabe perfectamente que yo
+    no tengo nada que ver con el incidente del colgante./n\xA1Ha perdido el juicio!/n\"D\xE9jeme
+    ir o esto supondr\xE1 una mancha muy negra a ojos de Dios."
+  childrenIDs:
+  - 2
+  - 3
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &9151844363189356345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  uniqueID: 3
+  isPlayerSpeaking: 1
+  text: Castigar
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 339
+    y: 243
+    width: 300
+    height: 200
+  faithCost: -3
+  RepIglesiaCost: -3
+  RepPuebloCost: 3
+  SobornoCost: 0

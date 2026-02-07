@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4629324760910376444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  uniqueID: 2
+  isPlayerSpeaking: 1
+  text: Perdonar (+50$)
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 339
+    y: 0
+    width: 300
+    height: 200
+  faithCost: -3
+  RepIglesiaCost: -3
+  RepPuebloCost: -3
+  SobornoCost: 50
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e960bec5b5236749b281289ea60fa82, type: 3}
+  m_Name: JC_C.1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 2589414538154949332}
+  - {fileID: -4629324760910376444}
+  - {fileID: 616416231607902824}
+  isTrueDialogue: 0
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &616416231607902824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  uniqueID: 3
+  isPlayerSpeaking: 1
+  text: Castigar
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 340
+    y: 248
+    width: 300
+    height: 200
+  faithCost: -3
+  RepIglesiaCost: 3
+  RepPuebloCost: -3
+  SobornoCost: 0
+--- !u!114 &2589414538154949332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  uniqueID: 1
+  isPlayerSpeaking: 0
+  text: "No haga ninguna tonter\xEDa, padre./nReconozco haberle ocultado ciertos...
+    detalles./nEra consciente de los objetos malditos que vende el mercader./nCuando
+    encontraron el cuerpo, me reun\xED con \xE9l y el gendarme nos lo ense\xF1\xF3./n\xC9dgar
+    me confirm\xF3 que aquel era su amuleto, mas no lo hab\xEDa vendido a aquel chico./n\xC9dgar
+    es un viejo amigo./nPensaba encubrir la verdad para protegerlo./nSi lo deja pasar,
+    le reconpensar\xE9 con una generosa suma de MONEDAS."
+  childrenIDs:
+  - 2
+  - 3
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0

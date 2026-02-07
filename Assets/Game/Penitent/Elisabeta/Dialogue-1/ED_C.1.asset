@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5144695136706990496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  uniqueID: 3
+  isPlayerSpeaking: 1
+  text: Castigar
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 338
+    y: 238
+    width: 300
+    height: 200
+  faithCost: -3
+  RepIglesiaCost: 3
+  RepPuebloCost: 3
+  SobornoCost: 0
+--- !u!114 &-4566059631600520586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  uniqueID: 1
+  isPlayerSpeaking: 0
+  text: "Fufufufufufu.../n\xBFVa a acusarme de matar al ni\xF1o?/nSi hubiera tenido
+    ese amuleto en mis manos, yo.../nLe hubiera dado un uso m\xE1s... Adecuado./nSin
+    embargo, entiendo que alguien debe pagar por el crimen./nNo tengo problema con
+    ello."
+  childrenIDs:
+  - 2
+  - 3
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-4080161559537236738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  uniqueID: 2
+  isPlayerSpeaking: 1
+  text: Perdonar
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 344
+    y: 1
+    width: 300
+    height: 200
+  faithCost: 3
+  RepIglesiaCost: -3
+  RepPuebloCost: -3
+  SobornoCost: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e960bec5b5236749b281289ea60fa82, type: 3}
+  m_Name: ED_C.1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -4566059631600520586}
+  - {fileID: -4080161559537236738}
+  - {fileID: -5144695136706990496}
+  isTrueDialogue: 0
+  newNodeOffset: {x: 250, y: 0}

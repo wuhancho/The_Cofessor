@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4845347600349428182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 4
+  m_EditorClassIdentifier: 
+  uniqueID: 4
+  isPlayerSpeaking: 0
+  text: "AhahaAHAHAH.../nParece que est\xE1s decidido a acabar conmigo./nBien.../nTendr\xE9
+    que arrancar el alma de tu cad\xE1ver."
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 691
+    y: 242
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &-2421512170340924251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  uniqueID: 2
+  isPlayerSpeaking: 1
+  text: Perdonar (+50$)
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 346
+    y: -2
+    width: 300
+    height: 200
+  faithCost: -3
+  RepIglesiaCost: -3
+  RepPuebloCost: -3
+  SobornoCost: 50
+--- !u!114 &-685319784672936591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  uniqueID: 3
+  isPlayerSpeaking: 1
+  text: Castigar
+  childrenIDs:
+  - 4
+  rect:
+    serializedVersion: 2
+    x: 339
+    y: 242
+    width: 300
+    height: 200
+  faithCost: -3
+  RepIglesiaCost: 3
+  RepPuebloCost: -3
+  SobornoCost: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e960bec5b5236749b281289ea60fa82, type: 3}
+  m_Name: EQ_C.1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 3238821526125210783}
+  - {fileID: -2421512170340924251}
+  - {fileID: -685319784672936591}
+  - {fileID: -4845347600349428182}
+  isTrueDialogue: 0
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &3238821526125210783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  uniqueID: 1
+  isPlayerSpeaking: 0
+  text: "Nunca imagin\xE9 que t\xFA tambi\xE9n sospechabas de m\xED./nConfieso que
+    era consciente de que el colgante estaba maldito./nLo sufr\xED en mis propias
+    carnes./nNecesitaba quit\xE1rmelo de encima y lo vend\xED por una miseria./nPero
+    no a un ni\xF1o./nSino a una forastera de la posada Garrido./nPadre, si me perdona,
+    le recompensar\xE9 debidamente."
+  childrenIDs:
+  - 2
+  - 3
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0

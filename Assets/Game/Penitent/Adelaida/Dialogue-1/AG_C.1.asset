@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6811280538872893763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  uniqueID: 2
+  isPlayerSpeaking: 1
+  text: Perdonar
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 389
+    y: -3
+    width: 300
+    height: 200
+  faithCost: 3
+  RepIglesiaCost: -3
+  RepPuebloCost: -3
+  SobornoCost: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e960bec5b5236749b281289ea60fa82, type: 3}
+  m_Name: AG_C.1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 2086423982429722391}
+  - {fileID: -6811280538872893763}
+  - {fileID: 2299297475305512072}
+  isTrueDialogue: 0
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &2086423982429722391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  uniqueID: 1
+  isPlayerSpeaking: 0
+  text: "Padre, esc\xFAcheme./nLa mujer que compr\xF3 el colgante maldito se hospedaba
+    en mi posada./nDec\xEDa que le susurraba cosas, que su belleza ser\xEDa eterna./nEmpez\xF3
+    a enloquecer y, su piel, se estaba marchitando./n\"Estaba asustando a mis inquilinos;
+    hab\xEDa algo malvado en aquel amuleto./nY lo deseaba fuera de mi posada./nLe
+    obliqu\xE9 a deshacerse de \xE9l. A d\xE1rselo a otra persona./nPero no pens\xE9
+    que se lo dar\xEDa a un pobre ni\xF1o. Lo juro."
+  childrenIDs:
+  - 2
+  - 3
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
+--- !u!114 &2299297475305512072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  uniqueID: 3
+  isPlayerSpeaking: 1
+  text: Castigar
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 388
+    y: 244
+    width: 300
+    height: 200
+  faithCost: -3
+  RepIglesiaCost: 3
+  RepPuebloCost: 3
+  SobornoCost: 0
