@@ -132,7 +132,7 @@ MonoBehaviour:
   text: "Ver\xE1.../nEn su ausencia, el pueblo no ha pasado por su mejor momento./nCon
     su partida, los vecinos perdieron su fe, su prop\xF3sito./nYa sabe a lo que me
     refiero; se encuentran perdidos./nYo he hecho lo mejor que he podido por mi gente,
-    mas soy un hombre pragm\xE1tico, de n\xFAmeros.Poco puedo hacer para curar sus
+    mas soy un hombre pragm\xE1tico, de n\xFAmeros. Poco puedo hacer para curar sus
     corazones."
   childrenIDs:
   - 7
@@ -246,7 +246,7 @@ MonoBehaviour:
   isPlayerSpeaking: 0
   text: "Por eso quer\xEDa pedirle que retomara su lugar como gu\xEDa espiritual
     del pueblo./nLos aldeanos necesitan una luz que seguir, una esperanza a la que
-    agarrarse en tiempos de oscuridad./n\"Usted, padre, es esa esperanza."
+    agarrarse en tiempos de oscuridad./nUsted, padre, es esa esperanza."
   childrenIDs:
   - 8
   rect:
@@ -300,7 +300,7 @@ MonoBehaviour:
   uniqueID: 4
   isPlayerSpeaking: 0
   text: Le entiendo perfectamente, padre./nAcaba de despertar y todo es confuso./nEl
-    pueblo estaba muy preocupado por usted./nanto los aldeanos como yo estaremos
+    pueblo estaba muy preocupado por usted./nTanto los aldeanos como yo estaremos
     encantados de ayudarle con lo que necesite.
   childrenIDs:
   - 6

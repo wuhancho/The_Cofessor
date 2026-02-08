@@ -2794,15 +2794,15 @@ RectTransform:
   m_GameObject: {fileID: 197530340}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5884802, y: 1.808964, z: 0.256825}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.79, y: 0.89965343, z: 0.12772696}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 731544789}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -840.3, y: -411}
-  m_SizeDelta: {x: -5.500122, y: -11.699982}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -31.832, y: -294.55542}
+  m_SizeDelta: {x: 333.75, y: 163.3756}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &197530342
 MonoBehaviour:
@@ -2933,7 +2933,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4241955663071231453, guid: aeb9a7dbc49476a4faa3869029810a09, type: 3}
+  m_Sprite: {fileID: -4523229284629219677, guid: 60227501aa1a44e4c93593d556a8d626, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9794,7 +9794,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -840.3, y: -408.4203}
+  m_AnchoredPosition: {x: -14, y: -408.4203}
   m_SizeDelta: {x: -5.500122, y: -11.699982}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &796799278
@@ -13449,7 +13449,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1054169861
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24205,6 +24205,10 @@ PrefabInstance:
     - target: {fileID: 4498774276886176604, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -0.0025024414
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814343382447657872, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5000810889815814366, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: onConversation.m_PersistentCalls.m_Calls.Array.size
