@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 10406237}
   - component: {fileID: 10406240}
   - component: {fileID: 10406239}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CARLITOS, EL MONAGUILLO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -206,7 +206,7 @@ GameObject:
   - component: {fileID: 16920604}
   - component: {fileID: 16920603}
   - component: {fileID: 16920602}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scrollbar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -332,7 +332,7 @@ GameObject:
   - component: {fileID: 19442639}
   - component: {fileID: 19442638}
   - component: {fileID: 19442637}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scrollbar Horizontal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -460,7 +460,7 @@ GameObject:
   - component: {fileID: 39439117}
   - component: {fileID: 39439116}
   - component: {fileID: 39439115}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CARLITOS, EL MONAGUILLO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -652,7 +652,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 40647099}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: AJUSTES DE SONIDO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -695,7 +695,7 @@ GameObject:
   - component: {fileID: 42496434}
   - component: {fileID: 42496436}
   - component: {fileID: 42496435}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -832,7 +832,7 @@ GameObject:
   - component: {fileID: 48902511}
   - component: {fileID: 48902513}
   - component: {fileID: 48902512}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "DI\xC1LOGO CON CARLITOS"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -907,7 +907,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 55628718}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -946,7 +946,7 @@ GameObject:
   - component: {fileID: 62732231}
   - component: {fileID: 62732230}
   - component: {fileID: 62732229}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "GR\xC1FIC0S"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1118,7 +1118,7 @@ GameObject:
   - component: {fileID: 65162860}
   - component: {fileID: 65162862}
   - component: {fileID: 65162861}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "DI\xC1LOGO CON CARLITOS 6"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1201,7 +1201,7 @@ GameObject:
   - component: {fileID: 95032647}
   - component: {fileID: 95032646}
   - component: {fileID: 95032645}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Viewport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1292,7 +1292,7 @@ GameObject:
   - component: {fileID: 95125459}
   - component: {fileID: 95125458}
   - component: {fileID: 95125457}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: SONIDO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1466,7 +1466,7 @@ GameObject:
   - component: {fileID: 107959833}
   - component: {fileID: 107959832}
   - component: {fileID: 107959831}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PASAR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1640,7 +1640,7 @@ GameObject:
   - component: {fileID: 121844267}
   - component: {fileID: 121844266}
   - component: {fileID: 121844265}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: FONDO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1821,7 +1821,7 @@ GameObject:
   - component: {fileID: 139331864}
   - component: {fileID: 139331866}
   - component: {fileID: 139331865}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PRO IGLESIA PARTE 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1898,7 +1898,7 @@ GameObject:
   - component: {fileID: 145977621}
   - component: {fileID: 145977623}
   - component: {fileID: 145977622}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2037,7 +2037,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 149530496}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2075,7 +2075,7 @@ GameObject:
   - component: {fileID: 156295968}
   - component: {fileID: 156295967}
   - component: {fileID: 156295966}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scrollbar (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2200,7 +2200,7 @@ GameObject:
   - component: {fileID: 171107679}
   - component: {fileID: 171107681}
   - component: {fileID: 171107680}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2341,7 +2341,7 @@ GameObject:
   - component: {fileID: 179824931}
   - component: {fileID: 179824933}
   - component: {fileID: 179824932}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ACCESIBILIDAD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2418,7 +2418,7 @@ GameObject:
   - component: {fileID: 184281924}
   - component: {fileID: 184281923}
   - component: {fileID: 184281922}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: SONIDO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2591,7 +2591,7 @@ GameObject:
   - component: {fileID: 185788864}
   - component: {fileID: 185788863}
   - component: {fileID: 185788862}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scroll View
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2699,7 +2699,7 @@ GameObject:
   - component: {fileID: 191310242}
   - component: {fileID: 191310244}
   - component: {fileID: 191310243}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "DI\xC1LOGO CON CARLITOS 5"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2778,7 +2778,7 @@ GameObject:
   - component: {fileID: 197530344}
   - component: {fileID: 197530343}
   - component: {fileID: 197530342}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: LIBRO DE NOTAS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2962,7 +2962,7 @@ GameObject:
   - component: {fileID: 216422709}
   - component: {fileID: 216422711}
   - component: {fileID: 216422710}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3099,7 +3099,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 217481968}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sliding Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3144,7 +3144,7 @@ GameObject:
   - component: {fileID: 233835000}
   - component: {fileID: 233834999}
   - component: {fileID: 233834998}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PASAR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3318,7 +3318,7 @@ GameObject:
   - component: {fileID: 236819919}
   - component: {fileID: 236819918}
   - component: {fileID: 236819917}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PASAR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3490,7 +3490,7 @@ GameObject:
   - component: {fileID: 257311166}
   - component: {fileID: 257311168}
   - component: {fileID: 257311167}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3626,7 +3626,7 @@ GameObject:
   - component: {fileID: 260477946}
   - component: {fileID: 260477948}
   - component: {fileID: 260477947}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3701,7 +3701,7 @@ GameObject:
   - component: {fileID: 279801054}
   - component: {fileID: 279801056}
   - component: {fileID: 279801055}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3975,7 +3975,7 @@ GameObject:
   - component: {fileID: 319356338}
   - component: {fileID: 319356340}
   - component: {fileID: 319356339}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4050,7 +4050,7 @@ GameObject:
   - component: {fileID: 324828372}
   - component: {fileID: 324828374}
   - component: {fileID: 324828373}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: FONDO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4125,7 +4125,7 @@ GameObject:
   - component: {fileID: 328768244}
   - component: {fileID: 328768246}
   - component: {fileID: 328768245}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "DI\xC1LOGO CON CARLITOS (3)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4202,7 +4202,7 @@ GameObject:
   - component: {fileID: 345987330}
   - component: {fileID: 345987332}
   - component: {fileID: 345987331}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "DI\xC1LOGO CON CARLITOS"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4279,7 +4279,7 @@ GameObject:
   - component: {fileID: 348903018}
   - component: {fileID: 348903020}
   - component: {fileID: 348903019}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "DI\xC1LOGO CON CARLITOS 2"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4345,6 +4345,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 348903017}
   m_CullTransparentMesh: 1
+--- !u!1 &354299171
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 354299172}
+  - component: {fileID: 354299173}
+  m_Layer: 1
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &354299172
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354299171}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 949.1067, y: 554.05865, z: 146.43025}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &354299173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354299171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 57489df8ad800e64dafee00a6346d7cb, type: 2}
 --- !u!1 &364325178
 GameObject:
   m_ObjectHideFlags: 0
@@ -4356,7 +4405,7 @@ GameObject:
   - component: {fileID: 364325179}
   - component: {fileID: 364325182}
   - component: {fileID: 364325181}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CARLITOS, EL MONAGUILLO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4433,7 +4482,7 @@ GameObject:
   - component: {fileID: 372283780}
   - component: {fileID: 372283779}
   - component: {fileID: 372283778}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: FONDO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4605,7 +4654,7 @@ GameObject:
   - component: {fileID: 378527756}
   - component: {fileID: 378527755}
   - component: {fileID: 378527758}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ACCESO A MESA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4777,7 +4826,7 @@ GameObject:
   - component: {fileID: 381004808}
   - component: {fileID: 381004810}
   - component: {fileID: 381004809}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4851,7 +4900,7 @@ GameObject:
   m_Component:
   - component: {fileID: 381878690}
   - component: {fileID: 381878692}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CUADRICULA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5029,7 +5078,7 @@ GameObject:
   - component: {fileID: 404535122}
   - component: {fileID: 404535124}
   - component: {fileID: 404535123}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: BRILLO Y CINTRASTE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5104,7 +5153,7 @@ GameObject:
   - component: {fileID: 407161215}
   - component: {fileID: 407161217}
   - component: {fileID: 407161216}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: DESIGN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5179,7 +5228,7 @@ GameObject:
   - component: {fileID: 408357532}
   - component: {fileID: 408357534}
   - component: {fileID: 408357533}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: LIBRO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5254,7 +5303,7 @@ GameObject:
   - component: {fileID: 416654096}
   - component: {fileID: 416654098}
   - component: {fileID: 416654097}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: LIBRO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5328,7 +5377,7 @@ GameObject:
   m_Component:
   - component: {fileID: 422399440}
   - component: {fileID: 422399442}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CUADRICULA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5381,7 +5430,7 @@ GameObject:
   - component: {fileID: 424309559}
   - component: {fileID: 424309558}
   - component: {fileID: 424309557}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "ATR\xC1S"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5565,7 +5614,7 @@ GameObject:
   - component: {fileID: 426823373}
   - component: {fileID: 426823375}
   - component: {fileID: 426823374}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: controles 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5642,7 +5691,7 @@ GameObject:
   - component: {fileID: 430157570}
   - component: {fileID: 430157569}
   - component: {fileID: 430157568}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PASAR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5814,7 +5863,7 @@ GameObject:
   - component: {fileID: 443006353}
   - component: {fileID: 443006356}
   - component: {fileID: 443006355}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CARLITOS, EL MONAGUILLO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5891,7 +5940,7 @@ GameObject:
   - component: {fileID: 447676831}
   - component: {fileID: 447676830}
   - component: {fileID: 447676833}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ACCESO A LA CAPILLA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6061,7 +6110,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 450194893}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CAPILLA - CARLITOS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6101,7 +6150,7 @@ GameObject:
   - component: {fileID: 451694213}
   - component: {fileID: 451694212}
   - component: {fileID: 451694211}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scrollbar (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6226,7 +6275,7 @@ GameObject:
   - component: {fileID: 453092043}
   - component: {fileID: 453092046}
   - component: {fileID: 453092045}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CARLITOS, EL MONAGUILLO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6303,7 +6352,7 @@ GameObject:
   - component: {fileID: 462550435}
   - component: {fileID: 462550434}
   - component: {fileID: 462550433}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PASAR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6461,7 +6510,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 472425018}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: BOTONES
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6499,7 +6548,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 475227779}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sliding Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6538,7 +6587,7 @@ GameObject:
   - component: {fileID: 491697419}
   - component: {fileID: 491697418}
   - component: {fileID: 491697417}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scrollbar (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6665,7 +6714,7 @@ GameObject:
   - component: {fileID: 491951926}
   - component: {fileID: 491951925}
   - component: {fileID: 491951924}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ALTAR GENERAL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6838,7 +6887,7 @@ GameObject:
   - component: {fileID: 498374161}
   - component: {fileID: 498374160}
   - component: {fileID: 498374159}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Button (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6985,7 +7034,7 @@ GameObject:
   - component: {fileID: 515656421}
   - component: {fileID: 515656422}
   - component: {fileID: 515656423}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Canvas_Gameplay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7170,10 +7219,10 @@ MonoBehaviour:
   m_RendererIndex: -1
   m_VolumeLayerMask:
     serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
+    m_Bits: 4294967295
+  m_VolumeTrigger: {fileID: 354299172}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -7273,7 +7322,7 @@ GameObject:
   - component: {fileID: 543220589}
   - component: {fileID: 543220588}
   - component: {fileID: 543220587}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ACCESIBILIDAD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7447,7 +7496,7 @@ GameObject:
   - component: {fileID: 553840072}
   - component: {fileID: 553840071}
   - component: {fileID: 553840070}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "GR\xC1FIC0S"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7617,7 +7666,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 570736274}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sliding Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7655,7 +7704,7 @@ GameObject:
   - component: {fileID: 588665087}
   - component: {fileID: 588665089}
   - component: {fileID: 588665088}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7793,7 +7842,7 @@ GameObject:
   - component: {fileID: 590376429}
   - component: {fileID: 590376431}
   - component: {fileID: 590376430}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: LIBRO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7948,7 +7997,7 @@ GameObject:
   - component: {fileID: 605443075}
   - component: {fileID: 605443074}
   - component: {fileID: 605443076}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: DON JUSTO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8047,7 +8096,7 @@ GameObject:
   - component: {fileID: 607772570}
   - component: {fileID: 607772569}
   - component: {fileID: 607772568}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ACCESIBILIDAD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8301,7 +8350,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 621669105}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sliding Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8341,7 +8390,7 @@ GameObject:
   - component: {fileID: 627390294}
   - component: {fileID: 627390293}
   - component: {fileID: 627390292}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PASAR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8511,7 +8560,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 630172490}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "DI\xC1LOGO CARLITOS TARDE"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8552,7 +8601,7 @@ GameObject:
   - component: {fileID: 635299664}
   - component: {fileID: 635299663}
   - component: {fileID: 635299667}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: DISCURSO PRO IGLESIA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8822,7 +8871,7 @@ GameObject:
   - component: {fileID: 666008328}
   - component: {fileID: 666008330}
   - component: {fileID: 666008329}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8973,7 +9022,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 668900341}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sliding Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9010,7 +9059,7 @@ GameObject:
   m_Component:
   - component: {fileID: 696938775}
   - component: {fileID: 696938776}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: VerticalLayoutGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9073,7 +9122,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 701581851}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sliding Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9113,7 +9162,7 @@ GameObject:
   - component: {fileID: 710439674}
   - component: {fileID: 710439673}
   - component: {fileID: 710439672}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: VIDEO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9283,7 +9332,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 711500846}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ALTAR - MISA [TARDE] (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9321,7 +9370,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 731544789}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: LIBRO DE NOTAS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9359,7 +9408,7 @@ GameObject:
   - component: {fileID: 749083482}
   - component: {fileID: 749083484}
   - component: {fileID: 749083483}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9495,7 +9544,7 @@ GameObject:
   - component: {fileID: 751758755}
   - component: {fileID: 751758757}
   - component: {fileID: 751758756}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: 'FONDO - IGLESIA [MISA]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9570,7 +9619,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 752006743}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: MESA DE ALTAR - CAPILLA TARDE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9619,7 +9668,7 @@ GameObject:
   - component: {fileID: 791045225}
   - component: {fileID: 791045227}
   - component: {fileID: 791045226}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: FOCUS ON
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9694,7 +9743,7 @@ GameObject:
   - component: {fileID: 793797666}
   - component: {fileID: 793797668}
   - component: {fileID: 793797667}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: AJUSTES DE SONIDO (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9771,7 +9820,7 @@ GameObject:
   - component: {fileID: 796799280}
   - component: {fileID: 796799279}
   - component: {fileID: 796799278}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: LIBRO DE NOTAS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9929,7 +9978,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 803326510}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: CONFESIONARIO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9961,7 +10010,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 805033007}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ABRIR NOTAS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9999,7 +10048,7 @@ GameObject:
   m_Component:
   - component: {fileID: 820800041}
   - component: {fileID: 820800042}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: VerticalLayoutGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10066,7 +10115,7 @@ GameObject:
   - component: {fileID: 827994695}
   - component: {fileID: 827994694}
   - component: {fileID: 827994693}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CONFESIONARIO EXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10236,7 +10285,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 833455166}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CANVAS - LIBRO DE NOTAS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10274,7 +10323,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 833593321}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sliding Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10312,7 +10361,7 @@ GameObject:
   - component: {fileID: 847696592}
   - component: {fileID: 847696594}
   - component: {fileID: 847696593}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "DI\xC1LOGO CON CARLITOS 4"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10387,7 +10436,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 854257043}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "DECISION PRO-FACCI\xD3N TOMADA"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10428,7 +10477,7 @@ GameObject:
   - component: {fileID: 856346196}
   - component: {fileID: 856346195}
   - component: {fileID: 856346194}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PASAR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10601,7 +10650,7 @@ GameObject:
   - component: {fileID: 860611780}
   - component: {fileID: 860611779}
   - component: {fileID: 860611778}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Viewport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10690,7 +10739,7 @@ GameObject:
   - component: {fileID: 863764574}
   - component: {fileID: 863764576}
   - component: {fileID: 863764575}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10765,7 +10814,7 @@ GameObject:
   - component: {fileID: 871968326}
   - component: {fileID: 871968328}
   - component: {fileID: 871968327}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: MODO DE PANTALLA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10840,7 +10889,7 @@ GameObject:
   - component: {fileID: 872079106}
   - component: {fileID: 872079108}
   - component: {fileID: 872079107}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: FONDO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10915,7 +10964,7 @@ GameObject:
   - component: {fileID: 880404084}
   - component: {fileID: 880404086}
   - component: {fileID: 880404085}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CARLITOS, EL MONAGUILLO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10990,7 +11039,7 @@ GameObject:
   - component: {fileID: 880795137}
   - component: {fileID: 880795139}
   - component: {fileID: 880795138}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11064,7 +11113,7 @@ GameObject:
   m_Component:
   - component: {fileID: 884473734}
   - component: {fileID: 884473735}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: VerticalLayoutGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11128,7 +11177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 902159813}
   - component: {fileID: 902159814}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: V sync
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11214,7 +11263,7 @@ GameObject:
   - component: {fileID: 903435569}
   - component: {fileID: 903435571}
   - component: {fileID: 903435570}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11354,7 +11403,7 @@ GameObject:
   - component: {fileID: 911625795}
   - component: {fileID: 911625794}
   - component: {fileID: 911625793}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PASAR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11526,7 +11575,7 @@ GameObject:
   - component: {fileID: 917790878}
   - component: {fileID: 917790880}
   - component: {fileID: 917790879}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: RESOLUCION
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11599,7 +11648,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 922105543}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PANTALLA DE CONTROLES
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11645,7 +11694,7 @@ GameObject:
   - component: {fileID: 935128970}
   - component: {fileID: 935128969}
   - component: {fileID: 935128968}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "GR\xC1FIC0S"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11817,7 +11866,7 @@ GameObject:
   - component: {fileID: 939968053}
   - component: {fileID: 939968055}
   - component: {fileID: 939968054}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: FONDO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11894,7 +11943,7 @@ GameObject:
   - component: {fileID: 940180710}
   - component: {fileID: 940180709}
   - component: {fileID: 940180708}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ACCESIBILIDAD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12068,7 +12117,7 @@ GameObject:
   - component: {fileID: 949307495}
   - component: {fileID: 949307494}
   - component: {fileID: 949307493}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PASAR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12242,7 +12291,7 @@ GameObject:
   - component: {fileID: 968536465}
   - component: {fileID: 968536464}
   - component: {fileID: 968536463}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PASAR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12438,7 +12487,7 @@ GameObject:
   - component: {fileID: 972615079}
   - component: {fileID: 972615081}
   - component: {fileID: 972615080}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: DISCURSO PRO IGLESIA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12517,7 +12566,7 @@ GameObject:
   - component: {fileID: 986318667}
   - component: {fileID: 986318666}
   - component: {fileID: 986318665}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CONTROLES
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12689,7 +12738,7 @@ GameObject:
   - component: {fileID: 986796477}
   - component: {fileID: 986796479}
   - component: {fileID: 986796478}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12766,7 +12815,7 @@ GameObject:
   - component: {fileID: 989867237}
   - component: {fileID: 989867236}
   - component: {fileID: 989867235}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ACCESO A NOCHE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13121,7 +13170,7 @@ GameObject:
   - component: {fileID: 1015286360}
   - component: {fileID: 1015286362}
   - component: {fileID: 1015286361}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CARLITOS, EL MONAGUILLO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13198,7 +13247,7 @@ GameObject:
   - component: {fileID: 1027458635}
   - component: {fileID: 1027458634}
   - component: {fileID: 1027458633}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ACCESIBILIDAD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13370,7 +13419,7 @@ GameObject:
   - component: {fileID: 1040389361}
   - component: {fileID: 1040389363}
   - component: {fileID: 1040389362}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13443,13 +13492,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1054169861}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: 'ALTAR GENERAL - MISA [TARDE]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1054169861
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13485,7 +13534,7 @@ GameObject:
   - component: {fileID: 1055073462}
   - component: {fileID: 1055073461}
   - component: {fileID: 1055073460}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "DI\xC1LOGO CON CARLITOS (1)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13562,7 +13611,7 @@ GameObject:
   - component: {fileID: 1067458421}
   - component: {fileID: 1067458423}
   - component: {fileID: 1067458422}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: VIDEO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13637,7 +13686,7 @@ GameObject:
   - component: {fileID: 1072730600}
   - component: {fileID: 1072730602}
   - component: {fileID: 1072730601}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: DISCURSO PRO PUEBLO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13716,7 +13765,7 @@ GameObject:
   - component: {fileID: 1077810344}
   - component: {fileID: 1077810343}
   - component: {fileID: 1077810347}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: DISCURSO PRO PUEBLO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13985,7 +14034,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1109014685}
   - component: {fileID: 1109014686}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: VerticalLayoutGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14052,7 +14101,7 @@ GameObject:
   - component: {fileID: 1110377449}
   - component: {fileID: 1110377448}
   - component: {fileID: 1110377447}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ENTRAR AL CONFESIONARIO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14222,7 +14271,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1112142658}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sliding Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14278,7 +14327,7 @@ GameObject:
   - component: {fileID: 1160158257}
   - component: {fileID: 1160158256}
   - component: {fileID: 1160158255}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: AJUSTES
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14440,7 +14489,7 @@ GameObject:
   - component: {fileID: 1171360401}
   - component: {fileID: 1171360400}
   - component: {fileID: 1171360399}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CONTROLES
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14612,7 +14661,7 @@ GameObject:
   - component: {fileID: 1171410080}
   - component: {fileID: 1171410082}
   - component: {fileID: 1171410081}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CARLITOS, EL MONAGUILLO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14687,7 +14736,7 @@ GameObject:
   - component: {fileID: 1176615846}
   - component: {fileID: 1176615848}
   - component: {fileID: 1176615847}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "GR\xC1FIC0S"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14763,7 +14812,7 @@ GameObject:
   - component: {fileID: 1180947199}
   - component: {fileID: 1180947198}
   - component: {fileID: 1180947197}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scrollbar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14886,7 +14935,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1193771054}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: BOTONES
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14925,7 +14974,7 @@ GameObject:
   - component: {fileID: 1194883179}
   - component: {fileID: 1194883178}
   - component: {fileID: 1194883177}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: SALIR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15056,7 +15105,7 @@ GameObject:
   - component: {fileID: 1199279915}
   - component: {fileID: 1199279917}
   - component: {fileID: 1199279916}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: controles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15130,7 +15179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1200594555}
   - component: {fileID: 1200594556}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: VerticalLayoutGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15194,7 +15243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1213914772}
   - component: {fileID: 1213914773}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: VerticalLayoutGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15261,7 +15310,7 @@ GameObject:
   - component: {fileID: 1227681345}
   - component: {fileID: 1227681344}
   - component: {fileID: 1227681347}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "ATR\xC1S"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15433,7 +15482,7 @@ GameObject:
   - component: {fileID: 1239067790}
   - component: {fileID: 1239067791}
   - component: {fileID: 1239067792}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: VerticalLayoutGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15509,7 +15558,7 @@ GameObject:
   - component: {fileID: 1239895741}
   - component: {fileID: 1239895740}
   - component: {fileID: 1239895739}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CARLITOS, EL MONAGUILLO -TARDE TUTO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15704,7 +15753,7 @@ GameObject:
   - component: {fileID: 1242768796}
   - component: {fileID: 1242768795}
   - component: {fileID: 1242768794}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scroll View
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15814,7 +15863,7 @@ GameObject:
   - component: {fileID: 1243278111}
   - component: {fileID: 1243278110}
   - component: {fileID: 1243278109}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PASAR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15988,7 +16037,7 @@ GameObject:
   - component: {fileID: 1261877675}
   - component: {fileID: 1261877674}
   - component: {fileID: 1261877677}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ACCESO A LA CAPILLA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16158,7 +16207,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1289457449}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: AJUSTES DE VIDEO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16206,7 +16255,7 @@ GameObject:
   - component: {fileID: 1327525351}
   - component: {fileID: 1327525353}
   - component: {fileID: 1327525352}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: SUBTITULOS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16282,7 +16331,7 @@ GameObject:
   - component: {fileID: 1328870236}
   - component: {fileID: 1328870238}
   - component: {fileID: 1328870237}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16357,7 +16406,7 @@ GameObject:
   - component: {fileID: 1334955212}
   - component: {fileID: 1334955214}
   - component: {fileID: 1334955213}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16432,7 +16481,7 @@ GameObject:
   - component: {fileID: 1335367544}
   - component: {fileID: 1335367546}
   - component: {fileID: 1335367545}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16508,7 +16557,7 @@ GameObject:
   - component: {fileID: 1339745333}
   - component: {fileID: 1339745332}
   - component: {fileID: 1339745331}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Button (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16651,7 +16700,7 @@ GameObject:
   - component: {fileID: 1363139470}
   - component: {fileID: 1363139472}
   - component: {fileID: 1363139471}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ASISTENCIA VIRTUAL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16728,7 +16777,7 @@ GameObject:
   - component: {fileID: 1372514883}
   - component: {fileID: 1372514882}
   - component: {fileID: 1372514881}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scrollbar Horizontal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16855,7 +16904,7 @@ GameObject:
   - component: {fileID: 1377643058}
   - component: {fileID: 1377643057}
   - component: {fileID: 1377643056}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PASAR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17025,7 +17074,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1405322921}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sliding Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17063,7 +17112,7 @@ GameObject:
   - component: {fileID: 1415095387}
   - component: {fileID: 1415095389}
   - component: {fileID: 1415095388}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17200,7 +17249,7 @@ GameObject:
   - component: {fileID: 1418908061}
   - component: {fileID: 1418908060}
   - component: {fileID: 1418908059}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17343,7 +17392,7 @@ GameObject:
   - component: {fileID: 1436324926}
   - component: {fileID: 1436324928}
   - component: {fileID: 1436324927}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17416,7 +17465,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1448014286}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CANVAS - LIBRO DE NOTAS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17454,7 +17503,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1448698891}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "MEN\xDA DE PAUSA"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17492,7 +17541,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1456798214}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "AJUSTES GR\xC1FICOS"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17535,7 +17584,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1474207591}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sliding Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17574,7 +17623,7 @@ GameObject:
   - component: {fileID: 1485352751}
   - component: {fileID: 1485352750}
   - component: {fileID: 1485352749}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: MONAGUILLO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17669,7 +17718,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1486301558}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sliding Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17707,7 +17756,7 @@ GameObject:
   - component: {fileID: 1496013590}
   - component: {fileID: 1496013592}
   - component: {fileID: 1496013591}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17782,7 +17831,7 @@ GameObject:
   - component: {fileID: 1508593893}
   - component: {fileID: 1508593895}
   - component: {fileID: 1508593894}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: FONDO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17858,7 +17907,7 @@ GameObject:
   - component: {fileID: 1521118297}
   - component: {fileID: 1521118296}
   - component: {fileID: 1521118295}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scrollbar Vertical
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17985,7 +18034,7 @@ GameObject:
   - component: {fileID: 1528056767}
   - component: {fileID: 1528056766}
   - component: {fileID: 1528056765}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "ATR\xC1S"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18171,7 +18220,7 @@ GameObject:
   - component: {fileID: 1561425474}
   - component: {fileID: 1561425473}
   - component: {fileID: 1561425472}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: VIDEO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18343,7 +18392,7 @@ GameObject:
   - component: {fileID: 1574874058}
   - component: {fileID: 1574874060}
   - component: {fileID: 1574874059}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PRO PUEBLO PARTE 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18420,7 +18469,7 @@ GameObject:
   - component: {fileID: 1580049460}
   - component: {fileID: 1580049463}
   - component: {fileID: 1580049462}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CARLITOS, EL MONAGUILLO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18495,7 +18544,7 @@ GameObject:
   - component: {fileID: 1582654402}
   - component: {fileID: 1582654404}
   - component: {fileID: 1582654403}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "DI\xC1LOGO CON CARLITOS (2)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18570,7 +18619,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1587852856}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18608,7 +18657,7 @@ GameObject:
   - component: {fileID: 1600688703}
   - component: {fileID: 1600688702}
   - component: {fileID: 1600688701}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Button (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18753,7 +18802,7 @@ GameObject:
   - component: {fileID: 1601814667}
   - component: {fileID: 1601814666}
   - component: {fileID: 1601814665}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: SONIDO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18925,7 +18974,7 @@ GameObject:
   - component: {fileID: 1620487669}
   - component: {fileID: 1620487671}
   - component: {fileID: 1620487670}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: COLOR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19005,7 +19054,7 @@ GameObject:
   - component: {fileID: 1624530343}
   - component: {fileID: 1624530342}
   - component: {fileID: 1624530341}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "GR\xC1FIC0S"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19179,7 +19228,7 @@ GameObject:
   - component: {fileID: 1635611559}
   - component: {fileID: 1635611558}
   - component: {fileID: 1635611557}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: SONIDO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19352,7 +19401,7 @@ GameObject:
   - component: {fileID: 1660793622}
   - component: {fileID: 1660793621}
   - component: {fileID: 1660793620}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scrollbar Vertical
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19477,7 +19526,7 @@ GameObject:
   - component: {fileID: 1684479742}
   - component: {fileID: 1684479744}
   - component: {fileID: 1684479743}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: AJUSTES DE SONIDO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19552,7 +19601,7 @@ GameObject:
   - component: {fileID: 1691626456}
   - component: {fileID: 1691626458}
   - component: {fileID: 1691626457}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CONTROLES
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19626,7 +19675,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1706412566}
   - component: {fileID: 1706412567}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: VerticalLayoutGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19810,7 +19859,7 @@ GameObject:
   - component: {fileID: 1713970045}
   - component: {fileID: 1713970047}
   - component: {fileID: 1713970046}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19888,7 +19937,7 @@ GameObject:
   - component: {fileID: 1714839892}
   - component: {fileID: 1714839891}
   - component: {fileID: 1714839890}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: VIDEO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20060,7 +20109,7 @@ GameObject:
   - component: {fileID: 1722656390}
   - component: {fileID: 1722656392}
   - component: {fileID: 1722656391}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PRO IGLESIA PARTE 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20135,7 +20184,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1723376484}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: 'CAPILLA - VISTA GENERAL [TARDE]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20172,7 +20221,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1745159452}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ACCESIBILIDAD DE JUEGO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20217,7 +20266,7 @@ GameObject:
   - component: {fileID: 1756224047}
   - component: {fileID: 1756224049}
   - component: {fileID: 1756224048}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20290,7 +20339,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1759636761}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CAPILLA - VISTA GENERAL [TARDE] TUTO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20327,7 +20376,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1770806195}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: MEDIDORES
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20371,7 +20420,7 @@ GameObject:
   - component: {fileID: 1772641495}
   - component: {fileID: 1772641494}
   - component: {fileID: 1772641493}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scroll View
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20477,7 +20526,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1776368201}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PAUSA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20515,7 +20564,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1797016262}
   - component: {fileID: 1797016263}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: VerticalLayoutGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20580,7 +20629,7 @@ GameObject:
   - component: {fileID: 1808523653}
   - component: {fileID: 1808523655}
   - component: {fileID: 1808523654}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20848,7 +20897,7 @@ GameObject:
   - component: {fileID: 1833806403}
   - component: {fileID: 1833806402}
   - component: {fileID: 1833806401}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ACCESO A ALTAR TARDE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20989,7 +21038,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1845452452}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: BOTONES
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21030,7 +21079,7 @@ GameObject:
   - component: {fileID: 1850228978}
   - component: {fileID: 1850228977}
   - component: {fileID: 1850228976}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Viewport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21119,7 +21168,7 @@ GameObject:
   - component: {fileID: 1854773690}
   - component: {fileID: 1854773692}
   - component: {fileID: 1854773691}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21196,7 +21245,7 @@ GameObject:
   - component: {fileID: 1878549929}
   - component: {fileID: 1878549928}
   - component: {fileID: 1878549927}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PASAR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21392,7 +21441,7 @@ GameObject:
   - component: {fileID: 1891514486}
   - component: {fileID: 1891514488}
   - component: {fileID: 1891514487}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "DI\xC1LOGO CON CARLITOS 3"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21470,7 +21519,7 @@ GameObject:
   - component: {fileID: 1893832532}
   - component: {fileID: 1893832531}
   - component: {fileID: 1893832530}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scrollbar Horizontal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21593,7 +21642,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1902303043}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: AJUSTES
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21635,7 +21684,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1906126022}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CONFESIONARIO EXT - TARDE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21675,7 +21724,7 @@ GameObject:
   - component: {fileID: 1909237947}
   - component: {fileID: 1909237949}
   - component: {fileID: 1909237948}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: LIBRO 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21750,7 +21799,7 @@ GameObject:
   - component: {fileID: 1918755229}
   - component: {fileID: 1918755231}
   - component: {fileID: 1918755230}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PRO PUEBLO PARTE 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21825,7 +21874,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1926187878}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: MEDIDORES
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21869,7 +21918,7 @@ GameObject:
   - component: {fileID: 1927157854}
   - component: {fileID: 1927157856}
   - component: {fileID: 1927157855}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: SONIDO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21944,7 +21993,7 @@ GameObject:
   - component: {fileID: 1929362864}
   - component: {fileID: 1929362866}
   - component: {fileID: 1929362865}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22084,7 +22133,7 @@ GameObject:
   - component: {fileID: 1934455252}
   - component: {fileID: 1934455251}
   - component: {fileID: 1934455250}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CONTROLES
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22457,7 +22506,7 @@ GameObject:
   - component: {fileID: 1948945558}
   - component: {fileID: 1948945561}
   - component: {fileID: 1948945560}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CARLITOS, EL MONAGUILLO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22534,7 +22583,7 @@ GameObject:
   - component: {fileID: 1956493295}
   - component: {fileID: 1956493294}
   - component: {fileID: 1956493293}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PASAR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22706,7 +22755,7 @@ GameObject:
   - component: {fileID: 1995271384}
   - component: {fileID: 1995271387}
   - component: {fileID: 1995271386}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CARLITOS, EL MONAGUILLO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22781,7 +22830,7 @@ GameObject:
   - component: {fileID: 2001118788}
   - component: {fileID: 2001118790}
   - component: {fileID: 2001118789}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22923,7 +22972,7 @@ GameObject:
   - component: {fileID: 2030483499}
   - component: {fileID: 2030483498}
   - component: {fileID: 2030483497}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: "ATR\xC1S"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23084,7 +23133,7 @@ GameObject:
   - component: {fileID: 2034323581}
   - component: {fileID: 2034323580}
   - component: {fileID: 2034323579}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scrollbar Vertical
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23209,7 +23258,7 @@ GameObject:
   - component: {fileID: 2040946094}
   - component: {fileID: 2040946096}
   - component: {fileID: 2040946095}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: AJUSTES DE SONIDO (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23283,7 +23332,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2044532116}
   - component: {fileID: 2044532117}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: VerticalLayoutGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23350,7 +23399,7 @@ GameObject:
   - component: {fileID: 2062887719}
   - component: {fileID: 2062887718}
   - component: {fileID: 2062887717}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CONTROLES
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23524,7 +23573,7 @@ GameObject:
   - component: {fileID: 2073535186}
   - component: {fileID: 2073535185}
   - component: {fileID: 2073535184}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: VOLVER
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23686,7 +23735,7 @@ GameObject:
   - component: {fileID: 2077073203}
   - component: {fileID: 2077073202}
   - component: {fileID: 2077073201}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: VIDEO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23858,7 +23907,7 @@ GameObject:
   - component: {fileID: 2087780421}
   - component: {fileID: 2087780423}
   - component: {fileID: 2087780422}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: FONDO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23933,7 +23982,7 @@ GameObject:
   - component: {fileID: 2132322606}
   - component: {fileID: 2132322608}
   - component: {fileID: 2132322607}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24070,133 +24119,197 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 803326510}
     m_Modifications:
+    - target: {fileID: 167269508314699443, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 386787139153321236, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 725782518545971997, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 725782518545971997, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 725782518545971997, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 725782518545971997, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 725782518545971997, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 725782518545971997, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1298637162011425625, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1298637162011425625, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1298637162011425625, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1298637162011425625, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1298637162011425625, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1298637162011425625, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1801327722437231507, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1801327722437231507, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1801327722437231507, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1801327722437231507, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1801327722437231507, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1801327722437231507, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1981108606167394541, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1981108606167394541, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1981108606167394541, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1981108606167394541, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1981108606167394541, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1981108606167394541, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2411594416850390397, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: -1218.5486
-      objectReference: {fileID: 0}
-    - target: {fileID: 2411594416850390397, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2411594416850390397, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_LocalScale.x
+    - target: {fileID: 455860126305821359, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2411594416850390397, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+    - target: {fileID: 623466422646463808, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 656644399733164581, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 725782518545971997, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 725782518545971997, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 725782518545971997, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 725782518545971997, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 725782518545971997, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1158.5486
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 725782518545971997, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 808389151611697203, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 952298116765377479, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 952298116765377479, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 952298116765377479, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 952298116765377479, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 952298116765377479, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 952298116765377479, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298637162011425625, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298637162011425625, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298637162011425625, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298637162011425625, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298637162011425625, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298637162011425625, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801327722437231507, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801327722437231507, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801327722437231507, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801327722437231507, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801327722437231507, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801327722437231507, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1981108606167394541, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1981108606167394541, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1981108606167394541, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1981108606167394541, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1981108606167394541, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1981108606167394541, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1983199280230371729, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2275645025519241367, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2411594416850390397, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 597
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487171001527297548, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2897374428636069257, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_AnimatePhysics
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2918537556302926550, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034756837857449582, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3870417996512211931, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3916522390517794504, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3998334033260357013, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4400843333451074906, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4400843333451074906, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_fontSize
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 4498774276886176604, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -24205,6 +24318,18 @@ PrefabInstance:
     - target: {fileID: 4498774276886176604, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -0.0025024414
+      objectReference: {fileID: 0}
+    - target: {fileID: 4589997059521562369, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814343382447657872, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814343382447657872, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 4814343382447657872, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_ConstrainProportionsScale
@@ -24266,6 +24391,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5918850068285592594, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Padding.m_Left
+      value: 97
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918850068285592594, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Padding.m_Right
+      value: 96
+      objectReference: {fileID: 0}
+    - target: {fileID: 6253099500060434811, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6544258714435452332, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6879194584201136773, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -24310,6 +24451,22 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7241446328982101898, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340702042620400044, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7423013360670715087, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7423013360670715087, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7794461712165519368, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_Name
       value: UI Canvas
@@ -24342,9 +24499,29 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7913663034850958843, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8095626718067886083, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Color.a
+      value: 0.45490196
+      objectReference: {fileID: 0}
+    - target: {fileID: 8126339776342951011, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3124721923660217717, guid: 90fae948b3d4ff64b8f69ea9c337f20a, type: 3}
     - target: {fileID: 8126339776342951011, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8126339776342951011, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8355415159347993944, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8416568664726968060, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_AnchorMax.y
@@ -24355,11 +24532,15 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8416568664726968060, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
-      propertyPath: m_SizeDelta.x
+      propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8416568664726968060, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416568664726968060, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8608678643242642440, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
@@ -24389,6 +24570,10 @@ PrefabInstance:
     - target: {fileID: 8640780204405461989, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8854273587375376428, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9108606684861889867, guid: eaa3eca09af81e74087cb2d0c7458faf, type: 3}
       propertyPath: m_Pivot.x
@@ -24862,9 +25047,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5247461971832826844, guid: 75d2cd50d9a8e964bb367551ef375c36, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7460708670997880192, guid: 75d2cd50d9a8e964bb367551ef375c36, type: 3}
       propertyPath: m_Name
       value: FadeController
+      objectReference: {fileID: 0}
+    - target: {fileID: 7460708670997880192, guid: 75d2cd50d9a8e964bb367551ef375c36, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7890357205496993416, guid: 75d2cd50d9a8e964bb367551ef375c36, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24881,5 +25078,6 @@ SceneRoots:
   - {fileID: 6900342638222944308}
   - {fileID: 7077701841565857970}
   - {fileID: 515656420}
+  - {fileID: 354299172}
   - {fileID: 1711700132}
   - {fileID: 598843404}
