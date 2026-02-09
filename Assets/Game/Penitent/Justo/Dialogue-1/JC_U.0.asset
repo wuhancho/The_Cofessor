@@ -360,7 +360,7 @@ MonoBehaviour:
   isPlayerSpeaking: 0
   text: "Denunciar los delitos de los aldeanos es parte de su deber como autoridad
     que es./nMas tenga cuidado./nPues si denuncia hasta la m\xE1s leve falta, correr\xE1
-    el riesgo de perder la confianza de los pueblerinos./n"
+    el riesgo de perder la confianza de los pueblerinos."
   childrenIDs:
   - 14
   rect:
