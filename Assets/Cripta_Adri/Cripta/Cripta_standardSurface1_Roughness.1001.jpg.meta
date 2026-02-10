@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 727883a69e72b58458440dec2ecc9de8
+guid: a49cbef2b96d20e49a7285722eecfdb8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5377058476680625571
-    second: Cripta_Low_standardSurface1_Metallic.1002_0
+      213: -8365009777040878942
+    second: Cripta_standardSurface1_Roughness.1001_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cripta_Low_standardSurface1_Metallic.1002_0
+      name: Cripta_standardSurface1_Roughness.1001_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2048
-        height: 2048
+        width: 4096
+        height: 4096
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d52c2f8edc9d065b0800000000000000
-      internalID: -5377058476680625571
+      spriteID: 2a21fc07de389eb80800000000000000
+      internalID: -8365009777040878942
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cripta_Low_standardSurface1_Metallic.1002_0: -5377058476680625571
+      Cripta_standardSurface1_Roughness.1001_0: -8365009777040878942
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

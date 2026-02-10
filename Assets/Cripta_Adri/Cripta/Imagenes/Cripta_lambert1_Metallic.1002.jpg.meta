@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: f32e24d53e03bb54a9b24af49a96d565
+guid: 4e7f6a82ad5ccec4ca874acce0817785
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6354212549591034349
-    second: Cripta_Low_lambert1_Normal.1001_0
+      213: -3735522012229636189
+    second: Cripta_lambert1_Metallic.1002_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
-    sRGBTexture: 0
+    enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -55,9 +55,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 1
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cripta_Low_lambert1_Normal.1001_0
+      name: Cripta_lambert1_Metallic.1002_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 512
-        height: 512
+        width: 4096
+        height: 4096
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de9e3b5d5a2be2850800000000000000
-      internalID: 6354212549591034349
+      spriteID: 3af66628582c82cc0800000000000000
+      internalID: -3735522012229636189
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cripta_Low_lambert1_Normal.1001_0: 6354212549591034349
+      Cripta_lambert1_Metallic.1002_0: -3735522012229636189
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6176a1473c57996409fe979b3dd3e1ed
+guid: 041983c9350c12a46a1d2afd74298b66
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5444346874552843879
-    second: Cripta_Low_lambert1_Height.1001_0
+      213: 6921634804353569217
+    second: Cripta_lambert1_Roughness.1002_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cripta_Low_lambert1_Height.1001_0
+      name: Cripta_lambert1_Roughness.1002_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 512
-        height: 512
+        width: 4096
+        height: 4096
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76efab313a43e8b40800000000000000
-      internalID: 5444346874552843879
+      spriteID: 1c19972ae269e0060800000000000000
+      internalID: 6921634804353569217
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cripta_Low_lambert1_Height.1001_0: 5444346874552843879
+      Cripta_lambert1_Roughness.1002_0: 6921634804353569217
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

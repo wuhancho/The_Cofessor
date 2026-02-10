@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e2bdbe6d9bacd044fa3f8b3fea095bfd
+guid: 2156ee179357973418a72f876dc59457
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 154892691381739780
-    second: Cripta_Low_standardSurface1_Height.1002_0
+      213: 8805098082907611319
+    second: Cripta_standardSurface1_BaseColor.1001_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cripta_Low_standardSurface1_Height.1002_0
+      name: Cripta_standardSurface1_BaseColor.1001_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2048
-        height: 2048
+        width: 4096
+        height: 4096
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 401ec18051a462200800000000000000
-      internalID: 154892691381739780
+      spriteID: 7b06e241e0ef13a70800000000000000
+      internalID: 8805098082907611319
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cripta_Low_standardSurface1_Height.1002_0: 154892691381739780
+      Cripta_standardSurface1_BaseColor.1001_0: 8805098082907611319
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
