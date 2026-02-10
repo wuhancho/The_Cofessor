@@ -36,8 +36,8 @@ MonoBehaviour:
   childrenIDs: []
   rect:
     serializedVersion: 2
-    x: 343
-    y: 240
+    x: 327
+    y: 277
     width: 300
     height: 200
   faithCost: -3
@@ -62,7 +62,7 @@ MonoBehaviour:
   childrenIDs: []
   rect:
     serializedVersion: 2
-    x: 344
+    x: 342
     y: -1
     width: 300
     height: 200
