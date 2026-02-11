@@ -325,7 +325,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 184163693}
           m_TargetAssemblyTypeName: ManagerDeSonidos, Assembly-CSharp
           m_MethodName: PlaySound2D
           m_Mode: 5
@@ -1796,7 +1796,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 184163693}
           m_TargetAssemblyTypeName: ManagerDeSonidos, Assembly-CSharp
           m_MethodName: PlaySound2D
           m_Mode: 5
@@ -2214,7 +2214,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 184163693}
           m_TargetAssemblyTypeName: ManagerDeSonidos, Assembly-CSharp
           m_MethodName: PlaySound2D
           m_Mode: 5
@@ -2388,7 +2388,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 184163693}
           m_TargetAssemblyTypeName: ManagerDeSonidos, Assembly-CSharp
           m_MethodName: PlaySound2D
           m_Mode: 5
@@ -6302,7 +6302,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 184163693}
           m_TargetAssemblyTypeName: ManagerDeSonidos, Assembly-CSharp
           m_MethodName: PlaySound2D
           m_Mode: 5
@@ -6857,7 +6857,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 184163693}
           m_TargetAssemblyTypeName: ManagerDeSonidos, Assembly-CSharp
           m_MethodName: PlaySound2D
           m_Mode: 5
@@ -10351,7 +10351,7 @@ AudioSource:
   m_GameObject: {fileID: 775966897}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 9018678066601523148, guid: 1e6aa1ecdc8609b43bbee32cb84e364c, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: ed113788f4264984280f6037445a0329, type: 3}
   m_PlayOnAwake: 1
@@ -11759,7 +11759,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 184163693}
           m_TargetAssemblyTypeName: ManagerDeSonidos, Assembly-CSharp
           m_MethodName: PlaySound2D
           m_Mode: 5
@@ -12284,7 +12284,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 184163693}
           m_TargetAssemblyTypeName: ManagerDeSonidos, Assembly-CSharp
           m_MethodName: PlaySound2D
           m_Mode: 5
@@ -13510,7 +13510,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 184163693}
           m_TargetAssemblyTypeName: ManagerDeSonidos, Assembly-CSharp
           m_MethodName: PlaySound2D
           m_Mode: 5
@@ -15121,7 +15121,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 184163693}
           m_TargetAssemblyTypeName: ManagerDeSonidos, Assembly-CSharp
           m_MethodName: PlaySound2D
           m_Mode: 5
@@ -15561,7 +15561,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 184163693}
           m_TargetAssemblyTypeName: ManagerDeSonidos, Assembly-CSharp
           m_MethodName: PlaySound2D
           m_Mode: 5
@@ -16286,7 +16286,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 184163693}
           m_TargetAssemblyTypeName: ManagerDeSonidos, Assembly-CSharp
           m_MethodName: PlaySound2D
           m_Mode: 5
@@ -18537,7 +18537,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 184163693}
           m_TargetAssemblyTypeName: ManagerDeSonidos, Assembly-CSharp
           m_MethodName: PlaySound2D
           m_Mode: 5
@@ -19325,7 +19325,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 184163693}
           m_TargetAssemblyTypeName: ManagerDeSonidos, Assembly-CSharp
           m_MethodName: PlaySound2D
           m_Mode: 5
@@ -19989,7 +19989,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 184163693}
           m_TargetAssemblyTypeName: ManagerDeSonidos, Assembly-CSharp
           m_MethodName: PlaySound2D
           m_Mode: 5
@@ -20163,7 +20163,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 184163693}
           m_TargetAssemblyTypeName: ManagerDeSonidos, Assembly-CSharp
           m_MethodName: PlaySound2D
           m_Mode: 5
@@ -20548,7 +20548,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 184163693}
           m_TargetAssemblyTypeName: ManagerDeSonidos, Assembly-CSharp
           m_MethodName: PlaySound2D
           m_Mode: 5
@@ -21920,7 +21920,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 184163693}
           m_TargetAssemblyTypeName: ManagerDeSonidos, Assembly-CSharp
           m_MethodName: PlaySound2D
           m_Mode: 5
@@ -22204,7 +22204,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 184163693}
           m_TargetAssemblyTypeName: ManagerDeSonidos, Assembly-CSharp
           m_MethodName: PlaySound2D
           m_Mode: 5
@@ -23560,7 +23560,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 184163693}
           m_TargetAssemblyTypeName: ManagerDeSonidos, Assembly-CSharp
           m_MethodName: PlaySound2D
           m_Mode: 5
@@ -26693,7 +26693,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 184163693}
           m_TargetAssemblyTypeName: ManagerDeSonidos, Assembly-CSharp
           m_MethodName: PlaySound2D
           m_Mode: 5
@@ -29180,7 +29180,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 184163693}
           m_TargetAssemblyTypeName: ManagerDeSonidos, Assembly-CSharp
           m_MethodName: PlaySound2D
           m_Mode: 5
