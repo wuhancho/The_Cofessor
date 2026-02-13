@@ -1,31 +1,26 @@
-using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.Windows;
 
 public class Combate : MonoBehaviour
 {
     [SerializeField] private PlayerController playerController;
     [SerializeField] private float damageAmount = 10f;
     [SerializeField] private float velocityPlayer = 5f;
-    [SerializeField] private float heightCanvas;
-    [SerializeField] private float widthCanvas;
-    [SerializeField] private RectTransform CanvasCombat;
+    [SerializeField] private float heightCanvasMax;
+    [SerializeField] private float widthCanvasMax;
+    [SerializeField] private float widthCanvasMin;
+    [SerializeField] private float heightCanvasMin;
+    [SerializeField] private RectTransform canvasCombat;
     [SerializeField] private RectTransform PlayerCombat;
     [SerializeField] private CombatPhase currentPhase;
-
 
     private void Start()
     {
         playerController = FindAnyObjectByType<PlayerController>();
-        heightCanvas = CanvasCombat.rect.height;
-        widthCanvas = CanvasCombat.rect.width;
-
     }
     private void Update()
     {
         Vector2 input = InputSystemStaticProvider.InputSystem.Player.Move.ReadValue<Vector2>();
-
         MoveLogic(input);
     }
 
@@ -37,21 +32,21 @@ public class Combate : MonoBehaviour
 
     private void MoveLogic(Vector2 position)
     {
-        position = ClampPositionInArea(position);
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Confined;
-        //positionMouse = Input.mousePosition;
-        //positionMouse.x = Mathf.Clamp(positionMouse.x, 0, widthCanvas);
-        //positionMouse.y = Mathf.Clamp(positionMouse.y, 0, heightCanvas);
-        PlayerCombat.anchoredPosition = position;
+        Vector2 currentPos = PlayerCombat.anchoredPosition;
+        Vector2 newPos = currentPos + position * velocityPlayer * Time.deltaTime;
+        newPos = ClampPositionInArea(newPos);
+        PlayerCombat.anchoredPosition = newPos;
+        Debug.Log($"position of player in combate: {newPos}");
 
     }
 
     private Vector2 ClampPositionInArea(Vector2 position)
     {
         //logica para que no salga de los bordes
-        position.x = Mathf.Clamp(position.x, 0, widthCanvas);
-        position.y = Mathf.Clamp(position.y, 0, heightCanvas);
+        position.x = Mathf.Clamp(position.x, widthCanvasMin, widthCanvasMax);
+        position.y = Mathf.Clamp(position.y, heightCanvasMin, heightCanvasMax);
         return position;
     }
 

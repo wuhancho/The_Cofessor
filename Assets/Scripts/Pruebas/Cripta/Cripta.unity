@@ -210,10 +210,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 0}
   damageAmount: 10
-  velocityPlayer: 5
-  heightCanvas: 0
-  widthCanvas: 0
-  CanvasCombat: {fileID: 58104244}
+  velocityPlayer: 300
+  heightCanvasMax: 250
+  widthCanvasMax: 780
+  widthCanvasMin: 0
+  heightCanvasMin: 0
+  canvasCombat: {fileID: 58104244}
   PlayerCombat: {fileID: 1256841447}
   currentPhase: 0
 --- !u!1 &74332938
@@ -4598,6 +4600,7 @@ GameObject:
   - component: {fileID: 1256841447}
   - component: {fileID: 1256841449}
   - component: {fileID: 1256841448}
+  - component: {fileID: 1256841450}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -4621,8 +4624,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 386, y: 89}
-  m_SizeDelta: {x: 50, y: 50}
+  m_AnchoredPosition: {x: 388, y: 34}
+  m_SizeDelta: {x: 44, y: 50}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1256841448
 MonoBehaviour:
@@ -4662,6 +4665,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256841446}
   m_CullTransparentMesh: 1
+--- !u!61 &1256841450
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256841446}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 22.689178, y: 23.027824}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 27.414246, y: 26.736984}
+  m_EdgeRadius: 0
 --- !u!224 &1268012336 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7010052170050273394, guid: 59691932ca347df4fa5cd80fb9fc7490, type: 3}
