@@ -5,6 +5,9 @@ public class F_noche : MonoBehaviour, IFases
 {
     [SerializeField] private bool includeInactiveChildren = true;
     private IAcciones[] acciones;
+    private Dia dia;
+    private PlayerController playerController;
+    private PenitentController penitentController;
 
     private void Awake()
     {
@@ -20,9 +23,25 @@ public class F_noche : MonoBehaviour, IFases
     }
 
     public IAcciones[] GetAcciones() => acciones;
-
+    private void InitializeActions()
+    {
+        dia = GetComponentInParent<Dia>();
+        RefrescarAcciones();
+        foreach (var accion in acciones)
+        {
+            if (accion is A_Decision accionType)
+            {
+                Debug.Log("Inicializando A_Decision en F_tarde");
+                accionType.Initialize(playerController, penitentController);
+                //accion.SetDay(dia.GetNumberDay());
+            }
+            accion.SetDay(dia.GetNumberDay());
+        }
+    }
     public void Initialize(PlayerController pController, PenitentController ptController)
     {
-        throw new System.NotImplementedException();
+        playerController = pController;
+        penitentController = ptController;
+        InitializeActions();
     }
 }

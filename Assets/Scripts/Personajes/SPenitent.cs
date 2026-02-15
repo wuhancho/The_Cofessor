@@ -12,6 +12,7 @@ public class SPenitent : ScriptableObject
     [SerializeField] private Dialog[] dialogs;
     [SerializeField] bool isTrueDialogue = false;
     [SerializeField] private int day;
+    [SerializeField] private GameObject iconPenitent;
 
     public string CharacterName { get => characterName; set => characterName = value; }
 
@@ -19,6 +20,7 @@ public class SPenitent : ScriptableObject
     public bool IsTrueDialogue { get => isTrueDialogue; set => isTrueDialogue = value; }
     public int Day { get => day; set => day = value; }
     public string Id { get => id; set => id = value; }
+    public GameObject IconPenitent { get => iconPenitent; set => iconPenitent = value; }
 
 
     public Texture2D[] GetTextures2D()
@@ -87,4 +89,5 @@ public class SPenitent : ScriptableObject
             return 0; // Cambiado de null a 0 para evitar CS0037
         }
     }
+
 }

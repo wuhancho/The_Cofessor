@@ -9,7 +9,15 @@ public class PenitentController : MonoBehaviour
     [SerializeField] private TextMeshProUGUI penitentText;
     private void Awake()
     {
-        penitentText = EntracePenitent.GetComponentInChildren<TextMeshProUGUI>();
+        if (EntracePenitent != null)
+        {
+            penitentText = EntracePenitent.GetComponentInChildren<TextMeshProUGUI>();
+        }
+        else
+        {
+            Debug.LogWarning("EntracePenitent GameObject reference is not set.");
+        }
+        //penitentText = EntracePenitent.GetComponentInChildren<TextMeshProUGUI>();
     }
     public SPenitent GetSPenitent(string id)
     {

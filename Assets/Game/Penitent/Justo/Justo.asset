@@ -22,3 +22,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3c4fde4b89eb7ae44a2fc7fc5388b197, type: 2}
   isTrueDialogue: 0
   day: 0
+  iconPenitent: {fileID: 2770661807064351746, guid: 63ccdedba82f3f341bfb20d10d4fb304, type: 3}
