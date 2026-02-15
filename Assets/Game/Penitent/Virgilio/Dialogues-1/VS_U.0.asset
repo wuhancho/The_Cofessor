@@ -42,7 +42,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uniqueID: 5
   isPlayerSpeaking: 0
-  text: "Hay algo que debo confesarle./n\"Desde que abandon\xF3 su puesto, he dejado
+  text: "Hay algo que debo confesarle./nDesde que abandon\xF3 su puesto, he dejado
     de escuchar las respuestas del se\xF1or durante mis oraciones./nCreo que me ha
     abandonado.../n\xBFO ser\xE1 mi fe la que se ha agotado?"
   childrenIDs:
@@ -73,7 +73,7 @@ MonoBehaviour:
   uniqueID: 8
   isPlayerSpeaking: 0
   text: "Kej\u2026 kejeje./nSin duda la absoluci\xF3n es lo que desear\xE1n la mayor\xEDa
-    de los que acudan aqu\xED./n\"Puede otorgarla si lo ve adecuado.../nMas recuerde
+    de los que acudan aqu\xED./nPuede otorgarla si lo ve adecuado.../nMas recuerde
     que los pecados deben ser castigados como corresponde./nTengo fe en que tomar\xE1
     las decisiones correctas."
   childrenIDs:
@@ -108,7 +108,7 @@ MonoBehaviour:
     en la regi\xF3n./nLa Santa Inquisici\xF3n vigila con pu\xF1o de hierro que la
     situaci\xF3n no se salga de control./nMe gustar\xEDa que me ayude a, desde su
     posici\xF3n, encontrar cualquier peligroso indicio y cortar el problema de ra\xEDz./nA
-    Castroviejo no le conviene ener problemas con la Iglesia; cuento con usted."
+    Castroviejo no le conviene tener problemas con la Iglesia; cuento con usted."
   childrenIDs:
   - 4
   rect:

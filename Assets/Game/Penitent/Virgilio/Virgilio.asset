@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Virgilio
   m_EditorClassIdentifier: 
   id: 6
-  characterName: Virgilio Sandoval, el Arzovispo
+  characterName: Virgilio Sandoval, el Arzobispo
   characterImage:
   - {fileID: 2800000, guid: 86ffc185b129e914aa75e4926ad30aaa, type: 3}
   dialogs:

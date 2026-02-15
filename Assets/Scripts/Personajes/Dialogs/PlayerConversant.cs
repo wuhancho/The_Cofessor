@@ -9,7 +9,7 @@ namespace The_cofessor.Personajes.Dialogs
 {
     public class PlayerConversant : MonoBehaviour
     {
-        private string currentSpeakerPlayer = "Padre Cael";
+        private string currentSpeakerPlayer = "Padre Abraham";
         private string currentSpeakerNPC = "NPC";
         [SerializeField] Dialog testDialog;
         Dialog currentDialog;
