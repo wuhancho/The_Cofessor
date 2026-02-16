@@ -12,6 +12,7 @@ public class SPenitent : ScriptableObject
     [SerializeField] private Dialog[] dialogs;
     [SerializeField] bool isTrueDialogue = false;
     [SerializeField] private int day;
+    [SerializeField] private int[] DaysApear;
     [SerializeField] private GameObject iconPenitent;
 
     public string CharacterName { get => characterName; set => characterName = value; }
@@ -89,5 +90,32 @@ public class SPenitent : ScriptableObject
             return 0; // Cambiado de null a 0 para evitar CS0037
         }
     }
+    public int FirstDayAppear
+    {
+        get
+        {
+            if (DaysApear != null && DaysApear.Length > 0)
+            {
+                return DaysApear[0]; // Devuelve el primer día del array
+            }
+            return 0; // Devuelve 0 si el array está vacío o es nulo
+        }
+    }
+    public int DaysAppearCount
+    {
+        get
+        {
+            if (DaysApear != null)
+            {
+                return DaysApear.Length; // Devuelve la cantidad de días en el array
+            }
+            return 0; // Devuelve 0 si el array es nulo
+        }
+    }
+    public int[] DaysApears
+    {
+        get => DaysApear;
+    }
+
 
 }

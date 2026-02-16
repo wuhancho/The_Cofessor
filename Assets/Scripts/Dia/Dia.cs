@@ -47,7 +47,7 @@ public class Dia : MonoBehaviour
         {
             fase.Initialize(playerController, penitentController);
         }
-        
+        penitentController.UpdateDayPenitent(numberDay);
         Debug.Log($"Dia.Initialize: inicializadas {fasesActuales.Length} fases para el día {numberDay}");
     }
 

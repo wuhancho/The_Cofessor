@@ -73,4 +73,19 @@ public class PenitentController : MonoBehaviour
         }
     }
 
+    public void UpdateDayPenitent(int Day)
+    {
+        foreach(SPenitent sPenitent in sPenitents)
+        {
+            for(int i = 0; i < sPenitent.DaysApears.Length; i++)
+            {
+                if (sPenitent.DaysApears[i] == Day)
+                {
+                    sPenitent.Day = Day;
+                    Debug.Log("El penitent " + sPenitent.CharacterName + " aparece en el día " + Day);
+                }
+            }
+        }
+    }
+
 }
