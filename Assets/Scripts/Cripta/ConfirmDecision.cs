@@ -6,6 +6,7 @@ public class ConfirmDecision : MonoBehaviour
 {
     [SerializeField] private GameObject confirmDecision;
     [SerializeField] private GameObject cancelDecision;
+    [SerializeField] private GameObject imageRaycast;
     private SPenitent selectedCulprit;
     private Button confirm;
     private Button cancel;
@@ -23,10 +24,13 @@ public class ConfirmDecision : MonoBehaviour
     {
         gameObject.SetActive(false); // Asegurarse de que el panel de confirmación esté oculto al inicio
     }
+    private void OnDisable()
+    {
+        imageRaycast.SetActive(false); // Desactivar el raycast para evitar interacciones mientras el panel de confirmación está oculto
+    }
     public void OnConfirm()
     {
         ConfirmSelection();
-
     }
 
     private void ConfirmSelection()
@@ -48,6 +52,7 @@ public class ConfirmDecision : MonoBehaviour
     public void OnCancel()
     {
         selectedCulprit = null;
+        imageRaycast.SetActive(false); // Desactivar el raycast para evitar interacciones mientras el panel de confirmación está activo
         gameObject.SetActive(false);
     }
 
@@ -56,6 +61,7 @@ public class ConfirmDecision : MonoBehaviour
         selectedCulprit = penitent;
         Debug.Log($"ConfirmDecision: Initialized with culprit {selectedCulprit.CharacterName}");
         gameObject.SetActive(true); // Mostrar el panel de confirmación
+        imageRaycast.SetActive(true); // Activar el raycast para permitir interacciones mientras el panel de confirmación está activo
 
     }
 }

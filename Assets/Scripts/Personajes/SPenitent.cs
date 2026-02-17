@@ -6,7 +6,7 @@ using UnityEngine.UI;
 [CreateAssetMenu(fileName = "", menuName = "Scriptable Objects/SPenitent", order = 1)]
 public class SPenitent : ScriptableObject
 {
-    [SerializeField] private string id;
+    [SerializeField,] private string id;
     [SerializeField] private string characterName;
     [SerializeField] private Texture2D[] characterImage;
     [SerializeField] private Dialog[] dialogs;
@@ -57,6 +57,10 @@ public class SPenitent : ScriptableObject
         }
         return null;
     }
+    /// <summary>
+    /// retorna El ID del dialogo, 
+    /// el cual debe seguir el formato "ID_TipoDiaologo.Día", por ejemplo: "Dialogo1_U.1" para un diálogo único del día 1.
+    /// </summary>
     public string IDDialogue
     {
         get
@@ -68,6 +72,11 @@ public class SPenitent : ScriptableObject
             return null; // Agregado para asegurar que todas las rutas devuelvan un valor
         }
     }
+    /// <summary>
+    /// retorna el tipo de diálogo, ya sea "U" para único, "V" para la verdad, "M" para la mentira, "F" para el perdonar, 
+    /// "P" para el castigar y la "C" Para el Dialogo de la cripta, esto se obtiene a partir del nombre del diálogo, 
+    /// el cual debe seguir el formato "ID_TipoDiaologo.Día", por ejemplo: "Dialogo1_U.1" para un diálogo único del día 1.
+    /// </summary>
     public string TypeDialogue
     {
         get
@@ -79,6 +88,9 @@ public class SPenitent : ScriptableObject
             return null; // Agregado para asegurar que todas las rutas devuelvan un valor
         }
     }
+    /// <summary>
+    /// Gets the day number associated with the current dialogue.
+    /// </summary>
     public int DayDialogue
     {
         get
@@ -90,6 +102,9 @@ public class SPenitent : ScriptableObject
             return 0; // Cambiado de null a 0 para evitar CS0037
         }
     }
+    /// <summary>
+    /// Retorna el primer día en el que aparece el penitente, basado en el array DaysApear.
+    /// </summary>
     public int FirstDayAppear
     {
         get
@@ -112,6 +127,9 @@ public class SPenitent : ScriptableObject
             return 0; // Devuelve 0 si el array es nulo
         }
     }
+    /// <summary>
+    /// Retorna un array con todos los días en los que aparece el penitente, basado en el array DaysApear.
+    /// </summary>
     public int[] DaysApears
     {
         get => DaysApear;

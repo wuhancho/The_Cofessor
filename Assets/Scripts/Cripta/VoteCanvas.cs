@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class VoteCanvas : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class VoteCanvas : MonoBehaviour
     [SerializeField] private ConfirmDecision confirmDecision; // Game object que contiene los dos botones de confirmar y cancelar
     [SerializeField] private GameObject HorizontalGroupIz; // Game objects que actúan como contenedores para los botones de culpable
     [SerializeField] private GameObject HorizontalGroupDe; // Game objects que actúan como contenedores para los botones de culpable
+    [SerializeField] private Button noVoteButton; // Botón para votar "No votar"
     private Culprit_Button[] culpritButtons; // Array para almacenar las referencias a los botones de culpable creados
     private PenitentController penitentController; // Referencia al PenitentController para obtener los penitentes del día
     private PlayerController playerController;
@@ -17,7 +19,9 @@ public class VoteCanvas : MonoBehaviour
     private void Start()
     {
         gameObject.SetActive(false); // Asegurarse de que el canvas de votación esté oculto al inicio
+        confirmDecision.OnCulpritConfirmed += HandleCulpritConfirmed; // Suscribirse al evento de confirmación del culpable
     }
+
 
     public void Initialize(PenitentController ptController, PlayerController player, int dia)
     {
@@ -32,6 +36,10 @@ public class VoteCanvas : MonoBehaviour
     private void HandleCulpritSelected(SPenitent penitent)
     {
         confirmDecision.initialize(penitent);
+    }
+    private void HandleCulpritConfirmed(SPenitent penitent)
+    {
+        OnCulpritSelected?.Invoke(penitent); // Notificar a los suscriptores que se ha confirmado un culpable
     }
 
     private void CreateCulpritButtons()

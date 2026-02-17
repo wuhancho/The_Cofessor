@@ -18,6 +18,6 @@ MonoBehaviour:
   repIglesia: 7
   repPueblo: 7
   food: 20
-  day: 1
+  day: 0
   Cleaned: 1
   misaDone: 1

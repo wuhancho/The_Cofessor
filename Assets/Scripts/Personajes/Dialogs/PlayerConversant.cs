@@ -49,7 +49,7 @@ namespace The_cofessor.Personajes.Dialogs
             //StartDialogue(testDialog);
         }
 
-        public void StartDialogue(Dialog newDialogue)
+        private void StartDialogue(Dialog newDialogue)
         {
             currentDialog = newDialogue;
             currentNode = currentDialog.GetRootNode();
