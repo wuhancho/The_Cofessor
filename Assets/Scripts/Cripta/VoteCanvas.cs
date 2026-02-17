@@ -19,6 +19,7 @@ public class VoteCanvas : MonoBehaviour
     private void Start()
     {
         gameObject.SetActive(false); // Asegurarse de que el canvas de votación esté oculto al inicio
+        confirmDecision.gameObject.SetActive(false); // Asegurarse de que el panel de confirmación esté oculto al inicio
         confirmDecision.OnCulpritConfirmed += HandleCulpritConfirmed; // Suscribirse al evento de confirmación del culpable
     }
 

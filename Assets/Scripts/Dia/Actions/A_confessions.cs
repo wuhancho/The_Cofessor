@@ -165,7 +165,7 @@ public class A_confessions : MonoBehaviour, IAcciones
                 return;
             }
         }
-        playerController.PlayerConversant.GetTestDialogue(dialog);
+        playerController.PlayerConversant.StartDialogue(dialog);
 
         //playerController.PlayerConversant.StartDialogue(dialog);
     }

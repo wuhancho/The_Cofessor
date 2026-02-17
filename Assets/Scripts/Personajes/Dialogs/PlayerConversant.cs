@@ -36,9 +36,9 @@ namespace The_cofessor.Personajes.Dialogs
         {
 
             yield return new WaitForSeconds(testDelay);
-            StartDialogue(testDialog);
+            ActiveDialogue(testDialog);
         }
-        public void GetTestDialogue(Dialog newDialogue)
+        public void StartDialogue(Dialog newDialogue)
         {
             if (newDialogue == null) {
                 Debug.LogWarning("No test dialogue assigned.");
@@ -49,7 +49,7 @@ namespace The_cofessor.Personajes.Dialogs
             //StartDialogue(testDialog);
         }
 
-        private void StartDialogue(Dialog newDialogue)
+        private void ActiveDialogue(Dialog newDialogue)
         {
             currentDialog = newDialogue;
             currentNode = currentDialog.GetRootNode();

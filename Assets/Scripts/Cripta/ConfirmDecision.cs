@@ -20,10 +20,10 @@ public class ConfirmDecision : MonoBehaviour
         confirm.onClick.AddListener(OnConfirm);
         cancel.onClick.AddListener(OnCancel);
     }
-    private void Start()
-    {
-        gameObject.SetActive(false); // Asegurarse de que el panel de confirmación esté oculto al inicio
-    }
+    //private void OnEnable()
+    //{
+    //    gameObject.SetActive(false); // Asegurarse de que el panel de confirmación esté oculto al inicio
+    //}
     private void OnDisable()
     {
         imageRaycast.SetActive(false); // Desactivar el raycast para evitar interacciones mientras el panel de confirmación está oculto
@@ -40,8 +40,8 @@ public class ConfirmDecision : MonoBehaviour
             Debug.Log($"ConfirmDecision: Confirmed selection of {selectedCulprit.CharacterName}");
             // Aquí puedes agregar la lógica para procesar la selección del culpable
             // Por ejemplo, notificar a otros sistemas o actualizar el estado del juego
-            gameObject.SetActive(false); // Ocultar el panel después de confirmar
             OnCulpritConfirmed?.Invoke(selectedCulprit); // Invocar el evento con el culpable confirmado
+            gameObject.SetActive(false); // Ocultar el panel después de confirmar
         }
         else
         {
@@ -60,8 +60,8 @@ public class ConfirmDecision : MonoBehaviour
     {
         selectedCulprit = penitent;
         Debug.Log($"ConfirmDecision: Initialized with culprit {selectedCulprit.CharacterName}");
-        gameObject.SetActive(true); // Mostrar el panel de confirmación
         imageRaycast.SetActive(true); // Activar el raycast para permitir interacciones mientras el panel de confirmación está activo
+        gameObject.SetActive(true); // Mostrar el panel de confirmación
 
     }
 }

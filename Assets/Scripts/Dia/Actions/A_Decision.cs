@@ -56,18 +56,22 @@ public class A_Decision : MonoBehaviour, IAcciones
     }
     private void HandlePenitentSelected(SPenitent penitent)
     {
+        Debug.Log($"Penitente seleccionado: {penitent.CharacterName}");
         Dialog selectedDialog = GetDialogue(penitent);
-
+        playerController.PlayerConversant.StartDialogue(selectedDialog);
     }
 
     private Dialog GetDialogue(SPenitent penitent)
     {
         if (penitent != null)
         {
+            Debug.Log($"Obteniendo diálogo para el penitente: {penitent.CharacterName} en el día {dayToActivate}");
             foreach (Dialog dialog in penitent.Dialogs)
             {
                 if (dialog == null) continue;
+                Debug.Log($"Revisando diálogo: {dialog.name} para el penitente {penitent.CharacterName}");
                 if (dayToActivate != penitent.DayDialogue) continue;
+                Debug.Log($"Revisando diálogo para el penitente {penitent.CharacterName} en el día {dayToActivate}");
                 if (penitent.TypeDialogue == "C")
                 {
                     playerController.PlayerConversant.CurrentSpeakerNPC = penitent.CharacterName;
