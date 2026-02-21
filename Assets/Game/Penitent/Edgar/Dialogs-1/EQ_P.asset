@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uniqueID: 1
   isPlayerSpeaking: 0
-  text: "AhahaAHAHAH.../nParece que est\xE1s decidido a acabar conmigo./nBien.../nTendr\xE9
-    que arrancar el alma de tu cad\xE1ver."
+  text: "\xBFCastigarme a m\xED? \xA1Yo solo muevo el oro que tu Dios ignora!/n\xA1Tengo
+    una oferta especial para ti! \xA1Tu alma a cambio de un descuento en el infierno!/n\xA1Las
+    devoluciones no est\xE1n permitidas!"
   childrenIDs: []
   rect:
     serializedVersion: 2
