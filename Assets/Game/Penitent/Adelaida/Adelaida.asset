@@ -19,6 +19,9 @@ MonoBehaviour:
   dialogs:
   - {fileID: 11400000, guid: a33f38a4c9531214a952eda3e70475bf, type: 2}
   - {fileID: 11400000, guid: 00c43cd8fb96c5f48a648160f8ee2cc7, type: 2}
+  - {fileID: 11400000, guid: 4d9cb8f1d298cb04b9f88ba542d8d689, type: 2}
+  - {fileID: 11400000, guid: 9a39b526ff728da4aaf0fd7d7152cf1b, type: 2}
+  - {fileID: 11400000, guid: 99b70eb3db7d9d548b4b8a8dfe737ec1, type: 2}
   isTrueDialogue: 0
   day: 1
   DaysApear: 01000000

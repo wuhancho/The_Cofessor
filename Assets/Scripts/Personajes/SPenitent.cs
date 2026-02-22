@@ -57,26 +57,77 @@ public class SPenitent : ScriptableObject
         }
         return null;
     }
+
     /// <summary>
-    /// retorna El ID del dialogo, 
-    /// el cual debe seguir el formato "ID_TipoDiaologo.Día", por ejemplo: "Dialogo1_U.1" para un diálogo único del día 1.
+    /// Obtiene el tipo de diálogo de un Dialog individual.
+    /// Formato del nombre: "ID_TipoDialogo.Día", por ejemplo: "AG_C.1"
     /// </summary>
-    public string IDDialogue
+    public static string GetDialogType(Dialog dialog)
     {
-        get
-        {
-            foreach (var dialog in dialogs)
-            {
-                return dialog.name.Split('_')[0];
-            }
-            return null; // Agregado para asegurar que todas las rutas devuelvan un valor
-        }
+        if (dialog == null) return null;
+        string[] parts = dialog.name.Split('_');
+        if (parts.Length < 2) return null;
+        return parts[1].Split('.')[0];
     }
+
     /// <summary>
-    /// retorna el tipo de diálogo, ya sea "U" para único, "V" para la verdad, "M" para la mentira, "F" para el perdonar, 
-    /// "P" para el castigar y la "C" Para el Dialogo de la cripta, esto se obtiene a partir del nombre del diálogo, 
-    /// el cual debe seguir el formato "ID_TipoDiaologo.Día", por ejemplo: "Dialogo1_U.1" para un diálogo único del día 1.
+    /// Obtiene el día de un Dialog individual.
+    /// Formato del nombre: "ID_TipoDialogo.Día", por ejemplo: "AG_C.1"
     /// </summary>
+    public static int GetDialogDay(Dialog dialog)
+    {
+        if (dialog == null) return 0;
+        string[] parts = dialog.name.Split('_');
+        if (parts.Length < 2) return 0;
+        string[] subParts = parts[1].Split('.');
+        if (subParts.Length < 2) return 0;
+        int.TryParse(subParts[1], out int result);
+        return result;
+    }
+
+    /// <summary>
+    /// Busca un diálogo por tipo y día dentro de los diálogos del penitente.
+    /// </summary>
+    public Dialog GetDialogByTypeAndDay(string type, int targetDay)
+    {
+        if (dialogs == null) return null;
+        foreach (var dialog in dialogs)
+        {
+            if (dialog == null) continue;
+            string dialogType = GetDialogType(dialog);
+            int dialogDay = GetDialogDay(dialog);
+            if (dialogType == type && dialogDay == targetDay)
+            {
+                return dialog;
+            }
+        }
+        return null;
+    }
+
+    /// <summary>
+    /// Busca un diálogo solo por tipo (para diálogos sin día, como "AG_P" o "AG_F").
+    /// </summary>
+    public Dialog GetDialogByType(string type)
+    {
+        if (dialogs == null) return null;
+        foreach (var dialog in dialogs)
+        {
+            if (dialog == null) continue;
+            string dialogType = GetDialogType(dialog);
+            if (dialogType == type)
+            {
+                return dialog;
+            }
+        }
+        return null;
+    }
+
+    /// <summary>
+    /// Gets the type identifier extracted from the first dialogue entry in the collection.
+    /// </summary>
+    /// <remarks>If the collection of dialogues is empty, the property returns null. The type identifier is
+    /// parsed from the dialogue name using a specific naming convention, which may affect the returned value if the
+    /// format does not match expectations.</remarks>
     public string TypeDialogue
     {
         get
@@ -88,9 +139,12 @@ public class SPenitent : ScriptableObject
             return null; // Agregado para asegurar que todas las rutas devuelvan un valor
         }
     }
+
     /// <summary>
-    /// Gets the day number associated with the current dialogue.
+    /// Gets the day number extracted from the first dialogue entry.
     /// </summary>
+    /// <remarks>If no dialogue entries are available, the property returns 0. The value is parsed from the
+    /// dialogue name and may depend on the naming convention used for dialogue entries.</remarks>
     public int DayDialogue
     {
         get
@@ -102,6 +156,39 @@ public class SPenitent : ScriptableObject
             return 0; // Cambiado de null a 0 para evitar CS0037
         }
     }
+
+    // Las propiedades originales se mantienen por compatibilidad, pero devuelven el PRIMER diálogo
+    /// <summary>
+    /// retorna El ID del dialogo del PRIMER diálogo del array.
+    /// </summary>
+    public string GetDialogueID(string id)
+    {
+        foreach (var dialog in dialogs)
+        {
+            if (dialog == null) continue;
+            if (dialog.name.StartsWith(id + "_"))
+            {
+                return dialog.name.Split('_')[0];
+            }
+        }
+        return null;
+    }
+    public int GetDialogueDay(int day)
+    {
+        foreach (var dialog in dialogs)
+        {
+            if (dialog == null) continue;
+            string[] parts = dialog.name.Split('_');
+            if (parts.Length < 2) continue;
+            string[] subParts = parts[1].Split('.');
+            if (subParts.Length < 2) continue;
+            if (int.TryParse(subParts[1], out int dialogDay) && dialogDay == day)
+            {
+                return dialogDay;
+            }
+        }
+        return 0;
+    }
     /// <summary>
     /// Retorna el primer día en el que aparece el penitente, basado en el array DaysApear.
     /// </summary>
@@ -111,9 +198,9 @@ public class SPenitent : ScriptableObject
         {
             if (DaysApear != null && DaysApear.Length > 0)
             {
-                return DaysApear[0]; // Devuelve el primer día del array
+                return DaysApear[0];
             }
-            return 0; // Devuelve 0 si el array está vacío o es nulo
+            return 0;
         }
     }
     public int DaysAppearCount
@@ -122,9 +209,9 @@ public class SPenitent : ScriptableObject
         {
             if (DaysApear != null)
             {
-                return DaysApear.Length; // Devuelve la cantidad de días en el array
+                return DaysApear.Length;
             }
-            return 0; // Devuelve 0 si el array es nulo
+            return 0;
         }
     }
     /// <summary>
@@ -134,6 +221,4 @@ public class SPenitent : ScriptableObject
     {
         get => DaysApear;
     }
-
-
 }

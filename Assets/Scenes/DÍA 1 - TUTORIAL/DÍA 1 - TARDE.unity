@@ -25545,14 +25545,6 @@ PrefabInstance:
       propertyPath: EntracePenitent
       value: 
       objectReference: {fileID: 666891454}
-    - target: {fileID: 198634516730350321, guid: 2ed89a007b5d7f0408346f5379f2fe98, type: 3}
-      propertyPath: 'sPenitents.Array.data[4]'
-      value: 
-      objectReference: {fileID: 11400000, guid: e8d40480a7a4e7b4a8d32fcac3404937, type: 2}
-    - target: {fileID: 198634516730350321, guid: 2ed89a007b5d7f0408346f5379f2fe98, type: 3}
-      propertyPath: 'sPenitents.Array.data[5]'
-      value: 
-      objectReference: {fileID: 11400000, guid: 6c0fa3f20032e894fa1d8aabbbfee910, type: 2}
     - target: {fileID: 520945868748214626, guid: 2ed89a007b5d7f0408346f5379f2fe98, type: 3}
       propertyPath: m_Name
       value: Penitents

@@ -19,7 +19,10 @@ MonoBehaviour:
   dialogs:
   - {fileID: 11400000, guid: 5cf3dd75040851d4196f3e2829e9da0a, type: 2}
   - {fileID: 11400000, guid: fbc6b43b927dc994e9f99fbc4969047d, type: 2}
+  - {fileID: 11400000, guid: e25adb5a0d7055f4b9d145d29abff84c, type: 2}
+  - {fileID: 11400000, guid: 9b8cdc618da00b2469c1d0298420016a, type: 2}
+  - {fileID: 11400000, guid: 80184fe66dfc7f14dba60de11365c0c2, type: 2}
   isTrueDialogue: 0
   day: 1
-  DaysApear: 0000000001000000
+  DaysApear: 01000000
   iconPenitent: {fileID: 4872753868338928229, guid: ae89edfd1a0b81746987834d5839d400, type: 3}

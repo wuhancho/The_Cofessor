@@ -26,7 +26,7 @@ public class ConfirmDecision : MonoBehaviour
     //}
     private void OnDisable()
     {
-        imageRaycast.SetActive(false); // Desactivar el raycast para evitar interacciones mientras el panel de confirmación está oculto
+        imageRaycast.GetComponent<Image>().raycastTarget = false; // Desactivar el raycast para evitar interacciones mientras el panel de confirmación está inactivo
     }
     public void OnConfirm()
     {
@@ -52,7 +52,7 @@ public class ConfirmDecision : MonoBehaviour
     public void OnCancel()
     {
         selectedCulprit = null;
-        imageRaycast.SetActive(false); // Desactivar el raycast para evitar interacciones mientras el panel de confirmación está activo
+        imageRaycast.GetComponent<Image>().raycastTarget = false; // Desactivar el raycast para evitar interacciones mientras el panel de confirmación está inactivo
         gameObject.SetActive(false);
     }
 
@@ -60,7 +60,7 @@ public class ConfirmDecision : MonoBehaviour
     {
         selectedCulprit = penitent;
         Debug.Log($"ConfirmDecision: Initialized with culprit {selectedCulprit.CharacterName}");
-        imageRaycast.SetActive(true); // Activar el raycast para permitir interacciones mientras el panel de confirmación está activo
+        imageRaycast.GetComponent<Image>().raycastTarget = true; // Activar el raycast para permitir interacciones mientras el panel de confirmación está activo
         gameObject.SetActive(true); // Mostrar el panel de confirmación
 
     }

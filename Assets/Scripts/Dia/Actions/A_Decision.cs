@@ -58,29 +58,40 @@ public class A_Decision : MonoBehaviour, IAcciones
     {
         Debug.Log($"Penitente seleccionado: {penitent.CharacterName}");
         Dialog selectedDialog = GetDialogue(penitent);
+        if (selectedDialog == null)
+        {
+            Debug.LogError($"No se encontró diálogo para {penitent.CharacterName}. No se inicia diálogo.");
+            return;
+        }
         playerController.PlayerConversant.StartDialogue(selectedDialog);
     }
 
     private Dialog GetDialogue(SPenitent penitent)
     {
-        if (penitent != null)
+        if (penitent == null) return null;
+
+        Debug.Log($"Obteniendo diálogo tipo 'C' para {penitent.CharacterName} en el día {dayToActivate}");
+
+        // Buscar diálogo de tipo "C" para el día actual
+        Dialog dialog = penitent.GetDialogByTypeAndDay("C", dayToActivate);
+
+        // Si no se encuentra con día, buscar solo por tipo (por si "AG_C" no tiene día)
+        if (dialog == null)
         {
-            Debug.Log($"Obteniendo diálogo para el penitente: {penitent.CharacterName} en el día {dayToActivate}");
-            foreach (Dialog dialog in penitent.Dialogs)
-            {
-                if (dialog == null) continue;
-                Debug.Log($"Revisando diálogo: {dialog.name} para el penitente {penitent.CharacterName}");
-                if (dayToActivate != penitent.DayDialogue) continue;
-                Debug.Log($"Revisando diálogo para el penitente {penitent.CharacterName} en el día {dayToActivate}");
-                if (penitent.TypeDialogue == "C")
-                {
-                    playerController.PlayerConversant.CurrentSpeakerNPC = penitent.CharacterName;
-                    Debug.Log($"Diálogo único encontrado: {dialog.name} para el penitente {penitent.CharacterName} en el día {dayToActivate}");
-                    return dialog;
-                }
-            }
+            dialog = penitent.GetDialogByType("C");
         }
-        return null;
+
+        if (dialog != null)
+        {
+            playerController.PlayerConversant.CurrentSpeakerNPC = penitent.CharacterName;
+            Debug.Log($"Diálogo encontrado: {dialog.name} para {penitent.CharacterName}");
+        }
+        else
+        {
+            Debug.LogWarning($"No se encontró diálogo tipo 'C' para {penitent.CharacterName}");
+        }
+
+        return dialog;
     }
 
 }
