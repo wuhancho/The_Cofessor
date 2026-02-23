@@ -9,7 +9,7 @@ namespace The_cofessor.Personajes.Dialogs
 {
     public class PlayerConversant : MonoBehaviour
     {
-        private string currentSpeakerPlayer = "Padre Abraham";
+        //private string currentSpeakerPlayer = "Padre Abraham";
         private string currentSpeakerNPC = "NPC";
         [SerializeField] Dialog testDialog;
         Dialog currentDialog;
@@ -40,7 +40,8 @@ namespace The_cofessor.Personajes.Dialogs
         }
         public void StartDialogue(Dialog newDialogue)
         {
-            if (newDialogue == null) {
+            if (newDialogue == null)
+            {
                 Debug.LogWarning("No test dialogue assigned.");
             }
             Debug.Log("Starting test dialogue: " + newDialogue.name);
@@ -51,17 +52,10 @@ namespace The_cofessor.Personajes.Dialogs
 
         private void ActiveDialogue(Dialog newDialogue)
         {
+
             currentDialog = newDialogue;
             currentNode = currentDialog.GetRootNode();
-            isTheLastNode.Invoke(false);
-            OnConversationUpdated?.Invoke();
-        }
-
-        public void Quit()
-        {
-            currentDialog = null;
-            currentNode = null;
-            isChoosing = false;
+            //isTheLastNode.Invoke(false);
             OnConversationUpdated?.Invoke();
         }
 
@@ -150,7 +144,8 @@ namespace The_cofessor.Personajes.Dialogs
         {
             if (isChoosing)
             {
-                return currentSpeakerPlayer;
+                //return currentSpeakerPlayer;
+                return currentSpeakerNPC;
             }
             else
             {
@@ -158,5 +153,5 @@ namespace The_cofessor.Personajes.Dialogs
             }
         }
     }
-} 
+}
 

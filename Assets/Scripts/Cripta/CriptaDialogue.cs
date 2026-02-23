@@ -2,18 +2,21 @@ using The_cofessor.Personajes.Dialogs;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine;
+using System;
 
 public class CriptaDialogue : MonoBehaviour
 {
     [SerializeField] GameObject penitentImage;
+    [SerializeField] GameObject choicesPrefab;
     [SerializeField] TextMeshProUGUI penitentNameText;
     [SerializeField] TextMeshProUGUI penitentText;
     [SerializeField] Transform choicesRoot;
-    [SerializeField] GameObject choicesPrefab;
+    [SerializeField] Button nextButton;
     private PlayerConversant playerConversant;
     private string currentNodeText;
     private string[] currentLines;
     private int currentLineIndex;
+    private Texture2D[] penitentImages;
 
     public void Initialize(PlayerConversant pConversant)
     {
@@ -24,11 +27,17 @@ public class CriptaDialogue : MonoBehaviour
     {
         playerConversant = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerConversant>();
         playerConversant.OnConversationUpdated += UpdateUI;
-
-
+        nextButton.onClick.AddListener(Next);
         UpdateUI();
     }
-
+    private void UpdatePenitentImage(SPenitent penitent)
+    {
+        penitentImages = penitent.GetTextures2D();
+        if (penitentImages != null && penitentImages.Length > 0)
+        {
+            playerConversant.SetIconNPC(penitentImages[0]);
+        }
+    }
     void UpdateUI()
     {
         gameObject.SetActive(playerConversant.IsActive());
@@ -37,7 +46,6 @@ public class CriptaDialogue : MonoBehaviour
             return;
         }
         penitentNameText.text = playerConversant.GetCurrentSpeakerName();
-        //AIResponces.SetActive(!playerConversant.IsChoosing());
         choicesRoot.gameObject.SetActive(playerConversant.IsChoosing());
         if (playerConversant.IsChoosing())
         {
@@ -52,11 +60,17 @@ public class CriptaDialogue : MonoBehaviour
                 currentLineIndex = 0;
             }
 
-            //BuildImageAI();
+            BuildImageAI();
             BuildTextAI();
         }
 
     }
+
+    private void BuildImageAI()
+    { 
+        
+    }
+
     private void BuildChoiseList()
     {
         choicesRoot.DetachChildren();
@@ -97,5 +111,24 @@ public class CriptaDialogue : MonoBehaviour
     public void BuildTextAI(string text)
     {
         penitentText.text = text;
+    }
+    public void Next()
+    {
+        //playerConversant.Next();
+        if (currentLines != null && currentLineIndex < currentLines.Length - 1)
+        {
+            currentLineIndex++;
+            //BuildImageAI();
+            BuildTextAI();
+        }
+        else if (playerConversant.HasNext())
+        {
+            playerConversant.Next();
+        }
+        else
+        {
+            Debug.Log("CriptaDialogue - No more lines or choices. Ending conversation.");
+        }
+
     }
 }

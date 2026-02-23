@@ -63,6 +63,9 @@ public class A_Decision : MonoBehaviour, IAcciones
             Debug.LogError($"No se encontró diálogo para {penitent.CharacterName}. No se inicia diálogo.");
             return;
         }
+        voteCanvas.gameObject.SetActive(false);
+        criptaDialogue.gameObject.SetActive(true);
+        criptaDialogue.Initialize(playerController.PlayerConversant);
         playerController.PlayerConversant.StartDialogue(selectedDialog);
     }
 
@@ -93,5 +96,6 @@ public class A_Decision : MonoBehaviour, IAcciones
 
         return dialog;
     }
+
 
 }
