@@ -1,12 +1,12 @@
+using System;
 using The_cofessor.Personajes.Dialogs;
-using UnityEngine.UI;
 using TMPro;
 using UnityEngine;
-using System;
+using UnityEngine.UI;
 
 public class CriptaDialogue : MonoBehaviour
 {
-    [SerializeField] GameObject penitentImage;
+    [SerializeField] Image penitentImage;
     [SerializeField] GameObject choicesPrefab;
     [SerializeField] TextMeshProUGUI penitentNameText;
     [SerializeField] TextMeshProUGUI penitentText;
@@ -59,17 +59,12 @@ public class CriptaDialogue : MonoBehaviour
                 currentLines = currentNodeText.Split("/n");
                 currentLineIndex = 0;
             }
-
-            BuildImageAI();
             BuildTextAI();
         }
 
     }
 
-    private void BuildImageAI()
-    { 
-        
-    }
+
 
     private void BuildChoiseList()
     {
@@ -130,5 +125,11 @@ public class CriptaDialogue : MonoBehaviour
             Debug.Log("CriptaDialogue - No more lines or choices. Ending conversation.");
         }
 
+    }
+
+    public void SetPenitentSprite(Sprite sprite)
+    {
+        if (sprite != null)
+            penitentImage.sprite = sprite;
     }
 }

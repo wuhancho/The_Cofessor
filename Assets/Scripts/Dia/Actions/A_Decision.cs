@@ -11,6 +11,7 @@ public class A_Decision : MonoBehaviour, IAcciones
     [SerializeField] private CriptaDialogue criptaDialogue;
     private PlayerController playerController;
     private PenitentController penitentController;
+    private SPenitent penitentSelected;
 
     private void Start()
     {
@@ -57,6 +58,7 @@ public class A_Decision : MonoBehaviour, IAcciones
     private void HandlePenitentSelected(SPenitent penitent)
     {
         Debug.Log($"Penitente seleccionado: {penitent.CharacterName}");
+        penitentSelected = penitent;
         Dialog selectedDialog = GetDialogue(penitent);
         if (selectedDialog == null)
         {
@@ -66,7 +68,10 @@ public class A_Decision : MonoBehaviour, IAcciones
         voteCanvas.gameObject.SetActive(false);
         criptaDialogue.gameObject.SetActive(true);
         criptaDialogue.Initialize(playerController.PlayerConversant);
+        Sprite sprite = GetCurrentPeninentSprite();
         playerController.PlayerConversant.StartDialogue(selectedDialog);
+        criptaDialogue?.SetPenitentSprite(sprite);
+
     }
 
     private Dialog GetDialogue(SPenitent penitent)
@@ -96,6 +101,19 @@ public class A_Decision : MonoBehaviour, IAcciones
 
         return dialog;
     }
-
+    public Sprite GetCurrentPeninentSprite()
+    {
+        SPenitent penitent = penitentSelected;
+        if (penitent != null)
+        {
+            Texture2D[] textures = penitent.GetTextures2D();
+            if (textures != null && textures.Length > 0)
+            {
+                Texture2D texture = textures[0];
+                return Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(0.5f, 0.5f));
+            }
+        }
+        return null;
+    }
 
 }
