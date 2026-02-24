@@ -12,6 +12,7 @@ public class A_Decision : MonoBehaviour, IAcciones
     private PlayerController playerController;
     private PenitentController penitentController;
     private SPenitent penitentSelected;
+    private Texture2D[] penitentImages;
 
     private void Start()
     {
@@ -69,8 +70,8 @@ public class A_Decision : MonoBehaviour, IAcciones
         criptaDialogue.gameObject.SetActive(true);
         criptaDialogue.Initialize(playerController.PlayerConversant);
         Sprite sprite = GetCurrentPeninentSprite();
+        criptaDialogue.SetupSpeakerSprite(sprite);
         playerController.PlayerConversant.StartDialogue(selectedDialog);
-        criptaDialogue?.SetPenitentSprite(sprite);
 
     }
 
@@ -109,11 +110,18 @@ public class A_Decision : MonoBehaviour, IAcciones
             Texture2D[] textures = penitent.GetTextures2D();
             if (textures != null && textures.Length > 0)
             {
-                Texture2D texture = textures[0];
-                return Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(0.5f, 0.5f));
+                return Sprite.Create(textures[0], new Rect(0, 0, textures[0].width, textures[0].height), new Vector2(0.5f, 0.5f));
             }
         }
         return null;
+    }
+    private void UpdatePenitentImage(SPenitent penitent)
+    {
+        penitentImages = penitent.GetTextures2D();
+        if (penitentImages != null && penitentImages.Length > 0)
+        {
+            playerController.PlayerConversant.SetIconNPC(penitentImages[0]);
+        }
     }
 
 }

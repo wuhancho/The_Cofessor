@@ -1,12 +1,13 @@
 using System;
 using The_cofessor.Personajes.Dialogs;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class CriptaDialogue : MonoBehaviour
 {
-    [SerializeField] Image penitentImage;
+    [SerializeField] GameObject penitentImage;
     [SerializeField] GameObject choicesPrefab;
     [SerializeField] TextMeshProUGUI penitentNameText;
     [SerializeField] TextMeshProUGUI penitentText;
@@ -29,14 +30,6 @@ public class CriptaDialogue : MonoBehaviour
         playerConversant.OnConversationUpdated += UpdateUI;
         nextButton.onClick.AddListener(Next);
         UpdateUI();
-    }
-    private void UpdatePenitentImage(SPenitent penitent)
-    {
-        penitentImages = penitent.GetTextures2D();
-        if (penitentImages != null && penitentImages.Length > 0)
-        {
-            playerConversant.SetIconNPC(penitentImages[0]);
-        }
     }
     void UpdateUI()
     {
@@ -63,7 +56,10 @@ public class CriptaDialogue : MonoBehaviour
         }
 
     }
-
+    public void SetupSpeakerSprite(Sprite sprite)
+    {
+        penitentImage.GetComponent<Image>().sprite = sprite;
+    }
 
 
     private void BuildChoiseList()
@@ -84,24 +80,9 @@ public class CriptaDialogue : MonoBehaviour
     }
     private void BuildTextAI()
     {
-        //foreach (string line in playerConversant.GetText().Split("/n"))
-        //{
-        //    Debug.Log(line);
-        //}
-        //AIText.text = playerConversant.GetText();
-
-        //nextButton.gameObject.SetActive(playerConversant.HasNext());
         if (currentLines == null || currentLines.Length == 0) return;
-        //isBuildingText = true;
+
         penitentText.text = currentLines[currentLineIndex];
-
-
-        //bool hasMoreLines = currentLineIndex < currentLines.Length - 1;
-        //if(!playerConversant.HasNext() && hasMoreLines)
-        //{
-        //    playerConversant.isTheLastNode.Invoke(true);
-        //}
-        //nextButton.gameObject.SetActive(hasMoreLines || playerConversant.HasNext());
     }
     public void BuildTextAI(string text)
     {
@@ -109,11 +90,9 @@ public class CriptaDialogue : MonoBehaviour
     }
     public void Next()
     {
-        //playerConversant.Next();
         if (currentLines != null && currentLineIndex < currentLines.Length - 1)
         {
             currentLineIndex++;
-            //BuildImageAI();
             BuildTextAI();
         }
         else if (playerConversant.HasNext())
@@ -127,9 +106,12 @@ public class CriptaDialogue : MonoBehaviour
 
     }
 
-    public void SetPenitentSprite(Sprite sprite)
-    {
-        if (sprite != null)
-            penitentImage.sprite = sprite;
-    }
+    //private void SetPenitentSprite(Sprite sprite)
+    //{
+       
+    //    if (sprite != null)
+    //        penitentImage.sprite = sprite;
+    //    else
+    //        Debug.LogWarning("CriptaDialogue - Attempted to set penitent sprite, but the provided sprite is null.");
+    //}
 }
