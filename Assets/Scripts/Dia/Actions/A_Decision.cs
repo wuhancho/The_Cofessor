@@ -1,5 +1,6 @@
 using System;
 using The_cofessor.Personajes.Dialogs;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class A_Decision : MonoBehaviour, IAcciones
@@ -17,6 +18,18 @@ public class A_Decision : MonoBehaviour, IAcciones
     private void Start()
     {
         voteCanvas.OnCulpritSelected += HandlePenitentSelected; // Suscribirse al evento de selección de culpable
+        criptaDialogue.IsPunish += (bool isPunish) => {
+            if (isPunish)
+            {
+                Debug.Log($"Penitente {penitentSelected.CharacterName} castigado.");
+                // Aquí puedes agregar lógica para castigar al penitente seleccionado
+            }
+            else
+            {
+                Debug.Log($"Penitente {penitentSelected.CharacterName} perdonado.");
+                // Aquí puedes agregar lógica para perdonar al penitente seleccionado
+            }
+        };
     }
 
 
@@ -115,13 +128,4 @@ public class A_Decision : MonoBehaviour, IAcciones
         }
         return null;
     }
-    private void UpdatePenitentImage(SPenitent penitent)
-    {
-        penitentImages = penitent.GetTextures2D();
-        if (penitentImages != null && penitentImages.Length > 0)
-        {
-            playerController.PlayerConversant.SetIconNPC(penitentImages[0]);
-        }
-    }
-
 }

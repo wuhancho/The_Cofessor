@@ -6,6 +6,7 @@ public class A_Periodico : MonoBehaviour, IAccionesEnergia
     [SerializeField] private string actionName;
     private int day;
     private PlayerController _playerController;
+    private GameObject[] newsPapers;
     public int EnergyCost => energyCost;
 
     public int FaithCost => 0;

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3941949424595959790}
   - component: {fileID: 3915924191098467599}
+  - component: {fileID: 2317864268017433144}
   m_Layer: 0
   m_Name: Dia
   m_TagString: Untagged
@@ -50,3 +51,17 @@ MonoBehaviour:
   - {fileID: 0}
   moneyText: {fileID: 0}
   fadeDuration: 2
+--- !u!114 &2317864268017433144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8196566913093987341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbe58238c4cec34abe0128258c9bb63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventDays:
+  - {fileID: 7692215756477582070, guid: b50a1bc6e96ac8743915b3f3dfc642f2, type: 3}

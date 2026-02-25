@@ -19,6 +19,7 @@ public class CriptaDialogue : MonoBehaviour
     private int currentLineIndex;
     private Texture2D[] penitentImages;
 
+    public event Action<bool> IsPunish;
     public void Initialize(PlayerConversant pConversant)
     {
         playerConversant = pConversant;
@@ -76,12 +77,29 @@ public class CriptaDialogue : MonoBehaviour
                 Debug.Log($"CriptaDialogue - Choice selected: {choice.GetText()}");
                 if (choice.GetText() == "Castigar")
                 {
-                    
+                    ChoiceCastigar();
+                }
+                else if (choice.GetText() == "Perdonar")
+                {
+                    ChoicePerdonar();
                 }
                 //onConversation.Invoke(choice);
             });
         }
     }
+
+    private void ChoicePerdonar()
+    {
+        Debug.Log("CriptaDialogue - Perdonar choice selected. Implement forgiveness logic here.");
+        IsPunish.Invoke(false);
+    }
+
+    private void ChoiceCastigar()
+    {
+        Debug.Log("CriptaDialogue - Castigar choice selected. Implement punishment logic here.");
+        IsPunish.Invoke(true);
+    }
+
     private void BuildTextAI()
     {
         if (currentLines == null || currentLines.Length == 0) return;
@@ -112,7 +130,7 @@ public class CriptaDialogue : MonoBehaviour
 
     //private void SetPenitentSprite(Sprite sprite)
     //{
-       
+
     //    if (sprite != null)
     //        penitentImage.sprite = sprite;
     //    else

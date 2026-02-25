@@ -48,6 +48,7 @@ public class F_mañana : MonoBehaviour, IFases
         if (dia.GetNumberDay() >= 1)
         {
             playerController.ChangeSetCleaned(false);
+            playerController.ChangeSetMisa(false);
         }
 
         // Inicializar cada acción y registrar si falta playerController

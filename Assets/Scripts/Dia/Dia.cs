@@ -1,17 +1,32 @@
+using System;
 using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+public enum TypeEventDay
+{
+    tutorial,
+    day1,
+    day2,
+    day3,
+    day4,
+    day5,
+    day6,
+}
 
+[RequireComponent(typeof(EventDayManager))]
 public class Dia : MonoBehaviour
 {
-    [SerializeField] int numberDay;
     private IFases[] fasesActuales;
+    [SerializeField]private DayEvent eventDayActual;
     private PlayerController playerController;
     private PenitentController penitentController;
+    private EventDayManager eventDay;
+    [SerializeField] int numberDay;
     [SerializeField] private GameObject[] energyPrefab;
     [SerializeField] private TextMeshProUGUI moneyText;
     [SerializeField] private float fadeDuration = 1f;
+
 
 
     public void Awake()
@@ -24,7 +39,9 @@ public class Dia : MonoBehaviour
         {
             penitentController = FindAnyObjectByType<PenitentController>();
         }
+        eventDay = GetComponent<EventDayManager>();
         Initialize(playerController, penitentController);
+        StartEventDay();
     }
 
     public void Initialize(PlayerController pController, PenitentController ptController)
@@ -82,7 +99,7 @@ public class Dia : MonoBehaviour
                 playerController.PlayerStatus.DecreaseEnergy(energycount);
                 energy.SetActive(false);
                 Debug.Log("Energía removida: " + energy.name);
-                if(playerController.PlayerStatus.Energy == playerController.PlayerStatus.MinEnergy)
+                if (playerController.PlayerStatus.Energy == playerController.PlayerStatus.MinEnergy)
                 {
                     Debug.Log("Energía al mínimo, activar evento de fin de día.");
                     if (playerController.PlayerStatus.Day == 0)
@@ -139,4 +156,25 @@ public class Dia : MonoBehaviour
         Debug.Log("Reputación con el pueblo removida: " + reputationcount);
     }
 
+    private void StartEventDay()
+    {
+        eventDay = GetComponent<EventDayManager>();
+        eventDay.Initialized(this, playerController, penitentController);
+        eventDayActual = eventDay.GetTypeEvent(numberDay);
+        if (eventDayActual != null)
+        {
+            Debug.Log($"Evento del día {numberDay} encontrado: {eventDayActual.GetTypeEventDay()}");
+            // Aquí puedes activar el evento específico del día, por ejemplo:
+            if (eventDayActual.GetTypeEventDay() == TypeEventDay.tutorial)
+            {
+                // Activar tutorial
+                Debug.Log($"tutorial del dia {numberDay}");
+
+            }
+        }
+        else
+        {
+            Debug.Log($"No se encontró un evento para el día {numberDay}");
+        }
+    }
 }

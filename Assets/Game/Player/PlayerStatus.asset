@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   energy: 2
   faith: 7
-  money: 100
+  money: 0
   repIglesia: 7
   repPueblo: 7
   food: 20
   day: 1
-  Cleaned: 1
+  Cleaned: 0
   misaDone: 0
