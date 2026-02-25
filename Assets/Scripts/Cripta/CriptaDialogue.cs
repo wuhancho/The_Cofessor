@@ -72,8 +72,12 @@ public class CriptaDialogue : MonoBehaviour
             Button button = choiceInstance.GetComponentInChildren<Button>();
             button.onClick.AddListener(() =>
             {
-                //CurrentSpeaker.GetComponent<TextMeshProUGUI>().text = playerConversant.GetCurrentSpeakerName();
                 playerConversant.SelectChoice(choice);
+                Debug.Log($"CriptaDialogue - Choice selected: {choice.GetText()}");
+                if (choice.GetText() == "Castigar")
+                {
+                    
+                }
                 //onConversation.Invoke(choice);
             });
         }
