@@ -10,6 +10,7 @@ public class A_Decision : MonoBehaviour, IAcciones
     private int todayPenintentIndex;
     [SerializeField] private VoteCanvas voteCanvas;
     [SerializeField] private CriptaDialogue criptaDialogue;
+    [SerializeField] private CanvasCombat canvasCombat;
     private PlayerController playerController;
     private PenitentController penitentController;
     private SPenitent penitentSelected;
@@ -35,7 +36,7 @@ public class A_Decision : MonoBehaviour, IAcciones
 
     public void Initialize(PlayerController playerController)
     {
-        
+        this.playerController = playerController;
     }
     public void Initialize(PlayerController playerController, PenitentController penitentController)
     {

@@ -13,7 +13,9 @@ public class Combate : MonoBehaviour
     [SerializeField] private RectTransform canvasCombat;
     [SerializeField] private RectTransform PlayerCombat;
     [SerializeField] private CombatPhase currentPhase;
-
+    [Header("SpawnPoints")]
+    [SerializeField] private GameObject spPOP1; // spawnPointObjPhase1 - indica la zona de spawn de objetos del boss en la fase 1
+    [SerializeField] private GameObject spPOP2; // spawnPointObjPhase2 - indica la zona de spawn de objetos del boss en la fase 2
     private void Start()
     {
         playerController = FindAnyObjectByType<PlayerController>();

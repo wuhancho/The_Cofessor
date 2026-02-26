@@ -1281,6 +1281,8 @@ MonoBehaviour:
   canvasCombat: {fileID: 58104244}
   PlayerCombat: {fileID: 1256841447}
   currentPhase: 0
+  spPOP1: {fileID: 0}
+  spPOP2: {fileID: 0}
 --- !u!1 &60868139
 GameObject:
   m_ObjectHideFlags: 0
@@ -4959,6 +4961,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e987b108bba24c141960db5c5913af82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  combate: {fileID: 58104247}
+  boss: {fileID: 0}
+  combatDialogue: {fileID: 0}
 --- !u!1 &287010889
 GameObject:
   m_ObjectHideFlags: 0
@@ -35006,6 +35011,7 @@ MonoBehaviour:
   dayToActivate: 1
   voteCanvas: {fileID: 1703502743}
   criptaDialogue: {fileID: 1801772853}
+  canvasCombat: {fileID: 282931507}
 --- !u!1 &1975193326
 GameObject:
   m_ObjectHideFlags: 0
