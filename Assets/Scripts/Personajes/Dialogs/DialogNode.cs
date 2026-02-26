@@ -104,7 +104,33 @@ namespace The_cofessor.Personajes.Dialogs
 
             }
         }
-     
+        public void SetFaithCost(float value)
+        {
+            Undo.RecordObject(this, "Set Faith Cost");
+            faithCost = value;
+            EditorUtility.SetDirty(this);
+        }
+
+        public void SetRepIglesiaCost(float value)
+        {
+            Undo.RecordObject(this, "Set Rep Iglesia Cost");
+            RepIglesiaCost = value;
+            EditorUtility.SetDirty(this);
+        }
+
+        public void SetRepPuebloCost(float value)
+        {
+            Undo.RecordObject(this, "Set Rep Pueblo Cost");
+            RepPuebloCost = value;
+            EditorUtility.SetDirty(this);
+        }
+
+        public void SetSobornoCost(float value)
+        {
+            Undo.RecordObject(this, "Set Soborno Cost");
+            SobornoCost = value;
+            EditorUtility.SetDirty(this);
+        }
 #endif
         //        private void OnValidate()
         //        {

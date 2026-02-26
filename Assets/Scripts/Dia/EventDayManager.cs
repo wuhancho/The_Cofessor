@@ -26,6 +26,4 @@ public class EventDayManager : MonoBehaviour
         }
         return null;
     }
-
-
 }
