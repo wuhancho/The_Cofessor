@@ -17,7 +17,7 @@ public class CriptaDialogue : MonoBehaviour
     private string currentNodeText;
     private string[] currentLines;
     private int currentLineIndex;
-    private Texture2D[] penitentImages;
+    //private Texture2D[] penitentImages;
 
     public event Action<bool> IsPunish;
     public void Initialize(PlayerConversant pConversant)

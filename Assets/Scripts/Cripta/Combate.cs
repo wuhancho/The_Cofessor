@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class Combate : MonoBehaviour
 {
-    [SerializeField] private PlayerController playerController;
+    private PlayerController playerController;
     [SerializeField] private float damageAmount = 10f;
     [SerializeField] private float velocityPlayer = 5f;
     [SerializeField] private float heightCanvasMax;
@@ -16,10 +16,13 @@ public class Combate : MonoBehaviour
     [Header("SpawnPoints")]
     [SerializeField] private GameObject spPOP1; // spawnPointObjPhase1 - indica la zona de spawn de objetos del boss en la fase 1
     [SerializeField] private GameObject spPOP2; // spawnPointObjPhase2 - indica la zona de spawn de objetos del boss en la fase 2
-    private void Start()
+
+
+    public void Initialize(PlayerController controller)
     {
-        playerController = FindAnyObjectByType<PlayerController>();
+        playerController = controller;
     }
+
     private void Update()
     {
         Vector2 input = InputSystemStaticProvider.InputSystem.Player.Move.ReadValue<Vector2>();
@@ -40,7 +43,7 @@ public class Combate : MonoBehaviour
         Vector2 newPos = currentPos + position * velocityPlayer * Time.deltaTime;
         newPos = ClampPositionInArea(newPos);
         PlayerCombat.anchoredPosition = newPos;
-        Debug.Log($"position of player in combate: {newPos}");
+        //Debug.Log($"position of player in combate: {newPos}");
 
     }
 
@@ -51,14 +54,9 @@ public class Combate : MonoBehaviour
         position.y = Mathf.Clamp(position.y, heightCanvasMin, heightCanvasMax);
         return position;
     }
+    public void TakeFaith(int damage)
+    {
+        playerController.PlayerStatus.DecreaseFaith(damage);
+    }
 
-    //private void OnEnable()
-    //{
-    //    InputSystemStaticProvider.InputSystem.Player.Move.performed += MoveInput;
-    //}
-
-    //private void OnDisable()
-    //{
-    //    InputSystemStaticProvider.InputSystem.Player.Move.performed -= MoveInput;
-    //}
 }
