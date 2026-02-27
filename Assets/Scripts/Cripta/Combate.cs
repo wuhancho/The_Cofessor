@@ -16,6 +16,10 @@ public class Combate : MonoBehaviour
     [Header("SpawnPoints")]
     [SerializeField] private GameObject spPOP1; // spawnPointObjPhase1 - indica la zona de spawn de objetos del boss en la fase 1
     [SerializeField] private GameObject spPOP2; // spawnPointObjPhase2 - indica la zona de spawn de objetos del boss en la fase 2
+    [Header("object prefabs for spawning")]
+    [SerializeField] private GameObject objToSpawn1; // objeto a spawnear en la fase 1
+    [SerializeField] private GameObject objToSpawn2; // objeto a spawnear en la fase 2
+    [SerializeField] private GameObject objToSpawn3; // objeto a spawnear en la fase 3
 
 
     public void Initialize(PlayerController controller)
@@ -58,5 +62,22 @@ public class Combate : MonoBehaviour
     {
         playerController.PlayerStatus.DecreaseFaith(damage);
     }
+
+    public void SpawnObjectForPhase()
+    {
+        switch (currentPhase)
+        {
+            case CombatPhase.Phase1:
+                //Instantiate(objToSpawn1, /*Random.RandomRange(-spPOP1.transform.position.x / 2, spPOP1.transform.position.x / 2)*/, Quaternion.identity);
+                break;
+            case CombatPhase.Phase2:
+                Instantiate(objToSpawn2, spPOP2.transform.position, Quaternion.identity);
+                break;
+            case CombatPhase.Phase3:
+                // Lógica para la fase 3 si es necesario
+                break;
+        }
+    }
+
 
 }
