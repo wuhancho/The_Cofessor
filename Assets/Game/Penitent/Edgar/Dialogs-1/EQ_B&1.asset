@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e960bec5b5236749b281289ea60fa82, type: 3}
+  m_Name: EQ_B&1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 8137253170306094621}
+  isTrueDialogue: 0
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &8137253170306094621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  uniqueID: 1
+  isPlayerSpeaking: 0
+  text: "\xBFEsquivando mis panfletos? \xA1Qu\xE9 cliente tan... dif\xEDcil!/nPero
+    veo que eres un hombre de gustos refinados. Alguien que busca un art\xEDculo...
+    exclusivo./nD\xE9jame mostrarte el verdadero valor de mis productos. \xA1Cierra
+    los ojos, que esta reliquia deslumbra!"
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 200
+  faithCost: 0
+  RepIglesiaCost: 0
+  RepPuebloCost: 0
+  SobornoCost: 0
