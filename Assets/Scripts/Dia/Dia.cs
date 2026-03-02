@@ -18,14 +18,15 @@ public enum TypeEventDay
 public class Dia : MonoBehaviour
 {
     private IFases[] fasesActuales;
-    [SerializeField]private DayEvent eventDayActual;
+    [SerializeField, IReadOnly] private EventDayManager eventDay;
+    [SerializeField] private DayEvent eventDayActual;
     private PlayerController playerController;
     private PenitentController penitentController;
-    private EventDayManager eventDay;
     [SerializeField] int numberDay;
     [SerializeField] private GameObject[] energyPrefab;
     [SerializeField] private TextMeshProUGUI moneyText;
     [SerializeField] private float fadeDuration = 1f;
+    [SerializeField, IReadOnly] private SPenitent guiltyPenitent;
 
 
 
@@ -42,6 +43,7 @@ public class Dia : MonoBehaviour
         eventDay = GetComponent<EventDayManager>();
         Initialize(playerController, penitentController);
         StartEventDay();
+
     }
 
     public void Initialize(PlayerController pController, PenitentController ptController)
@@ -165,11 +167,34 @@ public class Dia : MonoBehaviour
         {
             Debug.Log($"Evento del día {numberDay} encontrado: {eventDayActual.GetTypeEventDay()}");
             // Aquí puedes activar el evento específico del día, por ejemplo:
-            if (eventDayActual.GetTypeEventDay() == TypeEventDay.tutorial)
+            switch (eventDayActual.GetTypeEventDay())
             {
-                // Activar tutorial
-                Debug.Log($"tutorial del dia {numberDay}");
-
+                case TypeEventDay.tutorial:
+                    // Activar evento de tutorial
+                    eventDayActual.ActivateEvent(); // Activar evento de tutorial
+                    break;
+                case TypeEventDay.day1:
+                    eventDayActual.ActivateEvent(); // Activar evento del día 1
+                    guiltyPenitent = eventDayActual.GuiltyPenitent; // Obtener el penitente culpable del evento del día 1
+                    break;
+                case TypeEventDay.day2:
+                    // Activar evento del día 2
+                    break;
+                case TypeEventDay.day3:
+                    // Activar evento del día 3
+                    break;
+                case TypeEventDay.day4:
+                    // Activar evento del día 4
+                    break;
+                case TypeEventDay.day5:
+                    // Activar evento del día 5
+                    break;
+                case TypeEventDay.day6:
+                    // Activar evento del día 6
+                    break;
+                default:
+                    Debug.LogWarning($"Evento no reconocido para el día {numberDay}");
+                    break;
             }
         }
         else
@@ -177,4 +202,6 @@ public class Dia : MonoBehaviour
             Debug.Log($"No se encontró un evento para el día {numberDay}");
         }
     }
+
 }
+

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 [CreateAssetMenu(fileName = "", menuName = "Scriptable Objects/SPenitent", order = 1)]
 public class SPenitent : ScriptableObject
 {
-    [SerializeField,] private string id;
+    [SerializeField] private string id;
     [SerializeField] private string characterName;
     [SerializeField] private Texture2D[] characterImage;
     [SerializeField] private Dialog[] dialogs;
@@ -14,6 +14,8 @@ public class SPenitent : ScriptableObject
     [SerializeField] private int day;
     [SerializeField] private int[] DaysApear;
     [SerializeField] private GameObject iconPenitent;
+    [Header("editado por evento")]
+    [SerializeField,IReadOnly]internal bool isGuilty;
 
     public string CharacterName { get => characterName; set => characterName = value; }
 

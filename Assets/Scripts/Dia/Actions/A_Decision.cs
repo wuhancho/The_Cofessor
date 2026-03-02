@@ -16,14 +16,31 @@ public class A_Decision : MonoBehaviour, IAcciones
     private SPenitent penitentSelected;
     private Texture2D[] penitentImages;
 
+    public SPenitent PenitentSelected { get => penitentSelected; }
+
     private void Start()
     {
         voteCanvas.OnCulpritSelected += HandlePenitentSelected; // Suscribirse al evento de selección de culpable
+        canvasCombat.Boss.SetActive(false);
         criptaDialogue.IsPunish += (bool isPunish) => {
             if (isPunish)
             {
                 Debug.Log($"Penitente {penitentSelected.CharacterName} castigado.");
                 // Aquí puedes agregar lógica para castigar al penitente seleccionado
+                if (penitentSelected.isGuilty)
+                {
+                    Debug.Log($"Penitente {penitentSelected.CharacterName} era culpable. Castigo aplicado correctamente.");
+                    // Lógica para aplicar consecuencias positivas al jugador por castigar a un culpable
+                    criptaDialogue.gameObject.SetActive(false);
+                    canvasCombat.gameObject.SetActive(true);
+
+                    canvasCombat.Initialize(playerController,this);
+                }
+                else
+                {
+                    Debug.Log($"Penitente {penitentSelected.CharacterName} era inocente. Castigo aplicado incorrectamente.");
+                    // Lógica para aplicar consecuencias negativas al jugador por castigar a un inocente
+                }
             }
             else
             {

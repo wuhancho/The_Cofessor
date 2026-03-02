@@ -45,12 +45,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06999c4b29748ea4f8601320156dbbd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  eventDay: {fileID: 0}
+  eventDayActual: {fileID: 0}
   numberDay: 0
   energyPrefab:
   - {fileID: 0}
   - {fileID: 0}
   moneyText: {fileID: 0}
   fadeDuration: 2
+  guiltyPenitent: {fileID: 0}
 --- !u!114 &2317864268017433144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,3 +68,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eventDays:
   - {fileID: 7692215756477582070, guid: b50a1bc6e96ac8743915b3f3dfc642f2, type: 3}
+  - {fileID: 5322189826699152977, guid: 27cf6b25f4395484994207635af50cd0, type: 3}

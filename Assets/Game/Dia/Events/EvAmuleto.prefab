@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2247526795765577871}
-  - component: {fileID: 7692215756477582070}
+  - component: {fileID: 5322189826699152977}
   m_Layer: 0
-  m_Name: EvTutorial
+  m_Name: EvAmuleto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7692215756477582070
+--- !u!114 &5322189826699152977
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,12 +41,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8434243423751995041}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2a2b2c96e8630749acd51d280009499, type: 3}
+  m_Script: {fileID: 11500000, guid: 62af72648cbf8da4398496ba7981b1dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  day: 0
-  newsPaper:
-  - {fileID: 81721588941154930, guid: 525cf73285cc35d48b16a6aad4552322, type: 3}
-  - {fileID: 2664034681037555518, guid: dd0723da423b41d4799b6c81dc607499, type: 3}
-  typeEventDay: 0
-  guiltyPenitent: {fileID: 0}
+  day: 1
+  newsPaper: []
+  typeEventDay: 1
+  guiltyPenitent: {fileID: 11400000, guid: cbf658e12f74ec646b057e51a797ba5a, type: 2}

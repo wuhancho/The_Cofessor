@@ -190,7 +190,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2d496014c29f6264dae3b21a9559b848, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 943963922643655777, guid: 2d496014c29f6264dae3b21a9559b848, type: 3}
       propertyPath: m_Layer

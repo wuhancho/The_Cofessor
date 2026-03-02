@@ -1,3 +1,4 @@
+using System;
 using The_cofessor.Personajes.Dialogs;
 using TMPro;
 using UnityEngine;
@@ -13,6 +14,19 @@ public class CombatDialogue : MonoBehaviour
     private string[] currentLines;
     private int currentLineIndex;
 
+    public Action onDialogueUpdated;
+    internal Action onDialogueFinished;
+
+    private void Start()
+    {
+        onDialogueUpdated += UpdateUI;
+    }
+    public void Initialize(PlayerController controller, SPenitent penitent)
+    {
+        playerController = controller;
+        playerConversant = controller.PlayerConversant;
+        this.penitent = penitent;
+    }
     void UpdateUI()
     {
         gameObject.SetActive(playerConversant.IsActive());
@@ -32,6 +46,9 @@ public class CombatDialogue : MonoBehaviour
         BuildTextAI();
 
     }
+
+
+
     private void BuildTextAI()
     {
         if (currentLines == null || currentLines.Length == 0) return;
@@ -54,5 +71,10 @@ public class CombatDialogue : MonoBehaviour
             Debug.Log("CriptaDialogue - No more lines or choices. Ending conversation.");
         }
 
+    }
+
+    internal void StartDialogue(CombatPhase phase)
+    {
+        Debug.Log($"Starting dialogue for combat phase: {phase}");
     }
 }
