@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PlayerStatus
   m_EditorClassIdentifier: 
   energy: 2
-  faith: 7
+  faith: 0
   money: 100
   repIglesia: 7
   repPueblo: 7

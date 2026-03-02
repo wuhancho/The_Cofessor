@@ -88,8 +88,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5556f57e19a6a6478ebacbf4a2ea0c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rayCount: 8
+  rayCount: 5
   rotationSpeed: 30
-  rayWidth: 15
+  rayWidth: 10
   faithDamage: 1
   rayColor: {r: 0.7075472, g: 0.36058456, b: 0.06341223, a: 0.8}

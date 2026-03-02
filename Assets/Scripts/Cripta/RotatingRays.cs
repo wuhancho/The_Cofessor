@@ -69,6 +69,7 @@ public class RotatingRays : MonoBehaviour
     {
         // Girar en sentido horario (rotación negativa en Z)
         transform.Rotate(0f, 0f, -rotationSpeed * Time.deltaTime);
+        
     }
 
     /// <summary>
