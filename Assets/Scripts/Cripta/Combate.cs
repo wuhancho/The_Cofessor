@@ -38,6 +38,8 @@ public class Combate : MonoBehaviour
     private RotatingRays phase2RaysInstance;
     private bool phase2Spawned = false;
 
+    public Action onStop;
+
     public CombatPhase CurrentPhase { get => currentPhase; set => currentPhase = value; }
     public GameObject ObjToSpawn1 { get => objToSpawn1; set => objToSpawn1 = value; }
     public GameObject ObjToSpawn2 { get => objToSpawn2; set => objToSpawn2 = value; }
@@ -49,6 +51,7 @@ public class Combate : MonoBehaviour
     {
         playerController = controller;
         spawnPlayer = PlayerCombat.anchoredPosition;
+        onStop += StopAll;
     }
     public void MovePlayer()
     {
@@ -216,6 +219,11 @@ public class Combate : MonoBehaviour
 
     internal void UpdatePhase3Spawn()
     {
-        Debug.Log("UpdatePhase3Spawn - Lógica de spawn para fase 3 aún no implementada.");
+        Debug.Log("Phase 3 - Spawning objects not implemented yet.");
+    }
+
+    private void StopAll()
+    {
+        
     }
 }

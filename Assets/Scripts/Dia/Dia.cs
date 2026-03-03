@@ -14,6 +14,7 @@ public enum TypeEventDay
     day6,
 }
 
+
 [RequireComponent(typeof(EventDayManager))]
 public class Dia : MonoBehaviour
 {

@@ -1289,7 +1289,7 @@ MonoBehaviour:
   objToSpawn1: {fileID: 3011641177926871357, guid: 4b8f9c8635f1ead498d6d5be9d35e37b, type: 3}
   objToSpawn2: {fileID: 4495421313423026892, guid: a60a94bdf486b864d8e8aa9945e0c8dc, type: 3}
   objToSpawn3: {fileID: 1322023401297192481, guid: 1b0f9589e0a904a49a4e6504706ec3ce, type: 3}
-  spawnInterval: 1.5
+  spawnInterval: 2
   faithDamagePerHit: 1
   rayRotationSpeed: 30
   rayWidth: 15
@@ -16743,6 +16743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textObject: {fileID: 1746231630}
+  timeReading: 3
 --- !u!114 &951071685
 MonoBehaviour:
   m_ObjectHideFlags: 0

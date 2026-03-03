@@ -16,13 +16,17 @@ public class A_Decision : MonoBehaviour, IAcciones
     private SPenitent penitentSelected;
     private Texture2D[] penitentImages;
 
+    public Action onEndAction;
+
     public SPenitent PenitentSelected { get => penitentSelected; }
 
     private void Start()
     {
         voteCanvas.OnCulpritSelected += HandlePenitentSelected; // Suscribirse al evento de selección de culpable
+        criptaDialogue.onDialogueDecisionEnd += ActiveCombat;
         canvasCombat.Boss.SetActive(false);
-        criptaDialogue.IsPunish += (bool isPunish) => {
+        criptaDialogue.IsPunish += (bool isPunish) =>
+        {
             if (isPunish)
             {
                 Debug.Log($"Penitente {penitentSelected.CharacterName} castigado.");
@@ -31,25 +35,51 @@ public class A_Decision : MonoBehaviour, IAcciones
                 {
                     Debug.Log($"Penitente {penitentSelected.CharacterName} era culpable. Castigo aplicado correctamente.");
                     // Lógica para aplicar consecuencias positivas al jugador por castigar a un culpable
-                    criptaDialogue.gameObject.SetActive(false);
-                    canvasCombat.gameObject.SetActive(true);
+                    Dialog selectedDialog = GetDialogueByType(penitentSelected, "P");
+                    criptaDialogue.InitializeDecision(playerController.PlayerConversant, "P-Culpable");
+                    playerController.PlayerConversant.StartDialogue(selectedDialog);
 
-                    canvasCombat.Initialize(playerController,this);
                 }
                 else
                 {
                     Debug.Log($"Penitente {penitentSelected.CharacterName} era inocente. Castigo aplicado incorrectamente.");
+                    Dialog selectedDialog = GetDialogueByType(penitentSelected, "P");
                     // Lógica para aplicar consecuencias negativas al jugador por castigar a un inocente
                 }
             }
             else
             {
-                Debug.Log($"Penitente {penitentSelected.CharacterName} perdonado.");
+                //criptaDialogue.Initialize(playerController.PlayerConversant);
+                Dialog selectedDialog = GetDialogueByType(penitentSelected, "F");
+                if (penitentSelected.isGuilty)
+                {
+                    Debug.Log($"Penitente {penitentSelected.CharacterName} era culpable. Perdón aplicado incorrectamente.");
+                    // Lógica para aplicar consecuencias negativas al jugador por perdonar a un culpable
+                    Debug.Log($"Penitente {penitentSelected.CharacterName} perdonado.");
+                    criptaDialogue.InitializeDecision(playerController.PlayerConversant,"F-Culpable");
+                    playerController.PlayerConversant.StartDialogue(selectedDialog);
+
+                }
+                else
+                {
+                    Debug.Log($"Penitente {penitentSelected.CharacterName} era inocente. Perdón aplicado correctamente.");
+                    // Lógica para aplicar consecuencias positivas al jugador por perdonar a un inocente
+                    Debug.Log($"Penitente {penitentSelected.CharacterName} perdonado.");
+                    criptaDialogue.InitializeDecision(playerController.PlayerConversant, "F");
+                    playerController.PlayerConversant.StartDialogue(selectedDialog);
+                    onEndAction.Invoke();
+                }
                 // Aquí puedes agregar lógica para perdonar al penitente seleccionado
             }
         };
     }
 
+    private void ActiveCombat()
+    {
+        criptaDialogue.gameObject.SetActive(false);
+        canvasCombat.gameObject.SetActive(true);
+        canvasCombat.Initialize(playerController, this);
+    }
 
     public void Initialize(PlayerController playerController)
     {
@@ -70,31 +100,31 @@ public class A_Decision : MonoBehaviour, IAcciones
     }
     public void EjecutarAccion(PlayerController playerController)
     {
-        
+
     }
     public void TriggerAction()
     {
         voteCanvas.gameObject.SetActive(true);
-        voteCanvas.Initialize(penitentController, playerController,dayToActivate);
+        voteCanvas.Initialize(penitentController, playerController, dayToActivate);
 
     }
     public void CancelAction()
     {
-       
+
     }
 
     public void DebugAccion()
     {
-        
+
     }
     private void HandlePenitentSelected(SPenitent penitent)
     {
         Debug.Log($"Penitente seleccionado: {penitent.CharacterName}");
         penitentSelected = penitent;
-        Dialog selectedDialog = GetDialogue(penitent);
+        Dialog selectedDialog = GetDialogueByType(penitentSelected, "C");
         if (selectedDialog == null)
         {
-            Debug.LogError($"No se encontró diálogo para {penitent.CharacterName}. No se inicia diálogo.");
+            Debug.LogError($"No se encontró diálogo para {penitentSelected.CharacterName}. No se inicia diálogo.");
             return;
         }
         voteCanvas.gameObject.SetActive(false);
@@ -106,39 +136,38 @@ public class A_Decision : MonoBehaviour, IAcciones
 
     }
 
-    private Dialog GetDialogue(SPenitent penitent)
+    private Dialog GetDialogueByType(SPenitent penitent, String type)
     {
-        if (penitent == null) return null;
+        if (penitentSelected == null) return null;
 
-        Debug.Log($"Obteniendo diálogo tipo 'C' para {penitent.CharacterName} en el día {dayToActivate}");
+        Debug.Log($"Obteniendo diálogo tipo '{type}' para {penitentSelected.CharacterName} en el día {dayToActivate}");
 
-        // Buscar diálogo de tipo "C" para el día actual
-        Dialog dialog = penitent.GetDialogByTypeAndDay("C", dayToActivate);
+        // Buscar diálogo de tipo para el día actual
+        Dialog dialog = penitentSelected.GetDialogByTypeAndDay(type, dayToActivate);
 
         // Si no se encuentra con día, buscar solo por tipo (por si "AG_C" no tiene día)
         if (dialog == null)
         {
-            dialog = penitent.GetDialogByType("C");
+            dialog = penitentSelected.GetDialogByType(type);
         }
 
         if (dialog != null)
         {
-            playerController.PlayerConversant.CurrentSpeakerNPC = penitent.CharacterName;
-            Debug.Log($"Diálogo encontrado: {dialog.name} para {penitent.CharacterName}");
+            playerController.PlayerConversant.CurrentSpeakerNPC = penitentSelected.CharacterName;
+            Debug.Log($"Diálogo encontrado: {dialog.name} para {penitentSelected.CharacterName}");
         }
         else
         {
-            Debug.LogWarning($"No se encontró diálogo tipo 'C' para {penitent.CharacterName}");
+            Debug.LogWarning($"No se encontró diálogo tipo {type} para {penitentSelected.CharacterName}");
         }
 
         return dialog;
     }
     public Sprite GetCurrentPeninentSprite()
     {
-        SPenitent penitent = penitentSelected;
-        if (penitent != null)
+        if (penitentSelected != null)
         {
-            Texture2D[] textures = penitent.GetTextures2D();
+            Texture2D[] textures = penitentSelected.GetTextures2D();
             if (textures != null && textures.Length > 0)
             {
                 return Sprite.Create(textures[0], new Rect(0, 0, textures[0].width, textures[0].height), new Vector2(0.5f, 0.5f));

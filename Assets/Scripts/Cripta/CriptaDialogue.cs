@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using The_cofessor.Personajes.Dialogs;
 using TMPro;
 using Unity.VisualScripting;
@@ -17,22 +18,35 @@ public class CriptaDialogue : MonoBehaviour
     private string currentNodeText;
     private string[] currentLines;
     private int currentLineIndex;
+    private float timeReading;
+    private string typeDialogue;
+
     //private Texture2D[] penitentImages;
 
     public event Action<bool> IsPunish;
+    public event Action onDialogueDecisionEnd;
     public void Initialize(PlayerConversant pConversant)
     {
         playerConversant = pConversant;
+        StartDialogueStandart();
+    }
+    public void InitializeDecision(PlayerConversant pConversant, string TypeDialogue)
+    {
+        this.typeDialogue = TypeDialogue;
+        playerConversant = pConversant;
+        playerConversant = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerConversant>();
+        playerConversant.OnConversationUpdated += UpdateUIDecision;
+        UpdateUIDecision();
     }
 
-    void Start()
+    void StartDialogueStandart()
     {
         playerConversant = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerConversant>();
-        playerConversant.OnConversationUpdated += UpdateUI;
+        playerConversant.OnConversationUpdated += UpdateUIStandart;
         nextButton.onClick.AddListener(Next);
-        UpdateUI();
+        UpdateUIStandart();
     }
-    void UpdateUI()
+    void UpdateUIStandart()
     {
         gameObject.SetActive(playerConversant.IsActive());
         if (!playerConversant.IsActive())
@@ -41,6 +55,7 @@ public class CriptaDialogue : MonoBehaviour
         }
         penitentNameText.text = playerConversant.GetCurrentSpeakerName();
         choicesRoot.gameObject.SetActive(playerConversant.IsChoosing());
+        nextButton.gameObject.SetActive(!playerConversant.IsChoosing());
         if (playerConversant.IsChoosing())
         {
             BuildChoiseList();
@@ -54,6 +69,34 @@ public class CriptaDialogue : MonoBehaviour
                 currentLineIndex = 0;
             }
             BuildTextAI();
+        }
+
+    }
+    void UpdateUIDecision()
+    {
+        gameObject.SetActive(playerConversant.IsActive());
+        if (!playerConversant.IsActive())
+        {
+            return;
+        }
+        penitentNameText.text = playerConversant.GetCurrentSpeakerName();
+        //choicesRoot.gameObject.SetActive(playerConversant.IsChoosing());
+        StartCoroutine(TimeReading());
+        if (playerConversant.IsChoosing())
+        {
+            BuildChoiseList();
+        }
+        else
+        {
+            if (currentNodeText != playerConversant.GetText())
+            {
+                currentNodeText = playerConversant.GetText();
+                currentLines = currentNodeText.Split("/n");
+                currentLineIndex = 0;
+
+            }
+            BuildTextAI();
+
         }
 
     }
@@ -77,11 +120,19 @@ public class CriptaDialogue : MonoBehaviour
                 Debug.Log($"CriptaDialogue - Choice selected: {choice.GetText()}");
                 if (choice.GetText() == "Castigar")
                 {
+                    Debug.Log("CriptaDialogue - Castigar choice selected. Calling ChoiceCastigar method.");
                     ChoiceCastigar();
                 }
                 else if (choice.GetText() == "Perdonar")
                 {
+                    Debug.Log("CriptaDialogue - Perdonar choice selected. Calling ChoicePerdonar method.");
                     ChoicePerdonar();
+                }
+                else if (choice.GetText() == "Perdonar (+50$)")
+                {
+                    Debug.Log("CriptaDialogue - Perdonar (+50$) choice selected. Implement forgiveness with bribe logic here.");
+                    ChoicePerdonar();
+                    // Implement forgiveness with bribe logic here
                 }
                 //onConversation.Invoke(choice);
             });
@@ -123,17 +174,26 @@ public class CriptaDialogue : MonoBehaviour
         }
         else
         {
-            Debug.Log("CriptaDialogue - No more lines or choices. Ending conversation.");
+            nextButton.gameObject.SetActive(false);
+            switch (typeDialogue)
+            {
+                case "F-Culpable":
+                    Debug.Log("CriptaDialogue - Ending conversation. Invoking onDialogueDecisionEnd event.");
+                    onDialogueDecisionEnd?.Invoke();
+                    break;
+                case "P-Culpable":
+                    Debug.Log("CriptaDialogue - Ending conversation. Invoking onDialogueDecisionEnd event.");
+                    onDialogueDecisionEnd?.Invoke();
+                    break;
+                default:
+                    Debug.Log("CriptaDialogue - Ending conversation. No specific type dialogue actions defined.");
+                    break;
+            }
         }
-
     }
-
-    //private void SetPenitentSprite(Sprite sprite)
-    //{
-
-    //    if (sprite != null)
-    //        penitentImage.sprite = sprite;
-    //    else
-    //        Debug.LogWarning("CriptaDialogue - Attempted to set penitent sprite, but the provided sprite is null.");
-    //}
+    private IEnumerator TimeReading()
+    {
+        yield return new WaitForSeconds(timeReading); // Espera 3 segundos (ajusta según el tiempo que quieras)
+        Next(); // Avanza al siguiente diálogo después de la espera
+    }
 }
