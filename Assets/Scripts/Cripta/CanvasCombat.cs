@@ -1,9 +1,17 @@
 using System;
 using System.Collections;
-using System.IO;
 using UnityEngine;
-using UnityEngine.InputSystem;
+
 public enum CombatPhase { Phase1, Phase2, Phase3 }
+
+/// <summary>
+/// Estados internos del flujo de combate.
+/// Dialogue = el CombatDialogue está activo, combate pausado.
+/// Combat = el jugador esquiva ataques del boss.
+/// Ended = combate finalizado.
+/// </summary>
+public enum CombatState { Dialogue, Combat, Ended }
+
 public class CanvasCombat : MonoBehaviour
 {
     [SerializeField] private Combate combate;
@@ -12,14 +20,17 @@ public class CanvasCombat : MonoBehaviour
     private PlayerController playerController;
     private A_Decision decision;
 
-    [Header("Duración de cada fase en segundos")]
+    [Header("Duración de cada fase de combate en segundos")]
     [SerializeField] private float phase1Duration = 40f;
     [SerializeField] private float phase2Duration = 40f;
-    private CombatPhase nextPhase;
-    private bool phaseTransitioning = false;
+    [SerializeField] private float phase3Duration = 40f;
+
+    private CombatPhase currentPhase;
+    private CombatState currentState;
+    private Coroutine phaseTimerCoroutine;
 
     public Action onCombatUpdated;
-    public Action<CombatPhase> onChangePhase;
+    public Action onEndCombat;
 
     public GameObject Boss { get => boss; set => boss = value; }
     public Combate Combate { get => combate; }
@@ -32,34 +43,31 @@ public class CanvasCombat : MonoBehaviour
         boss.SetActive(true);
         combate.Initialize(playerController);
         combatDialogue.Initialize(playerController, decision.PenitentSelected);
-        StartCombat();
-    }
-
-    private void StartCombat()
-    {
         onCombatUpdated?.Invoke();
-        // Iniciar la primera fase con su temporizador
-        phaseTransitioning = false;
-        HandlePhaseChange(CombatPhase.Phase1);
-        StartCoroutine(PhaseTimer(phase1Duration, CombatPhase.Phase2));
+
+        // Empezar con el diálogo de la fase 1
+        currentPhase = CombatPhase.Phase1;
+        StartDialogueState();
     }
 
     private void Start()
     {
-        onChangePhase += HandlePhaseChange;
-
+        combatDialogue.onDialogueFinished += OnDialogueFinished;
     }
+
+    private void OnDisable()
+    {
+        combatDialogue.onDialogueFinished -= OnDialogueFinished;
+    }
+
     private void Update()
     {
-        if (combate.CurrentPhase == CombatPhase.Phase1 || combate.CurrentPhase == CombatPhase.Phase2 || combate.CurrentPhase == CombatPhase.Phase3)
-        {
-            combate.MovePlayer();
-        }
+        // Solo procesar combate cuando estamos en estado Combat
+        if (currentState != CombatState.Combat) return;
 
-        // Solo ejecutar spawn si no estamos en transición de diálogo
-        if (phaseTransitioning) return;
+        combate.MovePlayer();
 
-        switch (combate.CurrentPhase)
+        switch (currentPhase)
         {
             case CombatPhase.Phase1:
                 combate.UpdatePhase1Spawn();
@@ -74,9 +82,42 @@ public class CanvasCombat : MonoBehaviour
     }
 
     /// <summary>
-    /// Espera la duración indicada y luego lanza la transición al diálogo de la siguiente fase.
+    /// Activa el diálogo y desactiva el combate.
     /// </summary>
-    private IEnumerator PhaseTimer(float duration, CombatPhase nextPhase)
+    private void StartDialogueState()
+    {
+        currentState = CombatState.Dialogue;
+        combatDialogue.gameObject.SetActive(true);
+        combatDialogue.StartDialogue(currentPhase);
+        Debug.Log($"[CanvasCombat] Diálogo iniciado para {currentPhase}");
+    }
+
+    /// <summary>
+    /// Callback cuando el CombatDialogue termina. Activa el combate de la fase actual.
+    /// </summary>
+    private void OnDialogueFinished()
+    {
+        combatDialogue.gameObject.SetActive(false);
+        StartCombatState();
+    }
+
+    /// <summary>
+    /// Activa el combate y lanza el temporizador de la fase actual.
+    /// </summary>
+    private void StartCombatState()
+    {
+        currentState = CombatState.Combat;
+        combate.SetPhase(currentPhase);
+
+        float duration = GetPhaseDuration(currentPhase);
+        phaseTimerCoroutine = StartCoroutine(PhaseTimer(duration));
+        Debug.Log($"[CanvasCombat] Combate iniciado para {currentPhase} ({duration}s)");
+    }
+
+    /// <summary>
+    /// Espera la duración de la fase y luego transiciona al siguiente estado.
+    /// </summary>
+    private IEnumerator PhaseTimer(float duration)
     {
         float timer = 0f;
         while (timer < duration)
@@ -84,37 +125,48 @@ public class CanvasCombat : MonoBehaviour
             timer += Time.deltaTime;
             yield return null;
         }
-        TransicionCombatDialogue(nextPhase);
+        OnPhaseTimeUp();
     }
 
-    private void HandlePhaseChange(CombatPhase phase)
+    /// <summary>
+    /// Se ejecuta al terminar el tiempo de combate de la fase actual.
+    /// </summary>
+    private void OnPhaseTimeUp()
     {
-        combate.SetPhase(phase);
-    }
+        Debug.Log($"[CanvasCombat] Tiempo de combate agotado para {currentPhase}");
 
-    private void TransicionCombatDialogue(CombatPhase nextPhase)
-    {
-        this.nextPhase = nextPhase;
-        phaseTransitioning = true;
-        combatDialogue.gameObject.SetActive(true);
-        combatDialogue.StartDialogue(nextPhase);
-        combatDialogue.onDialogueFinished += OnDialogueFinished;
-
-    }
-    private void OnDialogueFinished()
-    {
-        // Desuscribir para evitar acumulación de listeners
-        combatDialogue.onDialogueFinished -= OnDialogueFinished;
-        combatDialogue.gameObject.SetActive(false);
-        combate.SetPhase(nextPhase);
-        phaseTransitioning = false;
-
-        // Lanzar el temporizador de la siguiente fase si corresponde
-        if (nextPhase == CombatPhase.Phase2)
+        // Avanzar a la siguiente fase o terminar
+        switch (currentPhase)
         {
-            StartCoroutine(PhaseTimer(phase2Duration, CombatPhase.Phase3));
+            case CombatPhase.Phase1:
+                currentPhase = CombatPhase.Phase2;
+                StartDialogueState();
+                break;
+            case CombatPhase.Phase2:
+                currentPhase = CombatPhase.Phase3;
+                StartDialogueState();
+                break;
+            case CombatPhase.Phase3:
+                EndCombat();
+                break;
         }
-        // Phase3 no tiene transición automática (es la última)
     }
 
+    private void EndCombat()
+    {
+        currentState = CombatState.Ended;
+        Debug.Log("[CanvasCombat] Combate finalizado.");
+        onEndCombat?.Invoke();
+    }
+
+    private float GetPhaseDuration(CombatPhase phase)
+    {
+        switch (phase)
+        {
+            case CombatPhase.Phase1: return phase1Duration;
+            case CombatPhase.Phase2: return phase2Duration;
+            case CombatPhase.Phase3: return phase3Duration;
+            default: return 0f;
+        }
+    }
 }
