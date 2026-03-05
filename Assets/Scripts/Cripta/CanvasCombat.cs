@@ -35,14 +35,15 @@ public class CanvasCombat : MonoBehaviour
     public GameObject Boss { get => boss; set => boss = value; }
     public Combate Combate { get => combate; }
     public CombatDialogue CombatDialogue { get => combatDialogue; }
+    public A_Decision Decision { get => decision; }
 
     public void Initialize(PlayerController playerController, A_Decision _Decision)
     {
         this.playerController = playerController;
         this.decision = _Decision;
-        boss.SetActive(true);
+        //boss.SetActive(true);
         combate.Initialize(playerController);
-        combatDialogue.Initialize(playerController, decision.PenitentSelected);
+        combatDialogue.Initialize(playerController, decision.PenitentSelected,this);
         onCombatUpdated?.Invoke();
 
         // Empezar con el diálogo de la fase 1
@@ -86,6 +87,7 @@ public class CanvasCombat : MonoBehaviour
     /// </summary>
     private void StartDialogueState()
     {
+        boss.SetActive(false);
         currentState = CombatState.Dialogue;
         combatDialogue.gameObject.SetActive(true);
         combatDialogue.StartDialogue(currentPhase);
@@ -107,6 +109,7 @@ public class CanvasCombat : MonoBehaviour
     private void StartCombatState()
     {
         currentState = CombatState.Combat;
+        boss.SetActive(true);
         combate.SetPhase(currentPhase);
 
         float duration = GetPhaseDuration(currentPhase);

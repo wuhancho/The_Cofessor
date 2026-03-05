@@ -15,10 +15,13 @@ public class A_Decision : MonoBehaviour, IAcciones
     private PenitentController penitentController;
     private SPenitent penitentSelected;
     private Texture2D[] penitentImages;
+    private string typeDialogue;
+
 
     public Action onEndAction;
 
     public SPenitent PenitentSelected { get => penitentSelected; }
+    public string TypeDialogue { get => typeDialogue; }
 
     private void Start()
     {
@@ -35,9 +38,12 @@ public class A_Decision : MonoBehaviour, IAcciones
                 {
                     Debug.Log($"Penitente {penitentSelected.CharacterName} era culpable. Castigo aplicado correctamente.");
                     // Lógica para aplicar consecuencias positivas al jugador por castigar a un culpable
-                    Dialog selectedDialog = GetDialogueByType(penitentSelected, "P");
-                    criptaDialogue.InitializeDecision(playerController.PlayerConversant, "P-Culpable");
-                    playerController.PlayerConversant.StartDialogue(selectedDialog);
+                    //Dialog selectedDialog = GetDialogueByType(penitentSelected, "P");
+                    //criptaDialogue.InitializeDecision(playerController.PlayerConversant, "P-Culpable");
+                    //canvasCombat.CombatDialogue.GiveType("P");
+                    typeDialogue = "P";
+                    ActiveCombat();
+                    //playerController.PlayerConversant.StartDialogue(selectedDialog);
 
                 }
                 else
@@ -55,10 +61,12 @@ public class A_Decision : MonoBehaviour, IAcciones
                 {
                     Debug.Log($"Penitente {penitentSelected.CharacterName} era culpable. Perdón aplicado incorrectamente.");
                     // Lógica para aplicar consecuencias negativas al jugador por perdonar a un culpable
-                    Debug.Log($"Penitente {penitentSelected.CharacterName} perdonado.");
-                    criptaDialogue.InitializeDecision(playerController.PlayerConversant,"F-Culpable");
-                    playerController.PlayerConversant.StartDialogue(selectedDialog);
-
+                    //Debug.Log($"Penitente {penitentSelected.CharacterName} perdonado.");
+                    //criptaDialogue.InitializeDecision(playerController.PlayerConversant, "F-Culpable");
+                    //playerController.PlayerConversant.StartDialogue(selectedDialog);
+                    //canvasCombat.CombatDialogue.GiveType("F");
+                    typeDialogue = "F";
+                    ActiveCombat();
                 }
                 else
                 {
