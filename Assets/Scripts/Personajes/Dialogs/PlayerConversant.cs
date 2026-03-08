@@ -152,6 +152,13 @@ namespace The_cofessor.Personajes.Dialogs
                 return currentSpeakerNPC;
             }
         }
+
+        public void QuitDialogue()
+        {
+            currentDialog = null;
+            currentNode = null;
+            isChoosing = false;
+        }
     }
 }
 
