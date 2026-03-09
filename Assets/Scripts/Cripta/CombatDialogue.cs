@@ -26,12 +26,22 @@ public class CombatDialogue : MonoBehaviour
     {
         onDialogueUpdated += UpdateUI;
     }
-    public void Initialize(PlayerController controller, SPenitent penitent,CanvasCombat canvas)
+    public void Initialize(PlayerController controller, SPenitent penitent, CanvasCombat canvas)
     {
         this.canvas = canvas;
         playerController = controller;
         playerConversant = controller.PlayerConversant;
         this.penitent = penitent;
+
+        // Obtener el componente TextMeshProUGUI del textObject
+        if (textObject != null)
+        {
+            penitentText = textObject.GetComponent<TextMeshProUGUI>();
+        }
+        if (penitentText == null)
+        {
+            Debug.LogError("[CombatDialogue] penitentText es null. Asegúrate de que textObject tiene un componente TextMeshProUGUI.");
+        }
     }
     void UpdateUI()
     {
@@ -58,6 +68,7 @@ public class CombatDialogue : MonoBehaviour
     private void BuildTextAI()
     {
         if (currentLines == null || currentLines.Length == 0) return;
+        if (penitentText == null) return;
 
         penitentText.text = currentLines[currentLineIndex];
     }
@@ -75,7 +86,10 @@ public class CombatDialogue : MonoBehaviour
         }
         else
         {
-            Debug.Log("CriptaDialogue - No more lines or choices. Ending conversation.");
+            Debug.Log("CombatDialogue - No more lines or choices. Ending conversation.");
+            // Desuscribir para no recibir más eventos
+            playerConversant.OnConversationUpdated -= UpdateUI;
+            onDialogueFinished?.Invoke();
         }
 
     }
@@ -95,7 +109,7 @@ public class CombatDialogue : MonoBehaviour
                 InitializeDecision("CombatPhase3");
                 break;
             default:
-                Debug.LogWarning($"CriptaDialogue - Unhandled combat phase: {phase}");
+                Debug.LogWarning($"CombatDialogue - Unhandled combat phase: {phase}");
                 break;
         }
 
@@ -103,14 +117,18 @@ public class CombatDialogue : MonoBehaviour
 
     private IEnumerator TimeReading()
     {
-        yield return new WaitForSeconds(timeReading); // Espera 3 segundos (ajusta según el tiempo que quieras)
-        Next(); // Avanza al siguiente diálogo después de la espera
+        yield return new WaitForSeconds(timeReading);
+        Next();
     }
     public void InitializeDecision(string TypeDialogue)
     {
+        // Resetear estado del diálogo anterior
+        currentNodeText = null;
+        currentLines = null;
+        currentLineIndex = 0;
+
         playerConversant.OnConversationUpdated += UpdateUI;
 
-        // Usar el parámetro recibido, no el campo privado
         Dialog dialogue = penitent.GetDialogByType(TypeDialogue);
 
         if (dialogue == null)
@@ -119,13 +137,14 @@ public class CombatDialogue : MonoBehaviour
                              $"para penitente '{penitent.CharacterName}'. " +
                              $"Tipos disponibles en sus diálogos:");
 
-            // Debug: mostrar todos los tipos disponibles para diagnosticar
             foreach (Dialog d in penitent.Dialogs)
             {
                 if (d == null) continue;
                 string t = SPenitent.GetDialogType(d);
                 Debug.LogWarning($"  → '{d.name}' → tipo parseado: '{t}'");
             }
+            // Si no hay diálogo, terminar inmediatamente para no bloquear el flujo
+            onDialogueFinished?.Invoke();
             return;
         }
 

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1569302504638364528}
   - component: {fileID: 7655894007666095041}
   - component: {fileID: 2544797424495428327}
+  - component: {fileID: 8123214058260362050}
   m_Layer: 5
   m_Name: Coin
   m_TagString: Untagged
@@ -75,3 +76,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8123214058260362050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322023401297192481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e8b5b1158deef84fb81b30bc6b50228, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileSpeed: 300
+  flickerDuration: 1.5
+  flickerInterval: 0.1
+  faithDamage: 1
+  darkColor: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 1}

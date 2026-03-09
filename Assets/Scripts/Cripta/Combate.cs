@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -34,9 +35,19 @@ public class Combate : MonoBehaviour
     [SerializeField] private float rayWidth = 15f;           // ancho de cada rayo
     [SerializeField] private int rayDamage = 1;              // daño por rayo
 
+    [Header("Spawn Settings Phase 3")]
+    [SerializeField] private int phase3ProjectileCount = 10;    // cantidad de monedas por oleada
+    [SerializeField] private float phase3SpawnRadius = 120f;    // radio alrededor de spPOP2 donde aparecen
+    [SerializeField] private float phase3LaunchInterval = 0.8f; // intervalo entre lanzamiento de cada moneda
+    [SerializeField] private float phase3WaveCooldown = 2f;     // cooldown entre oleadas
+
     // Referencia al objeto central de fase 2 para limpiarlo al cambiar de fase
     private RotatingRays phase2RaysInstance;
     private bool phase2Spawned = false;
+
+    // Control de fase 3
+    private bool phase3Running = false;
+    private Coroutine phase3Coroutine;
 
 
     public CombatPhase CurrentPhase { get => currentPhase; set => currentPhase = value; }
@@ -88,10 +99,16 @@ public class Combate : MonoBehaviour
         {
             CleanupPhase2();
         }
+        // Limpiar fase 3 al salir de ella
+        if (currentPhase == CombatPhase.Phase3 && phase != CombatPhase.Phase3)
+        {
+            CleanupPhase3();
+        }
 
         currentPhase = phase;
         spawnTimer = 0f; // reiniciar timer al cambiar de fase
         phase2Spawned = false;
+        phase3Running = false;
     }
 
     public float GetSpawnWidth()
@@ -215,8 +232,92 @@ public class Combate : MonoBehaviour
         phase2Spawned = false;
     }
 
+    /// <summary>
+    /// Llamar desde Update de CanvasCombat para la fase 3.
+    /// Lanza oleadas de monedas alrededor de spPOP2 que titilean y se dirigen al player.
+    /// </summary>
     internal void UpdatePhase3Spawn()
     {
-        Debug.Log("Phase 3 - Spawning objects not implemented yet.");
+        if (phase3Running) return;
+        phase3Running = true;
+        phase3Coroutine = StartCoroutine(Phase3SpawnLoop());
+    }
+
+    /// <summary>
+    /// Bucle de oleadas de fase 3: spawnea las monedas en círculo alrededor de spPOP2,
+    /// espera un cooldown, y luego las activa una por una con intervalo.
+    /// Cada moneda titilea internamente antes de lanzarse hacia el player.
+    /// Se repite hasta que la fase cambie.
+    /// </summary>
+    private IEnumerator Phase3SpawnLoop()
+    {
+        if (objToSpawn3 == null || spPOP2 == null || canvasCombat == null) yield break;
+
+        RectTransform spawnRect = spPOP2.GetComponent<RectTransform>();
+        Vector2 center = spawnRect.anchoredPosition;
+
+        while (currentPhase == CombatPhase.Phase3)
+        {
+            // Crear las monedas distribuidas en círculo alrededor del centro
+            GameObject[] projectiles = new GameObject[phase3ProjectileCount];
+            float angleStep = 360f / phase3ProjectileCount;
+
+            for (int i = 0; i < phase3ProjectileCount; i++)
+            {
+                float angle = angleStep * i * Mathf.Deg2Rad;
+                Vector2 offset = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle)) * phase3SpawnRadius;
+                Vector2 spawnPos = center + offset;
+
+                GameObject obj = Instantiate(objToSpawn3, canvasCombat);
+                RectTransform objRect = obj.GetComponent<RectTransform>();
+                objRect.anchoredPosition = spawnPos;
+
+                // Inicializar el HomingProjectile
+                HomingProjectile homing = obj.GetComponent<HomingProjectile>();
+                if (homing == null)
+                {
+                    homing = obj.AddComponent<HomingProjectile>();
+                }
+                homing.Initialize(this, PlayerCombat,
+                                  heightCanvasMax, heightCanvasMin,
+                                  widthCanvasMin, widthCanvasMax);
+
+                // Desactivar para lanzarlos uno por uno
+                obj.SetActive(false);
+                projectiles[i] = obj;
+            }
+
+            // Cooldown de oleada antes de empezar a lanzar
+            yield return new WaitForSeconds(phase3WaveCooldown);
+
+            // Activar (lanzar) uno por uno con intervalo
+            for (int i = 0; i < projectiles.Length; i++)
+            {
+                if (currentPhase != CombatPhase.Phase3) yield break;
+
+                if (projectiles[i] != null)
+                {
+                    projectiles[i].SetActive(true);
+                    Debug.Log($"Phase 3 - Moneda {i + 1}/{phase3ProjectileCount} lanzada");
+                }
+                yield return new WaitForSeconds(phase3LaunchInterval);
+            }
+
+            // Pausa antes de la siguiente oleada
+            yield return new WaitForSeconds(phase3WaveCooldown);
+        }
+    }
+
+    /// <summary>
+    /// Limpia la corrutina de fase 3.
+    /// </summary>
+    private void CleanupPhase3()
+    {
+        if (phase3Coroutine != null)
+        {
+            StopCoroutine(phase3Coroutine);
+            phase3Coroutine = null;
+        }
+        phase3Running = false;
     }
 }
