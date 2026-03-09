@@ -26,7 +26,7 @@ public class A_Decision : MonoBehaviour, IAcciones
     private void Start()
     {
         voteCanvas.OnCulpritSelected += HandlePenitentSelected; // Suscribirse al evento de selección de culpable
-        criptaDialogue.onDialogueDecisionEnd += ActiveCombat;
+        criptaDialogue.onDialogueDecisionEnd += ActiveDialogueDecision;
         canvasCombat.Boss.SetActive(false);
         criptaDialogue.IsPunish += isPunish =>
         {
@@ -37,7 +37,6 @@ public class A_Decision : MonoBehaviour, IAcciones
                 {
                     Debug.Log($"Penitente {penitentSelected.CharacterName} era culpable. Castigo aplicado correctamente.");
                     typeDialogue = "P";
-                    ActiveCombat();
                 }
                 else
                 {
@@ -52,7 +51,7 @@ public class A_Decision : MonoBehaviour, IAcciones
                 {
                     Debug.Log($"Penitente {penitentSelected.CharacterName} era culpable. Perdón aplicado incorrectamente.");
                     typeDialogue = "F";
-                    ActiveCombat();
+                    //ActiveCombat();
                 }
                 else
                 {
@@ -65,16 +64,14 @@ public class A_Decision : MonoBehaviour, IAcciones
         };
     }
 
+    private void ActiveDialogueDecision()
+    {
+        playerController.PlayerConversant.QuitDialogue();
+        //ActiveCombat();
+    }
+
     private void ActiveCombat()
     {
-        // IMPORTANTE: Desactivar criptaDialogue PRIMERO para que deje de escuchar
-        // los eventos de OnConversationUpdated del PlayerConversant
-        criptaDialogue.gameObject.SetActive(false);
-
-        // Limpiar el diálogo actual del PlayerConversant para evitar que
-        // CombatDialogue reciba estado residual del diálogo anterior
-        playerController.PlayerConversant.QuitDialogue();
-
         canvasCombat.gameObject.SetActive(true);
         canvasCombat.Initialize(playerController, this);
     }
