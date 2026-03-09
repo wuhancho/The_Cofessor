@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: a18ac36c5fe02e14184c177b96f851a8
+guid: 6bd927242ae00b24687c11024850f117
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rock_Retro
+    second: {fileID: 2100000, guid: c407d49314f0210458aac17a82ea5d63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rock_Stylised
+    second: {fileID: 2100000, guid: 2bceff1749c21e444b64a134fc1dc193, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -68,8 +78,8 @@ ModelImporter:
     useFileScale: 1
     strictVertexDataChecks: 0
   tangentSpace:
-    normalSmoothAngle: 90
-    normalImportMode: 1
+    normalSmoothAngle: 60
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
