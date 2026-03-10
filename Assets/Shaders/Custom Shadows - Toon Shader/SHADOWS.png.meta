@@ -1,0 +1,8060 @@
+fileFormatVersion: 2
+guid: ec00ce1c7a0f4504382f865655b4cb86
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -61649204038389177
+    second: SHADOWS_0
+  - first:
+      213: 6314441879059474458
+    second: SHADOWS_1
+  - first:
+      213: 4377906593288139005
+    second: SHADOWS_2
+  - first:
+      213: -108325686098345503
+    second: SHADOWS_3
+  - first:
+      213: -5807441138127693027
+    second: SHADOWS_4
+  - first:
+      213: 8075898133130445318
+    second: SHADOWS_5
+  - first:
+      213: -2397136143801962408
+    second: SHADOWS_6
+  - first:
+      213: -1828560538151505304
+    second: SHADOWS_7
+  - first:
+      213: 3498683111317789981
+    second: SHADOWS_8
+  - first:
+      213: -6511837535199842425
+    second: SHADOWS_9
+  - first:
+      213: -6272795099600614540
+    second: SHADOWS_10
+  - first:
+      213: -3572855557830862148
+    second: SHADOWS_11
+  - first:
+      213: -5588397099585633136
+    second: SHADOWS_12
+  - first:
+      213: -3977210403698993837
+    second: SHADOWS_13
+  - first:
+      213: -4205816181773843220
+    second: SHADOWS_14
+  - first:
+      213: 1803524791142612769
+    second: SHADOWS_15
+  - first:
+      213: 5304309741460287988
+    second: SHADOWS_16
+  - first:
+      213: 3536790754046354807
+    second: SHADOWS_17
+  - first:
+      213: 1966050252128541940
+    second: SHADOWS_18
+  - first:
+      213: -7025381405401543135
+    second: SHADOWS_19
+  - first:
+      213: 7195521345753390013
+    second: SHADOWS_20
+  - first:
+      213: -8909051953436978977
+    second: SHADOWS_21
+  - first:
+      213: -3001244542404116196
+    second: SHADOWS_22
+  - first:
+      213: 4516416819623084935
+    second: SHADOWS_23
+  - first:
+      213: -672703586811713193
+    second: SHADOWS_24
+  - first:
+      213: 4930142164097485087
+    second: SHADOWS_25
+  - first:
+      213: 1474203977507950135
+    second: SHADOWS_26
+  - first:
+      213: -7874492389607377157
+    second: SHADOWS_27
+  - first:
+      213: -2895159963628511670
+    second: SHADOWS_28
+  - first:
+      213: 5989487872145132274
+    second: SHADOWS_29
+  - first:
+      213: -9221270541725966601
+    second: SHADOWS_30
+  - first:
+      213: -7009332891227346906
+    second: SHADOWS_31
+  - first:
+      213: -8832860009163415161
+    second: SHADOWS_32
+  - first:
+      213: 8413369449794296549
+    second: SHADOWS_33
+  - first:
+      213: -2020998843087356862
+    second: SHADOWS_34
+  - first:
+      213: 1061607148724523955
+    second: SHADOWS_35
+  - first:
+      213: 322197866019808445
+    second: SHADOWS_36
+  - first:
+      213: 2108734476867728997
+    second: SHADOWS_37
+  - first:
+      213: -5995409165424913316
+    second: SHADOWS_38
+  - first:
+      213: -4374357563357417410
+    second: SHADOWS_39
+  - first:
+      213: 5088326873428644471
+    second: SHADOWS_40
+  - first:
+      213: -6295534841785393934
+    second: SHADOWS_41
+  - first:
+      213: -7725605151521187827
+    second: SHADOWS_42
+  - first:
+      213: -2664336164392462782
+    second: SHADOWS_43
+  - first:
+      213: -3014166975265235801
+    second: SHADOWS_44
+  - first:
+      213: 1058225588073472991
+    second: SHADOWS_45
+  - first:
+      213: -6928572521361946222
+    second: SHADOWS_46
+  - first:
+      213: -249918986838547579
+    second: SHADOWS_47
+  - first:
+      213: 3805076532973027759
+    second: SHADOWS_48
+  - first:
+      213: -9150862367686342008
+    second: SHADOWS_49
+  - first:
+      213: -4071136428736506976
+    second: SHADOWS_50
+  - first:
+      213: 3271666922865423981
+    second: SHADOWS_51
+  - first:
+      213: -5962627544836286171
+    second: SHADOWS_52
+  - first:
+      213: -4596201304228656790
+    second: SHADOWS_53
+  - first:
+      213: 3610105343541052065
+    second: SHADOWS_54
+  - first:
+      213: 7912923512246472334
+    second: SHADOWS_55
+  - first:
+      213: 2603010890709525179
+    second: SHADOWS_56
+  - first:
+      213: 3625213395982349248
+    second: SHADOWS_57
+  - first:
+      213: -5812408602657821327
+    second: SHADOWS_58
+  - first:
+      213: 2510207828215132404
+    second: SHADOWS_59
+  - first:
+      213: -1447579058992142720
+    second: SHADOWS_60
+  - first:
+      213: 7069589761661664131
+    second: SHADOWS_61
+  - first:
+      213: -8074174650272632331
+    second: SHADOWS_62
+  - first:
+      213: -63264850722011780
+    second: SHADOWS_63
+  - first:
+      213: -1623772675691903398
+    second: SHADOWS_64
+  - first:
+      213: -5353501992451359123
+    second: SHADOWS_65
+  - first:
+      213: -3952921160364586377
+    second: SHADOWS_66
+  - first:
+      213: -5503503885848018641
+    second: SHADOWS_67
+  - first:
+      213: 5441650101671369121
+    second: SHADOWS_68
+  - first:
+      213: 1541348041490810952
+    second: SHADOWS_69
+  - first:
+      213: -1215993280255154697
+    second: SHADOWS_70
+  - first:
+      213: -1198895961066950283
+    second: SHADOWS_71
+  - first:
+      213: 5802918560061877553
+    second: SHADOWS_72
+  - first:
+      213: 6153641148907692261
+    second: SHADOWS_73
+  - first:
+      213: 1086665490188362787
+    second: SHADOWS_74
+  - first:
+      213: 5158111191346488379
+    second: SHADOWS_75
+  - first:
+      213: -2903245227389268828
+    second: SHADOWS_76
+  - first:
+      213: 272559090887124891
+    second: SHADOWS_77
+  - first:
+      213: 6386007738798230192
+    second: SHADOWS_78
+  - first:
+      213: -3844220196078781328
+    second: SHADOWS_79
+  - first:
+      213: 5825543539787299867
+    second: SHADOWS_80
+  - first:
+      213: -1612166302670992340
+    second: SHADOWS_81
+  - first:
+      213: -826937081028397042
+    second: SHADOWS_82
+  - first:
+      213: 34354983855041895
+    second: SHADOWS_83
+  - first:
+      213: -6853834805104640854
+    second: SHADOWS_84
+  - first:
+      213: -978962675449828416
+    second: SHADOWS_85
+  - first:
+      213: -1297932560126712465
+    second: SHADOWS_86
+  - first:
+      213: 5723748636331330978
+    second: SHADOWS_87
+  - first:
+      213: 7077467351493727105
+    second: SHADOWS_88
+  - first:
+      213: 7851858718103975250
+    second: SHADOWS_89
+  - first:
+      213: 6720715833709066917
+    second: SHADOWS_90
+  - first:
+      213: -8578656976984301925
+    second: SHADOWS_91
+  - first:
+      213: -1333353686759393594
+    second: SHADOWS_92
+  - first:
+      213: 6373058519206957978
+    second: SHADOWS_93
+  - first:
+      213: -6333957390746584508
+    second: SHADOWS_94
+  - first:
+      213: 8975693658986003574
+    second: SHADOWS_95
+  - first:
+      213: 384045450194764632
+    second: SHADOWS_96
+  - first:
+      213: -5655815554462760069
+    second: SHADOWS_97
+  - first:
+      213: -3637702565983157166
+    second: SHADOWS_98
+  - first:
+      213: 2594356147325058046
+    second: SHADOWS_99
+  - first:
+      213: -4975370189844303800
+    second: SHADOWS_100
+  - first:
+      213: -2648706583021945075
+    second: SHADOWS_101
+  - first:
+      213: 1175853263732424357
+    second: SHADOWS_102
+  - first:
+      213: -8716797349446892309
+    second: SHADOWS_103
+  - first:
+      213: -3060942071269398447
+    second: SHADOWS_104
+  - first:
+      213: 7812206153684924992
+    second: SHADOWS_105
+  - first:
+      213: -6679101848665390781
+    second: SHADOWS_106
+  - first:
+      213: 5756028098037425138
+    second: SHADOWS_107
+  - first:
+      213: 7323798934310506163
+    second: SHADOWS_108
+  - first:
+      213: 4296294049348996816
+    second: SHADOWS_109
+  - first:
+      213: -3400883082151436241
+    second: SHADOWS_110
+  - first:
+      213: 4736060041406115710
+    second: SHADOWS_111
+  - first:
+      213: 7822301990413562103
+    second: SHADOWS_112
+  - first:
+      213: -4018496125810121518
+    second: SHADOWS_113
+  - first:
+      213: -3894453126133344889
+    second: SHADOWS_114
+  - first:
+      213: -7594436119675445899
+    second: SHADOWS_115
+  - first:
+      213: 3457529740285059840
+    second: SHADOWS_116
+  - first:
+      213: -7395308081223207094
+    second: SHADOWS_117
+  - first:
+      213: -7010955254567161191
+    second: SHADOWS_118
+  - first:
+      213: -2323639115797149031
+    second: SHADOWS_119
+  - first:
+      213: 9098787991185524
+    second: SHADOWS_120
+  - first:
+      213: -3819429607177571808
+    second: SHADOWS_121
+  - first:
+      213: -6605174932960643316
+    second: SHADOWS_122
+  - first:
+      213: 994520680740805318
+    second: SHADOWS_123
+  - first:
+      213: 1307353599684613668
+    second: SHADOWS_124
+  - first:
+      213: 7168853885014381643
+    second: SHADOWS_125
+  - first:
+      213: 639646904819098627
+    second: SHADOWS_126
+  - first:
+      213: -6088828455848398670
+    second: SHADOWS_127
+  - first:
+      213: -4746393696452585315
+    second: SHADOWS_128
+  - first:
+      213: 8779324255436525524
+    second: SHADOWS_129
+  - first:
+      213: -3971894916023762829
+    second: SHADOWS_130
+  - first:
+      213: -6696559515194272614
+    second: SHADOWS_131
+  - first:
+      213: -6586213229370578782
+    second: SHADOWS_132
+  - first:
+      213: -2944297556790920494
+    second: SHADOWS_133
+  - first:
+      213: -6105745351879744026
+    second: SHADOWS_134
+  - first:
+      213: 3974592847140508770
+    second: SHADOWS_135
+  - first:
+      213: 7857998311188565077
+    second: SHADOWS_136
+  - first:
+      213: -4821892374211537096
+    second: SHADOWS_137
+  - first:
+      213: -1791405818356816604
+    second: SHADOWS_138
+  - first:
+      213: 3929754358552298177
+    second: SHADOWS_139
+  - first:
+      213: -5633972120922606778
+    second: SHADOWS_140
+  - first:
+      213: -6457469548962702569
+    second: SHADOWS_141
+  - first:
+      213: -4863498920891167759
+    second: SHADOWS_142
+  - first:
+      213: 8818629805684033739
+    second: SHADOWS_143
+  - first:
+      213: 652635341647446483
+    second: SHADOWS_144
+  - first:
+      213: 7778865732778325050
+    second: SHADOWS_145
+  - first:
+      213: -6561206684164827067
+    second: SHADOWS_146
+  - first:
+      213: -5862651451145079847
+    second: SHADOWS_147
+  - first:
+      213: 8001287218072924994
+    second: SHADOWS_148
+  - first:
+      213: 2057397717168605793
+    second: SHADOWS_149
+  - first:
+      213: 5473944734423298192
+    second: SHADOWS_150
+  - first:
+      213: 8823665459342298694
+    second: SHADOWS_151
+  - first:
+      213: 2658260080159206834
+    second: SHADOWS_152
+  - first:
+      213: 1254877215648876951
+    second: SHADOWS_153
+  - first:
+      213: 1491462184469622976
+    second: SHADOWS_154
+  - first:
+      213: 3518984373333732180
+    second: SHADOWS_155
+  - first:
+      213: 8751307955558941520
+    second: SHADOWS_156
+  - first:
+      213: 781656743221646625
+    second: SHADOWS_157
+  - first:
+      213: 2144676074345933289
+    second: SHADOWS_158
+  - first:
+      213: 7013770127556488507
+    second: SHADOWS_159
+  - first:
+      213: -3963987595128676109
+    second: SHADOWS_160
+  - first:
+      213: 9047647772106828159
+    second: SHADOWS_161
+  - first:
+      213: -7593146695256927629
+    second: SHADOWS_162
+  - first:
+      213: 1244346064660728696
+    second: SHADOWS_163
+  - first:
+      213: 6202462367685635738
+    second: SHADOWS_164
+  - first:
+      213: -4353042004785223948
+    second: SHADOWS_165
+  - first:
+      213: -8168714271394493502
+    second: SHADOWS_166
+  - first:
+      213: -3704918493993523023
+    second: SHADOWS_167
+  - first:
+      213: 6329613012551447166
+    second: SHADOWS_168
+  - first:
+      213: 7289433409487161835
+    second: SHADOWS_169
+  - first:
+      213: 5597335954008878506
+    second: SHADOWS_170
+  - first:
+      213: 6112567182559755049
+    second: SHADOWS_171
+  - first:
+      213: 733368993082574298
+    second: SHADOWS_172
+  - first:
+      213: -8006876804067909513
+    second: SHADOWS_173
+  - first:
+      213: 5122796397683717653
+    second: SHADOWS_174
+  - first:
+      213: -6005000423962219294
+    second: SHADOWS_175
+  - first:
+      213: -215831437845154128
+    second: SHADOWS_176
+  - first:
+      213: -7786774209934826432
+    second: SHADOWS_177
+  - first:
+      213: 3398246916747165840
+    second: SHADOWS_178
+  - first:
+      213: -600578012774525766
+    second: SHADOWS_179
+  - first:
+      213: 4546679134472963946
+    second: SHADOWS_180
+  - first:
+      213: 8605742375932929027
+    second: SHADOWS_181
+  - first:
+      213: -3971664615058053461
+    second: SHADOWS_182
+  - first:
+      213: 8523784466766039573
+    second: SHADOWS_183
+  - first:
+      213: -4461828034422160880
+    second: SHADOWS_184
+  - first:
+      213: 1214736394027875781
+    second: SHADOWS_185
+  - first:
+      213: 8743046421060107235
+    second: SHADOWS_186
+  - first:
+      213: -6822258306348121186
+    second: SHADOWS_187
+  - first:
+      213: 3993057305551257446
+    second: SHADOWS_188
+  - first:
+      213: -634187724204704857
+    second: SHADOWS_189
+  - first:
+      213: 127443229482004579
+    second: SHADOWS_190
+  - first:
+      213: 8848319368116720723
+    second: SHADOWS_191
+  - first:
+      213: -1506994870917571939
+    second: SHADOWS_192
+  - first:
+      213: 5465444942662480712
+    second: SHADOWS_193
+  - first:
+      213: -6859269905120487874
+    second: SHADOWS_194
+  - first:
+      213: -13138980526204221
+    second: SHADOWS_195
+  - first:
+      213: 8444652150942585978
+    second: SHADOWS_196
+  - first:
+      213: -3013464191663345494
+    second: SHADOWS_197
+  - first:
+      213: 5801248968402423934
+    second: SHADOWS_198
+  - first:
+      213: 8996017032870303673
+    second: SHADOWS_199
+  - first:
+      213: 7658198670485747661
+    second: SHADOWS_200
+  - first:
+      213: 8643700725538909660
+    second: SHADOWS_201
+  - first:
+      213: -6147484398918355280
+    second: SHADOWS_202
+  - first:
+      213: -7343935915911247608
+    second: SHADOWS_203
+  - first:
+      213: -5806611039167392973
+    second: SHADOWS_204
+  - first:
+      213: -3120678504491494198
+    second: SHADOWS_205
+  - first:
+      213: 3838635499157732767
+    second: SHADOWS_206
+  - first:
+      213: -4360411052336856653
+    second: SHADOWS_207
+  - first:
+      213: -3007009555684218257
+    second: SHADOWS_208
+  - first:
+      213: -6715953145129202997
+    second: SHADOWS_209
+  - first:
+      213: -4293224131501389683
+    second: SHADOWS_210
+  - first:
+      213: -8994417028529107099
+    second: SHADOWS_211
+  - first:
+      213: 2847761263738158452
+    second: SHADOWS_212
+  - first:
+      213: 9068123535901682095
+    second: SHADOWS_213
+  - first:
+      213: 7962762648542944367
+    second: SHADOWS_214
+  - first:
+      213: 322102193039426363
+    second: SHADOWS_215
+  - first:
+      213: 3553370661776921702
+    second: SHADOWS_216
+  - first:
+      213: 8173756618601003191
+    second: SHADOWS_217
+  - first:
+      213: 8120744268558067365
+    second: SHADOWS_218
+  - first:
+      213: 4178568217135229393
+    second: SHADOWS_219
+  - first:
+      213: 2877992219668678153
+    second: SHADOWS_220
+  - first:
+      213: -1217639840265417981
+    second: SHADOWS_221
+  - first:
+      213: -1390547920573432101
+    second: SHADOWS_222
+  - first:
+      213: 765086887804779315
+    second: SHADOWS_223
+  - first:
+      213: -711736277824549203
+    second: SHADOWS_224
+  - first:
+      213: -5751583751390215223
+    second: SHADOWS_225
+  - first:
+      213: -2992121355601891394
+    second: SHADOWS_226
+  - first:
+      213: 968553318076165938
+    second: SHADOWS_227
+  - first:
+      213: 5846881677440594859
+    second: SHADOWS_228
+  - first:
+      213: -7263819029233726074
+    second: SHADOWS_229
+  - first:
+      213: -9127005382595984724
+    second: SHADOWS_230
+  - first:
+      213: 7091907252791365310
+    second: SHADOWS_231
+  - first:
+      213: 2635959451062160582
+    second: SHADOWS_232
+  - first:
+      213: 7741811081622318858
+    second: SHADOWS_233
+  - first:
+      213: 8358004881013685488
+    second: SHADOWS_234
+  - first:
+      213: 6936503588703457013
+    second: SHADOWS_235
+  - first:
+      213: -682310563828823066
+    second: SHADOWS_236
+  - first:
+      213: 8012611554897265660
+    second: SHADOWS_237
+  - first:
+      213: 2021524482356896090
+    second: SHADOWS_238
+  - first:
+      213: -489911729104295899
+    second: SHADOWS_239
+  - first:
+      213: -1979205140687250299
+    second: SHADOWS_240
+  - first:
+      213: 8893466896364802035
+    second: SHADOWS_241
+  - first:
+      213: 5467228066168560163
+    second: SHADOWS_242
+  - first:
+      213: 8902143422761497935
+    second: SHADOWS_243
+  - first:
+      213: -1569546020836348058
+    second: SHADOWS_244
+  - first:
+      213: 7777160182033033389
+    second: SHADOWS_245
+  - first:
+      213: -6001146661343077054
+    second: SHADOWS_246
+  - first:
+      213: 5664988070815871366
+    second: SHADOWS_247
+  - first:
+      213: 829365958157561945
+    second: SHADOWS_248
+  - first:
+      213: 8425998698489877483
+    second: SHADOWS_249
+  - first:
+      213: 424897967869090806
+    second: SHADOWS_250
+  - first:
+      213: 5099082272662223593
+    second: SHADOWS_251
+  - first:
+      213: -4079217005675183941
+    second: SHADOWS_252
+  - first:
+      213: 1412774083533455957
+    second: SHADOWS_253
+  - first:
+      213: 6175949136749229737
+    second: SHADOWS_254
+  - first:
+      213: -1908971440537259396
+    second: SHADOWS_255
+  - first:
+      213: 6032697538831047816
+    second: SHADOWS_256
+  - first:
+      213: -5542915869719255254
+    second: SHADOWS_257
+  - first:
+      213: 4767217916846933080
+    second: SHADOWS_258
+  - first:
+      213: 6140671474437550502
+    second: SHADOWS_259
+  - first:
+      213: 6386208034505528771
+    second: SHADOWS_260
+  - first:
+      213: 4439487333462758972
+    second: SHADOWS_261
+  - first:
+      213: 1591907054301755646
+    second: SHADOWS_262
+  - first:
+      213: 3015936377610905849
+    second: SHADOWS_263
+  - first:
+      213: 3282649412405740033
+    second: SHADOWS_264
+  - first:
+      213: 3006844030918695788
+    second: SHADOWS_265
+  - first:
+      213: 6904934773176309823
+    second: SHADOWS_266
+  - first:
+      213: -8114260290750660023
+    second: SHADOWS_267
+  - first:
+      213: -2306394809051649426
+    second: SHADOWS_268
+  - first:
+      213: -7150023680202075312
+    second: SHADOWS_269
+  - first:
+      213: -2714266658746727714
+    second: SHADOWS_270
+  - first:
+      213: -5923871314429170071
+    second: SHADOWS_271
+  - first:
+      213: -4443466594476278445
+    second: SHADOWS_272
+  - first:
+      213: -9081783214593302127
+    second: SHADOWS_273
+  - first:
+      213: 8020849412110208381
+    second: SHADOWS_274
+  - first:
+      213: -1190905702979936136
+    second: SHADOWS_275
+  - first:
+      213: -968553864320548885
+    second: SHADOWS_276
+  - first:
+      213: -971987508550653766
+    second: SHADOWS_277
+  - first:
+      213: 8996837940241714902
+    second: SHADOWS_278
+  - first:
+      213: 3407722082568097185
+    second: SHADOWS_279
+  - first:
+      213: -5274297398756680446
+    second: SHADOWS_280
+  - first:
+      213: 1753292577882145773
+    second: SHADOWS_281
+  - first:
+      213: -8830458715233882499
+    second: SHADOWS_282
+  - first:
+      213: 1348922864093847719
+    second: SHADOWS_283
+  - first:
+      213: 674334261093918987
+    second: SHADOWS_284
+  - first:
+      213: -3161184876745848205
+    second: SHADOWS_285
+  - first:
+      213: 2525710698138227039
+    second: SHADOWS_286
+  - first:
+      213: 6690692392117516906
+    second: SHADOWS_287
+  - first:
+      213: -6637671019018963714
+    second: SHADOWS_288
+  - first:
+      213: -5332390749025663259
+    second: SHADOWS_289
+  - first:
+      213: 9012484221158694113
+    second: SHADOWS_290
+  - first:
+      213: -787306270860811464
+    second: SHADOWS_291
+  - first:
+      213: -9014766174990796491
+    second: SHADOWS_292
+  - first:
+      213: 2231867399661274628
+    second: SHADOWS_293
+  - first:
+      213: -2122736198791898866
+    second: SHADOWS_294
+  - first:
+      213: -8727320115489296901
+    second: SHADOWS_295
+  - first:
+      213: -4492034647972940950
+    second: SHADOWS_296
+  - first:
+      213: -764900435247572332
+    second: SHADOWS_297
+  - first:
+      213: 6134917690130025553
+    second: SHADOWS_298
+  - first:
+      213: 7659503957083811508
+    second: SHADOWS_299
+  - first:
+      213: 520677095132873401
+    second: SHADOWS_300
+  - first:
+      213: 2464887360058407096
+    second: SHADOWS_301
+  - first:
+      213: 1222488255291394386
+    second: SHADOWS_302
+  - first:
+      213: 8887358502588241400
+    second: SHADOWS_303
+  - first:
+      213: 6721743740457960528
+    second: SHADOWS_304
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 2
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SHADOWS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 714
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7423b94206af42ff0800000000000000
+      internalID: -61649204038389177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 722
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a18a0340f6761a750800000000000000
+      internalID: 6314441879059474458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 732
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0b7c8f9d271cc30800000000000000
+      internalID: 4377906593288139005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_3
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 727
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1ce08cc562f7ef0800000000000000
+      internalID: -108325686098345503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 708
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b98e3dd03d76fa0800000000000000
+      internalID: -5807441138127693027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_5
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 725
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6020b7b609a531070800000000000000
+      internalID: 8075898133130445318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_6
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 706
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8503f66b069abbed0800000000000000
+      internalID: -2397136143801962408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_7
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 728
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862be21f0e5af96e0800000000000000
+      internalID: -1828560538151505304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_8
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 720
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d51cfb0c1dd8030800000000000000
+      internalID: 3498683111317789981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_9
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 725
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78fab5f434e41a5a0800000000000000
+      internalID: -6511837535199842425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_10
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 728
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b8e73771e82f8a0800000000000000
+      internalID: -6272795099600614540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_11
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 722
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba16b9cccaaa6ec0800000000000000
+      internalID: -3572855557830862148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_12
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 466
+        width: 225
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094006f42760272b0800000000000000
+      internalID: -5588397099585633136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_13
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 732
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3559882c53c1ec8c0800000000000000
+      internalID: -3977210403698993837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_14
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 729
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4c7ce4770f1a5c0800000000000000
+      internalID: -4205816181773843220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_15
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 513
+        width: 148
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f7aa7fd38670910800000000000000
+      internalID: 1803524791142612769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_16
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 715
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1726e3b91bc9940800000000000000
+      internalID: 5304309741460287988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_17
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 676
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775a1dbb374351130800000000000000
+      internalID: 3536790754046354807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_18
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 716
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc50b8a940d84b10800000000000000
+      internalID: 1966050252128541940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_19
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 717
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e086775d4d08e90800000000000000
+      internalID: -7025381405401543135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_20
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 718
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb1f5b5a80abd360800000000000000
+      internalID: 7195521345753390013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_21
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 713
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd093e55370bc5480800000000000000
+      internalID: -8909051953436978977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_22
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 721
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c114ced6dff6956d0800000000000000
+      internalID: -3001244542404116196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_23
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 565
+        width: 153
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783cb3f1b298dae30800000000000000
+      internalID: 4516416819623084935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_24
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 706
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759e4f4e6a31aa6f0800000000000000
+      internalID: -672703586811713193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_25
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 713
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19c43f5d226b6440800000000000000
+      internalID: 4930142164097485087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_26
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 701
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e44d5f4bc657410800000000000000
+      internalID: 1474203977507950135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_27
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 710
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf67fea74ee28b290800000000000000
+      internalID: -7874492389607377157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_28
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 705
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e5dff2a5352d7d0800000000000000
+      internalID: -2895159963628511670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_29
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 713
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa88bd6c7fee1350800000000000000
+      internalID: 5989487872145132274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_30
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 707
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe56a67c47770080800000000000000
+      internalID: -9221270541725966601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_31
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 700
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628aee95fd8d9be90800000000000000
+      internalID: -7009332891227346906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_32
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 700
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781af03ce906b6580800000000000000
+      internalID: -8832860009163415161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_33
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 703
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eadc1b40fa42c470800000000000000
+      internalID: 8413369449794296549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_34
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 691
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c7d4a8248f3f3e0800000000000000
+      internalID: -2020998843087356862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_35
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 698
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b39dbeb3169bbe00800000000000000
+      internalID: 1061607148724523955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_36
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 704
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4ef77804da87400800000000000000
+      internalID: 322197866019808445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_37
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 701
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566f15b85dab34d10800000000000000
+      internalID: 2108734476867728997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_38
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 693
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c541abb01270ccca0800000000000000
+      internalID: -5995409165424913316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_39
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 685
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30b983f8f82b43c0800000000000000
+      internalID: -4374357563357417410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_40
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 696
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772d9cf055e5d9640800000000000000
+      internalID: 5088326873428644471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_41
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 687
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc5944aa64c1a8a0800000000000000
+      internalID: -6295534841785393934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_42
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 695
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08d6a4fb0329c490800000000000000
+      internalID: -7725605151521187827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_43
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 690
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246192fef50660bd0800000000000000
+      internalID: -2664336164392462782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_44
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 690
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac1a911b178b26d0800000000000000
+      internalID: -3014166975265235801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_45
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 686
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3295dc0929fae00800000000000000
+      internalID: 1058225588073472991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_46
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 677
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29940bf3004c8df90800000000000000
+      internalID: -6928572521361946222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_47
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 680
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583ecde610c188cf0800000000000000
+      internalID: -249918986838547579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_48
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 680
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1480352f85ec430800000000000000
+      internalID: 3805076532973027759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_49
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 670
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ac091f82b910180800000000000000
+      internalID: -9150862367686342008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_50
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 683
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a31205ecfa6087c0800000000000000
+      internalID: -4071136428736506976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_51
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 676
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66f9c87bbb476d20800000000000000
+      internalID: 3271666922865423981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_52
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 683
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529d21ed6dd704da0800000000000000
+      internalID: -5962627544836286171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_53
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 675
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a698349f3430730c0800000000000000
+      internalID: -4596201304228656790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_54
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 665
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2018bceaba91230800000000000000
+      internalID: 3610105343541052065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_55
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 677
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e894a820a50dd60800000000000000
+      internalID: 7912923512246472334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_56
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 682
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2e63f1d90cf1420800000000000000
+      internalID: 2603010890709525179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_57
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 669
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3f38e50685f4230800000000000000
+      internalID: 3625213395982349248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_58
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 673
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17de72ddb2d265fa0800000000000000
+      internalID: -5812408602657821327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_59
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 672
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0fa2958bc06d220800000000000000
+      internalID: 2510207828215132404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_60
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 668
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086aa74f38a29ebe0800000000000000
+      internalID: -1447579058992142720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_61
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 667
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38bf4939e6a3c1260800000000000000
+      internalID: 7069589761661664131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_62
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 676
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f139043fe4c2ff80800000000000000
+      internalID: -8074174650272632331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_63
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 667
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7542f514fc3f1ff0800000000000000
+      internalID: -63264850722011780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_64
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 669
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a560665ca533779e0800000000000000
+      internalID: -1623772675691903398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_65
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 672
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e379b4d4a84b5b0800000000000000
+      internalID: -5353501992451359123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_66
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 671
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a085be5276429c0800000000000000
+      internalID: -3952921160364586377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_67
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 661
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f210c08ef50af93b0800000000000000
+      internalID: -5503503885848018641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_68
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 664
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a91716bfef948b40800000000000000
+      internalID: 5441650101671369121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_69
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 658
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848cd4890e7f36510800000000000000
+      internalID: 1541348041490810952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_70
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 665
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f52121ed8cef1fe0800000000000000
+      internalID: -1215993280255154697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_71
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 660
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57134f5b97aac5fe0800000000000000
+      internalID: -1198895961066950283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_72
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 663
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d62096fab188050800000000000000
+      internalID: 5802918560061877553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_73
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 656
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0aed38500266550800000000000000
+      internalID: 6153641148907692261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_74
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 667
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3246a54818c941f00800000000000000
+      internalID: 1086665490188362787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_75
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 663
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34ac28bcca459740800000000000000
+      internalID: 5158111191346488379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_76
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 662
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac4d9509d995b7d0800000000000000
+      internalID: -2903245227389268828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_77
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 658
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9761a09c0358c300800000000000000
+      internalID: 272559090887124891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_78
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 663
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bac6f33438af9850800000000000000
+      internalID: 6386007738798230192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_79
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 662
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c7756691696aac0800000000000000
+      internalID: -3844220196078781328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_80
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 665
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1cf7900cfc78d050800000000000000
+      internalID: 5825543539787299867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_81
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 658
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2cc0721a4f60a9e0800000000000000
+      internalID: -1612166302670992340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_82
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 666
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0834b92b112684f0800000000000000
+      internalID: -826937081028397042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_83
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 662
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76da1f00dad0a7000800000000000000
+      internalID: 34354983855041895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_84
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 654
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac7784de8942e0a0800000000000000
+      internalID: -6853834805104640854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_85
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 649
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb627922a60a62f0800000000000000
+      internalID: -978962675449828416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_86
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 657
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f65eb3b9631dcfde0800000000000000
+      internalID: -1297932560126712465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_87
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 650
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2adc72c1f07de6f40800000000000000
+      internalID: 5723748636331330978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_88
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 654
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1835533ee07383260800000000000000
+      internalID: 7077467351493727105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_89
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 648
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255342737e767fc60800000000000000
+      internalID: 7851858718103975250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_90
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 656
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa72906177c44d50800000000000000
+      internalID: 6720715833709066917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_91
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 649
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e9cec5eec72f880800000000000000
+      internalID: -8578656976984301925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_92
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 654
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6bfb4e2e9fe7de0800000000000000
+      internalID: -1333353686759393594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_93
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 652
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a939b1215f6a17850800000000000000
+      internalID: 6373058519206957978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_94
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 656
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44af616df434918a0800000000000000
+      internalID: -6333957390746584508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_95
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 652
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c369cd3d1109c70800000000000000
+      internalID: 8975693658986003574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_96
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 639
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853c67c5d47645500800000000000000
+      internalID: 384045450194764632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_97
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 657
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b734e1118b18281b0800000000000000
+      internalID: -5655815554462760069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_98
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 652
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2540c042ac8448dc0800000000000000
+      internalID: -3637702565983157166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_99
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 655
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb3926ab21010420800000000000000
+      internalID: 2594356147325058046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_100
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 648
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84033484c2fe3fab0800000000000000
+      internalID: -4975370189844303800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_101
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 605
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ffcbc6567ed3bd0800000000000000
+      internalID: -2648706583021945075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_102
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 642
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae31cc3058715010800000000000000
+      internalID: 1175853263732424357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_103
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 645
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4c6278ef6b70780800000000000000
+      internalID: -8716797349446892309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_104
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 641
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15860fb57695585d0800000000000000
+      internalID: -3060942071269398447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_105
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 641
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ab28e1b188a6c60800000000000000
+      internalID: 7812206153684924992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_106
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 647
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34105ab81401f43a0800000000000000
+      internalID: -6679101848665390781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_107
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 642
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f320b4fe0581ef40800000000000000
+      internalID: 5756028098037425138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_108
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 644
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be46fdd35c53a560800000000000000
+      internalID: 7323798934310506163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_109
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 637
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de4216dca08f9b30800000000000000
+      internalID: 4296294049348996816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_110
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 648
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f206abdfad2adc0d0800000000000000
+      internalID: -3400883082151436241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_111
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 643
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7feee2d38dd9b140800000000000000
+      internalID: 4736060041406115710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_112
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 643
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f07e6847366e8c60800000000000000
+      internalID: 7822301990413562103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_113
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 634
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4edc1801f6b38c0800000000000000
+      internalID: -4018496125810121518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_114
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 638
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7859966f38f14f9c0800000000000000
+      internalID: -3894453126133344889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_115
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 615
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d595116942b9690800000000000000
+      internalID: -7594436119675445899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_116
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 637
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0032a02eafc9bff20800000000000000
+      internalID: 3457529740285059840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_117
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 540
+        width: 67
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a477d1e6b769e5990800000000000000
+      internalID: -7395308081223207094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_118
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 639
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992bd53775514be90800000000000000
+      internalID: -7010955254567161191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_119
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 641
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a45bc0986c0cfd0800000000000000
+      internalID: -2323639115797149031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_120
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 628
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478e91aac43502000800000000000000
+      internalID: 9098787991185524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_121
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 631
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022329b2209aefac0800000000000000
+      internalID: -3819429607177571808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_122
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 625
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07f099e464b554a0800000000000000
+      internalID: -6605174932960643316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_123
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 628
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cad5593a4f3dcd00800000000000000
+      internalID: 994520680740805318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_124
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 631
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42697091c27a42210800000000000000
+      internalID: 1307353599684613668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_125
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 634
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4416fe40a2ec7360800000000000000
+      internalID: 7168853885014381643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_126
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 609
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304ab6f887b70e800800000000000000
+      internalID: 639646904819098627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_127
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 624
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0bdd687c2208ba0800000000000000
+      internalID: -6088828455848398670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_128
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 619
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d985ace941c612eb0800000000000000
+      internalID: -4746393696452585315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_129
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 622
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfc34d35ec66d970800000000000000
+      internalID: 8779324255436525524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_130
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 617
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370493d2e9ef0e8c0800000000000000
+      internalID: -3971894916023762829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_131
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 625
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94559fc99a0113a0800000000000000
+      internalID: -6696559515194272614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_132
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 622
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8636096f11994a0800000000000000
+      internalID: -6586213229370578782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_133
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 621
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da3d6eb8f0c327d0800000000000000
+      internalID: -2944297556790920494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_134
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 623
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5273cb3f8044ba0800000000000000
+      internalID: -6105745351879744026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_135
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 608
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2645e9cd227982730800000000000000
+      internalID: 3974592847140508770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_136
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 615
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c8300a4d73d0d60800000000000000
+      internalID: 7857998311188565077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_137
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 610
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837d4f1ee62351db0800000000000000
+      internalID: -4821892374211537096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_138
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 614
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425264446e5a327e0800000000000000
+      internalID: -1791405818356816604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_139
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 608
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c28d04b4ca498630800000000000000
+      internalID: 3929754358552298177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_140
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 616
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64334f1c43c10d1b0800000000000000
+      internalID: -5633972120922606778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_141
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 595
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b1d2a88a57266a0800000000000000
+      internalID: -6457469548962702569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_142
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 600
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb49c6df71618cb0800000000000000
+      internalID: -4863498920891167759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_143
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 597
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8087dc511126a70800000000000000
+      internalID: 8818629805684033739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_144
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 600
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d103caa260ae0900800000000000000
+      internalID: 652635341647446483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_145
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 590
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34f5b57b2514fb60800000000000000
+      internalID: 7778865732778325050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_146
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 597
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548df649849e1f4a0800000000000000
+      internalID: -6561206684164827067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_147
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 586
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3b19c119da3aea0800000000000000
+      internalID: -5862651451145079847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_148
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 389
+        width: 141
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2433c1b05584a0f60800000000000000
+      internalID: 8001287218072924994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_149
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 582
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ac88db2585d8c10800000000000000
+      internalID: 2057397717168605793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_150
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 587
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090bb67dbbb57fb40800000000000000
+      internalID: 5473944734423298192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_151
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 581
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e4bf84cf4f37a70800000000000000
+      internalID: 8823665459342298694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_152
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 582
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bdad76757904e420800000000000000
+      internalID: 2658260080159206834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_153
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 574
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7998b73dd283a6110800000000000000
+      internalID: 1254877215648876951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_154
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 574
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c07d3564fcb2b410800000000000000
+      internalID: 1491462184469622976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_155
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 576
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b25b6a4a1f5d030800000000000000
+      internalID: 3518984373333732180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_156
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 571
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053042b1834e27970800000000000000
+      internalID: 8751307955558941520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_157
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 579
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125d304aaa009da00800000000000000
+      internalID: 781656743221646625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_158
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 567
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e92ba1d68b63cd10800000000000000
+      internalID: 2144676074345933289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_159
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 570
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d204d35cae55160800000000000000
+      internalID: 7013770127556488507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_160
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 566
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0ec4ac8461df8c0800000000000000
+      internalID: -3963987595128676109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_161
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 569
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79284556b3bf8d70800000000000000
+      internalID: 9047647772106828159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_162
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 556
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37297c59f49bf9690800000000000000
+      internalID: -7593146695256927629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_163
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 569
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b02c9272ec44110800000000000000
+      internalID: 1244346064660728696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_164
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 569
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e61ae49a2931650800000000000000
+      internalID: 6202462367685635738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_165
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 555
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f62c6c2c53e693c0800000000000000
+      internalID: -4353042004785223948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_166
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 562
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb0edd56a5e2ae80800000000000000
+      internalID: -8168714271394493502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_167
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 554
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b8adbb524c759cc0800000000000000
+      internalID: -3704918493993523023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_168
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 551
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72b1dacf7d47d750800000000000000
+      internalID: 6329613012551447166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_169
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 554
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9c85a9015492560800000000000000
+      internalID: 7289433409487161835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_170
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 542
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aada83be46bbdad40800000000000000
+      internalID: 5597335954008878506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_171
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 2
+        width: 552
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b3f2e777334d450800000000000000
+      internalID: 6112567182559755049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_172
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 522
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad509f1b6337d2a00800000000000000
+      internalID: 733368993082574298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_173
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 560
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770a73d08fbd1e090800000000000000
+      internalID: -8006876804067909513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_174
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 556
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516b6949e24d71740800000000000000
+      internalID: 5122796397683717653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_175
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 548
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec69a52ee3f9aca0800000000000000
+      internalID: -6005000423962219294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_176
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 543
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6b0e76376310df0800000000000000
+      internalID: -215831437845154128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_177
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 541
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04469a6bc12dfe390800000000000000
+      internalID: -7786774209934826432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_178
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 540
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09008cbe09ff82f20800000000000000
+      internalID: 3398246916747165840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_179
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 526
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab41aa8ba715aa7f0800000000000000
+      internalID: -600578012774525766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_180
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 525
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6701fd559c091f30800000000000000
+      internalID: 4546679134472963946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_181
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 511
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3042202881dbd6770800000000000000
+      internalID: 8605742375932929027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_182
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 519
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6e97c4310d1e8c0800000000000000
+      internalID: -3971664615058053461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_183
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 500
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a0593cfc09a4670800000000000000
+      internalID: 8523784466766039573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_184
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 503
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012436fda076412c0800000000000000
+      internalID: -4461828034422160880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_185
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 509
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd35cd705c9bd010800000000000000
+      internalID: 1214736394027875781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_186
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 495
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ebb906b56a855970800000000000000
+      internalID: 8743046421060107235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_187
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 491
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93892c57387251a0800000000000000
+      internalID: -6822258306348121186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_188
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 456
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f392996703a6730800000000000000
+      internalID: 3993057305551257446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_189
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 463
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab7dd9ff99e237f0800000000000000
+      internalID: -634187724204704857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_190
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 458
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360bd4621f4c4c100800000000000000
+      internalID: 127443229482004579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_191
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 444
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3545ecbb59b8bca70800000000000000
+      internalID: 8848319368116720723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_192
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 449
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a5f983624161be0800000000000000
+      internalID: -1506994870917571939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_193
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 450
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8433adad73929db40800000000000000
+      internalID: 5465444942662480712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_194
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 431
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3614cefc5afec0a0800000000000000
+      internalID: -6859269905120487874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_195
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 434
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca5605ba2251dff0800000000000000
+      internalID: -13138980526204221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_196
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 441
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74dbacb36e613570800000000000000
+      internalID: 8444652150942585978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_197
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 437
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0fb80a8460e26d0800000000000000
+      internalID: -3013464191663345494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_198
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 365
+        width: 48
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e705a3f433d228050800000000000000
+      internalID: 5801248968402423934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_199
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 436
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7199514d548dc70800000000000000
+      internalID: 8996017032870303673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_200
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 439
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7fbadad13674a60800000000000000
+      internalID: 7658198670485747661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_201
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 427
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd688a730894f770800000000000000
+      internalID: 8643700725538909660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_202
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 425
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6373c828fbfaaa0800000000000000
+      internalID: -6147484398918355280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_203
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 416
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80980eeb139151a90800000000000000
+      internalID: -7343935915911247608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_204
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 409
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333d09d4606ca6fa0800000000000000
+      internalID: -5806611039167392973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_205
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 419
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac456992f6f11b4d0800000000000000
+      internalID: -3120678504491494198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_206
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 415
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d308506a2954530800000000000000
+      internalID: 3838635499157732767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_207
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 402
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b146c61045bc73c0800000000000000
+      internalID: -4360411052336856653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_208
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 417
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6aac3dadb4f446d0800000000000000
+      internalID: -3007009555684218257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_209
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 401
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca086872342cc2a0800000000000000
+      internalID: -6715953145129202997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_210
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 404
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8889bc16676b64c0800000000000000
+      internalID: -4293224131501389683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_211
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 400
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f4cc4fd596d2380800000000000000
+      internalID: -8994417028529107099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_212
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 406
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47dfa3208c7458720800000000000000
+      internalID: 2847761263738158452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_213
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 392
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa967c89f4278dd70800000000000000
+      internalID: 9068123535901682095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_214
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 396
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c9629b07a618e60800000000000000
+      internalID: 7962762648542944367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_215
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 392
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b334d7dec36587400800000000000000
+      internalID: 322102193039426363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_216
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 395
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66412825acb105130800000000000000
+      internalID: 3553370661776921702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_217
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 385
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8f53496540f6170800000000000000
+      internalID: 8173756618601003191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_218
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 384
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6613ff2eda2b070800000000000000
+      internalID: 8120744268558067365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_219
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 387
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9251c87a14df930800000000000000
+      internalID: 4178568217135229393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_220
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 385
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90680bfecaea0f720800000000000000
+      internalID: 2877992219668678153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_221
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 385
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30bcd9044031a1fe0800000000000000
+      internalID: -1217639840265417981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_222
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 387
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdeff0f9808c3bce0800000000000000
+      internalID: -1390547920573432101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_223
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 389
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bb9e988722e9a00800000000000000
+      internalID: 765086887804779315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_224
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 381
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae428250a76f16f0800000000000000
+      internalID: -711736277824549203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_225
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 375
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c34a722d054e20b0800000000000000
+      internalID: -5751583751390215223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_226
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 379
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf2d72ea79d976d0800000000000000
+      internalID: -2992121355601891394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_227
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 377
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fa4f57c1ef07d00800000000000000
+      internalID: 968553318076165938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_228
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 381
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3369358eb442150800000000000000
+      internalID: 5846881677440594859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_229
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 377
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d0dc9041bb13b90800000000000000
+      internalID: -7263819029233726074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_230
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 373
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2c94326fc565180800000000000000
+      internalID: -9127005382595984724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_231
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 375
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe45a662148b6260800000000000000
+      internalID: 7091907252791365310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_232
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 373
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ccc4e2a72fc49420800000000000000
+      internalID: 2635959451062160582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_233
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 367
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0fe74e2920707b60800000000000000
+      internalID: 7741811081622318858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_234
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 372
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc3dcb18299df370800000000000000
+      internalID: 8358004881013685488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_235
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 369
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe44e34349634060800000000000000
+      internalID: 6936503588703457013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_236
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 366
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb8c704822f786f0800000000000000
+      internalID: -682310563828823066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_237
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 366
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf387dca1c3823f60800000000000000
+      internalID: 8012611554897265660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_238
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 368
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5163a36ec5ed0c10800000000000000
+      internalID: 2021524482356896090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_239
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 368
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528e077c0eb7339f0800000000000000
+      internalID: -489911729104295899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_240
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 117
+        width: 188
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c95bb29637884e0800000000000000
+      internalID: -1979205140687250299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_241
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 361
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff058bc501fb6b70800000000000000
+      internalID: 8893466896364802035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_242
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 363
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ad506a5fe7fdb40800000000000000
+      internalID: 5467228066168560163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_243
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 359
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4577450744ca8b70800000000000000
+      internalID: 8902143422761497935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_244
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 354
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66feb69b53ad73ae0800000000000000
+      internalID: -1569546020836348058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_245
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 362
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8246bfaf50eeb60800000000000000
+      internalID: 7777160182033033389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_246
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 358
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ddf9d28e4a7bca0800000000000000
+      internalID: -6001146661343077054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_247
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 359
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6813ec1d2a41e9e40800000000000000
+      internalID: 5664988070815871366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_248
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 349
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95078ccd1ff728b00800000000000000
+      internalID: 829365958157561945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_249
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 350
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be394656c292fe470800000000000000
+      internalID: 8425998698489877483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_250
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 353
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb5f98537a85e500800000000000000
+      internalID: 424897967869090806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_251
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 349
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eaf5869f4493c640800000000000000
+      internalID: 5099082272662223593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_252
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 336
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb08ff6feb5b367c0800000000000000
+      internalID: -4079217005675183941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_253
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 343
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552c3e43b8e2b9310800000000000000
+      internalID: 1412774083533455957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_254
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 339
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a671dea40165b550800000000000000
+      internalID: 6175949136749229737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_255
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 331
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c723968c698f185e0800000000000000
+      internalID: -1908971440537259396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_256
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 302
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88cd56fe27278b350800000000000000
+      internalID: 6032697538831047816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_257
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 222
+        width: 19
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a272285526b9313b0800000000000000
+      internalID: -5542915869719255254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_258
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 46
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8540a84007f882240800000000000000
+      internalID: 4767217916846933080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_259
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 226
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1793cdb2c083550800000000000000
+      internalID: 6140671474437550502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_260
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 210
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5927e2f5e50a850800000000000000
+      internalID: 6386208034505528771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_261
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 218
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36d4e7553a3c9d30800000000000000
+      internalID: 4439487333462758972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_262
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 194
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef838171807971610800000000000000
+      internalID: 1591907054301755646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_263
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 202
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f82da40822cad920800000000000000
+      internalID: 3015936377610905849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_264
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 187
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102c6949f305e8d20800000000000000
+      internalID: 3282649412405740033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_265
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 154
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b99e517b47ab920800000000000000
+      internalID: 3006844030918695788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_266
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 113
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f389a60a79143df50800000000000000
+      internalID: 6904934773176309823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_267
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942cfbab14b546f80800000000000000
+      internalID: -8114260290750660023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_268
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 116
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6aeba6142a0effd0800000000000000
+      internalID: -2306394809051649426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_269
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 119
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0539ce5685306cc90800000000000000
+      internalID: -7150023680202075312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_270
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 62
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed207bbcadcf45ad0800000000000000
+      internalID: -2714266658746727714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_271
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 113
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ea250fc6e2acda0800000000000000
+      internalID: -5923871314429170071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_272
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 107
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d3de0cca2a552c0800000000000000
+      internalID: -4443466594476278445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_273
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 99
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191af0f984607f180800000000000000
+      internalID: -9081783214593302127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_274
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 104
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7dcab54b08cf4f60800000000000000
+      internalID: 8020849412110208381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_275
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 79
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870e4e4a29d097fe0800000000000000
+      internalID: -1190905702979936136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_276
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 91
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef775b54610f82f0800000000000000
+      internalID: -968553864320548885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_277
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 77
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8a8b2c28ec282f0800000000000000
+      internalID: -971987508550653766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_278
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 84
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de4dd970703bdc70800000000000000
+      internalID: 8996837940241714902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_279
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 69
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1adc9b0ed29aa4f20800000000000000
+      internalID: 3407722082568097185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_280
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 69
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d5753d57eedc6b0800000000000000
+      internalID: -5274297398756680446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_281
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 76
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de38efb6f42f45810800000000000000
+      internalID: 1753292577882145773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_282
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 58
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e6bb29598e37580800000000000000
+      internalID: -8830458715233882499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_283
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 53
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a067bfa23658b210800000000000000
+      internalID: 1348922864093847719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_284
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 57
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09e06c0077bb5900800000000000000
+      internalID: 674334261093918987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_285
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 64
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a0a307a173124d0800000000000000
+      internalID: -3161184876745848205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_286
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 61
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51dee78f702d0320800000000000000
+      internalID: 2525710698138227039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_287
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 60
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ab295284d1adc50800000000000000
+      internalID: 6690692392117516906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_288
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 29
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef43877406142e3a0800000000000000
+      internalID: -6637671019018963714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_289
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e60fb0bdda8ff5b0800000000000000
+      internalID: -5332390749025663259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_290
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 43
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec1af126a6c21d70800000000000000
+      internalID: 9012484221158694113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_291
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83367e33e1de215f0800000000000000
+      internalID: -787306270860811464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_292
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2
+        width: 75
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53977761ded15e280800000000000000
+      internalID: -9014766174990796491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_293
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 39
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406c596339f29fe10800000000000000
+      internalID: 2231867399661274628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_294
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 41
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0955278ca68a82e0800000000000000
+      internalID: -2122736198791898866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_295
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 9
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfda323289452e680800000000000000
+      internalID: -8727320115489296901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_296
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 20
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6373d8994619a1c0800000000000000
+      internalID: -4492034647972940950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_297
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 22
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ad6845b178265f0800000000000000
+      internalID: -764900435247572332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_298
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 16
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15cc57e822b932550800000000000000
+      internalID: 6134917690130025553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_299
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 5
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4beeda564460c4a60800000000000000
+      internalID: 7659503957083811508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_300
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 13
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2c3123f01d93700800000000000000
+      internalID: 520677095132873401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_301
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 13
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8b1a39ef9053220800000000000000
+      internalID: 2464887360058407096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_302
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 6
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2590bb6579627f010800000000000000
+      internalID: 1222488255291394386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_303
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 3
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5d15a887d365b70800000000000000
+      internalID: 8887358502588241400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOWS_304
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 3
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054c331915e684d50800000000000000
+      internalID: 6721743740457960528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SHADOWS_0: -61649204038389177
+      SHADOWS_1: 6314441879059474458
+      SHADOWS_10: -6272795099600614540
+      SHADOWS_100: -4975370189844303800
+      SHADOWS_101: -2648706583021945075
+      SHADOWS_102: 1175853263732424357
+      SHADOWS_103: -8716797349446892309
+      SHADOWS_104: -3060942071269398447
+      SHADOWS_105: 7812206153684924992
+      SHADOWS_106: -6679101848665390781
+      SHADOWS_107: 5756028098037425138
+      SHADOWS_108: 7323798934310506163
+      SHADOWS_109: 4296294049348996816
+      SHADOWS_11: -3572855557830862148
+      SHADOWS_110: -3400883082151436241
+      SHADOWS_111: 4736060041406115710
+      SHADOWS_112: 7822301990413562103
+      SHADOWS_113: -4018496125810121518
+      SHADOWS_114: -3894453126133344889
+      SHADOWS_115: -7594436119675445899
+      SHADOWS_116: 3457529740285059840
+      SHADOWS_117: -7395308081223207094
+      SHADOWS_118: -7010955254567161191
+      SHADOWS_119: -2323639115797149031
+      SHADOWS_12: -5588397099585633136
+      SHADOWS_120: 9098787991185524
+      SHADOWS_121: -3819429607177571808
+      SHADOWS_122: -6605174932960643316
+      SHADOWS_123: 994520680740805318
+      SHADOWS_124: 1307353599684613668
+      SHADOWS_125: 7168853885014381643
+      SHADOWS_126: 639646904819098627
+      SHADOWS_127: -6088828455848398670
+      SHADOWS_128: -4746393696452585315
+      SHADOWS_129: 8779324255436525524
+      SHADOWS_13: -3977210403698993837
+      SHADOWS_130: -3971894916023762829
+      SHADOWS_131: -6696559515194272614
+      SHADOWS_132: -6586213229370578782
+      SHADOWS_133: -2944297556790920494
+      SHADOWS_134: -6105745351879744026
+      SHADOWS_135: 3974592847140508770
+      SHADOWS_136: 7857998311188565077
+      SHADOWS_137: -4821892374211537096
+      SHADOWS_138: -1791405818356816604
+      SHADOWS_139: 3929754358552298177
+      SHADOWS_14: -4205816181773843220
+      SHADOWS_140: -5633972120922606778
+      SHADOWS_141: -6457469548962702569
+      SHADOWS_142: -4863498920891167759
+      SHADOWS_143: 8818629805684033739
+      SHADOWS_144: 652635341647446483
+      SHADOWS_145: 7778865732778325050
+      SHADOWS_146: -6561206684164827067
+      SHADOWS_147: -5862651451145079847
+      SHADOWS_148: 8001287218072924994
+      SHADOWS_149: 2057397717168605793
+      SHADOWS_15: 1803524791142612769
+      SHADOWS_150: 5473944734423298192
+      SHADOWS_151: 8823665459342298694
+      SHADOWS_152: 2658260080159206834
+      SHADOWS_153: 1254877215648876951
+      SHADOWS_154: 1491462184469622976
+      SHADOWS_155: 3518984373333732180
+      SHADOWS_156: 8751307955558941520
+      SHADOWS_157: 781656743221646625
+      SHADOWS_158: 2144676074345933289
+      SHADOWS_159: 7013770127556488507
+      SHADOWS_16: 5304309741460287988
+      SHADOWS_160: -3963987595128676109
+      SHADOWS_161: 9047647772106828159
+      SHADOWS_162: -7593146695256927629
+      SHADOWS_163: 1244346064660728696
+      SHADOWS_164: 6202462367685635738
+      SHADOWS_165: -4353042004785223948
+      SHADOWS_166: -8168714271394493502
+      SHADOWS_167: -3704918493993523023
+      SHADOWS_168: 6329613012551447166
+      SHADOWS_169: 7289433409487161835
+      SHADOWS_17: 3536790754046354807
+      SHADOWS_170: 5597335954008878506
+      SHADOWS_171: 6112567182559755049
+      SHADOWS_172: 733368993082574298
+      SHADOWS_173: -8006876804067909513
+      SHADOWS_174: 5122796397683717653
+      SHADOWS_175: -6005000423962219294
+      SHADOWS_176: -215831437845154128
+      SHADOWS_177: -7786774209934826432
+      SHADOWS_178: 3398246916747165840
+      SHADOWS_179: -600578012774525766
+      SHADOWS_18: 1966050252128541940
+      SHADOWS_180: 4546679134472963946
+      SHADOWS_181: 8605742375932929027
+      SHADOWS_182: -3971664615058053461
+      SHADOWS_183: 8523784466766039573
+      SHADOWS_184: -4461828034422160880
+      SHADOWS_185: 1214736394027875781
+      SHADOWS_186: 8743046421060107235
+      SHADOWS_187: -6822258306348121186
+      SHADOWS_188: 3993057305551257446
+      SHADOWS_189: -634187724204704857
+      SHADOWS_19: -7025381405401543135
+      SHADOWS_190: 127443229482004579
+      SHADOWS_191: 8848319368116720723
+      SHADOWS_192: -1506994870917571939
+      SHADOWS_193: 5465444942662480712
+      SHADOWS_194: -6859269905120487874
+      SHADOWS_195: -13138980526204221
+      SHADOWS_196: 8444652150942585978
+      SHADOWS_197: -3013464191663345494
+      SHADOWS_198: 5801248968402423934
+      SHADOWS_199: 8996017032870303673
+      SHADOWS_2: 4377906593288139005
+      SHADOWS_20: 7195521345753390013
+      SHADOWS_200: 7658198670485747661
+      SHADOWS_201: 8643700725538909660
+      SHADOWS_202: -6147484398918355280
+      SHADOWS_203: -7343935915911247608
+      SHADOWS_204: -5806611039167392973
+      SHADOWS_205: -3120678504491494198
+      SHADOWS_206: 3838635499157732767
+      SHADOWS_207: -4360411052336856653
+      SHADOWS_208: -3007009555684218257
+      SHADOWS_209: -6715953145129202997
+      SHADOWS_21: -8909051953436978977
+      SHADOWS_210: -4293224131501389683
+      SHADOWS_211: -8994417028529107099
+      SHADOWS_212: 2847761263738158452
+      SHADOWS_213: 9068123535901682095
+      SHADOWS_214: 7962762648542944367
+      SHADOWS_215: 322102193039426363
+      SHADOWS_216: 3553370661776921702
+      SHADOWS_217: 8173756618601003191
+      SHADOWS_218: 8120744268558067365
+      SHADOWS_219: 4178568217135229393
+      SHADOWS_22: -3001244542404116196
+      SHADOWS_220: 2877992219668678153
+      SHADOWS_221: -1217639840265417981
+      SHADOWS_222: -1390547920573432101
+      SHADOWS_223: 765086887804779315
+      SHADOWS_224: -711736277824549203
+      SHADOWS_225: -5751583751390215223
+      SHADOWS_226: -2992121355601891394
+      SHADOWS_227: 968553318076165938
+      SHADOWS_228: 5846881677440594859
+      SHADOWS_229: -7263819029233726074
+      SHADOWS_23: 4516416819623084935
+      SHADOWS_230: -9127005382595984724
+      SHADOWS_231: 7091907252791365310
+      SHADOWS_232: 2635959451062160582
+      SHADOWS_233: 7741811081622318858
+      SHADOWS_234: 8358004881013685488
+      SHADOWS_235: 6936503588703457013
+      SHADOWS_236: -682310563828823066
+      SHADOWS_237: 8012611554897265660
+      SHADOWS_238: 2021524482356896090
+      SHADOWS_239: -489911729104295899
+      SHADOWS_24: -672703586811713193
+      SHADOWS_240: -1979205140687250299
+      SHADOWS_241: 8893466896364802035
+      SHADOWS_242: 5467228066168560163
+      SHADOWS_243: 8902143422761497935
+      SHADOWS_244: -1569546020836348058
+      SHADOWS_245: 7777160182033033389
+      SHADOWS_246: -6001146661343077054
+      SHADOWS_247: 5664988070815871366
+      SHADOWS_248: 829365958157561945
+      SHADOWS_249: 8425998698489877483
+      SHADOWS_25: 4930142164097485087
+      SHADOWS_250: 424897967869090806
+      SHADOWS_251: 5099082272662223593
+      SHADOWS_252: -4079217005675183941
+      SHADOWS_253: 1412774083533455957
+      SHADOWS_254: 6175949136749229737
+      SHADOWS_255: -1908971440537259396
+      SHADOWS_256: 6032697538831047816
+      SHADOWS_257: -5542915869719255254
+      SHADOWS_258: 4767217916846933080
+      SHADOWS_259: 6140671474437550502
+      SHADOWS_26: 1474203977507950135
+      SHADOWS_260: 6386208034505528771
+      SHADOWS_261: 4439487333462758972
+      SHADOWS_262: 1591907054301755646
+      SHADOWS_263: 3015936377610905849
+      SHADOWS_264: 3282649412405740033
+      SHADOWS_265: 3006844030918695788
+      SHADOWS_266: 6904934773176309823
+      SHADOWS_267: -8114260290750660023
+      SHADOWS_268: -2306394809051649426
+      SHADOWS_269: -7150023680202075312
+      SHADOWS_27: -7874492389607377157
+      SHADOWS_270: -2714266658746727714
+      SHADOWS_271: -5923871314429170071
+      SHADOWS_272: -4443466594476278445
+      SHADOWS_273: -9081783214593302127
+      SHADOWS_274: 8020849412110208381
+      SHADOWS_275: -1190905702979936136
+      SHADOWS_276: -968553864320548885
+      SHADOWS_277: -971987508550653766
+      SHADOWS_278: 8996837940241714902
+      SHADOWS_279: 3407722082568097185
+      SHADOWS_28: -2895159963628511670
+      SHADOWS_280: -5274297398756680446
+      SHADOWS_281: 1753292577882145773
+      SHADOWS_282: -8830458715233882499
+      SHADOWS_283: 1348922864093847719
+      SHADOWS_284: 674334261093918987
+      SHADOWS_285: -3161184876745848205
+      SHADOWS_286: 2525710698138227039
+      SHADOWS_287: 6690692392117516906
+      SHADOWS_288: -6637671019018963714
+      SHADOWS_289: -5332390749025663259
+      SHADOWS_29: 5989487872145132274
+      SHADOWS_290: 9012484221158694113
+      SHADOWS_291: -787306270860811464
+      SHADOWS_292: -9014766174990796491
+      SHADOWS_293: 2231867399661274628
+      SHADOWS_294: -2122736198791898866
+      SHADOWS_295: -8727320115489296901
+      SHADOWS_296: -4492034647972940950
+      SHADOWS_297: -764900435247572332
+      SHADOWS_298: 6134917690130025553
+      SHADOWS_299: 7659503957083811508
+      SHADOWS_3: -108325686098345503
+      SHADOWS_30: -9221270541725966601
+      SHADOWS_300: 520677095132873401
+      SHADOWS_301: 2464887360058407096
+      SHADOWS_302: 1222488255291394386
+      SHADOWS_303: 8887358502588241400
+      SHADOWS_304: 6721743740457960528
+      SHADOWS_31: -7009332891227346906
+      SHADOWS_32: -8832860009163415161
+      SHADOWS_33: 8413369449794296549
+      SHADOWS_34: -2020998843087356862
+      SHADOWS_35: 1061607148724523955
+      SHADOWS_36: 322197866019808445
+      SHADOWS_37: 2108734476867728997
+      SHADOWS_38: -5995409165424913316
+      SHADOWS_39: -4374357563357417410
+      SHADOWS_4: -5807441138127693027
+      SHADOWS_40: 5088326873428644471
+      SHADOWS_41: -6295534841785393934
+      SHADOWS_42: -7725605151521187827
+      SHADOWS_43: -2664336164392462782
+      SHADOWS_44: -3014166975265235801
+      SHADOWS_45: 1058225588073472991
+      SHADOWS_46: -6928572521361946222
+      SHADOWS_47: -249918986838547579
+      SHADOWS_48: 3805076532973027759
+      SHADOWS_49: -9150862367686342008
+      SHADOWS_5: 8075898133130445318
+      SHADOWS_50: -4071136428736506976
+      SHADOWS_51: 3271666922865423981
+      SHADOWS_52: -5962627544836286171
+      SHADOWS_53: -4596201304228656790
+      SHADOWS_54: 3610105343541052065
+      SHADOWS_55: 7912923512246472334
+      SHADOWS_56: 2603010890709525179
+      SHADOWS_57: 3625213395982349248
+      SHADOWS_58: -5812408602657821327
+      SHADOWS_59: 2510207828215132404
+      SHADOWS_6: -2397136143801962408
+      SHADOWS_60: -1447579058992142720
+      SHADOWS_61: 7069589761661664131
+      SHADOWS_62: -8074174650272632331
+      SHADOWS_63: -63264850722011780
+      SHADOWS_64: -1623772675691903398
+      SHADOWS_65: -5353501992451359123
+      SHADOWS_66: -3952921160364586377
+      SHADOWS_67: -5503503885848018641
+      SHADOWS_68: 5441650101671369121
+      SHADOWS_69: 1541348041490810952
+      SHADOWS_7: -1828560538151505304
+      SHADOWS_70: -1215993280255154697
+      SHADOWS_71: -1198895961066950283
+      SHADOWS_72: 5802918560061877553
+      SHADOWS_73: 6153641148907692261
+      SHADOWS_74: 1086665490188362787
+      SHADOWS_75: 5158111191346488379
+      SHADOWS_76: -2903245227389268828
+      SHADOWS_77: 272559090887124891
+      SHADOWS_78: 6386007738798230192
+      SHADOWS_79: -3844220196078781328
+      SHADOWS_8: 3498683111317789981
+      SHADOWS_80: 5825543539787299867
+      SHADOWS_81: -1612166302670992340
+      SHADOWS_82: -826937081028397042
+      SHADOWS_83: 34354983855041895
+      SHADOWS_84: -6853834805104640854
+      SHADOWS_85: -978962675449828416
+      SHADOWS_86: -1297932560126712465
+      SHADOWS_87: 5723748636331330978
+      SHADOWS_88: 7077467351493727105
+      SHADOWS_89: 7851858718103975250
+      SHADOWS_9: -6511837535199842425
+      SHADOWS_90: 6720715833709066917
+      SHADOWS_91: -8578656976984301925
+      SHADOWS_92: -1333353686759393594
+      SHADOWS_93: 6373058519206957978
+      SHADOWS_94: -6333957390746584508
+      SHADOWS_95: 8975693658986003574
+      SHADOWS_96: 384045450194764632
+      SHADOWS_97: -5655815554462760069
+      SHADOWS_98: -3637702565983157166
+      SHADOWS_99: 2594356147325058046
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
