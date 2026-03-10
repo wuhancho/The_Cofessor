@@ -26,52 +26,75 @@ public class A_Decision : MonoBehaviour, IAcciones
     private void Start()
     {
         voteCanvas.OnCulpritSelected += HandlePenitentSelected; // Suscribirse al evento de selección de culpable
-        criptaDialogue.onDialogueDecisionEnd += ActiveDialogueDecision;
+        //criptaDialogue.onDialogueDecisionEnd += ActiveDialogueDecision;
         canvasCombat.Boss.SetActive(false);
         criptaDialogue.IsPunish += isPunish =>
         {
             if (isPunish)
             {
+                Dialog selectedDialog = GetDialogueByType(penitentSelected, "P");
+                typeDialogue = "P";
                 Debug.Log($"Penitente {penitentSelected.CharacterName} castigado.");
                 if (penitentSelected.isGuilty)
                 {
                     Debug.Log($"Penitente {penitentSelected.CharacterName} era culpable. Castigo aplicado correctamente.");
-                    typeDialogue = "P";
+                    ActiveDialogueDecisionCulprits(selectedDialog);
                 }
                 else
                 {
                     Debug.Log($"Penitente {penitentSelected.CharacterName} era inocente. Castigo aplicado incorrectamente.");
-                    Dialog selectedDialog = GetDialogueByType(penitentSelected, "P");
+                    ActiveDialogueDecisionInocent(selectedDialog);
                 }
             }
             else
             {
                 Dialog selectedDialog = GetDialogueByType(penitentSelected, "F");
+                typeDialogue = "F";
                 if (penitentSelected.isGuilty)
                 {
                     Debug.Log($"Penitente {penitentSelected.CharacterName} era culpable. Perdón aplicado incorrectamente.");
-                    typeDialogue = "F";
-                    //ActiveCombat();
+                    ActiveDialogueDecisionInocent(selectedDialog);
                 }
                 else
                 {
                     Debug.Log($"Penitente {penitentSelected.CharacterName} era inocente. Perdón aplicado correctamente.");
-                    criptaDialogue.InitializeDecision(playerController.PlayerConversant, "F");
-                    playerController.PlayerConversant.StartDialogue(selectedDialog);
-                    onEndAction.Invoke();
+                    ActiveDialogueDecisionInocent(selectedDialog);
                 }
             }
         };
     }
+    void DeSubcripcion()
+    {
+        criptaDialogue.DeSubcripcionEvent(true, true);
+    }
 
-    private void ActiveDialogueDecision()
+    private void ActiveDialogueDecisionCulprits(Dialog dialog)
     {
         playerController.PlayerConversant.QuitDialogue();
+        playerController.PlayerConversant.StartDialogue(dialog);
+        criptaDialogue.InitializeDecision(playerController.PlayerConversant, typeDialogue);
+        criptaDialogue.onDialogueDecisionEnd += () =>
+        {
+            Debug.Log("Diálogo de culpable finalizado. Se activa combate.");
+            ActiveCombat();
+        };
         //ActiveCombat();
+    }
+    private void ActiveDialogueDecisionInocent(Dialog dialog)
+    {
+        playerController.PlayerConversant.QuitDialogue();
+        playerController.PlayerConversant.StartDialogue(dialog);
+        criptaDialogue.InitializeDecision(playerController.PlayerConversant, typeDialogue);
+        criptaDialogue.onDialogueDecisionEnd += () =>
+        {
+            Debug.Log("Diálogo de inocente finalizado. No se activa combate.");
+        };
+
     }
 
     private void ActiveCombat()
     {
+        criptaDialogue.gameObject.SetActive(false);
         canvasCombat.gameObject.SetActive(true);
         canvasCombat.Initialize(playerController, this);
     }

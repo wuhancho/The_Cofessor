@@ -48,7 +48,9 @@ public class CanvasCombat : MonoBehaviour
 
         // Empezar con el diálogo de la fase 1
         currentPhase = CombatPhase.Phase1;
-        StartDialogueState();
+        StartCombatState();
+        Debug.Log($"[CanvasCombat] Inicializado. Comenzando con {currentPhase} y El estado {currentState}");
+        //StartDialogueState();
     }
 
     private void Start()
@@ -80,6 +82,7 @@ public class CanvasCombat : MonoBehaviour
                 combate.UpdatePhase3Spawn();
                 break;
         }
+        
     }
 
     /// <summary>
@@ -127,7 +130,9 @@ public class CanvasCombat : MonoBehaviour
         {
             timer += Time.deltaTime;
             yield return null;
+            Debug.Log($"[CanvasCombat] Timer: {timer:F2}/{duration} for {currentPhase}");
         }
+
         OnPhaseTimeUp();
     }
 
@@ -143,7 +148,7 @@ public class CanvasCombat : MonoBehaviour
         {
             case CombatPhase.Phase1:
                 currentPhase = CombatPhase.Phase2;
-                StartDialogueState();
+                //StartDialogueState();
                 break;
             case CombatPhase.Phase2:
                 currentPhase = CombatPhase.Phase3;

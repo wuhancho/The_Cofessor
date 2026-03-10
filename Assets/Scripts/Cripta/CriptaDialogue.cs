@@ -15,11 +15,12 @@ public class CriptaDialogue : MonoBehaviour
     [SerializeField] Transform choicesRoot;
     [SerializeField] Button nextButton;
     private PlayerConversant playerConversant;
+    [SerializeField] private float timeReading;
     private string currentNodeText;
     private string[] currentLines;
     private int currentLineIndex;
-    private float timeReading;
     private string typeDialogue;
+    private bool isDecisionDialogue;
 
     //private Texture2D[] penitentImages;
 
@@ -36,6 +37,7 @@ public class CriptaDialogue : MonoBehaviour
         playerConversant = pConversant;
         playerConversant = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerConversant>();
         playerConversant.OnConversationUpdated += UpdateUIDecision;
+        isDecisionDialogue = true;
         UpdateUIDecision();
     }
 
@@ -44,6 +46,7 @@ public class CriptaDialogue : MonoBehaviour
         playerConversant = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerConversant>();
         playerConversant.OnConversationUpdated += UpdateUIStandart;
         nextButton.onClick.AddListener(Next);
+        isDecisionDialogue = false;
         UpdateUIStandart();
     }
     void UpdateUIStandart()
@@ -81,7 +84,7 @@ public class CriptaDialogue : MonoBehaviour
         }
         penitentNameText.text = playerConversant.GetCurrentSpeakerName();
         //choicesRoot.gameObject.SetActive(playerConversant.IsChoosing());
-        StartCoroutine(TimeReading());
+        //StartCoroutine(TimeReading());
         if (playerConversant.IsChoosing())
         {
             BuildChoiseList();
@@ -96,7 +99,7 @@ public class CriptaDialogue : MonoBehaviour
 
             }
             BuildTextAI();
-
+            StartCoroutine(TimeReading());
         }
 
     }
@@ -122,20 +125,31 @@ public class CriptaDialogue : MonoBehaviour
                 {
                     Debug.Log("CriptaDialogue - Castigar choice selected. Calling ChoiceCastigar method.");
                     ChoiceCastigar();
+
                 }
                 else if (choice.GetText() == "Perdonar")
                 {
                     Debug.Log("CriptaDialogue - Perdonar choice selected. Calling ChoicePerdonar method.");
                     ChoicePerdonar();
+
                 }
                 else if (choice.GetText() == "Perdonar (+50$)")
                 {
                     Debug.Log("CriptaDialogue - Perdonar (+50$) choice selected. Implement forgiveness with bribe logic here.");
                     ChoicePerdonar();
-                    // Implement forgiveness with bribe logic here
+                    //DelateChoicesRootChilds();
                 }
+                DelateChoicesRootChilds();
                 //onConversation.Invoke(choice);
             });
+        }
+    }
+
+    private void DelateChoicesRootChilds()
+    {
+        foreach (Transform child in choicesRoot)
+        {
+            Destroy(child.gameObject);
         }
     }
 
@@ -156,6 +170,7 @@ public class CriptaDialogue : MonoBehaviour
         if (currentLines == null || currentLines.Length == 0) return;
 
         penitentText.text = currentLines[currentLineIndex];
+
     }
     public void BuildTextAI(string text)
     {
@@ -165,11 +180,17 @@ public class CriptaDialogue : MonoBehaviour
     {
         if (currentLines != null && currentLineIndex < currentLines.Length - 1)
         {
+            Debug.Log("CriptaDialogue - Advancing to next line of dialogue.");
             currentLineIndex++;
             BuildTextAI();
+            if (isDecisionDialogue)
+            {
+                StartCoroutine(TimeReading());
+            }
         }
         else if (playerConversant.HasNext())
         {
+            Debug.Log("CriptaDialogue - No more lines. Advancing to next dialogue node.");
             playerConversant.Next();
         }
         else
@@ -187,13 +208,31 @@ public class CriptaDialogue : MonoBehaviour
                     break;
                 default:
                     Debug.Log("CriptaDialogue - Ending conversation. No specific type dialogue actions defined.");
+                    onDialogueDecisionEnd?.Invoke();
                     break;
             }
+
         }
     }
     private IEnumerator TimeReading()
     {
-        yield return new WaitForSeconds(timeReading); // Espera 3 segundos (ajusta según el tiempo que quieras)
-        Next(); // Avanza al siguiente diálogo después de la espera
+        yield return new WaitForSeconds(timeReading);
+        Debug.Log("CriptaDialogue - Time reading finished. Calling Next method.");
+        Next();
+    }
+
+    /// <summary>
+    /// Unsubscribes event handlers from the <c>OnConversationUpdated</c> event of the player conversant.
+    /// </summary>
+    /// <remarks>Use this method to detach UI update handlers when they are no longer needed, such as during
+    /// cleanup or when disabling conversation UI components.</remarks>
+    /// <param name="standart"><see langword="true"/> to unsubscribe the standard UI update handler; otherwise, <see langword="false"/>.</param>
+    /// <param name="decision"><see langword="true"/> to unsubscribe the decision UI update handler; otherwise, <see langword="false"/>.</param>
+    public void DeSubcripcionEvent(bool standart = true, bool decision = true)
+    {
+        if (standart)
+            playerConversant.OnConversationUpdated -= UpdateUIStandart;
+        if (decision)
+            playerConversant.OnConversationUpdated -= UpdateUIDecision;
     }
 }
