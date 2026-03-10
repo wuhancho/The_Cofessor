@@ -99,9 +99,6 @@ public class CombatDialogue : MonoBehaviour
         Debug.Log($"Starting dialogue for combat phase: {phase}");
         switch (phase)
         {
-            case CombatPhase.Phase1:
-                InitializeDecision(canvas.Decision.TypeDialogue);
-                break;
             case CombatPhase.Phase2:
                 InitializeDecision("CombatPhase2");
                 break;

@@ -35,8 +35,8 @@ MonoBehaviour:
   childrenIDs: []
   rect:
     serializedVersion: 2
-    x: -3
-    y: 0
+    x: 126
+    y: 95
     width: 300
     height: 200
   faithCost: 0

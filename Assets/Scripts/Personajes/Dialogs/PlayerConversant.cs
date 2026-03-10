@@ -27,6 +27,7 @@ namespace The_cofessor.Personajes.Dialogs
 
         public event Action OnConversationUpdated;
 
+
         public void SetIconNPC(Texture2D newIcon)
         {
             iconNPC = newIcon;
@@ -158,6 +159,7 @@ namespace The_cofessor.Personajes.Dialogs
             currentDialog = null;
             currentNode = null;
             isChoosing = false;
+            OnConversationUpdated = null;
         }
     }
 }
