@@ -1294,6 +1294,10 @@ MonoBehaviour:
   rayRotationSpeed: 30
   rayWidth: 15
   rayDamage: 1
+  phase3ProjectileCount: 10
+  phase3SpawnRadius: 120
+  phase3LaunchInterval: 0.8
+  phase3WaveCooldown: 2
 --- !u!1 &60868139
 GameObject:
   m_ObjectHideFlags: 0
@@ -4976,8 +4980,9 @@ MonoBehaviour:
   combate: {fileID: 58104247}
   boss: {fileID: 944093853}
   combatDialogue: {fileID: 951071684}
-  phase1Duration: 40
-  phase2Duration: 40
+  phase1Duration: 10
+  phase2Duration: 10
+  phase3Duration: 10
 --- !u!1 &287010889
 GameObject:
   m_ObjectHideFlags: 0
@@ -32619,6 +32624,7 @@ MonoBehaviour:
   penitentText: {fileID: 1923706170}
   choicesRoot: {fileID: 1184276232}
   nextButton: {fileID: 1524251539}
+  timeReading: 3
 --- !u!1 &1805197930
 GameObject:
   m_ObjectHideFlags: 0
