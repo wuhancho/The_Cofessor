@@ -1,9 +1,9 @@
-using The_cofessor.Personajes.Dialogs;
+Ôªøusing The_cofessor.Personajes.Dialogs;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.ProBuilder.MeshOperations;
 using UnityEngine.UI;
-public enum PenitentTypeDialogue { V, M, F, P, L, W, C, B }
+public enum PenitentTypeDialogueSplit { a, b }
 
 [CreateAssetMenu(fileName = "", menuName = "Scriptable Objects/SPenitent", order = 1)]
 public class SPenitent : ScriptableObject
@@ -109,19 +109,40 @@ public class SPenitent : ScriptableObject
     }
 
     /// <summary>
-    /// Obtiene el tipo de di·logo de un Dialog individual.
-    /// Formato del nombre: "ID_TipoDialogo.DÌa", por ejemplo: "AG_C.1"
+    /// Obtiene el tipo de di√°logo de un Dialog individual.
+    /// Formato del nombre: "ID_TipoDialogo.D√≠a", por ejemplo: "AG_C.1"
     /// </summary>
-    public static string GetDialogType(Dialog dialog)
+    public static string GetDialogType(Dialog dialog, PenitentTypeDialogueSplit split = PenitentTypeDialogueSplit.a)
     {
         if (dialog == null) return null;
         string[] parts = dialog.name.Split('_');
         if (parts.Length < 2) return null;
-        return parts[1].Split('.')[0];
+        switch (split)
+        {
+            case PenitentTypeDialogueSplit.a:
+                return parts[1].Split('.')[0];
+            case PenitentTypeDialogueSplit.b:
+                return parts[1].Split('&')[0];
+            default:
+                return null;
+        }
     }
 
+    private string GetDialogCombatPhase(Dialog dialog)
+    {
+        if (dialog == null) return null;
+        string[] parts = dialog.name.Split('_');
+        if (parts.Length < 2) return null;
+
+        string[] phaseParts = parts[1].Split('&');
+        if (phaseParts.Length < 2) return null;  // ‚Üê CR√çTICO: evita el IndexOutOfRangeException
+
+        return phaseParts[1];  // "B&1" ‚Üí ["B", "1"] ‚Üí retorna "1"
+    }
+
+
     /// <summary>
-    /// Busca un di·logo solo por tipo (para di·logos sin dÌa, como "AG_P" o "AG_F").
+    /// Busca un di√°logo solo por tipo (para di√°logos sin d√≠a, como "AG_P" o "AG_F").
     /// </summary>
     public Dialog GetDialogByType(string type)
     {
@@ -137,28 +158,29 @@ public class SPenitent : ScriptableObject
         }
         return null;
     }
-    /// <summary>
-    /// obtienes el tipo de dialogo y la fase de batalla de un Dialog individual.
-    /// 
-    /// </summary>
-    /// <param name="dialog"></param>
-    /// <returns></returns>
-    private static string[] GetDialogueBattleTypePhase(Dialog dialog)
+    public Dialog GetDialogueBattle(string type, string Phase)
     {
-        if (dialog == null) return null;
-        string[] parts = dialog.name.Split('_');
-        if (parts.Length < 2) return null;
-        string[] Subparts = parts[1].Split('&');
-        return Subparts;
+        if (dialogs == null) return null;
+        foreach (Dialog dialog in dialogs)
+        {
+            if (dialog == null) continue;
+
+            string battleTypePhase = GetDialogType(dialog, PenitentTypeDialogueSplit.b);
+            string battlePhase = GetDialogCombatPhase(dialog);
+            Debug.Log($"Checking dialog: {dialog.name}, battleTypePhase: {battleTypePhase}, battlePhase: {battlePhase}");
+            // Verificar que ambos valores existan antes de comparar
+            if (battleTypePhase == null || battlePhase == null) continue;
+            if (battleTypePhase == type && battlePhase == Phase)
+            {
+                Debug.Log($"Found matching dialog: {dialog.name}");
+                return dialog;
+            }
+        }
+        return null;
     }
-
-    //public static Dialog GetDialogueBattle(string,int type)
-    //{
-
-    //}
     /// <summary>
-    /// Obtiene el dÌa de un Dialog individual.
-    /// Formato del nombre: "ID_TipoDialogo.DÌa", por ejemplo: "AG_C.1"
+    /// Obtiene el d√≠a de un Dialog individual.
+    /// Formato del nombre: "ID_TipoDialogo.D√≠a", por ejemplo: "AG_C.1"
     /// </summary>
     public static int GetDialogDay(Dialog dialog)
     {
@@ -172,7 +194,7 @@ public class SPenitent : ScriptableObject
     }
 
     /// <summary>
-    /// Busca un di·logo por tipo y dÌa dentro de los di·logos del penitente.
+    /// Busca un di√°logo por tipo y d√≠a dentro de los di√°logos del penitente.
     /// </summary>
     public Dialog GetDialogByTypeAndDay(string type, int targetDay)
     {
@@ -192,9 +214,9 @@ public class SPenitent : ScriptableObject
 
 
 
-    // Las propiedades originales se mantienen por compatibilidad, pero devuelven el PRIMER di·logo
+    // Las propiedades originales se mantienen por compatibilidad, pero devuelven el PRIMER di√°logo
     /// <summary>
-    /// retorna El ID del dialogo del PRIMER di·logo del array.
+    /// retorna El ID del dialogo del PRIMER di√°logo del array.
     /// </summary>
     public string GetDialogueID(string id)
     {
@@ -225,7 +247,7 @@ public class SPenitent : ScriptableObject
         return 0;
     }
     /// <summary>
-    /// Retorna el primer dÌa en el que aparece el penitente, basado en el array DaysApear.
+    /// Retorna el primer d√≠a en el que aparece el penitente, basado en el array DaysApear.
     /// </summary>
     public int FirstDayAppear
     {
@@ -250,7 +272,7 @@ public class SPenitent : ScriptableObject
         }
     }
     /// <summary>
-    /// Retorna un array con todos los dÌas en los que aparece el penitente, basado en el array DaysApear.
+    /// Retorna un array con todos los d√≠as en los que aparece el penitente, basado en el array DaysApear.
     /// </summary>
     public int[] DaysApears
     {

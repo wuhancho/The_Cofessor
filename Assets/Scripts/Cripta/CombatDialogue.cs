@@ -100,10 +100,10 @@ public class CombatDialogue : MonoBehaviour
         switch (phase)
         {
             case CombatPhase.Phase2:
-                InitializeDecision(penitent.IdDialogue, "_B&1");
+                InitializeDecision(penitent.IdDialogue, "B","1");
                 break;
             case CombatPhase.Phase3:
-                InitializeDecision(penitent.IdDialogue,"_B&2");
+                InitializeDecision(penitent.IdDialogue,"B", "2");
                 break;
             default:
                 Debug.LogWarning($"CombatDialogue - Unhandled combat phase: {phase}");
@@ -117,7 +117,7 @@ public class CombatDialogue : MonoBehaviour
         yield return new WaitForSeconds(timeReading);
         Next();
     }
-    public void InitializeDecision(string penitentID, string TypeDialogue)
+    public void InitializeDecision(string penitentID, string TypeDialogue, string phase)
     {
         // Resetear estado del diálogo anterior
         currentNodeText = null;
@@ -126,8 +126,7 @@ public class CombatDialogue : MonoBehaviour
 
         playerConversant.OnConversationUpdated += UpdateUI;
 
-        Dialog dialogue = penitent.GetDialogByType(TypeDialogue);
-        //Dialog dialogue = penitent.GetDialogueBattle(TypeDialogue);
+        Dialog dialogue = penitent.GetDialogueBattle(TypeDialogue, phase);
 
         if (dialogue == null)
         {
@@ -138,7 +137,7 @@ public class CombatDialogue : MonoBehaviour
             foreach (Dialog d in penitent.Dialogs)
             {
                 if (d == null) continue;
-                string t = SPenitent.GetDialogType(d);
+                string t = SPenitent.GetDialogType(d,PenitentTypeDialogueSplit.b);
                 Debug.LogWarning($"  → '{d.name}' → tipo parseado: '{t}'");
             }
             // Si no hay diálogo, terminar inmediatamente para no bloquear el flujo

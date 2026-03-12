@@ -1276,10 +1276,10 @@ MonoBehaviour:
   playerController: {fileID: 0}
   damageAmount: 10
   velocityPlayer: 300
-  heightCanvasMax: 250
-  widthCanvasMax: 780
-  widthCanvasMin: 0
-  heightCanvasMin: 0
+  heightCanvasMax: 273
+  widthCanvasMax: 803
+  widthCanvasMin: 25
+  heightCanvasMin: 23
   canvasCombat: {fileID: 58104244}
   PlayerCombat: {fileID: 1256841447}
   currentPhase: 0
@@ -21733,7 +21733,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 412, y: 150}
+  m_AnchoredPosition: {x: 410, y: 150}
   m_SizeDelta: {x: 44, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1256841448

@@ -22,7 +22,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: cae3e81236c9f7d428b3b6d5a93a453d, type: 2}
   - {fileID: 11400000, guid: 24703650dd31c62428f728b07eb4a032, type: 2}
   - {fileID: 11400000, guid: cbff5f24e9c2c114dbe94f47619048c1, type: 2}
+  - {fileID: 11400000, guid: 6cbe835370f014641ae94d23b522ff71, type: 2}
+  - {fileID: 11400000, guid: c8123d04d7b711c4fb058a730c16f4b6, type: 2}
   isTrueDialogue: 0
   day: 1
   DaysApear: 01000000
   iconPenitent: {fileID: 6687256875666666815, guid: 4771d5bb02e0adc42bfcaebbf2871b5d, type: 3}
+  isGuilty: 1

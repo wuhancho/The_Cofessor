@@ -169,12 +169,12 @@ public class CanvasCombat : MonoBehaviour
 
     private float GetPhaseDuration(CombatPhase phase)
     {
-        switch (phase)
+        return phase switch
         {
-            case CombatPhase.Phase1: return phase1Duration;
-            case CombatPhase.Phase2: return phase2Duration;
-            case CombatPhase.Phase3: return phase3Duration;
-            default: return 0f;
-        }
+            CombatPhase.Phase1 => phase1Duration,
+            CombatPhase.Phase2 => phase2Duration,
+            CombatPhase.Phase3 => phase3Duration,
+            _ => 0f,
+        };
     }
 }
