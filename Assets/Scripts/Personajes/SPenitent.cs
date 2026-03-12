@@ -1,7 +1,9 @@
 using The_cofessor.Personajes.Dialogs;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.ProBuilder.MeshOperations;
 using UnityEngine.UI;
+public enum PenitentTypeDialogue { V, M, F, P, L, W, C, B }
 
 [CreateAssetMenu(fileName = "", menuName = "Scriptable Objects/SPenitent", order = 1)]
 public class SPenitent : ScriptableObject
@@ -15,7 +17,8 @@ public class SPenitent : ScriptableObject
     [SerializeField] private int[] DaysApear;
     [SerializeField] private GameObject iconPenitent;
     [Header("editado por evento")]
-    [SerializeField,IReadOnly]internal bool isGuilty;
+    [SerializeField, IReadOnly] internal bool isGuilty;
+
 
     public string CharacterName { get => characterName; set => characterName = value; }
 
@@ -25,6 +28,51 @@ public class SPenitent : ScriptableObject
     public string Id { get => id; set => id = value; }
     public GameObject IconPenitent { get => iconPenitent; set => iconPenitent = value; }
 
+    /// <summary>
+    /// Gets the type identifier extracted from the first dialogue entry in the collection.
+    /// </summary>
+    /// <remarks>If the collection of dialogues is empty, the property returns null. The type identifier is
+    /// parsed from the dialogue name using a specific naming convention, which may affect the returned value if the
+    /// format does not match expectations.</remarks>
+    public string TypeDialogue
+    {
+        get
+        {
+            foreach (var dialog in dialogs)
+            {
+                return dialog.name.Split('_')[1].Split('.')[0];
+            }
+            return null; // Agregado para asegurar que todas las rutas devuelvan un valor
+        }
+    }
+
+    /// <summary>
+    /// Gets the day number extracted from the first dialogue entry.
+    /// </summary>
+    /// <remarks>If no dialogue entries are available, the property returns 0. The value is parsed from the
+    /// dialogue name and may depend on the naming convention used for dialogue entries.</remarks>
+    public int DayDialogue
+    {
+        get
+        {
+            foreach (var dialog in dialogs)
+            {
+                return int.Parse(dialog.name.Split('_')[1].Split('.')[1]);
+            }
+            return 0; // Cambiado de null a 0 para evitar CS0037
+        }
+    }
+    public string IdDialogue
+    {
+        get
+        {
+            foreach (var dialog in dialogs)
+            {
+                return dialog.name.Split('_')[0];
+            }
+            return null; // Cambiado de null a 0 para evitar CS0037
+        }
+    }
 
     public Texture2D[] GetTextures2D()
     {
@@ -73,6 +121,42 @@ public class SPenitent : ScriptableObject
     }
 
     /// <summary>
+    /// Busca un diálogo solo por tipo (para diálogos sin día, como "AG_P" o "AG_F").
+    /// </summary>
+    public Dialog GetDialogByType(string type)
+    {
+        if (dialogs == null) return null;
+        foreach (var dialog in dialogs)
+        {
+            if (dialog == null) continue;
+            string dialogType = GetDialogType(dialog);
+            if (dialogType == type)
+            {
+                return dialog;
+            }
+        }
+        return null;
+    }
+    /// <summary>
+    /// obtienes el tipo de dialogo y la fase de batalla de un Dialog individual.
+    /// 
+    /// </summary>
+    /// <param name="dialog"></param>
+    /// <returns></returns>
+    private static string[] GetDialogueBattleTypePhase(Dialog dialog)
+    {
+        if (dialog == null) return null;
+        string[] parts = dialog.name.Split('_');
+        if (parts.Length < 2) return null;
+        string[] Subparts = parts[1].Split('&');
+        return Subparts;
+    }
+
+    //public static Dialog GetDialogueBattle(string,int type)
+    //{
+
+    //}
+    /// <summary>
     /// Obtiene el día de un Dialog individual.
     /// Formato del nombre: "ID_TipoDialogo.Día", por ejemplo: "AG_C.1"
     /// </summary>
@@ -106,58 +190,7 @@ public class SPenitent : ScriptableObject
         return null;
     }
 
-    /// <summary>
-    /// Busca un diálogo solo por tipo (para diálogos sin día, como "AG_P" o "AG_F").
-    /// </summary>
-    public Dialog GetDialogByType(string type)
-    {
-        if (dialogs == null) return null;
-        foreach (var dialog in dialogs)
-        {
-            if (dialog == null) continue;
-            string dialogType = GetDialogType(dialog);
-            if (dialogType == type)
-            {
-                return dialog;
-            }
-        }
-        return null;
-    }
 
-    /// <summary>
-    /// Gets the type identifier extracted from the first dialogue entry in the collection.
-    /// </summary>
-    /// <remarks>If the collection of dialogues is empty, the property returns null. The type identifier is
-    /// parsed from the dialogue name using a specific naming convention, which may affect the returned value if the
-    /// format does not match expectations.</remarks>
-    public string TypeDialogue
-    {
-        get
-        {
-            foreach (var dialog in dialogs)
-            {
-                return dialog.name.Split('_')[1].Split('.')[0];
-            }
-            return null; // Agregado para asegurar que todas las rutas devuelvan un valor
-        }
-    }
-
-    /// <summary>
-    /// Gets the day number extracted from the first dialogue entry.
-    /// </summary>
-    /// <remarks>If no dialogue entries are available, the property returns 0. The value is parsed from the
-    /// dialogue name and may depend on the naming convention used for dialogue entries.</remarks>
-    public int DayDialogue
-    {
-        get
-        {
-            foreach (var dialog in dialogs)
-            {
-                return int.Parse(dialog.name.Split('_')[1].Split('.')[1]);
-            }
-            return 0; // Cambiado de null a 0 para evitar CS0037
-        }
-    }
 
     // Las propiedades originales se mantienen por compatibilidad, pero devuelven el PRIMER diálogo
     /// <summary>

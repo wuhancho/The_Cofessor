@@ -100,10 +100,10 @@ public class CombatDialogue : MonoBehaviour
         switch (phase)
         {
             case CombatPhase.Phase2:
-                InitializeDecision("CombatPhase2");
+                InitializeDecision(penitent.IdDialogue, "_B&1");
                 break;
             case CombatPhase.Phase3:
-                InitializeDecision("CombatPhase3");
+                InitializeDecision(penitent.IdDialogue,"_B&2");
                 break;
             default:
                 Debug.LogWarning($"CombatDialogue - Unhandled combat phase: {phase}");
@@ -117,7 +117,7 @@ public class CombatDialogue : MonoBehaviour
         yield return new WaitForSeconds(timeReading);
         Next();
     }
-    public void InitializeDecision(string TypeDialogue)
+    public void InitializeDecision(string penitentID, string TypeDialogue)
     {
         // Resetear estado del diálogo anterior
         currentNodeText = null;
@@ -127,6 +127,7 @@ public class CombatDialogue : MonoBehaviour
         playerConversant.OnConversationUpdated += UpdateUI;
 
         Dialog dialogue = penitent.GetDialogByType(TypeDialogue);
+        //Dialog dialogue = penitent.GetDialogueBattle(TypeDialogue);
 
         if (dialogue == null)
         {

@@ -148,7 +148,7 @@ public class CanvasCombat : MonoBehaviour
         {
             case CombatPhase.Phase1:
                 currentPhase = CombatPhase.Phase2;
-                //StartDialogueState();
+                StartDialogueState();
                 break;
             case CombatPhase.Phase2:
                 currentPhase = CombatPhase.Phase3;
