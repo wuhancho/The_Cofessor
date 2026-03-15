@@ -7,6 +7,7 @@ using UnityEngine;
 public class CombatDialogue : MonoBehaviour
 {
     [SerializeField] private GameObject textObject;
+    [SerializeField] private GameObject background;
     [SerializeField] private float timeReading = 3f;
     private PlayerController playerController;
     private PlayerConversant playerConversant;
@@ -51,8 +52,6 @@ public class CombatDialogue : MonoBehaviour
             return;
         }
 
-
-
         if (currentNodeText != playerConversant.GetText())
         {
             currentNodeText = playerConversant.GetText();
@@ -79,6 +78,7 @@ public class CombatDialogue : MonoBehaviour
         {
             currentLineIndex++;
             BuildTextAI();
+            StartCoroutine(TimeReading());
         }
         else if (playerConversant.HasNext())
         {
@@ -115,6 +115,7 @@ public class CombatDialogue : MonoBehaviour
     private IEnumerator TimeReading()
     {
         yield return new WaitForSeconds(timeReading);
+        Debug.Log("CriptaDialogue - Time reading finished. Calling Next method.");
         Next();
     }
     public void InitializeDecision(string penitentID, string TypeDialogue, string phase)

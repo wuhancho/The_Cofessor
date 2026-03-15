@@ -90,6 +90,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rayCount: 5
   rotationSpeed: 30
-  rayWidth: 10
+  rayWidth: 5
   faithDamage: 1
   rayColor: {r: 0.7075472, g: 0.36058456, b: 0.06341223, a: 0.8}

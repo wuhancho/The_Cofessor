@@ -3,11 +3,16 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
 public class FadeController : MonoBehaviour
 {
     public static FadeController Instance { get; private set; }
     [SerializeField] private Image fadeImage;
+
+    public UnityEvent OnFadeInitialized;
+    public UnityEvent OnFadeOutinitialized;
+
     private void Awake()
     {
         if (Instance != null && Instance != this) { Destroy(gameObject); return; }
@@ -42,12 +47,15 @@ public class FadeController : MonoBehaviour
 
     public void FadeOut(float duration, Action onComplete = null)
     {
+        Debug.Log("FadeOut started");
+        OnFadeOutinitialized?.Invoke();
         StartCoroutine(FadeRoutine(0f, 1f, duration, onComplete));
     }
 
     public void FadeIn(float duration, Action onComplete = null)
     {
         Debug.Log("FadeIn started");
+        OnFadeInitialized?.Invoke();
         StartCoroutine(FadeRoutine(1f, 0f, duration, onComplete));
     }
 

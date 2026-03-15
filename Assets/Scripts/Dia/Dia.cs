@@ -28,8 +28,21 @@ public class Dia : MonoBehaviour
     [SerializeField] private TextMeshProUGUI moneyText;
     [SerializeField] private float fadeDuration = 1f;
     [SerializeField, IReadOnly] private SPenitent guiltyPenitent;
+    [SerializeField] private float sobornos;
 
 
+    public float Sobornos { get => sobornos; }
+
+    /// <summary>
+    /// Suma la cantidad de soborno al total de sobornos del día. Este método se puede llamar desde cualquier parte del código para agregar sobornos, por ejemplo, cuando el jugador realiza una acción que genera sobornos o cuando interactúa con ciertos personajes o eventos que ofrecen la opción de sobornar. El método actualiza el total de sobornos acumulados en el día, lo que puede influir en eventos futuros, decisiones o resultados relacionados con la economía y las interacciones del jugador.
+    /// </summary>
+    /// <param name="soborno"></param>
+    public void SetSobornos(float soborno)
+    {
+        sobornos += soborno;
+    }
+
+    public static Dia Instance { get; private set; }
 
     public void Awake()
     {
@@ -203,6 +216,14 @@ public class Dia : MonoBehaviour
             Debug.Log($"No se encontró un evento para el día {numberDay}");
         }
     }
-
+    public float GetDonations()
+    {
+        // Lógica para calcular las donaciones basadas en la reputación con el pueblo
+        float baseDonation = 10f; // Cantidad base de donación
+        float reputationFactor = playerController.PlayerStatus.RepPueblo / 100f; // Factor basado en la reputación (0 a 1)
+        float totalDonation = baseDonation * (1 + reputationFactor); // Donación total ajustada por la reputación
+        Debug.Log($"Cálculo de donaciones: Base={baseDonation}, Reputación={playerController.PlayerStatus.RepPueblo}, Total={totalDonation}");
+        return totalDonation;
+    }
 }
 

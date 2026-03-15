@@ -34,8 +34,10 @@ public class F_noche : MonoBehaviour, IFases
                 Debug.Log("Inicializando A_Decision en F_tarde");
                 accionType.Initialize(playerController, penitentController);
                 //accion.SetDay(dia.GetNumberDay());
+                accionType.onEndAction += () => AEconomy();
             }
             accion.SetDay(dia.GetNumberDay());
+            
         }
     }
     public void Initialize(PlayerController pController, PenitentController ptController)
@@ -43,5 +45,16 @@ public class F_noche : MonoBehaviour, IFases
         playerController = pController;
         penitentController = ptController;
         InitializeActions();
+    }
+    private void AEconomy()
+    {
+        foreach (var accion in acciones)
+        {
+            if (accion is A_Economy accionEconomy)
+            {
+                Debug.Log("Ejecutando A_Economy en F_noche");
+                accionEconomy.Initialize(playerController);
+            }
+        }
     }
 }
