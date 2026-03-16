@@ -54,6 +54,7 @@ MonoBehaviour:
   moneyText: {fileID: 0}
   fadeDuration: 2
   guiltyPenitent: {fileID: 0}
+  sobornos: 0
 --- !u!114 &2317864268017433144
 MonoBehaviour:
   m_ObjectHideFlags: 0

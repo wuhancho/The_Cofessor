@@ -105,7 +105,7 @@ public class A_Decision : MonoBehaviour, IAcciones
                 onCombat?.Invoke();
                 FadeController.Instance.FadeOut(timeToWaitAfterDialogue, () =>
                 {
-                    FadeController.Instance.FadeIn(1);
+                    FadeController.Instance.FadeIn(2);
                     ActiveCombat();
                 });
             }));
@@ -128,7 +128,7 @@ public class A_Decision : MonoBehaviour, IAcciones
                 FadeController.Instance.FadeOut(timeToWaitAfterDialogue, () =>
                 {
                     onEndAction?.Invoke();
-                    FadeController.Instance.FadeIn(1);
+                    FadeController.Instance.FadeIn(2);
                     onEndCombat?.Invoke();
                 });
             }));

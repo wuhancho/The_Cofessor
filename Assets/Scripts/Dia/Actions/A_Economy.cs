@@ -32,13 +32,19 @@ public class A_Economy : MonoBehaviour, IAcciones
     {
         PlayerController = playerController;
     }
+    private void Awake()
+    {
+        canvasEconomy.gameObject.SetActive(false);
+    }
     public void Initialize(PlayerController player,F_noche FaseNoche)
     {
         this.PlayerController = player;
         dia = FaseNoche.Dia;
         donationsGet = Dia.GetDonations();
         Sobornos = Dia.Sobornos;
+        canvasEconomy.gameObject.SetActive(true);
         canvasEconomy.Initialize(player,this);
+        
     }
 
     public void CancelAction()
@@ -59,7 +65,7 @@ public class A_Economy : MonoBehaviour, IAcciones
 
     public void SetDay(int day)
     {
-        throw new System.NotImplementedException();
+        currentDay = day;
     }
 
     public void TriggerAction()
