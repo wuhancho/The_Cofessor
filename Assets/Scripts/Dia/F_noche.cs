@@ -8,7 +8,7 @@ public class F_noche : MonoBehaviour, IFases
     private Dia dia;
     private PlayerController playerController;
     private PenitentController penitentController;
-
+    public Dia Dia {get => dia; }
     private void Awake()
     {
         RefrescarAcciones();
@@ -53,7 +53,7 @@ public class F_noche : MonoBehaviour, IFases
             if (accion is A_Economy accionEconomy)
             {
                 Debug.Log("Ejecutando A_Economy en F_noche");
-                accionEconomy.Initialize(playerController);
+                accionEconomy.Initialize(playerController,this);
             }
         }
     }
