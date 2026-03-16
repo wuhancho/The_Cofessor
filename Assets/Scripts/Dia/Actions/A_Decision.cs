@@ -46,6 +46,12 @@ public class A_Decision : MonoBehaviour, IAcciones
         voteCanvas.gameObject.SetActive(true);
         voteCanvas.OnCulpritSelected += HandlePenitentSelected; // Suscribirse al evento de selección de culpable
         //criptaDialogue.onDialogueDecisionEnd += ActiveDialogueDecision;
+        canvasCombat.onEndCombat += () =>
+        {
+            Debug.Log("Combate finalizado. Se activa acción de fin de combate.");
+            onEndCombat?.Invoke();
+            onEndAction?.Invoke();
+        };
         canvasCombat.Boss.SetActive(false);
         criptaDialogue.IsPunish += isPunish =>
         {

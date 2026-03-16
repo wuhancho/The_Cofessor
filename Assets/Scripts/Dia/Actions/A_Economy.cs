@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class A_Economy : MonoBehaviour, IAcciones
@@ -15,6 +16,7 @@ public class A_Economy : MonoBehaviour, IAcciones
     private float Sobornos;
     private PlayerController PlayerController;
     Dia dia;
+    F_noche faseNoche;
     private int currentDay;
 
     public Dia Dia { get => dia; }
@@ -40,6 +42,7 @@ public class A_Economy : MonoBehaviour, IAcciones
     {
         this.PlayerController = player;
         dia = FaseNoche.Dia;
+        faseNoche = FaseNoche;
         donationsGet = Dia.GetDonations();
         Sobornos = Dia.Sobornos;
         canvasEconomy.gameObject.SetActive(true);
@@ -71,5 +74,10 @@ public class A_Economy : MonoBehaviour, IAcciones
     public void TriggerAction()
     {
         throw new System.NotImplementedException();
+    }
+
+    internal void EndEconomy()
+    {
+        faseNoche.EndAction.Invoke();
     }
 }

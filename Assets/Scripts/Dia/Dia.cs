@@ -225,5 +225,11 @@ public class Dia : MonoBehaviour
         Debug.Log($"Cálculo de donaciones: Base={baseDonation}, Reputación={playerController.PlayerStatus.RepPueblo}, Total={totalDonation}");
         return totalDonation;
     }
+    private void NextDay()
+    {
+        numberDay++;
+        playerController.PlayerStatus.SetDay(numberDay);
+        StartEventDay();
+    }
 }
 

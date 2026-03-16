@@ -51,6 +51,7 @@ public class CanvasCombat : MonoBehaviour
         StartCombatState();
         boss.SetActive(true);
         Debug.Log($"[CanvasCombat] Inicializado. Comenzando con {currentPhase} y El estado {currentState}");
+
         //StartDialogueState();
     }
 
