@@ -11,7 +11,7 @@ public class LevelManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // Para que no se destruya al cambiar de escena
+            //DontDestroyOnLoad(gameObject); // Para que no se destruya al cambiar de escena
         }
         else
         {
