@@ -20,6 +20,7 @@ namespace The_cofessor.Personajes.Dialogs
         [SerializeField] private float RepIglesiaCost = 0;
         [SerializeField] private float RepPuebloCost = 0;
         [SerializeField] private float SobornoCost = 0;
+        [SerializeField] private Sprite reactionPenitent;
 
         public Rect GetRect() 
         { 
@@ -56,6 +57,10 @@ namespace The_cofessor.Personajes.Dialogs
         public float GetSobornoCost()
         {
             return SobornoCost;
+        }
+        public Sprite GetReactionPenitent()
+        {
+            return reactionPenitent;
         }
 #if UNITY_EDITOR
         public void SetPosition(Vector2 newPosition)
@@ -129,6 +134,12 @@ namespace The_cofessor.Personajes.Dialogs
         {
             Undo.RecordObject(this, "Set Soborno Cost");
             SobornoCost = value;
+            EditorUtility.SetDirty(this);
+        }
+        public void SetReactionPenitent(Sprite newSprite)
+        {
+            Undo.RecordObject(this, "Set Reaction Penitent");
+            reactionPenitent = newSprite;
             EditorUtility.SetDirty(this);
         }
 #endif

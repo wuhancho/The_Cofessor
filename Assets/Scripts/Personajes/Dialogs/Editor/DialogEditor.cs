@@ -283,6 +283,16 @@ namespace The_cofessor.Personajes.Dialogs.Editor
                 EditorUtility.SetDirty(selectedNode);
             }
 
+            EditorGUI.BeginChangeCheck();
+            Sprite newReactionPenitent = (Sprite)EditorGUILayout.ObjectField("Reaction Penitent", selectedNode.GetReactionPenitent(), typeof(Sprite), false);
+            if (EditorGUI.EndChangeCheck())
+            {
+                Undo.RecordObject(selectedNode, "Edit Reaction Penitent");
+                selectedNode.SetReactionPenitent(newReactionPenitent);
+                EditorUtility.SetDirty(selectedNode);
+                Repaint();
+            }
+
             EditorGUILayout.Space(4);
 
             // --- Children (solo lectura informativa) ---
