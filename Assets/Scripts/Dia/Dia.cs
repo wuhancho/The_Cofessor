@@ -55,20 +55,22 @@ public class Dia : MonoBehaviour
             penitentController = FindAnyObjectByType<PenitentController>();
         }
         eventDay = GetComponent<EventDayManager>();
-        Initialize(playerController, penitentController);
         StartEventDay();
-
+        Initialize(playerController, penitentController);
     }
 
     public void Initialize(PlayerController pController, PenitentController ptController)
     {
         playerController = pController;
+        Debug.Log($"Dia.Initialize: PlayerController asignado: {playerController.name}");
         penitentController = ptController;
+        Debug.Log($"Dia.Initialize: PenitentController asignado: {penitentController.name}");
 
         // Obtener fases en children y inicializarlas
         fasesActuales = GetComponentsInChildren<MonoBehaviour>(true)
             .OfType<IFases>()
             .ToArray();
+        Debug.Log($"Dia.Initialize: Fases encontradas en children: {fasesActuales.Length}");
         //if (playerController.PlayerStatus.Day == 0)
         //{
         //    playerController.PlayerStatus.ResetAllStatus();
@@ -79,6 +81,7 @@ public class Dia : MonoBehaviour
         foreach (var fase in fasesActuales)
         {
             fase.Initialize(playerController, penitentController);
+            Debug.Log($"Dia.Initialize: Fase {fase.GetType().Name} inicializada para el día {numberDay}");
         }
         penitentController.UpdateDayPenitent(numberDay);
         Debug.Log($"Dia.Initialize: inicializadas {fasesActuales.Length} fases para el día {numberDay}");
@@ -193,18 +196,28 @@ public class Dia : MonoBehaviour
                     break;
                 case TypeEventDay.day2:
                     // Activar evento del día 2
+                    eventDayActual.ActivateEvent();
+                    guiltyPenitent = eventDayActual.GuiltyPenitent; // Obtener el penitente culpable del evento del día 2
                     break;
                 case TypeEventDay.day3:
                     // Activar evento del día 3
+                    eventDayActual.ActivateEvent();
+                    guiltyPenitent = eventDayActual.GuiltyPenitent; // Obtener el penitente culpable del evento del día 3
                     break;
                 case TypeEventDay.day4:
                     // Activar evento del día 4
+                    eventDayActual.ActivateEvent();
+                    guiltyPenitent = eventDayActual.GuiltyPenitent; // Obtener el penitente culpable del evento del día 4
                     break;
                 case TypeEventDay.day5:
                     // Activar evento del día 5
+                    eventDayActual.ActivateEvent();
+                    guiltyPenitent = eventDayActual.GuiltyPenitent; // Obtener el penitente culpable del evento del día 5
                     break;
                 case TypeEventDay.day6:
                     // Activar evento del día 6
+                    eventDayActual.ActivateEvent();
+                    guiltyPenitent = eventDayActual.GuiltyPenitent; // Obtener el penitente culpable del evento del día 6
                     break;
                 default:
                     Debug.LogWarning($"Evento no reconocido para el día {numberDay}");
@@ -216,20 +229,20 @@ public class Dia : MonoBehaviour
             Debug.Log($"No se encontró un evento para el día {numberDay}");
         }
     }
-    public float GetDonations()
+    public float GetDonations(float amount)
     {
-        // Lógica para calcular las donaciones basadas en la reputación con el pueblo
-        float baseDonation = 10f; // Cantidad base de donación
-        float reputationFactor = playerController.PlayerStatus.RepPueblo / 100f; // Factor basado en la reputación (0 a 1)
-        float totalDonation = baseDonation * (1 + reputationFactor); // Donación total ajustada por la reputación
-        Debug.Log($"Cálculo de donaciones: Base={baseDonation}, Reputación={playerController.PlayerStatus.RepPueblo}, Total={totalDonation}");
-        return totalDonation;
+        return amount = amount * (1 + (playerController.PlayerStatus.RepPueblo / 10f)); ;
     }
     private void NextDay()
     {
         numberDay++;
         playerController.PlayerStatus.SetDay(numberDay);
         StartEventDay();
+    }
+
+    internal float GetSalary(float amount)
+    {
+        return amount = amount * (1 + (playerController.PlayerStatus.RepIglesia / 10f)); // Aumentar el salario basado en la reputación con la iglesia
     }
 }
 
