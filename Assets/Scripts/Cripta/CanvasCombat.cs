@@ -62,6 +62,7 @@ public class CanvasCombat : MonoBehaviour
 
     private void OnDisable()
     {
+        boss.SetActive(false);
         combatDialogue.onDialogueFinished -= OnDialogueFinished;
     }
 

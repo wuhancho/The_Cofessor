@@ -24,7 +24,7 @@ public class CanvasEconomy : MonoBehaviour
     private float comidaCost;
     private float comidaAmount;
     private float donacionAmount;
-    private float donationsGet = 0.5f; // Porcentaje de dinero que se obtiene por cada unidad donada
+    private float donationsGet; // Porcentaje de dinero que se obtiene por cada unidad donada
     private float salary;
     private float churchCost;
     private float salaryCarlitos;
@@ -48,13 +48,12 @@ public class CanvasEconomy : MonoBehaviour
         playerMoney = player.PlayerStatus.Money;
         comidaCost = economi.ComidaCost;
         comidaAmount = economi.ComidaAmount;
+        donationsGet = economi.Donations;
         donacionAmount = economi.DonacionAmount;
-        donationsGet = economi.DonationsGet;
         salary = economi.Salary;
         churchCost = economi.ChurchCost;
         salaryCarlitos = economi.SalaryCarlitos;
         donationsForArzobispo = economi.DonationsForArzobispo;
-        donacionAmount = dia.GetDonations();
         sobornos = dia.Sobornos;
 
         UpdateEconomy();
@@ -77,7 +76,7 @@ public class CanvasEconomy : MonoBehaviour
         textSobornos.text = $"Sobornos: {sobornos}";
         textDonationsForArzobispo.text = $"Donaciones para Arzobispo: {donationsForArzobispo}";
         textComida.text = $"Comida: {comidaAmount} (x{comidaCost})";
-        float total = salary + (donacionAmount * donationsGet) - churchCost - salaryCarlitos - sobornos - donationsForArzobispo - (comidaAmount * comidaCost);
+        float total = salary + donationsGet - churchCost - salaryCarlitos - sobornos - donationsForArzobispo - (comidaAmount * comidaCost);
         textTotal.text = $"Total: {total}";
     }
 }
