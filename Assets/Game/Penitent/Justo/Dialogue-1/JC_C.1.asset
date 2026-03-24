@@ -26,6 +26,7 @@ MonoBehaviour:
   RepIglesiaCost: -3
   RepPuebloCost: -3
   SobornoCost: 50
+  reactionPenitent: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70,6 +71,7 @@ MonoBehaviour:
   RepIglesiaCost: 3
   RepPuebloCost: -3
   SobornoCost: 0
+  reactionPenitent: {fileID: 0}
 --- !u!114 &2589414538154949332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103,3 +105,4 @@ MonoBehaviour:
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
+  reactionPenitent: {fileID: -5099292496197868168, guid: 2309dcb67cafec142b50b17f300824ff, type: 3}
