@@ -28,6 +28,7 @@ MonoBehaviour:
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
+  reactionPenitent: {fileID: 2361655531188838059, guid: 8cdab3cedb16a5f41b522a6f9908ceeb, type: 3}
 --- !u!114 &-6075348997985960139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58,6 +59,7 @@ MonoBehaviour:
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
+  reactionPenitent: {fileID: 6218123344806412219, guid: 8cdab3cedb16a5f41b522a6f9908ceeb, type: 3}
 --- !u!114 &-5719078038062884864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88,6 +90,7 @@ MonoBehaviour:
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
+  reactionPenitent: {fileID: -2966200626249415253, guid: 8cdab3cedb16a5f41b522a6f9908ceeb, type: 3}
 --- !u!114 &-2993282744099717530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121,6 +124,7 @@ MonoBehaviour:
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
+  reactionPenitent: {fileID: 6218123344806412219, guid: 8cdab3cedb16a5f41b522a6f9908ceeb, type: 3}
 --- !u!114 &-1298815467566079881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,6 +152,7 @@ MonoBehaviour:
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
+  reactionPenitent: {fileID: 0}
 --- !u!114 &-474708573093139940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,6 +181,7 @@ MonoBehaviour:
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
+  reactionPenitent: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,6 +237,7 @@ MonoBehaviour:
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
+  reactionPenitent: {fileID: -2415219595597414833, guid: 8cdab3cedb16a5f41b522a6f9908ceeb, type: 3}
 --- !u!114 &2639277014555994808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,13 +260,14 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 1044
-    y: 0
+    y: 1
     width: 300
     height: 200
   faithCost: 0
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
+  reactionPenitent: {fileID: -2966200626249415253, guid: 8cdab3cedb16a5f41b522a6f9908ceeb, type: 3}
 --- !u!114 &3966601042404322209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -289,6 +297,7 @@ MonoBehaviour:
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
+  reactionPenitent: {fileID: -2966200626249415253, guid: 8cdab3cedb16a5f41b522a6f9908ceeb, type: 3}
 --- !u!114 &8252326029411549296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -315,3 +324,4 @@ MonoBehaviour:
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
+  reactionPenitent: {fileID: 0}

@@ -1,0 +1,3445 @@
+fileFormatVersion: 2
+guid: 1f831341f1a79e146a5e201d991302f1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8721772890876599171
+    second: The Conffesor Emociones_0
+  - first:
+      213: 7428578318827255278
+    second: The Conffesor Emociones_1
+  - first:
+      213: -1018107498758418939
+    second: The Conffesor Emociones_2
+  - first:
+      213: 6420608002911775634
+    second: The Conffesor Emociones_3
+  - first:
+      213: -3598286242599313600
+    second: The Conffesor Emociones_4
+  - first:
+      213: 1133387358365119555
+    second: The Conffesor Emociones_5
+  - first:
+      213: 1385052647235326673
+    second: The Conffesor Emociones_6
+  - first:
+      213: -5382594046141671955
+    second: The Conffesor Emociones_7
+  - first:
+      213: -6321186027669255190
+    second: The Conffesor Emociones_8
+  - first:
+      213: 898751798066026629
+    second: The Conffesor Emociones_9
+  - first:
+      213: 1379441023883877162
+    second: The Conffesor Emociones_10
+  - first:
+      213: -4826227613408901530
+    second: The Conffesor Emociones_11
+  - first:
+      213: 5311116699999223350
+    second: The Conffesor Emociones_12
+  - first:
+      213: -7657576756348528220
+    second: The Conffesor Emociones_13
+  - first:
+      213: -5937280356950673331
+    second: The Conffesor Emociones_14
+  - first:
+      213: 2909247759830578990
+    second: The Conffesor Emociones_15
+  - first:
+      213: -1018882734115813383
+    second: The Conffesor Emociones_16
+  - first:
+      213: -7482689145327349292
+    second: The Conffesor Emociones_17
+  - first:
+      213: -3395575970181434872
+    second: The Conffesor Emociones_18
+  - first:
+      213: 226735990302225424
+    second: The Conffesor Emociones_19
+  - first:
+      213: -997995147210585479
+    second: The Conffesor Emociones_20
+  - first:
+      213: 8706577723419544713
+    second: The Conffesor Emociones_21
+  - first:
+      213: 5497789395493451933
+    second: The Conffesor Emociones_22
+  - first:
+      213: -6177808163256964598
+    second: The Conffesor Emociones_23
+  - first:
+      213: -3283648060594385844
+    second: The Conffesor Emociones_24
+  - first:
+      213: 1686090081592906066
+    second: The Conffesor Emociones_25
+  - first:
+      213: -8680363682273341733
+    second: The Conffesor Emociones_26
+  - first:
+      213: 5389451286220523101
+    second: The Conffesor Emociones_27
+  - first:
+      213: 5732033146752060078
+    second: The Conffesor Emociones_28
+  - first:
+      213: -3434341129638162760
+    second: The Conffesor Emociones_29
+  - first:
+      213: -5624719368894333402
+    second: The Conffesor Emociones_30
+  - first:
+      213: -4955864893632916464
+    second: The Conffesor Emociones_31
+  - first:
+      213: 3903228284092929207
+    second: The Conffesor Emociones_32
+  - first:
+      213: -871062462759820014
+    second: The Conffesor Emociones_33
+  - first:
+      213: -459076198724907225
+    second: The Conffesor Emociones_34
+  - first:
+      213: 1332154057882159611
+    second: The Conffesor Emociones_35
+  - first:
+      213: -9142878760325251639
+    second: The Conffesor Emociones_36
+  - first:
+      213: -7751363226458822273
+    second: The Conffesor Emociones_37
+  - first:
+      213: 5507134020269636320
+    second: The Conffesor Emociones_38
+  - first:
+      213: -5049396279747216912
+    second: The Conffesor Emociones_39
+  - first:
+      213: -3738725557413092006
+    second: The Conffesor Emociones_40
+  - first:
+      213: -2768073293163847665
+    second: The Conffesor Emociones_41
+  - first:
+      213: -3046673848894093151
+    second: The Conffesor Emociones_42
+  - first:
+      213: 342262484611617318
+    second: The Conffesor Emociones_43
+  - first:
+      213: 196479306777198149
+    second: The Conffesor Emociones_44
+  - first:
+      213: -5549671431354010585
+    second: The Conffesor Emociones_45
+  - first:
+      213: -6573243177781807061
+    second: The Conffesor Emociones_46
+  - first:
+      213: -2404643688613996354
+    second: The Conffesor Emociones_47
+  - first:
+      213: -8301045954964874281
+    second: The Conffesor Emociones_48
+  - first:
+      213: -5511304735136332116
+    second: The Conffesor Emociones_49
+  - first:
+      213: -6665025811133943076
+    second: The Conffesor Emociones_50
+  - first:
+      213: -6498255626951411872
+    second: The Conffesor Emociones_51
+  - first:
+      213: 2237679751313008769
+    second: The Conffesor Emociones_52
+  - first:
+      213: -1454431690113658016
+    second: The Conffesor Emociones_53
+  - first:
+      213: 649742845525035129
+    second: The Conffesor Emociones_54
+  - first:
+      213: 8538153209644688148
+    second: The Conffesor Emociones_55
+  - first:
+      213: -8100709856586433258
+    second: The Conffesor Emociones_56
+  - first:
+      213: -5705947337846973475
+    second: The Conffesor Emociones_57
+  - first:
+      213: 5434469994254180254
+    second: The Conffesor Emociones_58
+  - first:
+      213: 4550582169404900831
+    second: The Conffesor Emociones_59
+  - first:
+      213: -730739508576489481
+    second: The Conffesor Emociones_60
+  - first:
+      213: 119880157080408259
+    second: The Conffesor Emociones_61
+  - first:
+      213: 867173917606356476
+    second: The Conffesor Emociones_62
+  - first:
+      213: 8584519661567137705
+    second: The Conffesor Emociones_63
+  - first:
+      213: 6485992517066640933
+    second: The Conffesor Emociones_64
+  - first:
+      213: 4947912762042463422
+    second: The Conffesor Emociones_65
+  - first:
+      213: 2535822376778505156
+    second: The Conffesor Emociones_66
+  - first:
+      213: -5779969184793991672
+    second: The Conffesor Emociones_67
+  - first:
+      213: 4403770003074324245
+    second: The Conffesor Emociones_68
+  - first:
+      213: 7433443480156182901
+    second: The Conffesor Emociones_69
+  - first:
+      213: -1677721515675656963
+    second: The Conffesor Emociones_70
+  - first:
+      213: -6117421739478754773
+    second: The Conffesor Emociones_71
+  - first:
+      213: 4717675317854264298
+    second: The Conffesor Emociones_72
+  - first:
+      213: -3895125870600840566
+    second: The Conffesor Emociones_73
+  - first:
+      213: 2347903267878101020
+    second: The Conffesor Emociones_74
+  - first:
+      213: 8452963036239748659
+    second: The Conffesor Emociones_75
+  - first:
+      213: 3806762088071341701
+    second: The Conffesor Emociones_76
+  - first:
+      213: -5570855140394828417
+    second: The Conffesor Emociones_77
+  - first:
+      213: 6521686432613522508
+    second: The Conffesor Emociones_78
+  - first:
+      213: 1487158257026497038
+    second: The Conffesor Emociones_79
+  - first:
+      213: -8834421050758652805
+    second: The Conffesor Emociones_80
+  - first:
+      213: 4266147776970596570
+    second: The Conffesor Emociones_81
+  - first:
+      213: 4857204780001478055
+    second: The Conffesor Emociones_82
+  - first:
+      213: -8562046354623356567
+    second: The Conffesor Emociones_83
+  - first:
+      213: 388583039242935870
+    second: The Conffesor Emociones_84
+  - first:
+      213: 1199033306441150277
+    second: The Conffesor Emociones_85
+  - first:
+      213: 3123058628960695995
+    second: The Conffesor Emociones_86
+  - first:
+      213: -4351534152812641291
+    second: The Conffesor Emociones_87
+  - first:
+      213: 3434443000657788625
+    second: The Conffesor Emociones_88
+  - first:
+      213: 9056424972175536556
+    second: The Conffesor Emociones_89
+  - first:
+      213: 482212201002028675
+    second: The Conffesor Emociones_90
+  - first:
+      213: 1928198524780152082
+    second: The Conffesor Emociones_91
+  - first:
+      213: 1283613362041474957
+    second: The Conffesor Emociones_92
+  - first:
+      213: 6221097327418217127
+    second: The Conffesor Emociones_93
+  - first:
+      213: -6535516888554308429
+    second: The Conffesor Emociones_94
+  - first:
+      213: -1667986891639844836
+    second: The Conffesor Emociones_95
+  - first:
+      213: 7197440046389277507
+    second: The Conffesor Emociones_96
+  - first:
+      213: 3301312093979174205
+    second: The Conffesor Emociones_97
+  - first:
+      213: 7944876661430834761
+    second: The Conffesor Emociones_98
+  - first:
+      213: 6948894224681829457
+    second: The Conffesor Emociones_99
+  - first:
+      213: 2665040895376150063
+    second: The Conffesor Emociones_100
+  - first:
+      213: 5908231617827350722
+    second: The Conffesor Emociones_101
+  - first:
+      213: 7877358878867817849
+    second: The Conffesor Emociones_102
+  - first:
+      213: 407825259500651271
+    second: The Conffesor Emociones_103
+  - first:
+      213: 974878420625096948
+    second: The Conffesor Emociones_104
+  - first:
+      213: 2495121420278199508
+    second: The Conffesor Emociones_105
+  - first:
+      213: -1481376717030067471
+    second: The Conffesor Emociones_106
+  - first:
+      213: 7052274663330580377
+    second: The Conffesor Emociones_107
+  - first:
+      213: -323017507855084753
+    second: The Conffesor Emociones_108
+  - first:
+      213: -284287516616280596
+    second: The Conffesor Emociones_109
+  - first:
+      213: -4957020366937649381
+    second: The Conffesor Emociones_110
+  - first:
+      213: 2129374834201596744
+    second: The Conffesor Emociones_111
+  - first:
+      213: -8623336145348378463
+    second: The Conffesor Emociones_112
+  - first:
+      213: 4638850085360841719
+    second: The Conffesor Emociones_113
+  - first:
+      213: 184504326813703295
+    second: The Conffesor Emociones_114
+  - first:
+      213: 8996867551097141226
+    second: The Conffesor Emociones_115
+  - first:
+      213: 4866609312193264849
+    second: The Conffesor Emociones_116
+  - first:
+      213: -3673959411633629611
+    second: The Conffesor Emociones_117
+  - first:
+      213: -6982492529625272445
+    second: The Conffesor Emociones_118
+  - first:
+      213: 8776536860957650355
+    second: The Conffesor Emociones_119
+  - first:
+      213: -3501896760163611016
+    second: The Conffesor Emociones_120
+  - first:
+      213: 8326082634740563924
+    second: The Conffesor Emociones_121
+  - first:
+      213: -5902135456790517138
+    second: The Conffesor Emociones_122
+  - first:
+      213: 4513472313568929052
+    second: The Conffesor Emociones_123
+  - first:
+      213: -7788575237961112571
+    second: The Conffesor Emociones_124
+  - first:
+      213: 9094639790872792751
+    second: The Conffesor Emociones_125
+  - first:
+      213: 3555793968981366848
+    second: The Conffesor Emociones_126
+  - first:
+      213: -4552868621518958142
+    second: The Conffesor Emociones_127
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: The Conffesor Emociones_0
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 1431
+        width: 607
+        height: 1043
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38bd45cfb36f90970800000000000000
+      internalID: 8721772890876599171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_1
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 2474
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5fdd76f9c971760800000000000000
+      internalID: 7428578318827255278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_2
+      rect:
+        serializedVersion: 2
+        x: 2516
+        y: 1431
+        width: 607
+        height: 1043
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ec751cf94fed1f0800000000000000
+      internalID: -1018107498758418939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_3
+      rect:
+        serializedVersion: 2
+        x: 2759
+        y: 2474
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b2697f5f49a1950800000000000000
+      internalID: 6420608002911775634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_4
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1411
+        width: 607
+        height: 1029
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f51b51ab1501ec0800000000000000
+      internalID: -3598286242599313600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_5
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 2440
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34475482cc99abf00800000000000000
+      internalID: 1133387358365119555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1483
+        width: 139
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d21da95b02b83310800000000000000
+      internalID: 1385052647235326673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_7
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 1517
+        width: 165
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5d795bb3f2d45b0800000000000000
+      internalID: -5382594046141671955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_8
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 1517
+        width: 165
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb8c958cc2a648a0800000000000000
+      internalID: -6321186027669255190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_9
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 1397
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58818f0aff1097c00800000000000000
+      internalID: 898751798066026629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_10
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 1273
+        width: 51
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b13397d42c42310800000000000000
+      internalID: 1379441023883877162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_11
+      rect:
+        serializedVersion: 2
+        x: 2764
+        y: 1390
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666c4995e8bc50db0800000000000000
+      internalID: -4826227613408901530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_12
+      rect:
+        serializedVersion: 2
+        x: 2777
+        y: 1390
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e3918cf70e4b940800000000000000
+      internalID: 5311116699999223350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_13
+      rect:
+        serializedVersion: 2
+        x: 2897
+        y: 1271
+        width: 46
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9de8df282dab590800000000000000
+      internalID: -7657576756348528220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_14
+      rect:
+        serializedVersion: 2
+        x: 2910
+        y: 1391
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48fc00f8fa8a9da0800000000000000
+      internalID: -5937280356950673331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_15
+      rect:
+        serializedVersion: 2
+        x: 2938
+        y: 1390
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e277d487c69bf5820800000000000000
+      internalID: 2909247759830578990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_16
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 1272
+        width: 69
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f78f353d833cd1f0800000000000000
+      internalID: -1018882734115813383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_17
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 1372
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d197180ed5282890800000000000000
+      internalID: -7482689145327349292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_18
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 1271
+        width: 39
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802bb7945ad70e0d0800000000000000
+      internalID: -3395575970181434872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_19
+      rect:
+        serializedVersion: 2
+        x: 2823
+        y: 1273
+        width: 32
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014b2cf8e27852300800000000000000
+      internalID: 226735990302225424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_20
+      rect:
+        serializedVersion: 2
+        x: 2868
+        y: 1386
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a03f283b86622f0800000000000000
+      internalID: -997995147210585479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_21
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 1379
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c40cd5f4af3d870800000000000000
+      internalID: 8706577723419544713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_22
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 1272
+        width: 40
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98fb40a3521c4c40800000000000000
+      internalID: 5497789395493451933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_23
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 1272
+        width: 25
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a6f8af434044aa0800000000000000
+      internalID: -6177808163256964598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_24
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 1271
+        width: 34
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c0fd48c732e62d0800000000000000
+      internalID: -3283648060594385844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_25
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 1271
+        width: 39
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25197a4fef1366710800000000000000
+      internalID: 1686090081592906066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_26
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 1271
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde45e4b837298780800000000000000
+      internalID: -8680363682273341733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_27
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 1271
+        width: 72
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d564279e36d2bca40800000000000000
+      internalID: 5389451286220523101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_28
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 1273
+        width: 46
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaacbe007c54c8f40800000000000000
+      internalID: 5732033146752060078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_29
+      rect:
+        serializedVersion: 2
+        x: 2854
+        y: 1272
+        width: 46
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be476240f4c650d0800000000000000
+      internalID: -3434341129638162760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_30
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 1272
+        width: 40
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e3bc7f88bf0f1b0800000000000000
+      internalID: -5624719368894333402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_31
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 677
+        width: 440
+        height: 593
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0145e24f22b393bb0800000000000000
+      internalID: -4955864893632916464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_32
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 254
+        width: 896
+        height: 1018
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4dd96b17d0b2630800000000000000
+      internalID: 3903228284092929207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_33
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 1262
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21526022e4d59e3f0800000000000000
+      internalID: -871062462759820014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_34
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 816
+        width: 530
+        height: 454
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f4a2a21a801a9f0800000000000000
+      internalID: -459076198724907225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_35
+      rect:
+        serializedVersion: 2
+        x: 2469
+        y: 275
+        width: 677
+        height: 991
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9492ebe03cc7210800000000000000
+      internalID: 1332154057882159611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_36
+      rect:
+        serializedVersion: 2
+        x: 2748
+        y: 1262
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd79526538fd1180800000000000000
+      internalID: -9142878760325251639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_37
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 239
+        width: 673
+        height: 999
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7965e9c630ad6490800000000000000
+      internalID: -7751363226458822273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_38
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1238
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eaf3a0a6354d6c40800000000000000
+      internalID: 5507134020269636320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 759
+        width: 245
+        height: 440
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9fc7f16d0fce9b0800000000000000
+      internalID: -5049396279747216912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_40
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1178
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55e7b50ae06d1cc0800000000000000
+      internalID: -3738725557413092006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_41
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1184
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0029b87104d599d0800000000000000
+      internalID: -2768073293163847665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_42
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1188
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a80232c64a08b5d0800000000000000
+      internalID: -3046673848894093151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_43
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1177
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622d7379ae5ffb400800000000000000
+      internalID: 342262484611617318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_44
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1179
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e7b2673e80ab200800000000000000
+      internalID: 196479306777198149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_45
+      rect:
+        serializedVersion: 2
+        x: 3364
+        y: 1001
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724b2029c3b9bf2b0800000000000000
+      internalID: -5549671431354010585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_46
+      rect:
+        serializedVersion: 2
+        x: 3386
+        y: 951
+        width: 37
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b283e06082627c4a0800000000000000
+      internalID: -6573243177781807061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_47
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 972
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb817c83e4df0aed0800000000000000
+      internalID: -2404643688613996354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_48
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 963
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db102e4fa2cccc80800000000000000
+      internalID: -8301045954964874281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_49
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 970
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca645452b89e383b0800000000000000
+      internalID: -5511304735136332116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_50
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 963
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd23d8c66521183a0800000000000000
+      internalID: -6665025811133943076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_51
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 965
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067b0efbfee81d5a0800000000000000
+      internalID: -6498255626951411872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_52
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 956
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188a81ac0e5dd0f10800000000000000
+      internalID: 2237679751313008769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_53
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 960
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06354b07512d0dbe0800000000000000
+      internalID: -1454431690113658016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_54
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 950
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9780fdeeca9540900800000000000000
+      internalID: 649742845525035129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_55
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 918
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413abba6b1d9d7670800000000000000
+      internalID: 8538153209644688148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_56
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 928
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61df8a90e4f749f80800000000000000
+      internalID: -8100709856586433258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 620
+        width: 75
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb9b8ca02760d0b0800000000000000
+      internalID: -5705947337846973475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_58
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 722
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f1a0eaaad1b6b40800000000000000
+      internalID: 5434469994254180254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_59
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 704
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd50b908f5ae62f30800000000000000
+      internalID: 4550582169404900831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_60
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 722
+        width: 56
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff64ffd944ebd5f0800000000000000
+      internalID: -730739508576489481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_61
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 656
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c055622e56e9a100800000000000000
+      internalID: 119880157080408259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_62
+      rect:
+        serializedVersion: 2
+        x: 2223
+        y: 717
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf529656512d80c00800000000000000
+      internalID: 867173917606356476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_63
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 714
+        width: 47
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7d0134627522770800000000000000
+      internalID: 8584519661567137705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_64
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 698
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e499b74dfd20a50800000000000000
+      internalID: 6485992517066640933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_65
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 667
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4b92121748aa440800000000000000
+      internalID: 4947912762042463422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_66
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 678
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb9e5d240d013320800000000000000
+      internalID: 2535822376778505156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_67
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 662
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80666a766ac69cfa0800000000000000
+      internalID: -5779969184793991672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_68
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 646
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51714c15c755d1d30800000000000000
+      internalID: 4403770003074324245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_69
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 608
+        width: 34
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57917ac0675e82760800000000000000
+      internalID: 7433443480156182901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_70
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 636
+        width: 14
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc5f12ab2987b8e0800000000000000
+      internalID: -1677721515675656963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_71
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 673
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2add15e65d8a1ba0800000000000000
+      internalID: -6117421739478754773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_72
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 661
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebd45ec4bc887140800000000000000
+      internalID: 4717675317854264298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_73
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 629
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a176f68abb1f9c0800000000000000
+      internalID: -3895125870600840566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_74
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 628
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c106ad8159d659020800000000000000
+      internalID: 2347903267878101020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_75
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 618
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ed3928815fe4570800000000000000
+      internalID: 8452963036239748659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_76
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 620
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586aae333f554d430800000000000000
+      internalID: 3806762088071341701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_77
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 395
+        width: 37
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d7b95f3c850b2b0800000000000000
+      internalID: -5570855140394828417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_78
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 466
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4cd960d14fa18a50800000000000000
+      internalID: 6521686432613522508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_79
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 469
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a7ad23e8273a410800000000000000
+      internalID: 1487158257026497038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 126
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c1c417cd4d56580800000000000000
+      internalID: -8834421050758652805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_81
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 437
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0a7a5dcc6643b30800000000000000
+      internalID: 4266147776970596570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_82
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 268
+        width: 165
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a541594302486340800000000000000
+      internalID: 4857204780001478055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_83
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 216
+        width: 165
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9612f3244308d2980800000000000000
+      internalID: -8562046354623356567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_84
+      rect:
+        serializedVersion: 2
+        x: 2393
+        y: 362
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e11d32736846500800000000000000
+      internalID: 388583039242935870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_85
+      rect:
+        serializedVersion: 2
+        x: 3494
+        y: 323
+        width: 14
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f69408072d3a010800000000000000
+      internalID: 1199033306441150277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_86
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 280
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb6bbefb645575b20800000000000000
+      internalID: 3123058628960695995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_87
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 297
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f34f915ebe3c93c0800000000000000
+      internalID: -4351534152812641291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_88
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 300
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1deb88f66b799af20800000000000000
+      internalID: 3434443000657788625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_89
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 263
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1ff797782eead70800000000000000
+      internalID: 9056424972175536556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_90
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 248
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ec513217921b600800000000000000
+      internalID: 482212201002028675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_91
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 251
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21504fd975652ca10800000000000000
+      internalID: 1928198524780152082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_92
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 187
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f4d694d8f40d110800000000000000
+      internalID: 1283613362041474957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_93
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 17
+        width: 160
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a215e9fe07c55650800000000000000
+      internalID: 6221097327418217127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_94
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 4
+        width: 128
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc772a340e2d45a0800000000000000
+      internalID: -6535516888554308429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_95
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 108
+        width: 40
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c109cc962ce1ad8e0800000000000000
+      internalID: -1667986891639844836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_96
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 109
+        width: 41
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3433439a69172e360800000000000000
+      internalID: 7197440046389277507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_97
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 92
+        width: 44
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35645ebbdd90dd20800000000000000
+      internalID: 3301312093979174205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_98
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 121
+        width: 41
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94650e4da3fd14e60800000000000000
+      internalID: 7944876661430834761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_99
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 120
+        width: 40
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1548ce30b7e6f6060800000000000000
+      internalID: 6948894224681829457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_100
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 120
+        width: 35
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ec8c803902cf420800000000000000
+      internalID: 2665040895376150063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_101
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 120
+        width: 48
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8a45f6a514ef150800000000000000
+      internalID: 5908231617827350722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_102
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 182
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9758f2f0a20025d60800000000000000
+      internalID: 7877358878867817849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_103
+      rect:
+        serializedVersion: 2
+        x: 3223
+        y: 204
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703c7faa9e2e8a500800000000000000
+      internalID: 407825259500651271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_104
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 114
+        width: 35
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f08d8822c6778d00800000000000000
+      internalID: 974878420625096948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_105
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 114
+        width: 37
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4762746b370a220800000000000000
+      internalID: 2495121420278199508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_106
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 114
+        width: 40
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f273ea79b7117be0800000000000000
+      internalID: -1481376717030067471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_107
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 155
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9978e461176bed160800000000000000
+      internalID: 7052274663330580377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_108
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 140
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23d01cb949648bf0800000000000000
+      internalID: -323017507855084753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_109
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 143
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5320682020e0cf0800000000000000
+      internalID: -284287516616280596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_110
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 138
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f0e4c5d30253bb0800000000000000
+      internalID: -4957020366937649381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_111
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 149
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8431e3a312f0d8d10800000000000000
+      internalID: 2129374834201596744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_112
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 133
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a049b5d671c35880800000000000000
+      internalID: -8623336145348378463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_113
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 117
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f339303391806040800000000000000
+      internalID: 4638850085360841719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_114
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 136
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7cd04b25bd7f8200800000000000000
+      internalID: 184504326813703295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_115
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 105
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7326ace5b4bdc70800000000000000
+      internalID: 8996867551097141226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_116
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 204
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc33e1926ba98340800000000000000
+      internalID: 4866609312193264849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_117
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 0
+        width: 43
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556df5e6169730dc0800000000000000
+      internalID: -3673959411633629611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_118
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 0
+        width: 142
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fedd40a04391f90800000000000000
+      internalID: -6982492529625272445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_119
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 12
+        width: 124
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bda08366c58cc970800000000000000
+      internalID: 8776536860957650355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_120
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 8
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e4b525373c66fc0800000000000000
+      internalID: -3501896760163611016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_121
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 12
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df7246fa003c8370800000000000000
+      internalID: 8326082634740563924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_122
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 7
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a63c9a217671ea0800000000000000
+      internalID: -5902135456790517138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_123
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 0
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1526d1e72313ae30800000000000000
+      internalID: 4513472313568929052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_124
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 0
+        width: 151
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504ace2361c69e390800000000000000
+      internalID: -7788575237961112571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_125
+      rect:
+        serializedVersion: 2
+        x: 2762
+        y: 0
+        width: 274
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae0b1f44b6a63e70800000000000000
+      internalID: 9094639790872792751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_126
+      rect:
+        serializedVersion: 2
+        x: 2966
+        y: 21
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0485c9f76c7b85130800000000000000
+      internalID: 3555793968981366848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor Emociones_127
+      rect:
+        serializedVersion: 2
+        x: 2977
+        y: 20
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c117516c16f0d0c0800000000000000
+      internalID: -4552868621518958142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 348955238712fa64a9d8dd42a9d37087
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      The Conffesor Emociones_0: 8721772890876599171
+      The Conffesor Emociones_1: 7428578318827255278
+      The Conffesor Emociones_10: 1379441023883877162
+      The Conffesor Emociones_100: 2665040895376150063
+      The Conffesor Emociones_101: 5908231617827350722
+      The Conffesor Emociones_102: 7877358878867817849
+      The Conffesor Emociones_103: 407825259500651271
+      The Conffesor Emociones_104: 974878420625096948
+      The Conffesor Emociones_105: 2495121420278199508
+      The Conffesor Emociones_106: -1481376717030067471
+      The Conffesor Emociones_107: 7052274663330580377
+      The Conffesor Emociones_108: -323017507855084753
+      The Conffesor Emociones_109: -284287516616280596
+      The Conffesor Emociones_11: -4826227613408901530
+      The Conffesor Emociones_110: -4957020366937649381
+      The Conffesor Emociones_111: 2129374834201596744
+      The Conffesor Emociones_112: -8623336145348378463
+      The Conffesor Emociones_113: 4638850085360841719
+      The Conffesor Emociones_114: 184504326813703295
+      The Conffesor Emociones_115: 8996867551097141226
+      The Conffesor Emociones_116: 4866609312193264849
+      The Conffesor Emociones_117: -3673959411633629611
+      The Conffesor Emociones_118: -6982492529625272445
+      The Conffesor Emociones_119: 8776536860957650355
+      The Conffesor Emociones_12: 5311116699999223350
+      The Conffesor Emociones_120: -3501896760163611016
+      The Conffesor Emociones_121: 8326082634740563924
+      The Conffesor Emociones_122: -5902135456790517138
+      The Conffesor Emociones_123: 4513472313568929052
+      The Conffesor Emociones_124: -7788575237961112571
+      The Conffesor Emociones_125: 9094639790872792751
+      The Conffesor Emociones_126: 3555793968981366848
+      The Conffesor Emociones_127: -4552868621518958142
+      The Conffesor Emociones_13: -7657576756348528220
+      The Conffesor Emociones_14: -5937280356950673331
+      The Conffesor Emociones_15: 2909247759830578990
+      The Conffesor Emociones_16: -1018882734115813383
+      The Conffesor Emociones_17: -7482689145327349292
+      The Conffesor Emociones_18: -3395575970181434872
+      The Conffesor Emociones_19: 226735990302225424
+      The Conffesor Emociones_2: -1018107498758418939
+      The Conffesor Emociones_20: -997995147210585479
+      The Conffesor Emociones_21: 8706577723419544713
+      The Conffesor Emociones_22: 5497789395493451933
+      The Conffesor Emociones_23: -6177808163256964598
+      The Conffesor Emociones_24: -3283648060594385844
+      The Conffesor Emociones_25: 1686090081592906066
+      The Conffesor Emociones_26: -8680363682273341733
+      The Conffesor Emociones_27: 5389451286220523101
+      The Conffesor Emociones_28: 5732033146752060078
+      The Conffesor Emociones_29: -3434341129638162760
+      The Conffesor Emociones_3: 6420608002911775634
+      The Conffesor Emociones_30: -5624719368894333402
+      The Conffesor Emociones_31: -4955864893632916464
+      The Conffesor Emociones_32: 3903228284092929207
+      The Conffesor Emociones_33: -871062462759820014
+      The Conffesor Emociones_34: -459076198724907225
+      The Conffesor Emociones_35: 1332154057882159611
+      The Conffesor Emociones_36: -9142878760325251639
+      The Conffesor Emociones_37: -7751363226458822273
+      The Conffesor Emociones_38: 5507134020269636320
+      The Conffesor Emociones_39: -5049396279747216912
+      The Conffesor Emociones_4: -3598286242599313600
+      The Conffesor Emociones_40: -3738725557413092006
+      The Conffesor Emociones_41: -2768073293163847665
+      The Conffesor Emociones_42: -3046673848894093151
+      The Conffesor Emociones_43: 342262484611617318
+      The Conffesor Emociones_44: 196479306777198149
+      The Conffesor Emociones_45: -5549671431354010585
+      The Conffesor Emociones_46: -6573243177781807061
+      The Conffesor Emociones_47: -2404643688613996354
+      The Conffesor Emociones_48: -8301045954964874281
+      The Conffesor Emociones_49: -5511304735136332116
+      The Conffesor Emociones_5: 1133387358365119555
+      The Conffesor Emociones_50: -6665025811133943076
+      The Conffesor Emociones_51: -6498255626951411872
+      The Conffesor Emociones_52: 2237679751313008769
+      The Conffesor Emociones_53: -1454431690113658016
+      The Conffesor Emociones_54: 649742845525035129
+      The Conffesor Emociones_55: 8538153209644688148
+      The Conffesor Emociones_56: -8100709856586433258
+      The Conffesor Emociones_57: -5705947337846973475
+      The Conffesor Emociones_58: 5434469994254180254
+      The Conffesor Emociones_59: 4550582169404900831
+      The Conffesor Emociones_6: 1385052647235326673
+      The Conffesor Emociones_60: -730739508576489481
+      The Conffesor Emociones_61: 119880157080408259
+      The Conffesor Emociones_62: 867173917606356476
+      The Conffesor Emociones_63: 8584519661567137705
+      The Conffesor Emociones_64: 6485992517066640933
+      The Conffesor Emociones_65: 4947912762042463422
+      The Conffesor Emociones_66: 2535822376778505156
+      The Conffesor Emociones_67: -5779969184793991672
+      The Conffesor Emociones_68: 4403770003074324245
+      The Conffesor Emociones_69: 7433443480156182901
+      The Conffesor Emociones_7: -5382594046141671955
+      The Conffesor Emociones_70: -1677721515675656963
+      The Conffesor Emociones_71: -6117421739478754773
+      The Conffesor Emociones_72: 4717675317854264298
+      The Conffesor Emociones_73: -3895125870600840566
+      The Conffesor Emociones_74: 2347903267878101020
+      The Conffesor Emociones_75: 8452963036239748659
+      The Conffesor Emociones_76: 3806762088071341701
+      The Conffesor Emociones_77: -5570855140394828417
+      The Conffesor Emociones_78: 6521686432613522508
+      The Conffesor Emociones_79: 1487158257026497038
+      The Conffesor Emociones_8: -6321186027669255190
+      The Conffesor Emociones_80: -8834421050758652805
+      The Conffesor Emociones_81: 4266147776970596570
+      The Conffesor Emociones_82: 4857204780001478055
+      The Conffesor Emociones_83: -8562046354623356567
+      The Conffesor Emociones_84: 388583039242935870
+      The Conffesor Emociones_85: 1199033306441150277
+      The Conffesor Emociones_86: 3123058628960695995
+      The Conffesor Emociones_87: -4351534152812641291
+      The Conffesor Emociones_88: 3434443000657788625
+      The Conffesor Emociones_89: 9056424972175536556
+      The Conffesor Emociones_9: 898751798066026629
+      The Conffesor Emociones_90: 482212201002028675
+      The Conffesor Emociones_91: 1928198524780152082
+      The Conffesor Emociones_92: 1283613362041474957
+      The Conffesor Emociones_93: 6221097327418217127
+      The Conffesor Emociones_94: -6535516888554308429
+      The Conffesor Emociones_95: -1667986891639844836
+      The Conffesor Emociones_96: 7197440046389277507
+      The Conffesor Emociones_97: 3301312093979174205
+      The Conffesor Emociones_98: 7944876661430834761
+      The Conffesor Emociones_99: 6948894224681829457
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

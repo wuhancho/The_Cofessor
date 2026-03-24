@@ -26,6 +26,7 @@ MonoBehaviour:
   RepIglesiaCost: -3
   RepPuebloCost: -3
   SobornoCost: 50
+  reactionPenitent: {fileID: 0}
 --- !u!114 &-685319784672936591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52,6 +53,7 @@ MonoBehaviour:
   RepIglesiaCost: 3
   RepPuebloCost: -3
   SobornoCost: 0
+  reactionPenitent: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87,8 +89,8 @@ MonoBehaviour:
   text: "Nunca imagin\xE9 que t\xFA tambi\xE9n sospechabas de m\xED./nConfieso que
     era consciente de que el colgante estaba maldito./nLo sufr\xED en mis propias
     carnes./nNecesitaba quit\xE1rmelo de encima y lo vend\xED por una miseria./nPero
-    no a un ni\xF1o./nSino a una forastera de la posada Garrido./nPadre, si me perdona,
-    le recompensar\xE9 debidamente."
+    no a un ni\xF1o./nSino a una forastera de la posada Garrido./nPadre, si me perdonas,
+    te recompensar\xE9 debidamente."
   childrenIDs:
   - 2
   - 3
@@ -102,3 +104,4 @@ MonoBehaviour:
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
+  reactionPenitent: {fileID: 1332154057882159611, guid: 1f831341f1a79e146a5e201d991302f1, type: 3}
