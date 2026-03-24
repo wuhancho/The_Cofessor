@@ -26,6 +26,7 @@ MonoBehaviour:
   RepIglesiaCost: -3
   RepPuebloCost: -3
   SobornoCost: 0
+  reactionPenitent: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59,7 +60,7 @@ MonoBehaviour:
   uniqueID: 1
   isPlayerSpeaking: 0
   text: "Ser\xE1 una broma, \xBFverdad, padre Abraham?/nSabe perfectamente que yo
-    no tengo nada que ver con el incidente del colgante./n\xA1Ha perdido el juicio!/n\"D\xE9jeme
+    no tengo nada que ver con el incidente del colgante./n\xA1Ha perdido el juicio!/nD\xE9jeme
     ir o esto supondr\xE1 una mancha muy negra a ojos de Dios."
   childrenIDs:
   - 2
@@ -74,6 +75,7 @@ MonoBehaviour:
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
+  reactionPenitent: {fileID: -5600215177432712551, guid: 8cdab3cedb16a5f41b522a6f9908ceeb, type: 3}
 --- !u!114 &9151844363189356345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100,3 +102,4 @@ MonoBehaviour:
   RepIglesiaCost: -3
   RepPuebloCost: 3
   SobornoCost: 0
+  reactionPenitent: {fileID: 0}

@@ -18,7 +18,7 @@ MonoBehaviour:
   childrenIDs: []
   rect:
     serializedVersion: 2
-    x: 338
+    x: 337
     y: 238
     width: 300
     height: 200
@@ -26,6 +26,7 @@ MonoBehaviour:
   RepIglesiaCost: 3
   RepPuebloCost: 3
   SobornoCost: 0
+  reactionPenitent: {fileID: 0}
 --- !u!114 &-4566059631600520586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57,6 +58,7 @@ MonoBehaviour:
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
+  reactionPenitent: {fileID: 8288426215254106694, guid: a1347a34fee077c46bb4de37f94af7b4, type: 3}
 --- !u!114 &-4080161559537236738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83,6 +85,7 @@ MonoBehaviour:
   RepIglesiaCost: -3
   RepPuebloCost: -3
   SobornoCost: 0
+  reactionPenitent: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -26,6 +26,7 @@ MonoBehaviour:
   RepIglesiaCost: -3
   RepPuebloCost: -3
   SobornoCost: 0
+  reactionPenitent: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,7 +61,7 @@ MonoBehaviour:
   isPlayerSpeaking: 0
   text: "Padre, esc\xFAcheme./nLa mujer que compr\xF3 el colgante maldito se hospedaba
     en mi posada./nDec\xEDa que le susurraba cosas, que su belleza ser\xEDa eterna./nEmpez\xF3
-    a enloquecer y, su piel, se estaba marchitando./n\"Estaba asustando a mis inquilinos;
+    a enloquecer y, su piel, se estaba marchitando./nEstaba asustando a mis inquilinos;
     hab\xEDa algo malvado en aquel amuleto./nY lo deseaba fuera de mi posada./nLe
     obliqu\xE9 a deshacerse de \xE9l. A d\xE1rselo a otra persona./nPero no pens\xE9
     que se lo dar\xEDa a un pobre ni\xF1o. Lo juro."
@@ -69,14 +70,15 @@ MonoBehaviour:
   - 3
   rect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: -2
+    y: 1
     width: 300
     height: 200
   faithCost: 0
   RepIglesiaCost: 0
   RepPuebloCost: 0
   SobornoCost: 0
+  reactionPenitent: {fileID: 4265756787004084320, guid: 841b1cfbdc1185542bc60977d5077a16, type: 3}
 --- !u!114 &2299297475305512072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103,3 +105,4 @@ MonoBehaviour:
   RepIglesiaCost: 3
   RepPuebloCost: 3
   SobornoCost: 0
+  reactionPenitent: {fileID: 0}
