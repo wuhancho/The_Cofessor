@@ -40,7 +40,12 @@ public class A_Decision : MonoBehaviour, IAcciones
 
     public SPenitent PenitentSelected { get => penitentSelected; }
     public string TypeDialogue { get => typeDialogue; }
-
+    private void OnDisable()
+    {
+        canvasCombat.Boss.SetActive(false);
+        voteCanvas.gameObject.SetActive(false);
+        criptaDialogue.gameObject.SetActive(false);
+    }
     private void Start()
     {
         voteCanvas.gameObject.SetActive(true);
@@ -156,13 +161,14 @@ public class A_Decision : MonoBehaviour, IAcciones
     }
     public void Initialize(PlayerController playerController, PenitentController penitentController)
     {
-        //Debug.Log("A_confecciones - Initialize invoked.");
         this.playerController = playerController;
         this.penitentController = penitentController;
+        Debug.Log($"A_Desicion - Initialize invoked.{penitentController.name}  {playerController.name}");
     }
 
     public void SetDay(int day)
     {
+
         dayToActivate = day;
         todayPenitents = penitentController.GetSPenitents(day);
         todayPenintentIndex = 0;

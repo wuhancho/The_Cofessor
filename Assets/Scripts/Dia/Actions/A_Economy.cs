@@ -7,14 +7,15 @@ public class A_Economy : MonoBehaviour, IAcciones
     [SerializeField] private float comidaCost;
     [SerializeField] private float comidaAmount;
     [SerializeField] private float donacionAmount;
-    [SerializeField] private float donationsGet = 0.5f; // Porcentaje de dinero que se obtiene por cada unidad donada
+    [SerializeField] private float donations = 0.5f; // Porcentaje de dinero que se obtiene por cada unidad donada
     [SerializeField] private float salary;
+    [SerializeField] private float salaryAmount;
     [SerializeField] private float churchCost;
     [SerializeField] private float salaryCarlitos;
     [SerializeField] private float donationsForArzobispo;
     [SerializeField] private CanvasEconomy canvasEconomy;
     private float Sobornos;
-    private PlayerController PlayerController;
+    private PlayerController playerController;
     Dia dia;
     F_noche faseNoche;
     private int currentDay;
@@ -24,30 +25,32 @@ public class A_Economy : MonoBehaviour, IAcciones
     public float ComidaCost { get => comidaCost; set => comidaCost = value; }
     public float ComidaAmount { get => comidaAmount; set => comidaAmount = value; }
     public float DonacionAmount { get => donacionAmount; set => donacionAmount = value; }
-    public float DonationsGet { get => donationsGet; set => donationsGet = value; }
-    public float Salary { get => salary; set => salary = value; }
+    public float Donations { get => donations;  }
+    public float Salary { get => salary; }
+    public float SalaryAmount { get => salaryAmount; set => salaryAmount = value; }
     public float ChurchCost { get => churchCost; set => churchCost = value; }
     public float SalaryCarlitos { get => salaryCarlitos; set => salaryCarlitos = value; }
     public float DonationsForArzobispo { get => donationsForArzobispo; set => donationsForArzobispo = value; }
 
     public void Initialize(PlayerController playerController)
     {
-        PlayerController = playerController;
+        this.playerController = playerController;
     }
     private void Awake()
     {
         canvasEconomy.gameObject.SetActive(false);
     }
-    public void Initialize(PlayerController player,F_noche FaseNoche)
+    public void Initialize(PlayerController player, F_noche FaseNoche)
     {
-        this.PlayerController = player;
+        playerController = player;
         dia = FaseNoche.Dia;
         faseNoche = FaseNoche;
-        donationsGet = Dia.GetDonations();
+        playerMoney = playerController.PlayerStatus.Money;
+        donations = Dia.GetDonations(donacionAmount);
         Sobornos = Dia.Sobornos;
-        canvasEconomy.gameObject.SetActive(true);
-        canvasEconomy.Initialize(player,this);
-        
+        salary = Dia.GetSalary(salaryAmount);
+        comidaAmount = playerController.PlayerStatus.Food; // Asignar la comida del jugador a la cantidad de comida
+
     }
 
     public void CancelAction()
@@ -62,7 +65,8 @@ public class A_Economy : MonoBehaviour, IAcciones
 
     public void EjecutarAccion(PlayerController playerController)
     {
-        throw new System.NotImplementedException();
+        canvasEconomy.gameObject.SetActive(true);
+        canvasEconomy.Initialize(playerController, this);
     }
 
 
@@ -73,8 +77,9 @@ public class A_Economy : MonoBehaviour, IAcciones
 
     public void TriggerAction()
     {
-        throw new System.NotImplementedException();
+        EjecutarAccion(playerController);
     }
+
 
     internal void EndEconomy()
     {

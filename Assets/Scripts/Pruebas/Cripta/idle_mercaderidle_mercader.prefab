@@ -190,7 +190,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2d496014c29f6264dae3b21a9559b848, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 943963922643655777, guid: 2d496014c29f6264dae3b21a9559b848, type: 3}
       propertyPath: m_Layer
@@ -252,6 +252,14 @@ PrefabInstance:
       propertyPath: m_StaticShadowCaster
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3344095209509941214, guid: 2d496014c29f6264dae3b21a9559b848, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3344095209509941214, guid: 2d496014c29f6264dae3b21a9559b848, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 0e6d9e06e3e358249bf4109e0fab5a3f, type: 2}
     - target: {fileID: 3564783574603935192, guid: 2d496014c29f6264dae3b21a9559b848, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -302,7 +310,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6316661801115329813, guid: 2d496014c29f6264dae3b21a9559b848, type: 3}
       propertyPath: m_RenderingLayerMask
-      value: 2
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6316661801115329813, guid: 2d496014c29f6264dae3b21a9559b848, type: 3}
       propertyPath: m_StaticShadowCaster
@@ -313,9 +321,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6316661801115329813, guid: 2d496014c29f6264dae3b21a9559b848, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316661801115329813, guid: 2d496014c29f6264dae3b21a9559b848, type: 3}
       propertyPath: m_SkinnedMotionVectors
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6316661801115329813, guid: 2d496014c29f6264dae3b21a9559b848, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 0e6d9e06e3e358249bf4109e0fab5a3f, type: 2}
     - target: {fileID: 7363479242261063072, guid: 2d496014c29f6264dae3b21a9559b848, type: 3}
       propertyPath: m_Layer
       value: 6

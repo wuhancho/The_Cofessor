@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 9a15e9e5827bbd8488e75b94edf7efcc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8310891486796176316
+    second: Cuaderno de notas_0
+  - first:
+      213: 4020727664294961288
+    second: Cuaderno de notas_1
+  - first:
+      213: 6164043883348314766
+    second: Cuaderno de notas_2
+  - first:
+      213: -4102540513864327097
+    second: Cuaderno de notas_3
+  - first:
+      213: 1960743920180240778
+    second: Cuaderno de notas_4
+  - first:
+      213: 5288257955499839668
+    second: Cuaderno de notas_5
+  - first:
+      213: -2050200945147594901
+    second: Cuaderno de notas_6
+  - first:
+      213: -3202505178748355085
+    second: Cuaderno de notas_7
+  - first:
+      213: -6114355351000799347
+    second: Cuaderno de notas_8
+  - first:
+      213: -3518801098064907727
+    second: Cuaderno de notas_9
+  - first:
+      213: -361767888349848793
+    second: Cuaderno de notas_10
+  - first:
+      213: 1976677417315112135
+    second: Cuaderno de notas_11
+  - first:
+      213: -8447412416660435642
+    second: Cuaderno de notas_12
+  - first:
+      213: 7751471415760413804
+    second: Cuaderno de notas_13
+  - first:
+      213: 2689185522577129059
+    second: Cuaderno de notas_14
+  - first:
+      213: -5875833837380041300
+    second: Cuaderno de notas_15
+  - first:
+      213: -6859041963160881013
+    second: Cuaderno de notas_16
+  - first:
+      213: -7179304071565701885
+    second: Cuaderno de notas_17
+  - first:
+      213: -3605357331849964055
+    second: Cuaderno de notas_18
+  - first:
+      213: -3152121412127154245
+    second: Cuaderno de notas_19
+  - first:
+      213: 6274280972209991772
+    second: Cuaderno de notas_20
+  - first:
+      213: -7009931620587670272
+    second: Cuaderno de notas_21
+  - first:
+      213: 3057207236293611885
+    second: Cuaderno de notas_22
+  - first:
+      213: -1961599371200047361
+    second: Cuaderno de notas_23
+  - first:
+      213: 4102874994063470230
+    second: Cuaderno de notas_24
+  - first:
+      213: 789789135352737419
+    second: Cuaderno de notas_25
+  - first:
+      213: -2358005677737570806
+    second: Cuaderno de notas_26
+  - first:
+      213: 3049141452691339876
+    second: Cuaderno de notas_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cuaderno de notas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 3483
+        height: 2285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbbdd4536c7365370800000000000000
+      internalID: 8310891486796176316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1976
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88023e8028e7cc730800000000000000
+      internalID: 4020727664294961288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1929
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a45eed0451b8550800000000000000
+      internalID: 6164043883348314766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_3
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1867
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740e77a8329d017c0800000000000000
+      internalID: -4102540513864327097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1819
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81a9d9f436f53b10800000000000000
+      internalID: 1960743920180240778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_5
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1773
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b09336979aa36940800000000000000
+      internalID: 5288257955499839668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_6
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1691
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67be425a193c83e0800000000000000
+      internalID: -2050200945147594901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_7
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1314
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fdfa5de18a6e83d0800000000000000
+      internalID: -3202505178748355085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_8
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1299
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87a6191432752ba0800000000000000
+      internalID: -6114355351000799347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_9
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1306
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13236927b05ba2fc0800000000000000
+      internalID: -3518801098064907727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_10
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1266
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b93c3b50ebafaf0800000000000000
+      internalID: -361767888349848793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_11
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1237
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c49a9e53a19e6b10800000000000000
+      internalID: 1976677417315112135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1222
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d0bb1d923c4ca80800000000000000
+      internalID: -8447412416660435642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_13
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1202
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c646efefe22c29b60800000000000000
+      internalID: 7751471415760413804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_14
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1166
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e35502cf7e15520800000000000000
+      internalID: 2689185522577129059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_15
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1080
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca50eb3a148d47ea0800000000000000
+      internalID: -5875833837380041300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_16
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1060
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b883c4edca9cfc0a0800000000000000
+      internalID: -6859041963160881013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_17
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1034
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d8fc70cfcfd5c90800000000000000
+      internalID: -7179304071565701885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_18
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1000
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e59bb2db9237fdc0800000000000000
+      internalID: -3605357331849964055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_19
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 919
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf124db64a6144d0800000000000000
+      internalID: -3152121412127154245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_20
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 824
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50b1993d49b21750800000000000000
+      internalID: 6274280972209991772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_21
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 826
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005f71fc458b7be90800000000000000
+      internalID: -7009931620587670272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_22
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 767
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61d80c98c16d6a20800000000000000
+      internalID: 3057207236293611885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_23
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 736
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6ddffc3cff6c4e0800000000000000
+      internalID: -1961599371200047361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_24
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 726
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e6cf2b11750f830800000000000000
+      internalID: 4102874994063470230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_25
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 690
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ea92cb805e5fa00800000000000000
+      internalID: 789789135352737419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_26
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 430
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e0910545ea64fd0800000000000000
+      internalID: -2358005677737570806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuaderno de notas_27
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 419
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46af5950ff9b05a20800000000000000
+      internalID: 3049141452691339876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cuaderno de notas_0: 8310891486796176316
+      Cuaderno de notas_1: 4020727664294961288
+      Cuaderno de notas_10: -361767888349848793
+      Cuaderno de notas_11: 1976677417315112135
+      Cuaderno de notas_12: -8447412416660435642
+      Cuaderno de notas_13: 7751471415760413804
+      Cuaderno de notas_14: 2689185522577129059
+      Cuaderno de notas_15: -5875833837380041300
+      Cuaderno de notas_16: -6859041963160881013
+      Cuaderno de notas_17: -7179304071565701885
+      Cuaderno de notas_18: -3605357331849964055
+      Cuaderno de notas_19: -3152121412127154245
+      Cuaderno de notas_2: 6164043883348314766
+      Cuaderno de notas_20: 6274280972209991772
+      Cuaderno de notas_21: -7009931620587670272
+      Cuaderno de notas_22: 3057207236293611885
+      Cuaderno de notas_23: -1961599371200047361
+      Cuaderno de notas_24: 4102874994063470230
+      Cuaderno de notas_25: 789789135352737419
+      Cuaderno de notas_26: -2358005677737570806
+      Cuaderno de notas_27: 3049141452691339876
+      Cuaderno de notas_3: -4102540513864327097
+      Cuaderno de notas_4: 1960743920180240778
+      Cuaderno de notas_5: 5288257955499839668
+      Cuaderno de notas_6: -2050200945147594901
+      Cuaderno de notas_7: -3202505178748355085
+      Cuaderno de notas_8: -6114355351000799347
+      Cuaderno de notas_9: -3518801098064907727
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
