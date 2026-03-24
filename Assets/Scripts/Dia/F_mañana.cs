@@ -47,6 +47,7 @@ public class F_mañana : MonoBehaviour, IFases
         }
         if (dia.GetNumberDay() >= 1)
         {
+            playerController.PlayerStatus.SpendFood(10);
             playerController.ChangeSetCleaned(false);
             playerController.ChangeSetMisa(false);
         }

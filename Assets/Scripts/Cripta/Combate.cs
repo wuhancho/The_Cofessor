@@ -34,6 +34,9 @@ public class Combate : MonoBehaviour
     [SerializeField] private float rayRotationSpeed = 30f;  // grados/segundo de los rayos
     [SerializeField] private float rayWidth = 15f;           // ancho de cada rayo
     [SerializeField] private int rayDamage = 1;              // daño por rayo
+    [SerializeField] private int rayCount = 8;             // cantidad de rayos giratorios
+    [SerializeField] private float rotationSpeed = 30f;    // grados por segundo (sentido horario)
+    [SerializeField] private Color rayColor = new Color(1f, 0.3f, 0.1f, 0.8f);
 
     [Header("Spawn Settings Phase 3")]
     [SerializeField] private int phase3ProjectileCount = 10;    // cantidad de monedas por oleada
@@ -164,12 +167,12 @@ public class Combate : MonoBehaviour
         Vector2 spawnPos = new Vector2(randomX, spawnCenter.y);
 
         // Instanciar como hijo del canvas de combate
-        GameObject obj = Instantiate(objToSpawn1, canvasCombat);
-        RectTransform objRect = obj.GetComponent<RectTransform>();
+        GameObject panfleto = Instantiate(objToSpawn1, canvasCombat);
+        RectTransform objRect = panfleto.GetComponent<RectTransform>();
         objRect.anchoredPosition = spawnPos;
 
         // Inicializar el componente FallingObject
-        FallingObject falling = obj.GetComponent<FallingObject>();
+        FallingObject falling = panfleto.GetComponent<FallingObject>();
         if (falling != null)
         {
             // El límite inferior es el borde bajo del canvas de combate

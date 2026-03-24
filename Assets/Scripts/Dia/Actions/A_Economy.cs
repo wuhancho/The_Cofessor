@@ -3,34 +3,34 @@ using UnityEngine;
 
 public class A_Economy : MonoBehaviour, IAcciones
 {
-    [SerializeField] private float playerMoney;
-    [SerializeField] private float comidaCost;
-    [SerializeField] private float comidaAmount;
-    [SerializeField] private float donacionAmount;
-    [SerializeField] private float donations = 0.5f; // Porcentaje de dinero que se obtiene por cada unidad donada
-    [SerializeField] private float salary;
-    [SerializeField] private float salaryAmount;
-    [SerializeField] private float churchCost;
-    [SerializeField] private float salaryCarlitos;
-    [SerializeField] private float donationsForArzobispo;
+    [SerializeField, IReadOnly] private float playerMoney; // Dinero que tiene el jugador total al iniciar la fase de economía
+    [SerializeField] private float comidaCost; // Costo de cada unidad de comida
+    [SerializeField] private float comidaAmount; // cantidad de comida que se obtiene
+    [SerializeField] private float donacionAmount; // Porcentaje de dinero que se obtiene por cada unidad donada
+    [SerializeField, IReadOnly] private float donations; // Dinero total que se obtiene por las donaciones
+    [SerializeField,IReadOnly] private float salary; // Dinero total que se obtiene por el salario
+    [SerializeField] private float salaryAmount; // multiplicador para calcular el salario total
+    [SerializeField] private float churchCost; // Costo de la iglesia, cantidad fija que se resta al dinero del jugador
+    [SerializeField] private float salaryCarlitos; // Cantidad fija que se le paga a Carlitos, se resta al dinero del jugador
+    [SerializeField] private float donationsForArzobispo; // Porcentaje de las donaciones que se le da al arzobispo, se resta al dinero del jugador
     [SerializeField] private CanvasEconomy canvasEconomy;
-    private float Sobornos;
+    private float Sobornos; // Cantidad de dinero que se obtiene por los sobornos, se suma al dinero del jugador
     private PlayerController playerController;
     Dia dia;
     F_noche faseNoche;
     private int currentDay;
 
     public Dia Dia { get => dia; }
-    public float PlayerMoney { get => playerMoney; set => playerMoney = value; }
-    public float ComidaCost { get => comidaCost; set => comidaCost = value; }
-    public float ComidaAmount { get => comidaAmount; set => comidaAmount = value; }
-    public float DonacionAmount { get => donacionAmount; set => donacionAmount = value; }
+    public float PlayerMoney { get => playerMoney;  }
+    public float ComidaCost { get => comidaCost;  }
+    public float ComidaAmount { get => comidaAmount;  }
+    public float DonacionAmount { get => donacionAmount;  }
     public float Donations { get => donations;  }
     public float Salary { get => salary; }
-    public float SalaryAmount { get => salaryAmount; set => salaryAmount = value; }
-    public float ChurchCost { get => churchCost; set => churchCost = value; }
-    public float SalaryCarlitos { get => salaryCarlitos; set => salaryCarlitos = value; }
-    public float DonationsForArzobispo { get => donationsForArzobispo; set => donationsForArzobispo = value; }
+    public float SalaryAmount { get => salaryAmount; }
+    public float ChurchCost { get => churchCost; }
+    public float SalaryCarlitos { get => salaryCarlitos; }
+    public float DonationsForArzobispo { get => donationsForArzobispo; }
 
     public void Initialize(PlayerController playerController)
     {
@@ -49,8 +49,7 @@ public class A_Economy : MonoBehaviour, IAcciones
         donations = Dia.GetDonations(donacionAmount);
         Sobornos = Dia.Sobornos;
         salary = Dia.GetSalary(salaryAmount);
-        comidaAmount = playerController.PlayerStatus.Food; // Asignar la comida del jugador a la cantidad de comida
-
+        
     }
 
     public void CancelAction()
@@ -83,6 +82,9 @@ public class A_Economy : MonoBehaviour, IAcciones
 
     internal void EndEconomy()
     {
-        faseNoche.EndAction.Invoke();
+        playerController.PlayerStatus.ResetMoney();
+        playerController.PlayerStatus.Getmoney(canvasEconomy.Total);
+        playerController.PlayerStatus.GetFood(canvasEconomy.ComidaGet);
+        faseNoche.EndFase.Invoke();
     }
 }

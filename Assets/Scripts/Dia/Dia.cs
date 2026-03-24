@@ -244,5 +244,10 @@ public class Dia : MonoBehaviour
     {
         return amount = amount * (1 + (playerController.PlayerStatus.RepIglesia / 10f)); // Aumentar el salario basado en la reputación con la iglesia
     }
+
+    public void EndDay()
+    {
+        throw new NotImplementedException();
+    }
 }
 

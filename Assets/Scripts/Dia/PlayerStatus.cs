@@ -6,23 +6,23 @@ using UnityEngine;
 public class PlayerStatus : ScriptableObject
 {
     [SerializeField] private float energy;
-    private float maxEnergy = 3;
-    private float minEnergy = 0;
+    private readonly float maxEnergy = 3;
+    private readonly float minEnergy = 0;
     [SerializeField] private float faith;
-    private float maxFaith = 15;
-    private float minFaith;
+    private readonly float maxFaith = 15;
+    private readonly float minFaith;
     [SerializeField] private float money;
-    private float maxMoney = 9999;
-    private float minMoney = 0;
+    private readonly float maxMoney = 9999;
+    private readonly float minMoney = 0;
     [SerializeField] private float repIglesia;
-    private float minRepIglesia = 0;
-    private float maxRepIglesia = 15;
+    private readonly float minRepIglesia = 0;
+    private readonly float maxRepIglesia = 15;
     [SerializeField] private float repPueblo;
-    private float minRepPueblo = 0;
-    private float maxRepPueblo = 15;
+    private readonly float minRepPueblo = 0;
+    private readonly float maxRepPueblo = 15;
     [SerializeField] private float food;
-    private float maxFood = 9999;
-    private float minFood = 0;
+    private readonly float maxFood = 99;
+    private readonly float minFood = 0;
     [SerializeField] private int day = 1;
     [SerializeField] private bool Cleaned;
     [SerializeField] private bool misaDone;
@@ -146,7 +146,7 @@ public class PlayerStatus : ScriptableObject
     }
     internal void ResetFood()
     {
-        food = 20;
+        food = 2;
     }
     internal void ResetEnergy()
     {

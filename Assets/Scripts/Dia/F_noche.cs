@@ -13,14 +13,15 @@ public class F_noche : MonoBehaviour, IFases
     public Dia Dia { get => dia; }
 
 
-    public UnityEvent EndAction;
+    public UnityEvent EndFase;
 
     private void Awake()
     {
         RefrescarAcciones();
-        EndAction.AddListener(() =>
+        EndFase.AddListener(() =>
         {
-            Debug.Log("F_noche: EndAction invoked");
+            Debug.Log("F_noche: EndFase invoked");
+            Dia.EndDay();
         });
     }
 
@@ -116,11 +117,6 @@ public class F_noche : MonoBehaviour, IFases
                     accionDecision.gameObject.SetActive(true);
                     //accionDecision.Initialize(playerController, penitentController);
                     accionDecision.TriggerAction();
-                }
-                if (accion is A_Economy accionEconomy)
-                {
-                    Debug.Log("Inicializando A_Economy en F_noche");
-                    //accionEconomy.Initialize(playerController, this);
                 }
             }
         }

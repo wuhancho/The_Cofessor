@@ -18,6 +18,8 @@ public class RotatingRays : MonoBehaviour
     private RectTransform rectTransform;
     private Combate combate;
 
+    
+
     /// <summary>
     /// Inicializa los rayos giratorios.
     /// </summary>

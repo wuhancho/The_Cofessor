@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class CanvasEconomy : MonoBehaviour
 {
     [Header("Objects")]
+    [SerializeField] private TextMeshProUGUI textPlayerMoney;
     [SerializeField] private TextMeshProUGUI textSalary;
     [SerializeField] private TextMeshProUGUI textDonations;
     [SerializeField] private TextMeshProUGUI textChurchCost;
@@ -15,6 +16,7 @@ public class CanvasEconomy : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textDonationsForArzobispo;
     [SerializeField] private TextMeshProUGUI textComida;
     [SerializeField] private TextMeshProUGUI textTotal;
+    [SerializeField] private TextMeshProUGUI textButtonNext;
     [SerializeField] private Button nextDay;
     [Header("Settings")]
 
@@ -30,24 +32,31 @@ public class CanvasEconomy : MonoBehaviour
     private float salaryCarlitos;
     private float donationsForArzobispo;
     private float sobornos;
+    private float ganancias;
+    private float gastos;
+    private float comidaGet;
+    private float total;
 
 
-    private TextMeshProUGUI textButtonNext;
-    private PlayerController PlayerController;
+
+
+    private PlayerController playerController;
     Dia dia;
     A_Economy economi;
     private int currentDay;
 
+    public float Total { get => total; }
+    public float ComidaGet { get => comidaGet; }
+
     public void Initialize(PlayerController player, A_Economy economy)
     {
-        this.PlayerController = player;
+        playerController = player;
         textButtonNext.text = textNextDay;
         dia = economy.Dia;
         economi = economy;
         SetDay(dia.GetNumberDay());
         playerMoney = player.PlayerStatus.Money;
         comidaCost = economi.ComidaCost;
-        comidaAmount = economi.ComidaAmount;
         donationsGet = economi.Donations;
         donacionAmount = economi.DonacionAmount;
         salary = economi.Salary;
@@ -55,7 +64,7 @@ public class CanvasEconomy : MonoBehaviour
         salaryCarlitos = economi.SalaryCarlitos;
         donationsForArzobispo = economi.DonationsForArzobispo;
         sobornos = dia.Sobornos;
-
+        comidaAmount = economi.ComidaAmount;
         UpdateEconomy();
 
         nextDay.onClick.AddListener(() =>
@@ -69,14 +78,18 @@ public class CanvasEconomy : MonoBehaviour
     }
     private void UpdateEconomy()
     {
-        textSalary.text = $"Salario: {salary}";
-        textDonations.text = $"Donaciones: {donacionAmount} (x{donationsGet})";
-        textChurchCost.text = $"Costo Iglesia: {churchCost}";
-        textSalaryCarlitos.text = $"Salario Carlitos: {salaryCarlitos}";
-        textSobornos.text = $"Sobornos: {sobornos}";
-        textDonationsForArzobispo.text = $"Donaciones para Arzobispo: {donationsForArzobispo}";
-        textComida.text = $"Comida: {comidaAmount} (x{comidaCost})";
-        float total = salary + donationsGet - churchCost - salaryCarlitos - sobornos - donationsForArzobispo - (comidaAmount * comidaCost);
-        textTotal.text = $"Total: {total}";
+        textPlayerMoney.text = $"Dinero = {playerMoney}$";
+        textSalary.text = $"Salario = {salary}$";
+        textDonations.text = $"Donaciones = {donacionAmount}$";
+        textChurchCost.text = $"Gastos de Iglesia = {churchCost}$";
+        textSalaryCarlitos.text = $"Salario Carlitos = {salaryCarlitos}$";
+        textSobornos.text = $"Sobornos = {sobornos}$";
+        textDonationsForArzobispo.text = $"Donaciones para Arzobispo = {salary * (donationsForArzobispo /100)}$";
+        textComida.text = $"Comida = {comidaAmount * comidaCost}$";
+        comidaGet = comidaAmount;
+        ganancias = salary + donationsGet + sobornos;
+        gastos = churchCost + salaryCarlitos + donationsForArzobispo + comidaAmount * comidaCost;
+        total = (playerMoney + ganancias) - gastos;
+        textTotal.text = $"Total: {total}$";
     }
 }
