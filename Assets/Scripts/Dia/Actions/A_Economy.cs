@@ -8,11 +8,12 @@ public class A_Economy : MonoBehaviour, IAcciones
     [SerializeField] private float comidaAmount; // cantidad de comida que se obtiene
     [SerializeField] private float donacionAmount; // Porcentaje de dinero que se obtiene por cada unidad donada
     [SerializeField, IReadOnly] private float donations; // Dinero total que se obtiene por las donaciones
-    [SerializeField,IReadOnly] private float salary; // Dinero total que se obtiene por el salario
+    [SerializeField, IReadOnly] private float salary; // Dinero total que se obtiene por el salario
     [SerializeField] private float salaryAmount; // multiplicador para calcular el salario total
     [SerializeField] private float churchCost; // Costo de la iglesia, cantidad fija que se resta al dinero del jugador
     [SerializeField] private float salaryCarlitos; // Cantidad fija que se le paga a Carlitos, se resta al dinero del jugador
-    [SerializeField] private float donationsForArzobispo; // Porcentaje de las donaciones que se le da al arzobispo, se resta al dinero del jugador
+    [SerializeField, IReadOnly] private float donationsForArzobispo; // Porcentaje de las donaciones que se le da al arzobispo, se resta al dinero del jugador
+    [SerializeField] private float donationsForArzobispoAmount; // multiplicador para calcular las donaciones que se le da al arzobispo
     [SerializeField] private CanvasEconomy canvasEconomy;
     private float Sobornos; // Cantidad de dinero que se obtiene por los sobornos, se suma al dinero del jugador
     private PlayerController playerController;
@@ -21,11 +22,11 @@ public class A_Economy : MonoBehaviour, IAcciones
     private int currentDay;
 
     public Dia Dia { get => dia; }
-    public float PlayerMoney { get => playerMoney;  }
-    public float ComidaCost { get => comidaCost;  }
-    public float ComidaAmount { get => comidaAmount;  }
-    public float DonacionAmount { get => donacionAmount;  }
-    public float Donations { get => donations;  }
+    public float PlayerMoney { get => playerMoney; }
+    public float ComidaCost { get => comidaCost; }
+    public float ComidaAmount { get => comidaAmount; }
+    public float DonacionAmount { get => donacionAmount; }
+    public float Donations { get => donations; }
     public float Salary { get => salary; }
     public float SalaryAmount { get => salaryAmount; }
     public float ChurchCost { get => churchCost; }
@@ -49,7 +50,7 @@ public class A_Economy : MonoBehaviour, IAcciones
         donations = Dia.GetDonations(donacionAmount);
         Sobornos = Dia.Sobornos;
         salary = Dia.GetSalary(salaryAmount);
-        
+        donationsForArzobispo = salary * donationsForArzobispoAmount;
     }
 
     public void CancelAction()

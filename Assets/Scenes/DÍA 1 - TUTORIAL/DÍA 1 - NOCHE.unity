@@ -17053,7 +17053,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490673244283739606, guid: f6ead5de53df0b7439ae14dde657de13, type: 3}
       propertyPath: churchCost
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 490673244283739606, guid: f6ead5de53df0b7439ae14dde657de13, type: 3}
       propertyPath: comidaCost
@@ -17065,7 +17065,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490673244283739606, guid: f6ead5de53df0b7439ae14dde657de13, type: 3}
       propertyPath: salaryAmount
-      value: 80
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 490673244283739606, guid: f6ead5de53df0b7439ae14dde657de13, type: 3}
       propertyPath: canvasEconomy
@@ -17073,7 +17073,7 @@ PrefabInstance:
       objectReference: {fileID: 457655331}
     - target: {fileID: 490673244283739606, guid: f6ead5de53df0b7439ae14dde657de13, type: 3}
       propertyPath: donacionAmount
-      value: 48
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 490673244283739606, guid: f6ead5de53df0b7439ae14dde657de13, type: 3}
       propertyPath: salaryCarlitos
@@ -17082,6 +17082,10 @@ PrefabInstance:
     - target: {fileID: 490673244283739606, guid: f6ead5de53df0b7439ae14dde657de13, type: 3}
       propertyPath: donationsForArzobispo
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 490673244283739606, guid: f6ead5de53df0b7439ae14dde657de13, type: 3}
+      propertyPath: donationsForArzobispoAmount
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1582141864672809631, guid: f6ead5de53df0b7439ae14dde657de13, type: 3}
       propertyPath: m_Name

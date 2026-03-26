@@ -247,7 +247,8 @@ public class Dia : MonoBehaviour
 
     public void EndDay()
     {
-        throw new NotImplementedException();
+        NextDay();
+        FadeController.Instance.FadeAndLoadScene("DÍA 2 - MAÑANA", fadeDuration);
     }
 }
 
