@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: 798d6f6afe3d7fd4ba028b9553338ac4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8428083734279256767
+    second: The Conffesor personajes copia_0
+  - first:
+      213: 680568567593835423
+    second: The Conffesor personajes copia_1
+  - first:
+      213: 7274682276740212368
+    second: The Conffesor personajes copia_2
+  - first:
+      213: -5346224783720071157
+    second: The Conffesor personajes copia_3
+  - first:
+      213: -3480426647035942699
+    second: The Conffesor personajes copia_4
+  - first:
+      213: 8406010596317861018
+    second: The Conffesor personajes copia_5
+  - first:
+      213: 5004290423366043262
+    second: The Conffesor personajes copia_6
+  - first:
+      213: 102506314337226949
+    second: The Conffesor personajes copia_7
+  - first:
+      213: 8598379014894853614
+    second: The Conffesor personajes copia_8
+  - first:
+      213: -7380239083858429524
+    second: The Conffesor personajes copia_9
+  - first:
+      213: 7207733328390434970
+    second: The Conffesor personajes copia_10
+  - first:
+      213: -8390821322965171993
+    second: The Conffesor personajes copia_11
+  - first:
+      213: 414223013570670257
+    second: The Conffesor personajes copia_12
+  - first:
+      213: 8168890910464426530
+    second: The Conffesor personajes copia_13
+  - first:
+      213: 1587268034281827235
+    second: The Conffesor personajes copia_14
+  - first:
+      213: 3263196551905805534
+    second: The Conffesor personajes copia_15
+  - first:
+      213: 800646554860461026
+    second: The Conffesor personajes copia_16
+  - first:
+      213: 3322707474050228374
+    second: The Conffesor personajes copia_17
+  - first:
+      213: 3921452200000101164
+    second: The Conffesor personajes copia_18
+  - first:
+      213: -3172199769396944569
+    second: The Conffesor personajes copia_19
+  - first:
+      213: 6743444071839206764
+    second: The Conffesor personajes copia_20
+  - first:
+      213: 5651413645602616505
+    second: The Conffesor personajes copia_21
+  - first:
+      213: -4315030996455213660
+    second: The Conffesor personajes copia_22
+  - first:
+      213: 5218209176963658253
+    second: The Conffesor personajes copia_23
+  - first:
+      213: 7842016779124046565
+    second: The Conffesor personajes copia_24
+  - first:
+      213: -7195592176849500340
+    second: The Conffesor personajes copia_25
+  - first:
+      213: 6263974916460484451
+    second: The Conffesor personajes copia_26
+  - first:
+      213: 4303087525012934457
+    second: The Conffesor personajes copia_27
+  - first:
+      213: 7811965896765329895
+    second: The Conffesor personajes copia_28
+  - first:
+      213: -6369211870668727112
+    second: The Conffesor personajes copia_29
+  - first:
+      213: -1144873612993850217
+    second: The Conffesor personajes copia_30
+  - first:
+      213: -6112901487216658816
+    second: The Conffesor personajes copia_31
+  - first:
+      213: 1417703783406853225
+    second: The Conffesor personajes copia_32
+  - first:
+      213: -3255693682443668908
+    second: The Conffesor personajes copia_33
+  - first:
+      213: 2041298137264892200
+    second: The Conffesor personajes copia_34
+  - first:
+      213: -1137404645112925864
+    second: The Conffesor personajes copia_35
+  - first:
+      213: 7865318891539511046
+    second: The Conffesor personajes copia_36
+  - first:
+      213: -8850026848393543952
+    second: The Conffesor personajes copia_37
+  - first:
+      213: 5167654089413787186
+    second: The Conffesor personajes copia_38
+  - first:
+      213: -2052425726380612805
+    second: The Conffesor personajes copia_39
+  - first:
+      213: 8620774097413645126
+    second: The Conffesor personajes copia_40
+  - first:
+      213: 3977834542997877537
+    second: The Conffesor personajes copia_41
+  - first:
+      213: -6578648769231122516
+    second: The Conffesor personajes copia_42
+  - first:
+      213: 1891619987242308548
+    second: The Conffesor personajes copia_43
+  - first:
+      213: -5951372479024210056
+    second: The Conffesor personajes copia_44
+  - first:
+      213: -6561389845496482724
+    second: The Conffesor personajes copia_45
+  - first:
+      213: 8486105651000847183
+    second: The Conffesor personajes copia_46
+  - first:
+      213: -5822782484955372058
+    second: The Conffesor personajes copia_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 958
+        width: 622
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14589016f7e690b80800000000000000
+      internalID: -8428083734279256767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_1
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 959
+        width: 625
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b1ab4a18dd17900800000000000000
+      internalID: 680568567593835423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_2
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 959
+        width: 625
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0962eeedcfcd4f460800000000000000
+      internalID: 7274682276740212368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 834
+        width: 30
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00c9fc72e46ec5b0800000000000000
+      internalID: -5346224783720071157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_4
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 834
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d86e94976a03bfc0800000000000000
+      internalID: -3480426647035942699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_5
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 893
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9412b3b91628a470800000000000000
+      internalID: 8406010596317861018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_6
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 834
+        width: 26
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e764f9d40afc27540800000000000000
+      internalID: 5004290423366043262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_7
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 842
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c01e4523fc2c6100800000000000000
+      internalID: 102506314337226949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_8
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 841
+        width: 21
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed1bfa6824935770800000000000000
+      internalID: 8598379014894853614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_9
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 841
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9f929c7af149990800000000000000
+      internalID: -7380239083858429524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_10
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 842
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90b4722643070460800000000000000
+      internalID: 7207733328390434970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_11
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 841
+        width: 26
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e043e69670dd8b80800000000000000
+      internalID: -8390821322965171993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_12
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 842
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1beebadd2ad9fb500800000000000000
+      internalID: 414223013570670257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_13
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 841
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222462f900bbd5170800000000000000
+      internalID: 8168890910464426530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_14
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 834
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab63b21edb170610800000000000000
+      internalID: 1587268034281827235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_15
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 834
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed400ac89f3394d20800000000000000
+      internalID: 3263196551905805534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_16
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 834
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb1915bcc77c1b00800000000000000
+      internalID: 800646554860461026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_17
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 834
+        width: 16
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690ac4bd7d0ac1e20800000000000000
+      internalID: 3322707474050228374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_18
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 834
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b1ea8cffbcb6630800000000000000
+      internalID: 3921452200000101164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_19
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 834
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741e484ed151af3d0800000000000000
+      internalID: -3172199769396944569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_20
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 708
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d80b0b7a6859d50800000000000000
+      internalID: 6743444071839206764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_21
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 103
+        width: 647
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b470f8a4cadd6e40800000000000000
+      internalID: 5651413645602616505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_22
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 103
+        width: 648
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5bc75bb2eed14c0800000000000000
+      internalID: -4315030996455213660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_23
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 693
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d023a94699dca6840800000000000000
+      internalID: 5218209176963658253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_24
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 103
+        width: 637
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea775a36b074dc60800000000000000
+      internalID: 7842016779124046565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_25
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 28
+        width: 31
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c474e4ef90f142c90800000000000000
+      internalID: -7195592176849500340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_26
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 28
+        width: 16
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3679591affb1ee650800000000000000
+      internalID: 6263974916460484451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_27
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 87
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f8fc52e43a7bb30800000000000000
+      internalID: 4303087525012934457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_28
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 28
+        width: 29
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1d922f79da96c60800000000000000
+      internalID: 7811965896765329895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_29
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 28
+        width: 19
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bcd6959c830c97a0800000000000000
+      internalID: -6369211870668727112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_30
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 27
+        width: 26
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79498c8c3879c10f0800000000000000
+      internalID: -1144873612993850217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_31
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 28
+        width: 33
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0867e732c7c9a2ba0800000000000000
+      internalID: -6112901487216658816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_32
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 86
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c51b66412bca310800000000000000
+      internalID: 1417703783406853225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_33
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 27
+        width: 21
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452367068d371d2d0800000000000000
+      internalID: -3255693682443668908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_34
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 28
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829275037d5245c10800000000000000
+      internalID: 2041298137264892200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_35
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 12
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8513a2260802730f0800000000000000
+      internalID: -1137404645112925864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_36
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 28
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607b16f0cd9372d60800000000000000
+      internalID: 7865318891539511046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_37
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 28
+        width: 16
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe35d888736e2580800000000000000
+      internalID: -8850026848393543952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_38
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 28
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e7a91d30237b740800000000000000
+      internalID: 5167654089413787186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_39
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 28
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33e5331da15483e0800000000000000
+      internalID: -2052425726380612805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_40
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 27
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643aa35ed5423a770800000000000000
+      internalID: 8620774097413645126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_41
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 27
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123baaef07b143730800000000000000
+      internalID: 3977834542997877537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_42
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 28
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf0befacc1f3b4a0800000000000000
+      internalID: -6578648769231122516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_43
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 28
+        width: 16
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c35b9d2b52604a10800000000000000
+      internalID: 1891619987242308548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_44
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 27
+        width: 21
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87fd9b5134a786da0800000000000000
+      internalID: -5951372479024210056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_45
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 27
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54b35203b241f4a0800000000000000
+      internalID: -6561389845496482724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_46
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 27
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b2756d024b4c570800000000000000
+      internalID: 8486105651000847183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Conffesor personajes copia_47
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 27
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e56edb2e22513fa0800000000000000
+      internalID: -5822782484955372058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      The Conffesor personajes copia_0: -8428083734279256767
+      The Conffesor personajes copia_1: 680568567593835423
+      The Conffesor personajes copia_10: 7207733328390434970
+      The Conffesor personajes copia_11: -8390821322965171993
+      The Conffesor personajes copia_12: 414223013570670257
+      The Conffesor personajes copia_13: 8168890910464426530
+      The Conffesor personajes copia_14: 1587268034281827235
+      The Conffesor personajes copia_15: 3263196551905805534
+      The Conffesor personajes copia_16: 800646554860461026
+      The Conffesor personajes copia_17: 3322707474050228374
+      The Conffesor personajes copia_18: 3921452200000101164
+      The Conffesor personajes copia_19: -3172199769396944569
+      The Conffesor personajes copia_2: 7274682276740212368
+      The Conffesor personajes copia_20: 6743444071839206764
+      The Conffesor personajes copia_21: 5651413645602616505
+      The Conffesor personajes copia_22: -4315030996455213660
+      The Conffesor personajes copia_23: 5218209176963658253
+      The Conffesor personajes copia_24: 7842016779124046565
+      The Conffesor personajes copia_25: -7195592176849500340
+      The Conffesor personajes copia_26: 6263974916460484451
+      The Conffesor personajes copia_27: 4303087525012934457
+      The Conffesor personajes copia_28: 7811965896765329895
+      The Conffesor personajes copia_29: -6369211870668727112
+      The Conffesor personajes copia_3: -5346224783720071157
+      The Conffesor personajes copia_30: -1144873612993850217
+      The Conffesor personajes copia_31: -6112901487216658816
+      The Conffesor personajes copia_32: 1417703783406853225
+      The Conffesor personajes copia_33: -3255693682443668908
+      The Conffesor personajes copia_34: 2041298137264892200
+      The Conffesor personajes copia_35: -1137404645112925864
+      The Conffesor personajes copia_36: 7865318891539511046
+      The Conffesor personajes copia_37: -8850026848393543952
+      The Conffesor personajes copia_38: 5167654089413787186
+      The Conffesor personajes copia_39: -2052425726380612805
+      The Conffesor personajes copia_4: -3480426647035942699
+      The Conffesor personajes copia_40: 8620774097413645126
+      The Conffesor personajes copia_41: 3977834542997877537
+      The Conffesor personajes copia_42: -6578648769231122516
+      The Conffesor personajes copia_43: 1891619987242308548
+      The Conffesor personajes copia_44: -5951372479024210056
+      The Conffesor personajes copia_45: -6561389845496482724
+      The Conffesor personajes copia_46: 8486105651000847183
+      The Conffesor personajes copia_47: -5822782484955372058
+      The Conffesor personajes copia_5: 8406010596317861018
+      The Conffesor personajes copia_6: 5004290423366043262
+      The Conffesor personajes copia_7: 102506314337226949
+      The Conffesor personajes copia_8: 8598379014894853614
+      The Conffesor personajes copia_9: -7380239083858429524
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
