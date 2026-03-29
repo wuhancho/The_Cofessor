@@ -21,6 +21,7 @@ namespace The_cofessor.Personajes.Dialogs
         [SerializeField] private float RepPuebloCost = 0;
         [SerializeField] private float SobornoCost = 0;
         [SerializeField] private Sprite reactionPenitent;
+  
 
         public Rect GetRect() 
         { 

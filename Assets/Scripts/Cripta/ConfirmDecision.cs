@@ -30,7 +30,11 @@ public class ConfirmDecision : MonoBehaviour
     }
     public void OnConfirm()
     {
-        ConfirmSelection();
+        FadeController.Instance.FadeIn(0.5f, () =>
+        {
+            ConfirmSelection();
+            FadeController.Instance.FadeOut(0.5f);
+        });
     }
 
     private void ConfirmSelection()

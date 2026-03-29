@@ -182,7 +182,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 1440
-    y: -8
+    y: -9
     width: 300
     height: 200
   faithCost: 0

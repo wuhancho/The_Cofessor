@@ -136,7 +136,7 @@ public class CriptaDialogue : MonoBehaviour
                 else if (choice.GetText() == "Perdonar (+50$)")
                 {
                     Debug.Log("CriptaDialogue - Perdonar (+50$) choice selected. Implement forgiveness with bribe logic here.");
-                    Dia.Instance.SetSobornos(50);
+                    Dia.Instance.SetSobornos(choice.GetSobornoCost());
                     ChoicePerdonar();
                     //DelateChoicesRootChilds();
                 }

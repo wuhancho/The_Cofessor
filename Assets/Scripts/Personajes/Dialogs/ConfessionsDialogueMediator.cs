@@ -64,7 +64,7 @@ public class ConfessionsDialogueMediator : MonoBehaviour
         else
         {
             //acaba la tarde
-            FadeController.Instance.FadeOut(2f);
+            FadeController.Instance.FadeIn(2f);
             OnAllConfessionsEnded?.Invoke();
             print("Ha acabado la tarde de confesiones.");
         }

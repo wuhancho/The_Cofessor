@@ -114,9 +114,9 @@ public class A_Decision : MonoBehaviour, IAcciones
             StartCoroutine(WaitForDialogueEnd(() =>
             {
                 onCombat?.Invoke();
-                FadeController.Instance.FadeOut(timeToWaitAfterDialogue, () =>
+                FadeController.Instance.FadeIn(timeToWaitAfterDialogue, () =>
                 {
-                    FadeController.Instance.FadeIn(2);
+                    FadeController.Instance.FadeOut(2);
                     ActiveCombat();
                 });
             }));
@@ -136,10 +136,10 @@ public class A_Decision : MonoBehaviour, IAcciones
             onNotEnterInCombat?.Invoke();
             StartCoroutine(WaitForDialogueEnd(() =>
             {
-                FadeController.Instance.FadeOut(timeToWaitAfterDialogue, () =>
+                FadeController.Instance.FadeIn(timeToWaitAfterDialogue, () =>
                 {
                     onEndAction?.Invoke();
-                    FadeController.Instance.FadeIn(2);
+                    FadeController.Instance.FadeOut(2);
                     onEndCombat?.Invoke();
                 });
             }));

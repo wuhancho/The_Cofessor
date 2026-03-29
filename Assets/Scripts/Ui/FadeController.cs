@@ -45,14 +45,15 @@ public class FadeController : MonoBehaviour
         StartCoroutine(FadeOutAndLoad(sceneName, duration));
     }
 
-    public void FadeOut(float duration, Action onComplete = null)
+
+    public void FadeIn(float duration, Action onComplete = null)
     {
         Debug.Log("FadeOut started");
         OnFadeOutinitialized?.Invoke();
         StartCoroutine(FadeRoutine(0f, 1f, duration, onComplete));
     }
 
-    public void FadeIn(float duration, Action onComplete = null)
+    public void FadeOut(float duration, Action onComplete = null)
     {
         Debug.Log("FadeIn started");
         OnFadeInitialized?.Invoke();

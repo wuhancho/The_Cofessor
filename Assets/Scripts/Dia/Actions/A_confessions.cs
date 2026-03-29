@@ -232,10 +232,10 @@ public class A_confessions : MonoBehaviour, IAcciones
             halfPenitentTriggered = true;
             Debug.Log("Mitad de penitentes alcanzada. Disparando onHalfPenitent.");
 
-            FadeController.Instance.FadeOut(1.5f, () =>
+            FadeController.Instance.FadeIn(1.5f, () =>
             {
                 Debug.Log("Fade out completo. Invocando onHalfPenitent.");
-                FadeController.Instance.FadeIn(1.5f);
+                FadeController.Instance.FadeOut(1.5f);
                 onHalfPenitent?.Invoke();
             });
             //onHalfPenitent?.Invoke();

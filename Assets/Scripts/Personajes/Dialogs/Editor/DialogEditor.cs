@@ -209,7 +209,7 @@ namespace The_cofessor.Personajes.Dialogs.Editor
             // --- Texto del diálogo ---
             EditorGUILayout.LabelField("Dialogue Text", EditorStyles.boldLabel);
             EditorGUI.BeginChangeCheck();
-            string newText = EditorGUILayout.TextArea(selectedNode.GetText() ?? "", GUILayout.MinHeight(60));
+            string newText = EditorGUILayout.TextArea(selectedNode.GetText() ?? "", GUILayout.MinHeight(60),GUILayout.MaxWidth(236));
             if (EditorGUI.EndChangeCheck())
             {
                 selectedNode.SetText(newText);
@@ -220,32 +220,8 @@ namespace The_cofessor.Personajes.Dialogs.Editor
             // --- Costes ---
             EditorGUILayout.LabelField("Costs", EditorStyles.boldLabel);
 
-            //EditorGUI.BeginChangeCheck();
-            //float newMoney = EditorGUILayout.FloatField("Money Cost", selectedNode.GetMoneyCost());
-            //if (EditorGUI.EndChangeCheck())
-            //{
-            //    Undo.RecordObject(selectedNode, "Edit Money Cost");
-            //    selectedNode.SetMoneyCost(newMoney);
-            //    EditorUtility.SetDirty(selectedNode);
-            //}
+            EditorGUI.BeginChangeCheck();
 
-            //EditorGUI.BeginChangeCheck();
-            //int newBombs = EditorGUILayout.IntField("Bombs Cost", selectedNode.GetBombsCost());
-            //if (EditorGUI.EndChangeCheck())
-            //{
-            //    Undo.RecordObject(selectedNode, "Edit Bombs Cost");
-            //    selectedNode.SetBombsCost(newBombs);
-            //    EditorUtility.SetDirty(selectedNode);
-            //}
-
-            //EditorGUI.BeginChangeCheck();
-            //bool newBombsFlag = EditorGUILayout.Toggle("Bombs False Se", selectedNode.GetBombsFalseSe());
-            //if (EditorGUI.EndChangeCheck())
-            //{
-            //    Undo.RecordObject(selectedNode, "Edit Bombs Flag");
-            //    selectedNode.SetBombsFalseSe(newBombsFlag);
-            //    EditorUtility.SetDirty(selectedNode);
-            //}
 
             EditorGUI.BeginChangeCheck();
             float newFaith = EditorGUILayout.FloatField("Faith Cost", selectedNode.GetFaithCost());
