@@ -160,7 +160,7 @@ public class PlayerStatus : ScriptableObject
     {
         Cleaned = false;
     }
-    internal void ResetMisaDone()
+    internal void ResetMisa()
     {
         misaDone = false;
     }
@@ -173,6 +173,6 @@ public class PlayerStatus : ScriptableObject
         ResetRepPueblo();
         ResetFood();
         ResetCleaned();
-        ResetMisaDone();
+        ResetMisa();
     }
 }

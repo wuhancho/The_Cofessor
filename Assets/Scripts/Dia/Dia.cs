@@ -54,6 +54,20 @@ public class Dia : MonoBehaviour
         {
             penitentController = FindAnyObjectByType<PenitentController>();
         }
+#if ENABLE_EDITOR_GAME_SERVICES
+        if (SceneManager.GetActiveScene().name == "DÍA 1 - MAÑANA")
+        {
+            playerController.PlayerStatus.ResetAllStatus();
+             RemoveEnergy(1);
+        }
+        if (SceneManager.GetActiveScene().name == "DÍA 2 - MAÑANA")
+        {
+            playerController.PlayerStatus.ResetCleaned();
+            playerController.PlayerStatus.ResetMisa();
+            playerController.PlayerStatus.ResetEnergy();
+            //RemoveEnergy(1);
+        }
+#endif
         eventDay = GetComponent<EventDayManager>();
         StartEventDay();
         Initialize(playerController, penitentController);
@@ -247,7 +261,7 @@ public class Dia : MonoBehaviour
     public void EndDay()
     {
         NextDay();
-        if (numberDay > 0) 
+        if (numberDay > 0)
         {
             FadeController.Instance.FadeAndLoadScene("DÍA 2 - MAÑANA", fadeDuration);
         }
