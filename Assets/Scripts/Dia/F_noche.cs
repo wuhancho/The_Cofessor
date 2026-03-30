@@ -59,8 +59,17 @@ public class F_noche : MonoBehaviour, IFases
                 Debug.Log("Inicializando A_Economy en F_noche");
                 accionEconomy.SetDay(dia.GetNumberDay());
                 accionEconomy.Initialize(playerController, this);
-
+                //if (dia.GetNumberDay() == 0)
+                //{
+                //    Debug.Log("Día 0: Ejecutando A_Economy en F_noche");
+                //    FadeController.Instance.FadeIn(2f, () =>
+                //    {
+                //        accionEconomy.TriggerAction();
+                //        FadeController.Instance.FadeOut(2f);
+                //    });
+                //}
             }
+                
             //accion.SetDay(dia.GetNumberDay());
             //accion.SetDay(dia.GetNumberDay());
 
@@ -120,7 +129,7 @@ public class F_noche : MonoBehaviour, IFases
                     Debug.Log("Activando A_Decision en F_noche");
                     accionDecision.gameObject.SetActive(true);
                     //accionDecision.Initialize(playerController, penitentController);
-                    FadeController.Instance.FadeIn((2f),() =>
+                    FadeController.Instance.FadeIn((2f), () =>
                     {
                         accionDecision.TriggerAction();
                         FadeController.Instance.FadeOut(2f);

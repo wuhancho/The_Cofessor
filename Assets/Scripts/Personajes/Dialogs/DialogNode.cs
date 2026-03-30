@@ -14,7 +14,7 @@ namespace The_cofessor.Personajes.Dialogs
         [SerializeField] private string uniqueID;
         [SerializeField] private bool isPlayerSpeaking = false;
         [SerializeField] private string text;
-        [SerializeField] private List<string> childrenIDs = new();
+        [SerializeField,HideInInspector] private List<string> childrenIDs = new();
         [SerializeField,HideInInspector] private Rect rect = new(0, 0, 300, 200);
         [SerializeField] private float faithCost = 0;
         [SerializeField] private float RepIglesiaCost = 0;

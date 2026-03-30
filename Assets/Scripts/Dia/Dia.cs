@@ -233,6 +233,10 @@ public class Dia : MonoBehaviour
     {
         return amount = amount * (1 + (playerController.PlayerStatus.RepPueblo / 10f)); ;
     }
+    internal float GetSalary(float amount)
+    {
+        return amount = amount * (1 + (playerController.PlayerStatus.RepIglesia / 10f)); // Aumentar el salario basado en la reputación con la iglesia
+    }
     private void NextDay()
     {
         numberDay++;
@@ -240,15 +244,13 @@ public class Dia : MonoBehaviour
         StartEventDay();
     }
 
-    internal float GetSalary(float amount)
-    {
-        return amount = amount * (1 + (playerController.PlayerStatus.RepIglesia / 10f)); // Aumentar el salario basado en la reputación con la iglesia
-    }
-
     public void EndDay()
     {
         NextDay();
-        FadeController.Instance.FadeAndLoadScene("DÍA 2 - MAÑANA", fadeDuration);
+        if (numberDay > 0) 
+        {
+            FadeController.Instance.FadeAndLoadScene("DÍA 2 - MAÑANA", fadeDuration);
+        }
     }
 }
 
