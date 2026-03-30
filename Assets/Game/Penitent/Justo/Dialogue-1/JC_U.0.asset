@@ -194,14 +194,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uniqueID: 11
   isPlayerSpeaking: 1
-  text: "Encubrimiento: Robar para alimemtar a su familia est\xE1 justificado. Su
+  text: "Encubrimiento: Robar para alimentar a su familia est\xE1 justificado. Su
     secreto est\xE1 a salvo conmigo."
   childrenIDs:
   - 13
   rect:
     serializedVersion: 2
     x: 2589
-    y: 252
+    y: 251
     width: 300
     height: 200
   faithCost: 0
