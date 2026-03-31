@@ -32,6 +32,7 @@ namespace The_cofessor.Personajes.Dialogs.Editor
         const float MaxZoom = 2.5f;
         const float ZoomStep = 0.1f;
 
+
         private const string LastDialogPrefKey = "DialogEditorV1_LastDialogGUID";
 
         // Nodo actualmente seleccionado para mostrar en el panel lateral

@@ -331,6 +331,18 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6638206120767702839, guid: cec1c54d448efc14db115308153457c2, type: 3}
+      propertyPath: onCapillaAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6638206120767702839, guid: cec1c54d448efc14db115308153457c2, type: 3}
+      propertyPath: onCapillaAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6638206120767702839, guid: cec1c54d448efc14db115308153457c2, type: 3}
+      propertyPath: onCapillaAction.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6638206120767702839, guid: cec1c54d448efc14db115308153457c2, type: 3}
       propertyPath: onCapillaOperativeFaithCost.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -373,10 +385,6 @@ PrefabInstance:
     - target: {fileID: 6638206120767702839, guid: cec1c54d448efc14db115308153457c2, type: 3}
       propertyPath: onCapillaOperativeEnergyCost.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: RemoveEnergy
-      objectReference: {fileID: 0}
-    - target: {fileID: 6638206120767702839, guid: cec1c54d448efc14db115308153457c2, type: 3}
-      propertyPath: onCapillaAction.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6638206120767702839, guid: cec1c54d448efc14db115308153457c2, type: 3}
       propertyPath: onCapillaCancel.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
