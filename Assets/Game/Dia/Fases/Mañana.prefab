@@ -74,6 +74,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2044062113667316748, guid: 31367d24bbd856a47b5e332bd684230b, type: 3}
+      propertyPath: actionName
+      value: Periodico
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   energyCost: 1
   faithCost: 1
-  actionName: 
+  actionName: Misa
   onMisaAction:
     m_PersistentCalls:
       m_Calls: []

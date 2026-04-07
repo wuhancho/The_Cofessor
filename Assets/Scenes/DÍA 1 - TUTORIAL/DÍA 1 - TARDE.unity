@@ -2127,7 +2127,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1054169860}
+      - m_Target: {fileID: 711500845}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -6785,7 +6785,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &378527754
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10658,7 +10658,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &630172490
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12299,7 +12299,7 @@ GameObject:
   m_Component:
   - component: {fileID: 711500846}
   m_Layer: 0
-  m_Name: ALTAR - MISA [TARDE] (2)
+  m_Name: 'ALTAR - MISA [TARDE]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12325,6 +12325,8 @@ RectTransform:
   - {fileID: 1713502775}
   - {fileID: 334951414}
   - {fileID: 1841040869}
+  - {fileID: 805033007}
+  - {fileID: 854257043}
   m_Father: {fileID: 515656420}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -13646,14 +13648,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 805033006}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 796799277}
   - {fileID: 1448014286}
-  m_Father: {fileID: 1054169861}
+  m_Father: {fileID: 711500846}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -14077,7 +14079,7 @@ RectTransform:
   m_Children:
   - {fileID: 972615079}
   - {fileID: 1072730600}
-  m_Father: {fileID: 1054169861}
+  m_Father: {fileID: 711500846}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -16725,7 +16727,7 @@ PrefabInstance:
     - target: {fileID: 3013708244207498315, guid: 82f6b7ab2a17afd448707a2f3e18ea3b, type: 3}
       propertyPath: onMisaDone.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1054169860}
+      objectReference: {fileID: 711500845}
     - target: {fileID: 3013708244207498315, guid: 82f6b7ab2a17afd448707a2f3e18ea3b, type: 3}
       propertyPath: onMisaNotDone.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 6
@@ -17535,8 +17537,6 @@ RectTransform:
   - {fileID: 2087780421}
   - {fileID: 605443073}
   - {fileID: 1485352748}
-  - {fileID: 805033007}
-  - {fileID: 854257043}
   m_Father: {fileID: 515656420}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -20711,7 +20711,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1261877673
 RectTransform:
   m_ObjectHideFlags: 0
@@ -29475,9 +29475,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1239067790}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 647.79834, y: -110}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1210, y: 220}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1929362865

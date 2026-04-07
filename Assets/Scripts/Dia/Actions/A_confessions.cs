@@ -104,25 +104,51 @@ public class A_confessions : MonoBehaviour, IAcciones
         {
             foreach (Dialog dialog in penitent.Dialogs)
             {
+                Debug.Log($"Revisando diálogo {dialog.name} para el penitente {penitent.CharacterName} en el día {day}");
                 if (dialog == null) continue;
                 if (day != penitent.DayDialogue) continue;
-                if (penitent.TypeDialogue == "U")
+                Debug.Log($"Diálogo {dialog.name} corresponde al día {day} para el penitente {penitent.CharacterName}");
+                if (penitent.DayDialogue == day)
                 {
-                    playerController.PlayerConversant.CurrentSpeakerNPC = penitent.CharacterName;
-                    Debug.Log($"Diálogo único encontrado: {dialog.name} para el penitente {penitent.CharacterName} en el día {day}");
-                    return dialog;
-                }
-                if (dialog.IsTrueDialogue == isTrueDialogue)
-                {
-                    //UpdatePenitentImage(penitent);
-                    //ShowEntrancePenitent(true);
-                    playerController.PlayerConversant.CurrentSpeakerNPC = penitent.CharacterName;
-                    return dialog;
+                    if (penitent.DayDialogue == 0)
+                    {
+                        if (penitent.TypeDialogue == "U")
+                        {
+                            playerController.PlayerConversant.CurrentSpeakerNPC = penitent.CharacterName;
+                            Debug.Log($"Diálogo único encontrado: {dialog.name} para el penitente {penitent.CharacterName} en el día {day}");
+                            return dialog;
+                        }
+                    }
+                    else
+                    {
+                        Debug.Log($"Diálogo encontrado: {dialog.name} para el penitente {penitent.CharacterName} en el día {day}");
+                        if (dialog.IsTrueDialogue == isTrueDialogue)
+                        {
+                            Debug.Log($"Diálogo {(isTrueDialogue ? "verdadero" : "falso")} encontrado: {dialog.name} para el penitente {penitent.CharacterName} en el día {day}");
+                            if (isTrueDialogue)
+                            {
+                                Debug.Log($"Diálogo verdadero seleccionado: {dialog.name} para el penitente {penitent.CharacterName} en el día {day}");
+                                playerController.PlayerConversant.CurrentSpeakerNPC = penitent.CharacterName;
+                                return dialog;
+                            }
+                            else if (!isTrueDialogue)
+                            {
+                                Debug.Log($"Diálogo falso seleccionado: {dialog.name} para el penitente {penitent.CharacterName} en el día {day}");
+                                playerController.PlayerConversant.CurrentSpeakerNPC = penitent.CharacterName;
+                                return dialog;
+                            }
+                        }
+                    }
                 }
             }
-        }
 
-        return null;
+            return null;
+        }
+        else
+        {
+            Debug.LogWarning($"[A_confecciones] No se encontró un penitente válido para el día {day} en el índice {todayPenintentIndex}.");
+            return null;
+        }
     }
 
     private void UpdatePenitentImage(SPenitent penitent)
@@ -266,11 +292,11 @@ public class A_confessions : MonoBehaviour, IAcciones
         Debug.Log("Reanudando segunda parte de confesiones.");
         //FadeController.Instance.FadeOut(1.5f, () =>
         //{
-            Debug.Log("Fade in completo. Invocando SecondPartConfessions.");
-            SecondPartConfessions?.Invoke();
-            TriggerAction(); // lanzar siguiente diálogo inmediatamente
-            //FadeController.Instance.FadeIn(1.5f);
-        //});
+        Debug.Log("Fade in completo. Invocando SecondPartConfessions.");
+        SecondPartConfessions?.Invoke();
+        TriggerAction(); // lanzar siguiente diálogo inmediatamente
+                         //FadeController.Instance.FadeIn(1.5f);
+                         //});
 
     }
 

@@ -36,7 +36,8 @@ public class A_Limpiar : MonoBehaviour, IAccionesEnergia
         }
         else
         {
-            playerController.PlayerStatus.DecreaseEnergy(EnergyCost);
+
+            Dia.Instance.RemoveEnergy(EnergyCost);
             playerController.PlayerStatus.IncreaseRepPueblo(ReputationPeopleCost);
             playerController.PlayerStatus.Spendmoney(moneyCost);
             playerController.PlayerStatus.SetCleaned(true);
@@ -53,7 +54,7 @@ public class A_Limpiar : MonoBehaviour, IAccionesEnergia
 
     public void TriggerAction()
     {
-        throw new System.NotImplementedException();
+        EjecutarAccion(_playerController);
     }
     public void DebugAccion()
     {

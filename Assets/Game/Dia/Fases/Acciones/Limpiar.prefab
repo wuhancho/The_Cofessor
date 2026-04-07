@@ -44,6 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c42b52dc027da1c439e876572ab5ed0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  energyCost: 0
+  energyCost: 1
   moneyCost: 0
-  actionName: 
+  actionName: Limpiar

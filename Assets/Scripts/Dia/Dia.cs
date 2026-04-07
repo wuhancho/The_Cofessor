@@ -54,7 +54,7 @@ public class Dia : MonoBehaviour
         {
             penitentController = FindAnyObjectByType<PenitentController>();
         }
-#if ENABLE_EDITOR_GAME_SERVICES
+
         if (SceneManager.GetActiveScene().name == "DÍA 1 - MAÑANA")
         {
             playerController.PlayerStatus.ResetAllStatus();
@@ -67,7 +67,7 @@ public class Dia : MonoBehaviour
             playerController.PlayerStatus.ResetEnergy();
             //RemoveEnergy(1);
         }
-#endif
+        Instance = this;
         eventDay = GetComponent<EventDayManager>();
         StartEventDay();
         Initialize(playerController, penitentController);
