@@ -46,10 +46,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sPenitents:
   - {fileID: 11400000, guid: 63e1e23aa3e5d4a4b91ae46bc621b3b9, type: 2}
-  - {fileID: 11400000, guid: 68155d52b2bcf904390a3b736ace8c91, type: 2}
-  - {fileID: 11400000, guid: cbf658e12f74ec646b057e51a797ba5a, type: 2}
-  - {fileID: 11400000, guid: 7c546f4f6b9d6ce4aa4a2e4929541bf6, type: 2}
   - {fileID: 11400000, guid: e8d40480a7a4e7b4a8d32fcac3404937, type: 2}
+  - {fileID: 11400000, guid: cbf658e12f74ec646b057e51a797ba5a, type: 2}
+  - {fileID: 11400000, guid: 68155d52b2bcf904390a3b736ace8c91, type: 2}
+  - {fileID: 11400000, guid: 7c546f4f6b9d6ce4aa4a2e4929541bf6, type: 2}
   - {fileID: 11400000, guid: 6c0fa3f20032e894fa1d8aabbbfee910, type: 2}
   EntracePenitent: {fileID: 0}
   penitentText: {fileID: 0}

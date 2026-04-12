@@ -51,17 +51,12 @@ public class SPenitent : ScriptableObject
     /// </summary>
     /// <remarks>If no dialogue entries are available, the property returns 0. The value is parsed from the
     /// dialogue name and may depend on the naming convention used for dialogue entries.</remarks>
-    public int DayDialogue
+    public int DayDialogue(Dialog dialog)
     {
-        get
-        {
-            foreach (var dialog in dialogs)
-            {
-                return int.Parse(dialog.name.Split('_')[1].Split('.')[1]);
-            }
-            return 0; // Cambiado de null a 0 para evitar CS0037
-        }
+        Debug.Log($"Parsing day from dialog name: {dialog.name}, day {int.Parse(dialog.name.Split('_')[1].Split('.')[1])}");
+        return int.Parse(dialog.name.Split('_')[1].Split('.')[1]);
     }
+
     public string IdDialogue
     {
         get

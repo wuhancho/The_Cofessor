@@ -106,11 +106,12 @@ public class A_confessions : MonoBehaviour, IAcciones
             {
                 Debug.Log($"Revisando diálogo {dialog.name} para el penitente {penitent.CharacterName} en el día {day}");
                 if (dialog == null) continue;
-                if (day != penitent.DayDialogue) continue;
+                Debug.Log($"Diálogo {dialog.name} encontrado para el penitente {penitent.CharacterName} en el día {day}");
+                if (day != penitent.DayDialogue(dialog)) continue;
                 Debug.Log($"Diálogo {dialog.name} corresponde al día {day} para el penitente {penitent.CharacterName}");
-                if (penitent.DayDialogue == day)
+                if (penitent.DayDialogue(dialog) == day)
                 {
-                    if (penitent.DayDialogue == 0)
+                    if (penitent.DayDialogue(dialog) == 0)
                     {
                         if (penitent.TypeDialogue == "U")
                         {
@@ -238,6 +239,18 @@ public class A_confessions : MonoBehaviour, IAcciones
         this.day = day;
         //Debug.Log($"A_confecciones - SetDay invoked. Day set to: {day}");
         todayPenitents = penitentController.GetSPenitents(day);
+        foreach (SPenitent penitent in todayPenitents)
+        {
+            if (penitent != null)
+            {
+                Debug.Log($"A_confecciones - Penitent found for day {day}: {penitent.CharacterName}");
+            }
+            else
+            {
+                Debug.LogWarning($"A_confecciones - Null penitent found for day {day}.");
+            }
+        }
+        Debug.Log($"A_confecciones - Retrieved {todayPenitents.Length} penitents for day {day}");
         todayPenintentIndex = 0;
         halfPenitentTriggered = false;
         halfCount = Mathf.FloorToInt(todayPenitents.Length / 2);
