@@ -24,6 +24,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: cbff5f24e9c2c114dbe94f47619048c1, type: 2}
   - {fileID: 11400000, guid: 6cbe835370f014641ae94d23b522ff71, type: 2}
   - {fileID: 11400000, guid: c8123d04d7b711c4fb058a730c16f4b6, type: 2}
+  - {fileID: 11400000, guid: c05820dd3276b6b438e11bdfc76d1445, type: 2}
+  - {fileID: 11400000, guid: 8b1f3564a6133ef47a0f74bd1d02cf7a, type: 2}
   isTrueDialogue: 0
   day: 1
   DaysApear: 01000000

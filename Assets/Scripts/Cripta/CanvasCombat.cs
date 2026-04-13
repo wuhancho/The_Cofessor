@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-public enum CombatPhase { Phase1, Phase2, Phase3 }
+public enum CombatPhase { Phase1, Phase2, Phase3, End }
 
 /// <summary>
 /// Estados internos del flujo de combate.
@@ -43,7 +43,7 @@ public class CanvasCombat : MonoBehaviour
         this.decision = _Decision;
         //boss.SetActive(true);
         combate.Initialize(playerController);
-        combatDialogue.Initialize(playerController, decision.PenitentSelected,this);
+        combatDialogue.Initialize(playerController, decision.PenitentSelected, this);
         onCombatUpdated?.Invoke();
 
         // Empezar con el diálogo de la fase 1
@@ -85,7 +85,7 @@ public class CanvasCombat : MonoBehaviour
                 combate.UpdatePhase3Spawn();
                 break;
         }
-        
+
     }
 
     /// <summary>
@@ -160,6 +160,10 @@ public class CanvasCombat : MonoBehaviour
                 StartDialogueState();
                 break;
             case CombatPhase.Phase3:
+                currentPhase = CombatPhase.End;
+                StartDialogueState();
+                break;
+            case CombatPhase.End:
                 EndCombat();
                 break;
         }

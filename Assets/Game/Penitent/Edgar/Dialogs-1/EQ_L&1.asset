@@ -38,7 +38,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2e960bec5b5236749b281289ea60fa82, type: 3}
-  m_Name: EQ_L.1
+  m_Name: EQ_L&1
   m_EditorClassIdentifier: 
   nodes:
   - {fileID: -7606447218693324647}

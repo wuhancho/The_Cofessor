@@ -58,7 +58,6 @@ public class Dia : MonoBehaviour
         if (SceneManager.GetActiveScene().name == "DÍA 1 - MAÑANA")
         {
             playerController.PlayerStatus.ResetAllStatus();
-             RemoveEnergy(1);
         }
         if (SceneManager.GetActiveScene().name == "DÍA 2 - MAÑANA")
         {

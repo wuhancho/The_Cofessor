@@ -100,10 +100,13 @@ public class CombatDialogue : MonoBehaviour
         switch (phase)
         {
             case CombatPhase.Phase2:
-                InitializeDecision(penitent.IdDialogue, "B","1");
+                InitializeDecision(penitent.IdDialogue, "B", "1");
                 break;
             case CombatPhase.Phase3:
-                InitializeDecision(penitent.IdDialogue,"B", "2");
+                InitializeDecision(penitent.IdDialogue, "B", "2");
+                break;
+            case CombatPhase.End:
+                InitializeDecision(penitent.IdDialogue, "W", "1");
                 break;
             default:
                 Debug.LogWarning($"CombatDialogue - Unhandled combat phase: {phase}");
@@ -138,7 +141,7 @@ public class CombatDialogue : MonoBehaviour
             foreach (Dialog d in penitent.Dialogs)
             {
                 if (d == null) continue;
-                string t = SPenitent.GetDialogType(d,PenitentTypeDialogueSplit.b);
+                string t = SPenitent.GetDialogType(d, PenitentTypeDialogueSplit.b);
                 Debug.LogWarning($"  → '{d.name}' → tipo parseado: '{t}'");
             }
             // Si no hay diálogo, terminar inmediatamente para no bloquear el flujo
