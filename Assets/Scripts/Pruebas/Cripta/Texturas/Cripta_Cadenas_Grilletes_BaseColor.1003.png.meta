@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 92223729cf335a94499f039f230fb62f
+guid: 144c541c58bb8b146b269095c756c9b8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8292520632108381151
-    second: Cripta_standardSurface2_Height.1003_0
+      213: 6573080863869517240
+    second: Cripta_Cadenas_Grilletes_BaseColor.1003_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,9 +40,9 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cripta_standardSurface2_Height.1003_0
+      name: Cripta_Cadenas_Grilletes_BaseColor.1003_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fd3fa694493f41370800000000000000
-      internalID: 8292520632108381151
+      spriteID: 8bd3cd25836483b50800000000000000
+      internalID: 6573080863869517240
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cripta_standardSurface2_Height.1003_0: 8292520632108381151
+      Cripta_Cadenas_Grilletes_BaseColor.1003_0: 6573080863869517240
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

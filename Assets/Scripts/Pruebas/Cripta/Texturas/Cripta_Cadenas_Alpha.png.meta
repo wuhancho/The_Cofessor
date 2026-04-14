@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 0ddc7fddada482c46be28caff25156be
+guid: 4e317f9f773295248a901d4ea3384b2d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6626836178507107961
-    second: Cripta_standardSurface2_Normal.1003_0
+      213: 3131056008802261445
+    second: Cripta_Cadenas_Alpha_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
-    sRGBTexture: 0
+    enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -55,9 +55,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 1
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cripta_standardSurface2_Normal.1003_0
+      name: Cripta_Cadenas_Alpha_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97e8f94d46047fb50800000000000000
-      internalID: 6626836178507107961
+      spriteID: 5c9d288d9deb37b20800000000000000
+      internalID: 3131056008802261445
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cripta_standardSurface2_Normal.1003_0: 6626836178507107961
+      Cripta_Cadenas_Alpha_0: 3131056008802261445
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

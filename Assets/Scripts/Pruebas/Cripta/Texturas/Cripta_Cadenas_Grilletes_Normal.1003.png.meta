@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 934fa50845cceeb419beea1e14a09510
+guid: af723f80c70acb24b8bd370ffb098b1c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1924151592064198767
-    second: Cripta_standardSurface2_BaseColor.1003_0
+      213: -4453226010580103517
+    second: Cripta_Cadenas_Grilletes_Normal.1003_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
-    sRGBTexture: 1
+    enableMipMap: 1
+    sRGBTexture: 0
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -40,9 +40,9 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -55,9 +55,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 1
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cripta_standardSurface2_BaseColor.1003_0
+      name: Cripta_Cadenas_Grilletes_Normal.1003_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 197d205525a0c45e0800000000000000
-      internalID: -1924151592064198767
+      spriteID: 3aec7de9986f232c0800000000000000
+      internalID: -4453226010580103517
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cripta_standardSurface2_BaseColor.1003_0: -1924151592064198767
+      Cripta_Cadenas_Grilletes_Normal.1003_0: -4453226010580103517
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
