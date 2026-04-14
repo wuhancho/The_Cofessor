@@ -28,6 +28,9 @@ public class Combate : MonoBehaviour
     [Header("Spawn Settings Phase 1")]
     [SerializeField] private float spawnInterval = 1.5f;   // segundos entre cada spawn
     [SerializeField] private int faithDamagePerHit = 1;     // daño de fe por impacto
+    [SerializeField] private float spawnAreaMinX = -400f; // límite mínimo X del canvas para spawnear objetos
+    [SerializeField] private float spawnAreaMaxX = 400f;  // límite máximo X del canvas para spawnear objetos
+    [SerializeField] private float spawnAreaXOffset = 50f; // margen adicional para que no spawneen justo en el borde
     private float spawnTimer;
 
     [Header("Spawn Settings Phase 2")]
@@ -53,12 +56,19 @@ public class Combate : MonoBehaviour
     private Coroutine phase3Coroutine;
 
 
-    public CombatPhase CurrentPhase { get => currentPhase; set => currentPhase = value; }
-    public GameObject ObjToSpawn1 { get => objToSpawn1; set => objToSpawn1 = value; }
-    public GameObject ObjToSpawn2 { get => objToSpawn2; set => objToSpawn2 = value; }
-    public GameObject ObjToSpawn3 { get => objToSpawn3; set => objToSpawn3 = value; }
-    public GameObject SpPOP1 { get => spPOP1; set => spPOP1 = value; }
-    public GameObject SpPOP2 { get => spPOP2; set => spPOP2 = value; }
+    public CombatPhase CurrentPhase { get => currentPhase; }
+    public GameObject ObjToSpawn1 { get => objToSpawn1; }
+    public GameObject ObjToSpawn2 { get => objToSpawn2; }
+    public GameObject ObjToSpawn3 { get => objToSpawn3; }
+    public GameObject SpPOP1 { get => spPOP1; }
+    public GameObject SpPOP2 { get => spPOP2; }
+    public float HeightCanvasMax { get => heightCanvasMax; }
+    public float WidthCanvasMax { get => widthCanvasMax; }
+    public float WidthCanvasMin { get => widthCanvasMin; }
+    public float HeightCanvasMin { get => heightCanvasMin; }
+    public float SpawnAreaMinX { get => spawnAreaMinX; }
+    public float SpawnAreaMaxX { get => spawnAreaMaxX; }
+    public float SpawnAreaXOffset { get => spawnAreaXOffset; }
 
     public void Initialize(PlayerController controller)
     {

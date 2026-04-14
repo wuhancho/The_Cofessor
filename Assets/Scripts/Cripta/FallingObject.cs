@@ -16,7 +16,9 @@ public class FallingObject : MonoBehaviour
     private float timeAlive;
     private float startX;
     private Combate combate;
-
+    private float canvasWidthMax;
+    private float canvasWidthMin;
+    private float offsetX;
     /// <summary>
     /// Inicializa el objeto con sus parámetros de combate.
     /// </summary>
@@ -26,6 +28,9 @@ public class FallingObject : MonoBehaviour
     {
         this.combate = combate;
         this.bottomLimit = -150f;
+        this.canvasWidthMax = combate.SpawnAreaMaxX;
+        this.canvasWidthMin = combate.SpawnAreaMinX;
+        offsetX = combate.SpawnAreaXOffset;
     }
 
     private void Awake()
@@ -46,7 +51,8 @@ public class FallingObject : MonoBehaviour
         // Movimiento zigzag: baja en Y y oscila en X con seno
         float newY = rectTransform.anchoredPosition.y - fallSpeed * Time.deltaTime;
         float newX = startX + Mathf.Sin(timeAlive * zigzagFrequency) * zigzagAmplitude;
-
+        // Asegurar que el nuevo X no salga de los límites del canvas
+        newX = Mathf.Clamp(newX, canvasWidthMin + offsetX, canvasWidthMax - offsetX);
         rectTransform.anchoredPosition = new Vector2(newX, newY);
 
         // Destruir si llega al límite inferior del canvas

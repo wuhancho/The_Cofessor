@@ -32,7 +32,9 @@ public class CombatDialogue : MonoBehaviour
         this.canvas = canvas;
         playerController = controller;
         playerConversant = controller.PlayerConversant;
+        //Debug.Log($"CombatDialogue - PlayerConversant assigned: {playerConversant != null}");
         this.penitent = penitent;
+        //Debug.Log($"CombatDialogue - Penitent assigned: {penitent.CharacterName}");
 
         // Obtener el componente TextMeshProUGUI del textObject
         if (textObject != null)
@@ -86,12 +88,17 @@ public class CombatDialogue : MonoBehaviour
         }
         else
         {
-            Debug.Log("CombatDialogue - No more lines or choices. Ending conversation.");
-            // Desuscribir para no recibir más eventos
-            playerConversant.OnConversationUpdated -= UpdateUI;
-            onDialogueFinished?.Invoke();
+            DialogueEnd();
         }
 
+    }
+
+    private void DialogueEnd()
+    {
+        Debug.Log("CombatDialogue - No more lines or choices. Ending conversation.");
+        // Desuscribir para no recibir más eventos
+        playerConversant.OnConversationUpdated -= UpdateUI;
+        onDialogueFinished?.Invoke();
     }
 
     internal void StartDialogue(CombatPhase phase)
@@ -127,6 +134,8 @@ public class CombatDialogue : MonoBehaviour
         currentNodeText = null;
         currentLines = null;
         currentLineIndex = 0;
+
+        
 
         playerConversant.OnConversationUpdated += UpdateUI;
 

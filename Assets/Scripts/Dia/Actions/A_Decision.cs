@@ -97,7 +97,28 @@ public class A_Decision : MonoBehaviour, IAcciones
                 }
             }
         };
+
+        onCombat.AddListener(() =>
+        {
+            FadeController.Instance.FadeIn(timeToWaitAfterDialogue, () =>
+            {
+                FadeController.Instance.FadeOut(2);
+                ActiveCombat();
+            });
+        });
+
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha0))
+        {
+            // Código de prueba para activar el combate directamente
+            Debug.Log("Tecla de prueba presionada. Se activa combate directamente.");
+            onCombat?.Invoke();
+        }
+    }
+
     void DeSubcripcion()
     {
         criptaDialogue.DeSubcripcionEvent(true, true);
@@ -114,11 +135,11 @@ public class A_Decision : MonoBehaviour, IAcciones
             StartCoroutine(WaitForDialogueEnd(() =>
             {
                 onCombat?.Invoke();
-                FadeController.Instance.FadeIn(timeToWaitAfterDialogue, () =>
-                {
-                    FadeController.Instance.FadeOut(2);
-                    ActiveCombat();
-                });
+                //FadeController.Instance.FadeIn(timeToWaitAfterDialogue, () =>
+                //{
+                //    FadeController.Instance.FadeOut(2);
+                //    ActiveCombat();
+                //});
             }));
             DeSubcripcion();
         };

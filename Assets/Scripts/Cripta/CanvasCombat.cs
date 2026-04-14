@@ -43,7 +43,10 @@ public class CanvasCombat : MonoBehaviour
         this.decision = _Decision;
         //boss.SetActive(true);
         combate.Initialize(playerController);
-        combatDialogue.Initialize(playerController, decision.PenitentSelected, this);
+        if (decision.PenitentSelected != null)
+            combatDialogue.Initialize(playerController, decision.PenitentSelected, this);
+        else
+            combatDialogue.Initialize(playerController, Dia.Instance.GuiltyPenitent, this);
         onCombatUpdated?.Invoke();
 
         // Empezar con el diálogo de la fase 1

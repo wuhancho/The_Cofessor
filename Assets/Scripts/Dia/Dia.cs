@@ -43,6 +43,7 @@ public class Dia : MonoBehaviour
     }
 
     public static Dia Instance { get; private set; }
+    public SPenitent GuiltyPenitent { get => guiltyPenitent; }
 
     public void Awake()
     {
@@ -68,8 +69,8 @@ public class Dia : MonoBehaviour
         }
         Instance = this;
         eventDay = GetComponent<EventDayManager>();
-        StartEventDay();
         Initialize(playerController, penitentController);
+        StartEventDay();
     }
 
     public void Initialize(PlayerController pController, PenitentController ptController)
