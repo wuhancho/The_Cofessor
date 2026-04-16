@@ -35,7 +35,7 @@ public class Combate : MonoBehaviour
 
     [Header("Spawn Settings Phase 2")]
     [SerializeField] private float rayRotationSpeed = 30f;  // grados/segundo de los rayos
-    [SerializeField] private float rayWidth = 15f;           // ancho de cada rayo
+    [SerializeField] private float rayLength = 15f;           // ancho de cada rayo
     [SerializeField] private int rayDamage = 1;              // daño por rayo
     [SerializeField] private int rayCount = 8;             // cantidad de rayos giratorios
     [SerializeField] private float rotationSpeed = 30f;    // grados por segundo (sentido horario)
@@ -214,11 +214,11 @@ public class Combate : MonoBehaviour
         centerRect.anchoredPosition = spawnCenter;
 
         // Calcular la longitud de los rayos: distancia máxima desde el centro hasta cualquier borde del canvas
-        float distToRight = Mathf.Abs(widthCanvasMax - spawnCenter.x);
-        float distToLeft = Mathf.Abs(spawnCenter.x - widthCanvasMin);
-        float distToTop = Mathf.Abs(heightCanvasMax - spawnCenter.y);
-        float distToBottom = Mathf.Abs(spawnCenter.y - heightCanvasMin);
-        float rayLength = Mathf.Max(distToRight, distToLeft, distToTop, distToBottom);
+        //float distToRight = Mathf.Abs(widthCanvasMax - spawnCenter.x);
+        //float distToLeft = Mathf.Abs(spawnCenter.x - widthCanvasMin);
+        //float distToTop = Mathf.Abs(heightCanvasMax - spawnCenter.y);
+        //float distToBottom = Mathf.Abs(spawnCenter.y - heightCanvasMin);
+        //float rayLength = Mathf.Max(distToRight, distToLeft, distToTop, distToBottom);
 
         // Añadir el componente RotatingRays si no lo tiene el prefab
         RotatingRays rotating = centerObj.GetComponent<RotatingRays>();

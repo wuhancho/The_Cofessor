@@ -89,9 +89,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8e504b4222335244ae1685de02955bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallSpeed: 100
-  zigzagAmplitude: 100
-  zigzagFrequency: 4
+  fallSpeed: 130
+  zigzagAmplitude: 75
+  zigzagFrequency: 4.5
   faithDamage: 1
 --- !u!61 &7028276900167026005
 BoxCollider2D:

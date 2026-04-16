@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,8 +12,16 @@ public class RotatingRays : MonoBehaviour
     [Header("Configuración de rayos")]
     [SerializeField] private int rayCount = 8;
     [SerializeField] private float rotationSpeed = 30f;    // grados por segundo (sentido horario)
-    [SerializeField] private float rayWidth = 15f;          // ancho de cada rayo en píxeles
     [SerializeField] private int faithDamage = 1;           // daño por rayo al player
+    [SerializeField] private GameObject spawnToRays;        // referencia al spawnpoint para calcular el centro para rotar los rayos
+    private GameObject spawnpoint;          // referencia al spawnpoint para calcular la longitud de los rayos
+    private RectTransform rayRectObj;         // referencia al RectTransform del rayo para ajustar su tamaño según el canvas
+    private float angleStep;              // ángulo entre cada rayo (360 / rayCount)
+    private List<GameObject> rays;                   // array para almacenar referencias a los rayos creados
+
+    [Header("Apariencia")]
+    [SerializeField] private float rayWidth = 15f;          // ancho de cada rayo en píxeles
+    [SerializeField] private float rayLength = 500f;       // longitud de cada rayo (distancia al borde del canvas)
     [SerializeField] private Color rayColor = new Color(1f, 0.3f, 0.1f, 0.8f);
 
     private RectTransform rectTransform;
@@ -28,27 +37,31 @@ public class RotatingRays : MonoBehaviour
     public void Initialize(Combate combate, float rayLength)
     {
         this.combate = combate;
+        rays = new List<GameObject>();
+        this.rayLength = rayLength;
+        spawnpoint = combate.SpPOP2; // Obtener la referencia al spawnpoint desde el combate
         rectTransform = GetComponent<RectTransform>();
         CreateRays(rayLength);
     }
 
     private void CreateRays(float rayLength)
     {
-        float angleStep = 360f / rayCount;
+        angleStep = 360f / rayCount;
 
         for (int i = 0; i < rayCount; i++)
         {
             // Crear el GameObject del rayo
             GameObject rayObj = new GameObject($"Ray_{i}");
-            rayObj.transform.SetParent(transform, false);
+
+            rayObj.transform.SetParent(spawnToRays.transform, false);
 
             // RectTransform con pivote en la base para que rote desde el centro
-            RectTransform rayRect = rayObj.AddComponent<RectTransform>();
-            rayRect.pivot = new Vector2(0.5f, 0f);
-            rayRect.anchoredPosition = Vector2.zero;
-            rayRect.sizeDelta = new Vector2(rayWidth, rayLength);
+            rayRectObj = rayObj.AddComponent<RectTransform>();
+            rayRectObj.pivot = new Vector2(0.5f, 0f);
+            rayRectObj.anchoredPosition = Vector2.zero;
+            rayRectObj.sizeDelta = new Vector2(rayWidth, rayLength);
             // Rotar cada rayo con su ángulo correspondiente
-            rayRect.localRotation = Quaternion.Euler(0f, 0f, -(angleStep * i));
+            rayRectObj.localRotation = Quaternion.Euler(0f, 0f, -(angleStep * i));
 
             // Imagen visual del rayo
             Image rayImage = rayObj.AddComponent<Image>();
@@ -58,7 +71,7 @@ public class RotatingRays : MonoBehaviour
             // Collider para detectar al player
             BoxCollider2D col = rayObj.AddComponent<BoxCollider2D>();
             col.isTrigger = true;
-            col.size = rayRect.sizeDelta;
+            col.size = rayRectObj.sizeDelta;
             col.offset = new Vector2(0f, rayLength / 2f); // centrar el collider a lo largo del rayo
 
             // Script de daño
@@ -70,7 +83,8 @@ public class RotatingRays : MonoBehaviour
     private void Update()
     {
         // Girar en sentido horario (rotación negativa en Z)
-        transform.Rotate(0f, 0f, -rotationSpeed * Time.deltaTime);
+        spawnToRays.transform.Rotate(0f, 0f, -rotationSpeed * Time.deltaTime);
+                
         
     }
 
@@ -82,4 +96,12 @@ public class RotatingRays : MonoBehaviour
         Destroy(gameObject);
     }
 
+    private void AddRays(GameObject rayObj)
+    {
+        rays.Add(rayObj);
+    }
+    private void RemoveRays(GameObject rayObj)
+    {
+        rays.Remove(rayObj);
+    }
 }
