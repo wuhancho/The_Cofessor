@@ -21517,7 +21517,7 @@ PrefabInstance:
       objectReference: {fileID: 2107855209}
     - target: {fileID: 5252712681748306899, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: phase1Duration
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5252712681748306899, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: phase2Duration
@@ -21611,6 +21611,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -15.005
       objectReference: {fileID: 0}
+    - target: {fileID: 7362895300141563431, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: timeReading
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7624654731792463936, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -21652,12 +21656,36 @@ PrefabInstance:
       value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: raylengthMax
+      value: 430
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: raylengthMin
+      value: 130
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: spawnInterval
       value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: spawnAreaXOffset
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: widthRayCanvasMax
+      value: 430
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: widthRayCanvasMin
+      value: 243
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: heightRayCanvasMax
+      value: 163
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: heightRayCanvasMin
+      value: 143
       objectReference: {fileID: 0}
     - target: {fileID: 8656595120075055998, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: m_AnchorMax.y

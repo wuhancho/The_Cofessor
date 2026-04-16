@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class Combate : MonoBehaviour
 {
-    [SerializeField,IReadOnly]private PlayerController playerController;
+    [SerializeField, IReadOnly] private PlayerController playerController;
     [SerializeField] private float damageAmount = 10f;
     [SerializeField] private float velocityPlayer = 5f;
     [SerializeField] private float heightCanvasMax;
@@ -15,17 +15,17 @@ public class Combate : MonoBehaviour
     [SerializeField] private RectTransform canvasCombat;
     [SerializeField] private RectTransform PlayerCombat;
     [SerializeField] private CombatPhase currentPhase;
-    [SerializeField,IReadOnly]private Vector2 spawnPlayer;
-    [Header("SpawnPoints")]
+    [SerializeField, IReadOnly] private Vector2 spawnPlayer;
+    [Header("SpawnPoints", order = 1)]
     [SerializeField] private GameObject spPOP1; // spawnPointObjPhase1 - indica la zona de spawn de objetos del boss en la fase 1
     private float spawnWidth;
     [SerializeField] private GameObject spPOP2; // spawnPointObjPhase2 - indica la zona de spawn de objetos del boss en la fase 2
-    [Header("object prefabs for spawning")]
+    [Header("object prefabs for spawning", order = 1)]
     [SerializeField] private GameObject objToSpawn1; // objeto a spawnear en la fase 1
     [SerializeField] private GameObject objToSpawn2; // objeto a spawnear en la fase 2
     [SerializeField] private GameObject objToSpawn3; // objeto a spawnear en la fase 3
 
-    [Header("Spawn Settings Phase 1")]
+    [Header("Spawn Settings Phase 1", order = 1)]
     [SerializeField] private float spawnInterval = 1.5f;   // segundos entre cada spawn
     [SerializeField] private int faithDamagePerHit = 1;     // daño de fe por impacto
     [SerializeField] private float spawnAreaMinX = -400f; // límite mínimo X del canvas para spawnear objetos
@@ -33,15 +33,17 @@ public class Combate : MonoBehaviour
     [SerializeField] private float spawnAreaXOffset = 50f; // margen adicional para que no spawneen justo en el borde
     private float spawnTimer;
 
-    [Header("Spawn Settings Phase 2")]
+    [Header("Spawn Settings Phase 2", order = 1)]
     [SerializeField] private float rayRotationSpeed = 30f;  // grados/segundo de los rayos
     [SerializeField] private float rayLength = 15f;           // ancho de cada rayo
     [SerializeField] private int rayDamage = 1;              // daño por rayo
     [SerializeField] private int rayCount = 8;             // cantidad de rayos giratorios
     [SerializeField] private float rotationSpeed = 30f;    // grados por segundo (sentido horario)
     [SerializeField] private Color rayColor = new Color(1f, 0.3f, 0.1f, 0.8f);
-
-    [Header("Spawn Settings Phase 3")]
+    [Header("Limites para los rayos", order = 2)]
+    [SerializeField] private float raylengthMax; // longitud máxima del rayo (distancia al borde del canvas)
+    [SerializeField] private float raylengthMin; // longitud mínima del rayo (distancia al borde del canvas)
+    [Header("Spawn Settings Phase 3", order = 1)]
     [SerializeField] private int phase3ProjectileCount = 10;    // cantidad de monedas por oleada
     [SerializeField] private float phase3SpawnRadius = 120f;    // radio alrededor de spPOP2 donde aparecen
     [SerializeField] private float phase3LaunchInterval = 0.8f; // intervalo entre lanzamiento de cada moneda
@@ -62,13 +64,12 @@ public class Combate : MonoBehaviour
     public GameObject ObjToSpawn3 { get => objToSpawn3; }
     public GameObject SpPOP1 { get => spPOP1; }
     public GameObject SpPOP2 { get => spPOP2; }
-    public float HeightCanvasMax { get => heightCanvasMax; }
-    public float WidthCanvasMax { get => widthCanvasMax; }
-    public float WidthCanvasMin { get => widthCanvasMin; }
-    public float HeightCanvasMin { get => heightCanvasMin; }
+
     public float SpawnAreaMinX { get => spawnAreaMinX; }
     public float SpawnAreaMaxX { get => spawnAreaMaxX; }
     public float SpawnAreaXOffset { get => spawnAreaXOffset; }
+    public float RaylengthMax { get => raylengthMax; }
+    public float RaylengthMin { get => raylengthMin; }
 
     public void Initialize(PlayerController controller)
     {
@@ -332,5 +333,23 @@ public class Combate : MonoBehaviour
             phase3Coroutine = null;
         }
         phase3Running = false;
+    }
+
+    internal void StopPhase1()
+    {
+        CleanupPhase1();
+    }
+
+    private void CleanupPhase1()
+    {
+
+        // Destruir todos los objetos de la fase 1 (FallingObjects)
+        FallingObject[] fallingObjects = canvasCombat.GetComponentsInChildren<FallingObject>();
+        foreach (FallingObject obj in fallingObjects)
+        {
+            obj.DestroySelf();
+        }
+        //phase2Spawned = false;
+
     }
 }

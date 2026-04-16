@@ -138,7 +138,8 @@ public class CanvasCombat : MonoBehaviour
         {
             timer += Time.deltaTime;
             yield return null;
-            Debug.Log($"[CanvasCombat] Timer: {timer:F2}/{duration} for {currentPhase}");
+            if(Time.frameCount % 500 == 0) // Log cada 500 frames para no saturar la consola
+                Debug.Log($"[CanvasCombat] Timer: {timer:F2}/{duration} for {currentPhase}");
         }
 
         OnPhaseTimeUp();
@@ -156,6 +157,7 @@ public class CanvasCombat : MonoBehaviour
         {
             case CombatPhase.Phase1:
                 currentPhase = CombatPhase.Phase2;
+                combate.StopPhase1();
                 StartDialogueState();
                 break;
             case CombatPhase.Phase2:

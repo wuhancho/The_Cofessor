@@ -59,7 +59,7 @@ public class FallingObject : MonoBehaviour
         if (newY <= bottomLimit)
         {
             Debug.Log($"falling object: bottonLimit {bottomLimit}  newY {newY}");
-            Destroy(gameObject);
+            DestroySelf();
         }
     }
 
@@ -72,4 +72,10 @@ public class FallingObject : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    public void DestroySelf()
+    {
+        Destroy(gameObject);
+    }
+    
 }

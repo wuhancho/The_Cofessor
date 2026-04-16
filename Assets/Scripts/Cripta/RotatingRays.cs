@@ -76,6 +76,7 @@ public class RotatingRays : MonoBehaviour
 
             // Script de daño
             CombatRay combatRay = rayObj.AddComponent<CombatRay>();
+            AddRays(rayObj); // Agregar el rayo a la lista para gestión
             combatRay.Initialize(combate, faithDamage);
         }
     }
@@ -83,9 +84,16 @@ public class RotatingRays : MonoBehaviour
     private void Update()
     {
         // Girar en sentido horario (rotación negativa en Z)
-        spawnToRays.transform.Rotate(0f, 0f, -rotationSpeed * Time.deltaTime);
-                
-        
+        //spawnToRays.transform.Rotate(0f, 0f, -rotationSpeed * Time.deltaTime);
+        foreach (GameObject ray in rays)
+        {
+            if (ray != null)
+            {
+                //ray.transform.Rotate(0f, 0f, -rotationSpeed * Time.deltaTime);
+                ray.GetComponent<CombatRay>().UpdateRay(rotationSpeed);
+            }
+        }
+
     }
 
     /// <summary>
