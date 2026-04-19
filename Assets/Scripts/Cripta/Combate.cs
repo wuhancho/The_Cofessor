@@ -312,8 +312,9 @@ public class Combate : MonoBehaviour
                 Vector2 offset = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle)) * phase3SpawnRadius;
                 Vector2 spawnPos = center + offset;
 
-                GameObject obj = Instantiate(objToSpawn3, canvasCombat);
+                GameObject obj = Instantiate(objToSpawn3, spawnRect); // antes pasaba canvasCombat, pero ahora lo instanciamos como hijo del spawn point para que se muevan con él
                 RectTransform objRect = obj.GetComponent<RectTransform>();
+                objRect.position = spawnPos;
                 objRect.anchoredPosition = spawnPos;
 
                 // Inicializar el HomingProjectile

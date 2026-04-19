@@ -43,11 +43,11 @@ public class HomingProjectile : MonoBehaviour
                            float top, float bottom, float left, float right)
     {
         this.combate = combate;
-        this.targetPlayer = playerRect;
-        this.limitTop = top;
-        this.limitBottom = bottom;
-        this.limitLeft = left;
-        this.limitRight = right;
+        targetPlayer = playerRect;
+        limitTop = top;
+        limitBottom = bottom;
+        limitLeft = left;
+        limitRight = right;
     }
 
     private void Awake()

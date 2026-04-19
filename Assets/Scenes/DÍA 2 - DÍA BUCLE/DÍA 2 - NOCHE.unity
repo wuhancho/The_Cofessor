@@ -21407,6 +21407,14 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 300
       objectReference: {fileID: 0}
+    - target: {fileID: 3319445455054923223, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3319445455054923223, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4032414557673504031, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -21677,7 +21685,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8221298513954435363, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: spawnAreaMaxX
+      value: 370
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: spawnAreaMinX
+      value: -370
       objectReference: {fileID: 0}
     - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: widthRayCanvasMax
