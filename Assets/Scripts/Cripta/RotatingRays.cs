@@ -91,6 +91,7 @@ public class RotatingRays : MonoBehaviour
             {
                 //ray.transform.Rotate(0f, 0f, -rotationSpeed * Time.deltaTime);
                 ray.GetComponent<CombatRay>().UpdateRay(rotationSpeed);
+                ray.transform.Rotate(0f, 0f, -rotationSpeed * Time.deltaTime);
             }
         }
 

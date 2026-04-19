@@ -138,6 +138,7 @@ MonoBehaviour:
   rotationSpeed: 30
   faithDamage: 1
   spawnToRays: {fileID: 4827770037519471399}
+  rayPrefab: {fileID: 3385695829739797800, guid: 35fe85bd9e93d3d42a027df7e5b81452, type: 3}
   rayWidth: 5
   rayLength: 500
   rayColor: {r: 0.7075472, g: 0.36058456, b: 0.06341223, a: 0.8}

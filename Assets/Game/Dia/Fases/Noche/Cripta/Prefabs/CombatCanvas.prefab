@@ -190,11 +190,23 @@ MonoBehaviour:
   objToSpawn1: {fileID: 3011641177926871357, guid: 4b8f9c8635f1ead498d6d5be9d35e37b, type: 3}
   objToSpawn2: {fileID: 4495421313423026892, guid: a60a94bdf486b864d8e8aa9945e0c8dc, type: 3}
   objToSpawn3: {fileID: 1322023401297192481, guid: 1b0f9589e0a904a49a4e6504706ec3ce, type: 3}
-  spawnInterval: 2
+  spawnInterval: 1.5
   faithDamagePerHit: 1
+  spawnAreaMinX: -400
+  spawnAreaMaxX: 400
+  spawnAreaXOffset: 10
   rayRotationSpeed: 30
-  rayWidth: 15
+  rayLength: 500
   rayDamage: 1
+  rayCount: 8
+  rotationSpeed: 30
+  rayColor: {r: 1, g: 0.3, b: 0.1, a: 0.8}
+  raylengthMax: 450
+  raylengthMin: 150
+  heightCanvasMaxToRay: 150
+  widthCanvasMaxToRay: 410
+  widthCanvasMinToRay: -410
+  heightCanvasMinToRay: -150
   phase3ProjectileCount: 10
   phase3SpawnRadius: 120
   phase3LaunchInterval: 0.8

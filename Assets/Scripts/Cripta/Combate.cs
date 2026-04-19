@@ -43,11 +43,19 @@ public class Combate : MonoBehaviour
     [Header("Limites para los rayos", order = 2)]
     [SerializeField] private float raylengthMax; // longitud máxima del rayo (distancia al borde del canvas)
     [SerializeField] private float raylengthMin; // longitud mínima del rayo (distancia al borde del canvas)
+    [SerializeField] private float heightCanvasMaxToRay;
+    [SerializeField] private float widthCanvasMaxToRay;
+    [SerializeField] private float widthCanvasMinToRay;
+    [SerializeField] private float heightCanvasMinToRay;
     [Header("Spawn Settings Phase 3", order = 1)]
     [SerializeField] private int phase3ProjectileCount = 10;    // cantidad de monedas por oleada
     [SerializeField] private float phase3SpawnRadius = 120f;    // radio alrededor de spPOP2 donde aparecen
     [SerializeField] private float phase3LaunchInterval = 0.8f; // intervalo entre lanzamiento de cada moneda
     [SerializeField] private float phase3WaveCooldown = 2f;     // cooldown entre oleadas
+    [SerializeField] private float heightCanvasMaxToCoin;
+    [SerializeField] private float widthCanvasMaxToCoin;
+    [SerializeField] private float widthCanvasMinToCoin;
+    [SerializeField] private float heightCanvasMinToCoin;
 
     // Referencia al objeto central de fase 2 para limpiarlo al cambiar de fase
     private RotatingRays phase2RaysInstance;
@@ -70,6 +78,18 @@ public class Combate : MonoBehaviour
     public float SpawnAreaXOffset { get => spawnAreaXOffset; }
     public float RaylengthMax { get => raylengthMax; }
     public float RaylengthMin { get => raylengthMin; }
+    public float HeightCanvasMax { get => heightCanvasMax; }
+    public float WidthCanvasMax { get => widthCanvasMax; }
+    public float WidthCanvasMin { get => widthCanvasMin; }
+    public float HeightCanvasMin { get => heightCanvasMin; }
+    public float HeightCanvasMaxToRay { get => heightCanvasMaxToRay; }
+    public float WidthCanvasMaxToRay { get => widthCanvasMaxToRay; }
+    public float WidthCanvasMinToRay { get => widthCanvasMinToRay; }
+    public float HeightCanvasMinToRay { get => heightCanvasMinToRay; }
+    public float HeightCanvasMaxToCoin { get => heightCanvasMaxToCoin;  }
+    public float WidthCanvasMaxToCoin { get => widthCanvasMaxToCoin;  }
+    public float WidthCanvasMinToCoin { get => widthCanvasMinToCoin;  }
+    public float HeightCanvasMinToCoin { get => heightCanvasMinToCoin;  }
 
     public void Initialize(PlayerController controller)
     {
@@ -190,6 +210,23 @@ public class Combate : MonoBehaviour
             falling.Initialize(this);
         }
     }
+    internal void StopPhase1()
+    {
+        CleanupPhase1();
+    }
+
+    private void CleanupPhase1()
+    {
+
+        // Destruir todos los objetos de la fase 1 (FallingObjects)
+        FallingObject[] fallingObjects = canvasCombat.GetComponentsInChildren<FallingObject>();
+        foreach (FallingObject obj in fallingObjects)
+        {
+            obj.DestroySelf();
+        }
+        //phase2Spawned = false;
+    }
+
 
     /// <summary>
     /// Llamar desde Update de CanvasCombat para la fase 2.
@@ -213,13 +250,6 @@ public class Combate : MonoBehaviour
         GameObject centerObj = Instantiate(objToSpawn2, canvasCombat);
         RectTransform centerRect = centerObj.GetComponent<RectTransform>();
         centerRect.anchoredPosition = spawnCenter;
-
-        // Calcular la longitud de los rayos: distancia máxima desde el centro hasta cualquier borde del canvas
-        //float distToRight = Mathf.Abs(widthCanvasMax - spawnCenter.x);
-        //float distToLeft = Mathf.Abs(spawnCenter.x - widthCanvasMin);
-        //float distToTop = Mathf.Abs(heightCanvasMax - spawnCenter.y);
-        //float distToBottom = Mathf.Abs(spawnCenter.y - heightCanvasMin);
-        //float rayLength = Mathf.Max(distToRight, distToLeft, distToTop, distToBottom);
 
         // Añadir el componente RotatingRays si no lo tiene el prefab
         RotatingRays rotating = centerObj.GetComponent<RotatingRays>();
@@ -293,8 +323,8 @@ public class Combate : MonoBehaviour
                     homing = obj.AddComponent<HomingProjectile>();
                 }
                 homing.Initialize(this, PlayerCombat,
-                                  heightCanvasMax, heightCanvasMin,
-                                  widthCanvasMin, widthCanvasMax);
+                                  HeightCanvasMaxToCoin, HeightCanvasMinToCoin,
+                                  WidthCanvasMinToCoin, WidthCanvasMaxToCoin);
 
                 // Desactivar para lanzarlos uno por uno
                 obj.SetActive(false);
@@ -333,23 +363,5 @@ public class Combate : MonoBehaviour
             phase3Coroutine = null;
         }
         phase3Running = false;
-    }
-
-    internal void StopPhase1()
-    {
-        CleanupPhase1();
-    }
-
-    private void CleanupPhase1()
-    {
-
-        // Destruir todos los objetos de la fase 1 (FallingObjects)
-        FallingObject[] fallingObjects = canvasCombat.GetComponentsInChildren<FallingObject>();
-        foreach (FallingObject obj in fallingObjects)
-        {
-            obj.DestroySelf();
-        }
-        //phase2Spawned = false;
-
     }
 }

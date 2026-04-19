@@ -21383,6 +21383,30 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3319445455054923223, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3319445455054923223, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3319445455054923223, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3319445455054923223, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3319445455054923223, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 824
+      objectReference: {fileID: 0}
+    - target: {fileID: 3319445455054923223, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 4032414557673504031, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -21521,7 +21545,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5252712681748306899, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: phase2Duration
-      value: 40
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5252712681748306899, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: phase3Duration
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 5447032055246725940, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: m_AnchorMax.y
@@ -21652,26 +21680,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
-      propertyPath: rayLength
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
-      propertyPath: raylengthMax
-      value: 430
-      objectReference: {fileID: 0}
-    - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
-      propertyPath: raylengthMin
-      value: 130
-      objectReference: {fileID: 0}
-    - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
-      propertyPath: spawnInterval
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
-      propertyPath: spawnAreaXOffset
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: widthRayCanvasMax
       value: 430
       objectReference: {fileID: 0}
@@ -21686,6 +21694,26 @@ PrefabInstance:
     - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: heightRayCanvasMin
       value: 143
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: phase3WaveCooldown
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: widthCanvasMaxToCoin
+      value: 410
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: widthCanvasMinToCoin
+      value: -410
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: heightCanvasMaxToCoin
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
+      propertyPath: heightCanvasMinToCoin
+      value: -150
       objectReference: {fileID: 0}
     - target: {fileID: 8656595120075055998, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: m_AnchorMax.y

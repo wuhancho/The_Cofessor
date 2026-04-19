@@ -19,5 +19,5 @@ MonoBehaviour:
   repPueblo: 7
   food: 2
   day: 1
-  Cleaned: 1
-  misaDone: 1
+  Cleaned: 0
+  misaDone: 0

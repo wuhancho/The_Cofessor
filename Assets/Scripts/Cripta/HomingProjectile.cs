@@ -94,9 +94,10 @@ public class HomingProjectile : MonoBehaviour
         // Calcular dirección hacia la posición actual del player
         if (targetPlayer != null)
         {
-            Vector2 playerPos = targetPlayer.anchoredPosition;
-            Vector2 myPos = rectTransform.anchoredPosition;
-            moveDirection = (playerPos - myPos).normalized;
+            // Restamos Posición Llegada (Player) - Posición Inicio (Moneda)
+            // Luego lo normalizamos para sacar exclusivamente la dirección (magnitud 1)
+            moveDirection = targetPlayer.anchoredPosition - rectTransform.anchoredPosition;
+            Debug.Log($"[HomingProjectile] Calculated move direction: {moveDirection} towards player at {targetPlayer.anchoredPosition}, from position {rectTransform.anchoredPosition}");
         }
         else
         {
@@ -110,14 +111,11 @@ public class HomingProjectile : MonoBehaviour
     {
         if (!launched) return;
 
-        // Mover en la dirección calculada
-        Vector2 currentPos = rectTransform.anchoredPosition;
-        Vector2 newPos = currentPos + moveDirection * projectileSpeed * Time.deltaTime;
-        rectTransform.anchoredPosition = newPos;
+        rectTransform.anchoredPosition += moveDirection * projectileSpeed * Time.deltaTime;                                                              
 
         // Destruir si sale de los límites del canvas
-        if (newPos.x < limitLeft || newPos.x > limitRight ||
-            newPos.y < limitBottom || newPos.y > limitTop)
+        if (rectTransform.anchoredPosition.x < limitLeft || rectTransform.anchoredPosition.x > limitRight ||
+            rectTransform.anchoredPosition.y < limitBottom || rectTransform.anchoredPosition.y > limitTop)
         {
             Destroy(gameObject);
         }
@@ -127,6 +125,7 @@ public class HomingProjectile : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log($"[HomingProjectile] Hit player, applying {faithDamage} faith damage.");
             combate.TakeFaith(faithDamage);
             Destroy(gameObject);
         }
