@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 204114318a4a244488cf351a42e25217
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4998047451471975029
+    second: siluetas2_0
+  - first:
+      213: 8314546150725693463
+    second: siluetas2_1
+  - first:
+      213: -3296063116852130355
+    second: siluetas2_2
+  - first:
+      213: 6395283789979644877
+    second: siluetas2_3
+  - first:
+      213: 8405850340139524466
+    second: siluetas2_4
+  - first:
+      213: 4636921902163493875
+    second: siluetas2_5
+  - first:
+      213: -6210574032197551396
+    second: siluetas2_6
+  - first:
+      213: -3518258411329406400
+    second: siluetas2_7
+  - first:
+      213: -1934292287180737207
+    second: siluetas2_8
+  - first:
+      213: -7342764739722188776
+    second: siluetas2_9
+  - first:
+      213: 1044059972971540282
+    second: siluetas2_10
+  - first:
+      213: 452292657165026481
+    second: siluetas2_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: siluetas2_0
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2387
+        width: 727
+        height: 417
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d677cd25e53aab0800000000000000
+      internalID: -4998047451471975029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: siluetas2_1
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 2402
+        width: 497
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710b896fba3336370800000000000000
+      internalID: 8314546150725693463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: siluetas2_2
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1999
+        width: 831
+        height: 1478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd03cafe080242d0800000000000000
+      internalID: -3296063116852130355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: siluetas2_3
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 2468
+        width: 794
+        height: 601
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3fc8b29bc90c850800000000000000
+      internalID: 6395283789979644877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: siluetas2_4
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 2781
+        width: 855
+        height: 547
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271ec17295497a470800000000000000
+      internalID: 8405850340139524466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: siluetas2_5
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1085
+        width: 951
+        height: 720
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f30fad07e7a95040800000000000000
+      internalID: 4636921902163493875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: siluetas2_6
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1682
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda799f92db9fc9a0800000000000000
+      internalID: -6210574032197551396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: siluetas2_7
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 1279
+        width: 721
+        height: 507
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a3eac8d92ac2fc0800000000000000
+      internalID: -3518258411329406400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: siluetas2_8
+      rect:
+        serializedVersion: 2
+        x: 2830
+        y: 1218
+        width: 449
+        height: 510
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94570d2c9630825e0800000000000000
+      internalID: -1934292287180737207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: siluetas2_9
+      rect:
+        serializedVersion: 2
+        x: 3315
+        y: 1315
+        width: 823
+        height: 525
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81868937f52491a90800000000000000
+      internalID: -7342764739722188776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: siluetas2_10
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1047
+        width: 887
+        height: 579
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f2c25830f3d7e00800000000000000
+      internalID: 1044059972971540282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: siluetas2_11
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 1623
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4c6dc76cdd64600800000000000000
+      internalID: 452292657165026481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a1a6afd7545434c40bf32e1f012dbec5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      siluetas2_0: -4998047451471975029
+      siluetas2_1: 8314546150725693463
+      siluetas2_10: 1044059972971540282
+      siluetas2_11: 452292657165026481
+      siluetas2_2: -3296063116852130355
+      siluetas2_3: 6395283789979644877
+      siluetas2_4: 8405850340139524466
+      siluetas2_5: 4636921902163493875
+      siluetas2_6: -6210574032197551396
+      siluetas2_7: -3518258411329406400
+      siluetas2_8: -1934292287180737207
+      siluetas2_9: -7342764739722188776
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
