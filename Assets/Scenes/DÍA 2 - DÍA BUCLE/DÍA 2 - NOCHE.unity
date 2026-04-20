@@ -21549,15 +21549,15 @@ PrefabInstance:
       objectReference: {fileID: 2107855209}
     - target: {fileID: 5252712681748306899, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: phase1Duration
-      value: 2
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5252712681748306899, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: phase2Duration
-      value: 2
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5252712681748306899, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: phase3Duration
-      value: 300
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5447032055246725940, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: m_AnchorMax.y
@@ -21649,7 +21649,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7362895300141563431, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: timeReading
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7624654731792463936, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: m_IsActive
@@ -21685,7 +21685,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8221298513954435363, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8423780771002131552, guid: aaebae854fa5bab4f897b7d9692baf22, type: 3}
       propertyPath: spawnAreaMaxX

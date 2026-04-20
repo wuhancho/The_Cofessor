@@ -96,7 +96,8 @@ public class HomingProjectile : MonoBehaviour
         {
             // Restamos Posición Llegada (Player) - Posición Inicio (Moneda)
             // Luego lo normalizamos para sacar exclusivamente la dirección (magnitud 1)
-            moveDirection = targetPlayer.anchoredPosition - rectTransform.anchoredPosition;
+            //moveDirection = targetPlayer.anchoredPosition - rectTransform.anchoredPosition;
+            moveDirection = targetPlayer.position - rectTransform.position;
             Debug.Log($"[HomingProjectile] Calculated move direction: {moveDirection} towards player at {targetPlayer.anchoredPosition}, from position {rectTransform.anchoredPosition}");
         }
         else
@@ -111,7 +112,7 @@ public class HomingProjectile : MonoBehaviour
     {
         if (!launched) return;
 
-        rectTransform.anchoredPosition += moveDirection * projectileSpeed * Time.deltaTime;                                                              
+        rectTransform.position += (Vector3)moveDirection * projectileSpeed * Time.deltaTime;
 
         // Destruir si sale de los límites del canvas
         if (rectTransform.anchoredPosition.x < limitLeft || rectTransform.anchoredPosition.x > limitRight ||
