@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34e3232f5c8baa24d9b33ec14a0dff2e, type: 3}
   m_Name: Virgilio
   m_EditorClassIdentifier: 
-  id: 6
+  id: VS
   characterName: Virgilio Sandoval, el Arzobispo
   characterImage:
   - {fileID: 2800000, guid: 86ffc185b129e914aa75e4926ad30aaa, type: 3}
@@ -26,3 +26,4 @@ MonoBehaviour:
   day: 0
   DaysApear: 0000000001000000
   iconPenitent: {fileID: 4009202230056046378, guid: 7cbbb6c649f489a40a38badd726d6aea, type: 3}
+  isGuilty: 0

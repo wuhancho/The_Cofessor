@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34e3232f5c8baa24d9b33ec14a0dff2e, type: 3}
   m_Name: Edgar
   m_EditorClassIdentifier: 
-  id: 3
+  id: EQ
   characterName: Edgar Quixano, el Mercader
   characterImage:
   - {fileID: 2800000, guid: 3f9021a20bf7a8e4ab28cb8338e2f6ac, type: 3}
