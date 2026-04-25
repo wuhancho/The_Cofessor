@@ -67,9 +67,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -5122786757355938225, guid: f71991fb307b02f43bba5d30619e204f, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -93,7 +93,7 @@ MonoBehaviour:
   flickerDuration: 1.5
   flickerInterval: 0.1
   faithDamage: 1
-  darkColor: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 1}
+  darkColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!61 &1929157311948880832
 BoxCollider2D:
   m_ObjectHideFlags: 0
