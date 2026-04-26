@@ -16,6 +16,7 @@ public class SPenitent : ScriptableObject
     [SerializeField] private int day;
     [SerializeField] private int[] DaysApear;
     [SerializeField] private GameObject iconPenitent;
+    [SerializeField] private GameObject notesPrefab;
     [Header("editado por evento")]
     [SerializeField, IReadOnly] internal bool isGuilty;
 
@@ -27,6 +28,18 @@ public class SPenitent : ScriptableObject
     public int Day { get => day; set => day = value; }
     public string Id { get => id; set => id = value; }
     public GameObject IconPenitent { get => iconPenitent; set => iconPenitent = value; }
+
+    public Notes NotesPenitent
+    {
+        get
+        {
+            if (notesPrefab != null)
+            {
+                return notesPrefab.GetComponent<Notes>();
+            }
+            return null;
+        }
+    }
 
     /// <summary>
     /// Gets the type identifier extracted from the first dialogue entry in the collection.

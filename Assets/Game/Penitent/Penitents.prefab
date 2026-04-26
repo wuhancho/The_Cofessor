@@ -51,5 +51,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 68155d52b2bcf904390a3b736ace8c91, type: 2}
   - {fileID: 11400000, guid: 7c546f4f6b9d6ce4aa4a2e4929541bf6, type: 2}
   - {fileID: 11400000, guid: 6c0fa3f20032e894fa1d8aabbbfee910, type: 2}
+  penitentsNotes:
+  - {fileID: 9175697283687983615, guid: 49abfdc3ae5dd51428d756052d7b1beb, type: 3}
+  - {fileID: 3560688721190965818, guid: deae228a835b9ed4d97fb5ecca12ab00, type: 3}
+  - {fileID: 8189611765466079938, guid: 799cfcb49fc4e7d4dba8226acabce71c, type: 3}
+  - {fileID: 2874968346956480955, guid: 3e8110661f3afc341a2be6ee618a9706, type: 3}
+  - {fileID: 1708069697338084227, guid: 423e9756f06705440b46eb09bb47453f, type: 3}
+  - {fileID: 4953385124760305793, guid: 18d4cdb840fdc0b4783e82a696d3bfdf, type: 3}
   EntracePenitent: {fileID: 0}
   penitentText: {fileID: 0}

@@ -29,6 +29,7 @@ MonoBehaviour:
   RepPuebloCost: 0
   SobornoCost: 0
   reactionPenitent: {fileID: -4315030996455213660, guid: 798d6f6afe3d7fd4ba028b9553338ac4, type: 3}
+  indexNote: 
 --- !u!114 &-8263462211272502935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57,6 +58,7 @@ MonoBehaviour:
   RepPuebloCost: 0
   SobornoCost: 0
   reactionPenitent: {fileID: 0}
+  indexNote: 
 --- !u!114 &-8188299459582032919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87,6 +89,7 @@ MonoBehaviour:
   RepPuebloCost: 0
   SobornoCost: 0
   reactionPenitent: {fileID: 0}
+  indexNote: 
 --- !u!114 &-6479707240358757141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,6 +119,7 @@ MonoBehaviour:
   RepPuebloCost: 0
   SobornoCost: 0
   reactionPenitent: {fileID: 7842016779124046565, guid: 798d6f6afe3d7fd4ba028b9553338ac4, type: 3}
+  indexNote: 4
 --- !u!114 &-5952523456190080373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,6 +150,7 @@ MonoBehaviour:
   RepPuebloCost: 0
   SobornoCost: 0
   reactionPenitent: {fileID: 7842016779124046565, guid: 798d6f6afe3d7fd4ba028b9553338ac4, type: 3}
+  indexNote: 
 --- !u!114 &-4442506676157160297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,6 +188,7 @@ MonoBehaviour:
   RepPuebloCost: 0
   SobornoCost: 0
   reactionPenitent: {fileID: 7842016779124046565, guid: 798d6f6afe3d7fd4ba028b9553338ac4, type: 3}
+  indexNote: 
 --- !u!114 &-4249332025215122271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -215,6 +221,7 @@ MonoBehaviour:
   RepPuebloCost: 0
   SobornoCost: 0
   reactionPenitent: {fileID: -8428083734279256767, guid: 798d6f6afe3d7fd4ba028b9553338ac4, type: 3}
+  indexNote: 
 --- !u!114 &-2289215850792088812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -245,6 +252,7 @@ MonoBehaviour:
   RepPuebloCost: 0
   SobornoCost: 0
   reactionPenitent: {fileID: 7842016779124046565, guid: 798d6f6afe3d7fd4ba028b9553338ac4, type: 3}
+  indexNote: 2
 --- !u!114 &-536116086724554452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,6 +283,7 @@ MonoBehaviour:
   RepPuebloCost: 0
   SobornoCost: 0
   reactionPenitent: {fileID: 0}
+  indexNote: 
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -341,6 +350,7 @@ MonoBehaviour:
   RepPuebloCost: 0
   SobornoCost: 0
   reactionPenitent: {fileID: 0}
+  indexNote: 
 --- !u!114 &543894654380171493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -369,6 +379,7 @@ MonoBehaviour:
   RepPuebloCost: 0
   SobornoCost: 0
   reactionPenitent: {fileID: 0}
+  indexNote: 
 --- !u!114 &1199592820228872791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -398,6 +409,7 @@ MonoBehaviour:
   RepPuebloCost: 0
   SobornoCost: 0
   reactionPenitent: {fileID: -4315030996455213660, guid: 798d6f6afe3d7fd4ba028b9553338ac4, type: 3}
+  indexNote: 3
 --- !u!114 &1510097715121233832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -427,6 +439,7 @@ MonoBehaviour:
   RepPuebloCost: 0
   SobornoCost: 0
   reactionPenitent: {fileID: 0}
+  indexNote: 
 --- !u!114 &2670265201302687912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -456,6 +469,7 @@ MonoBehaviour:
   RepPuebloCost: 1
   SobornoCost: 0
   reactionPenitent: {fileID: 0}
+  indexNote: 
 --- !u!114 &2785485698588612555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -485,6 +499,7 @@ MonoBehaviour:
   RepPuebloCost: -1
   SobornoCost: 0
   reactionPenitent: {fileID: 0}
+  indexNote: 
 --- !u!114 &3024306866293871680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -514,6 +529,7 @@ MonoBehaviour:
   RepPuebloCost: 0
   SobornoCost: 0
   reactionPenitent: {fileID: 0}
+  indexNote: 
 --- !u!114 &3172302059390897990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -542,6 +558,7 @@ MonoBehaviour:
   RepPuebloCost: 0
   SobornoCost: 0
   reactionPenitent: {fileID: 0}
+  indexNote: 
 --- !u!114 &4751502643537937458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -574,6 +591,7 @@ MonoBehaviour:
   RepPuebloCost: 0
   SobornoCost: 0
   reactionPenitent: {fileID: 7842016779124046565, guid: 798d6f6afe3d7fd4ba028b9553338ac4, type: 3}
+  indexNote: 
 --- !u!114 &4785923207937654514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -603,6 +621,7 @@ MonoBehaviour:
   RepPuebloCost: 0
   SobornoCost: 0
   reactionPenitent: {fileID: 0}
+  indexNote: 
 --- !u!114 &5173109210343764764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -626,7 +645,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 745
-    y: 0
+    y: -1
     width: 300
     height: 200
   faithCost: 0
@@ -634,6 +653,7 @@ MonoBehaviour:
   RepPuebloCost: 0
   SobornoCost: 0
   reactionPenitent: {fileID: 7842016779124046565, guid: 798d6f6afe3d7fd4ba028b9553338ac4, type: 3}
+  indexNote: 1
 --- !u!114 &7104568766325336314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -664,6 +684,7 @@ MonoBehaviour:
   RepPuebloCost: 0
   SobornoCost: 0
   reactionPenitent: {fileID: -4315030996455213660, guid: 798d6f6afe3d7fd4ba028b9553338ac4, type: 3}
+  indexNote: 
 --- !u!114 &7841919906406646974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -694,6 +715,7 @@ MonoBehaviour:
   RepPuebloCost: 0
   SobornoCost: 0
   reactionPenitent: {fileID: 0}
+  indexNote: 
 --- !u!114 &8436138081542555355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -723,3 +745,4 @@ MonoBehaviour:
   RepPuebloCost: 0
   SobornoCost: 0
   reactionPenitent: {fileID: 0}
+  indexNote: 

@@ -4,6 +4,7 @@ using UnityEngine;
 public class Notes : MonoBehaviour
 {
     [SerializeField] private GameObject namePenitent;
+
     [SerializeField] private GameObject[] notesLies;
     [SerializeField] private GameObject[] notesTruths;
     [SerializeField] private GameObject[] notesUnique;
@@ -12,7 +13,7 @@ public class Notes : MonoBehaviour
     public GameObject[] NotesLies { get => notesLies; }
     public GameObject[] NotesTruths { get => notesTruths; }
     public GameObject[] NotesUnique { get => notesUnique; }
-    public void GetTruthNote(int index, out GameObject note)
+    private void GetTruthNote(int index, out GameObject note)
     {
         foreach (GameObject noteTruth in notesTruths)
         {
@@ -25,7 +26,7 @@ public class Notes : MonoBehaviour
         }
         note = null;
     }
-    public void GetLieNote(int index, out GameObject note)
+    private void GetLieNote(int index, out GameObject note)
     {
         foreach (GameObject noteLie in notesLies)
         {
@@ -38,7 +39,7 @@ public class Notes : MonoBehaviour
         }
         note = null;
     }
-    public void GetUniqueNote(int index, out GameObject note)
+    private void GetUniqueNote(int index, out GameObject note)
     {
         foreach (GameObject noteUnique in notesUnique)
         {
@@ -50,5 +51,23 @@ public class Notes : MonoBehaviour
             }
         }
         note = null;
+    }
+    public void GetNote(NoteType noteType, int index, out GameObject note)
+    {
+        switch (noteType)
+        {
+            case NoteType.Lie:
+                GetLieNote(index, out note);
+                break;
+            case NoteType.Truth:
+                GetTruthNote(index, out note);
+                break;
+            case NoteType.Unique:
+                GetUniqueNote(index, out note);
+                break;
+            default:
+                note = null;
+                break;
+        }
     }
 }

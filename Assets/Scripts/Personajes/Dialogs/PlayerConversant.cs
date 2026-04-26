@@ -26,6 +26,7 @@ namespace The_cofessor.Personajes.Dialogs
         public Texture2D IconNPC { get => iconNPC; }
 
         public event Action OnConversationUpdated;
+        public event Action<DialogNode> OnCurrentNodeChanged;
 
 
         public void SetIconNPC(Texture2D newIcon)
@@ -58,6 +59,7 @@ namespace The_cofessor.Personajes.Dialogs
             currentNode = currentDialog.GetRootNode();
             //isTheLastNode.Invoke(false);
             OnConversationUpdated?.Invoke();
+            OnCurrentNodeChanged?.Invoke(currentNode);
         }
 
         public bool IsActive()
@@ -112,6 +114,7 @@ namespace The_cofessor.Personajes.Dialogs
             {
                 isChoosing = true;
                 OnConversationUpdated?.Invoke();
+                //OnCurrentNodeChanged?.Invoke(currentNode);
                 return;
             }
 
@@ -121,6 +124,7 @@ namespace The_cofessor.Personajes.Dialogs
             {
                 int randomIndex = UnityEngine.Random.Range(0, aiChildren.Length);
                 currentNode = aiChildren[randomIndex];
+                OnCurrentNodeChanged?.Invoke(currentNode);
                 OnConversationUpdated?.Invoke();
                 if (HasNext())
                 {
@@ -153,6 +157,7 @@ namespace The_cofessor.Personajes.Dialogs
                 return currentSpeakerNPC;
             }
         }
+
 
         public void QuitDialogue()
         {

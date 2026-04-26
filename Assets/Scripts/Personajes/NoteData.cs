@@ -12,13 +12,13 @@ public enum NoteType
 [RequireComponent(typeof(TextMeshProUGUI))]
 public class NoteData : MonoBehaviour
 {
-
-    [SerializeField, IReadOnly] private int index;
     [Header("Note Data")]
+    [SerializeField, IReadOnly] private int indexNote;
     [Tooltip("Text to display on the note")]
     [SerializeField, IReadOnly] private string noteText;
     [Tooltip("Type of the note, can be Lie, Truth or Unique")]
     [SerializeField] private NoteType noteType;
+    [SerializeField, IReadOnly] private string penitentID;
     [Header("UI Elements")]
     [SerializeField] private TextMeshProUGUI textMeshNote;
 
@@ -26,12 +26,22 @@ public class NoteData : MonoBehaviour
     {
         if (textMeshNote == null)
             textMeshNote = GetComponent<TextMeshProUGUI>();
-        else if (textMeshNote.text != noteText)
-            noteText = textMeshNote.text;
-        if (index == 0 && (name.Split('.').Length > 1))
+        if (textMeshNote != null)
+            if (textMeshNote.text != null && noteText == "")
+                noteText = textMeshNote.text;
+            else
+                textMeshNote.text = noteText;
+        if (indexNote == 0 && (name.Split('.').Length > 1))
+            {
+                string[] parts = name.Split('.');
+                indexNote = int.Parse(parts[2]);
+            }
+        if (penitentID == null || penitentID == "")
         {
-            string[] parts = name.Split('.');
-            index = int.Parse(parts[2]);
+            if (name.Split(".").Length > 1)
+            {
+                penitentID = name.Split(".")[0];
+            }
         }
         if (noteType == NoteType.None)
         {

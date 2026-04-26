@@ -7,5 +7,10 @@ using UnityEngine;
 public class NotesSave : ScriptableObject
 {
     [SerializeField] private List<NoteData> _notesData = new List<NoteData>();
+    
+    public void SaveNotes(NoteData note)
+    {
+        _notesData.Add(note);
+    }
 
 }

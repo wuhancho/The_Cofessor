@@ -22,6 +22,7 @@ public class A_confessions : MonoBehaviour, IAcciones
 
     public UnityEvent onHalfPenitent;
     public UnityEvent SecondPartConfessions;
+    public UnityEvent<Dialog> onDialogue;
     //private Action vara;
 
     //private void Start()
@@ -175,6 +176,7 @@ public class A_confessions : MonoBehaviour, IAcciones
         {
             //entrancePenitent.GetComponent<EntrancePenitent>().PlayEntranceAnimation();
             dialog = TrueDialogueUpdate();
+            onDialogue?.Invoke(dialog);
             if (dialog == null)
             {
                 Debug.LogWarning($"[A_confecciones] No se encontró diálogo verdadero para el día {day}.");
@@ -186,6 +188,7 @@ public class A_confessions : MonoBehaviour, IAcciones
         {
             //entrancePenitent.GetComponent<EntrancePenitent>().PlayEntranceAnimation();
             dialog = FalseDialogueUpdate();
+            onDialogue?.Invoke(dialog);
             if (dialog == null)
             {
                 Debug.LogWarning($"[A_confecciones] No se encontró diálogo falso para el día {day}.");
@@ -310,7 +313,6 @@ public class A_confessions : MonoBehaviour, IAcciones
         TriggerAction(); // lanzar siguiente diálogo inmediatamente
                          //FadeController.Instance.FadeIn(1.5f);
                          //});
-
     }
 
 

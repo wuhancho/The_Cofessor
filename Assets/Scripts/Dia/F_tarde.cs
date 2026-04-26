@@ -18,7 +18,7 @@ public class F_tarde : MonoBehaviour, IFases
     [Tooltip("Evento que escucha que la misa esta hecha.\n objetos necesarios")]
     public UnityEvent onMisaDone;
     [Tooltip("Evento que escucha que la misa no esta hecha.\n objetos necesarios")]
-    public  UnityEvent onMisaNotDone;
+    public UnityEvent onMisaNotDone;
 
     //private void OnBeforeSerialize()
     //{
@@ -47,6 +47,12 @@ public class F_tarde : MonoBehaviour, IFases
             {
                 Debug.Log("Inicializando A_confecciones en F_tarde");
                 accionType.Initialize(playerController, penitentController);
+                //accion.SetDay(dia.GetNumberDay());
+            }
+            if (accion is NotesBook notesBook)
+            {
+                Debug.Log("Inicializando NotesBook en F_tarde");
+                notesBook.Initialize(playerController, penitentController);
                 //accion.SetDay(dia.GetNumberDay());
             }
             accion.Initialize(playerController);
@@ -83,7 +89,7 @@ public class F_tarde : MonoBehaviour, IFases
 
     public bool MisaDone()
     {
-        if(playerController.PlayerStatus.MisaDone==true) 
+        if (playerController.PlayerStatus.MisaDone == true)
         {
             onMisaDone.Invoke();
             return true;

@@ -4,7 +4,11 @@ using TMPro;
 using UnityEngine;
 public class PenitentController : MonoBehaviour
 {
+    [Header("Penitent Data")]
     [SerializeField] private SPenitent[] sPenitents;
+    [Header("Penitent Notes")]
+    [SerializeField] private Notes[] penitentsNotes;
+    [Header("Entrace Penitent")]
     [SerializeField] private GameObject EntracePenitent;
     [SerializeField] private TextMeshProUGUI penitentText;
     private void Awake()
@@ -88,4 +92,16 @@ public class PenitentController : MonoBehaviour
         }
     }
 
+    internal void GetNotePenitent(string indexPenitent)
+    {
+        foreach(Notes note in penitentsNotes)
+        {
+            if(note.name == indexPenitent)
+            {
+                Debug.Log("Consigo la nota del penitent " + indexPenitent);
+                //GameObject notePrefab = note
+                //FindObjectOfType<BookCanvas>().InstanceNotes(notePrefab, true);
+            }
+        }
+    }
 }

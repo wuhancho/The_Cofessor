@@ -26,4 +26,5 @@ MonoBehaviour:
   day: 1
   DaysApear: 01000000
   iconPenitent: {fileID: 2533807973335929468, guid: b0cd99f56939d144fb0c09e20217ac2e, type: 3}
+  notesPrefab: {fileID: 5734189463555165398, guid: 423e9756f06705440b46eb09bb47453f, type: 3}
   isGuilty: 0

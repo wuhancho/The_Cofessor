@@ -27,4 +27,5 @@ MonoBehaviour:
   day: 0
   DaysApear: 0000000001000000
   iconPenitent: {fileID: 2770661807064351746, guid: 63ccdedba82f3f341bfb20d10d4fb304, type: 3}
+  notesPrefab: {fileID: 5804602407210421570, guid: deae228a835b9ed4d97fb5ecca12ab00, type: 3}
   isGuilty: 0

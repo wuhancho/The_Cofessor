@@ -270,6 +270,16 @@ namespace The_cofessor.Personajes.Dialogs.Editor
                 Repaint();
             }
 
+            EditorGUI.BeginChangeCheck();
+            string newIndexNote = EditorGUILayout.TextField("Index Note", selectedNode.GetIndexNote());
+            if (EditorGUI.EndChangeCheck())
+            {
+                Undo.RecordObject(selectedNode, "Edit Index Note");
+                selectedNode.SetIndexNote(newIndexNote);
+                EditorUtility.SetDirty(selectedNode);
+                Repaint();
+            }
+
             EditorGUILayout.Space(4);
 
             // --- Children (solo lectura informativa) ---
