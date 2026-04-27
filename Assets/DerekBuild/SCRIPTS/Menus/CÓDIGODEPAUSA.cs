@@ -1,42 +1,50 @@
 using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
+using System;
 public class CÓDIGODEPAUSA : MonoBehaviour
 {
     public GameObject ObjetoMenuPausa;
     public bool Pausa = false;
-
-    void Start()
-    {
-
-    }
+    public Animator pergaminoAnimator;
+    public GameObject botonesContenido;
 
     void Update()
     {
         if (Input.GetKeyUp(KeyCode.Escape))
         {
-            if (Pausa == false)
+            if (Pausa)
             {
-                ObjetoMenuPausa.SetActive(true);
-                Pausa = true;
-
-                Time.timeScale = 0;
-                Cursor.visible = true;
-                Cursor.lockState = CursorLockMode.None;
+                ReanudarJuego();
             }
-            else if (Pausa == true)
-                {
-                Volver();
+            else
+            {
+                PausarJuego();
             }
         }
     }
 
-    public void Volver()
+    public void PausarJuego()
     {
-        ObjetoMenuPausa.SetActive(false);
-        Pausa = false;
+        Pausa = true;
+        ObjetoMenuPausa.SetActive(true);
+        botonesContenido.SetActive(false);
+        pergaminoAnimator.SetTrigger("Abrir");
+        Time.timeScale = 0f;
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+    }
 
-        Time.timeScale = 1;
+    public void ReanudarJuego()
+    {
+        Pausa = false;
+        ObjetoMenuPausa.SetActive(false);
+        Time.timeScale = 1f;
+    }
+
+    public void ActivarBotonesMenu()
+    {
+        botonesContenido.SetActive(true);
     }
 }
         
