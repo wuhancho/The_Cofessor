@@ -43,13 +43,18 @@ public class F_mañana : MonoBehaviour, IFases
         if (playerController.PlayerStatus.Day == 0)
         {
             playerController.PlayerStatus.ResetAllStatus();
-            dia.RemoveEnergy(1);
+            //dia.RemoveEnergy(1);
         }
         if (dia.GetNumberDay() >= 1)
         {
-            playerController.PlayerStatus.SpendFood(10);
+            //playerController.PlayerStatus.SpendFood(10);
             playerController.ChangeSetCleaned(false);
             playerController.ChangeSetMisa(false);
+            if (playerController.PlayerStatus.Food > 0)
+            {
+                playerController.PlayerStatus.SpendFood(5);
+                playerController.PlayerStatus.RestoreEnergy(1);
+            }
         }
 
         // Inicializar cada acción y registrar si falta playerController

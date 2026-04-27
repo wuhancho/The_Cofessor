@@ -52,7 +52,7 @@ public class Notes : MonoBehaviour
         }
         note = null;
     }
-    public void GetNote(NoteType noteType, int index, out GameObject note)
+    private void GetNote(NoteType noteType, int index, out GameObject note)
     {
         switch (noteType)
         {
@@ -68,6 +68,15 @@ public class Notes : MonoBehaviour
             default:
                 note = null;
                 break;
+        }
+    }
+
+    public void WriteNote(NoteType noteType, int index)
+    {
+        GetNote(noteType, index, out GameObject note);
+        if (note != null)
+        {
+            note.SetActive(true);
         }
     }
 }

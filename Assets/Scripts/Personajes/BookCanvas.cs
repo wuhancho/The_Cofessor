@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -40,7 +41,7 @@ public class BookCanvas : MonoBehaviour
             return;
         }
     }
-    public void InstanceNotes(GameObject notePrefab, bool isLeft = true)
+    public void WriteName(GameObject notePrefab, bool isLeft = true)
     {
         if (isLeft)
         {
@@ -51,5 +52,6 @@ public class BookCanvas : MonoBehaviour
             InstanceNotesRight(notePrefab);
         }
     }
+
 
 }

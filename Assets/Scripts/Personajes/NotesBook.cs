@@ -1,23 +1,45 @@
+using System;
 using The_cofessor.Personajes.Dialogs;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class NotesBook : MonoBehaviour, IAcciones
 {
+    public enum UpdateType
+    {
+        Penitent,
+        TypeDialogue,
+        Note,
+    }
     [SerializeField] private GameObject notesBookUI;
     [SerializeField] private NotesSave notesSave;
+    private BookCanvas bookCanvas;
     private PlayerController playerC;
     private PenitentController penitentsC;
-    private BookCanvas bookCanvas;
+    private SPenitent currentPenitent;
+    private bool isCurrentPenitentUpdated;
+    private string currentTypeDialog;
+    private bool isCurrentTypeDialogUpdated;
+    private int currentIndexNote;
+    private bool isCurrentIndexNoteUpdated;
+    private Notes currentPenitentNotes;
+
+    public UnityEvent OnselectAction;
+    public UnityEvent OncancelAction;
+    public UnityEvent<UpdateType> OnWriteBook;
+    public UnityEvent OnReadBook;
+
+    public static NotesBook Instance { get; private set; }
 
 
     public void CancelAction()
     {
-        throw new System.NotImplementedException();
+        OncancelAction.Invoke();
     }
 
     public void DebugAccion()
     {
-        throw new System.NotImplementedException();
+
     }
 
     public void EjecutarAccion(PlayerController playerController)
@@ -46,6 +68,8 @@ public class NotesBook : MonoBehaviour, IAcciones
             Debug.LogWarning("notesBookUI GameObject reference is not set.");
         }
         playerC.PlayerConversant.OnCurrentNodeChanged += GetNotePenitent;
+        penitentsC.CurrentPenitentChanged += ChangeCurrentPenitent;
+        OnWriteBook.AddListener(WriteBook);
     }
 
     public void SetDay(int day)
@@ -55,22 +79,57 @@ public class NotesBook : MonoBehaviour, IAcciones
 
     public void TriggerAction()
     {
-        throw new System.NotImplementedException();
+        OnselectAction.Invoke();
     }
     public void SaveNotes(NoteData note)
     {
         notesSave.SaveNotes(note);
     }
-    public void GetTypeDialog(Dialog dialog)
+    public void SetTypeDialogue(char type = 'U')
     {
-        
+        Debug.Log("Setting current type dialogue to: " + type);
+        currentTypeDialog = type.ToString();
+        OnWriteBook.Invoke(UpdateType.TypeDialogue);
     }
     private void GetNotePenitent(DialogNode node)
     {
-        if (node.GetIndexNote() != "")
+        currentIndexNote = int.Parse(node.GetIndexNote());
+        OnWriteBook.Invoke(UpdateType.Penitent);
+    }
+    private void ChangeCurrentPenitent(SPenitent newPenitent = null)
+    {
+        currentPenitent = newPenitent;
+    }
+    private void WriteBook(UpdateType type)
+    {
+        switch (type)
         {
-            Debug.Log("Current Dialog Node Index Note: " + node.GetIndexNote());
-        }
+            case UpdateType.Penitent:
+                if (currentPenitent != null)
+                {
+                    Debug.Log("Writing penitent note for: " + currentPenitent.CharacterName);
+                    bookCanvas.WriteName(currentPenitent.NotesPenitent.gameObject);
+                    currentPenitentNotes = currentPenitent.NotesPenitent;
+                }
+                else
+                {
+                    Debug.LogWarning("Current penitent is null. Cannot write penitent note.");
+                }
+                break;
+            case UpdateType.TypeDialogue:
+                if (!string.IsNullOrEmpty(currentTypeDialog))
+                {
+                    Debug.Log("Writing type dialogue note: " + currentTypeDialog);
+                    //currentPenitentNotes.WriteNote()
 
+                }
+                else
+                {
+                    Debug.LogWarning("Current type dialogue is null or empty. Cannot write type dialogue note.");
+                }
+                break;
+            case UpdateType.Note:
+                break;
+        }
     }
 }

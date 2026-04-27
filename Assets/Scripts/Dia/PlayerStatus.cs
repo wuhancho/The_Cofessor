@@ -150,7 +150,7 @@ public class PlayerStatus : ScriptableObject
     }
     internal void ResetEnergy()
     {
-        energy = 3;
+        energy = 2;
     }
     internal void ResetMoney()
     {

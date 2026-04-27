@@ -11,6 +11,9 @@ public class PenitentController : MonoBehaviour
     [Header("Entrace Penitent")]
     [SerializeField] private GameObject EntracePenitent;
     [SerializeField] private TextMeshProUGUI penitentText;
+    private SPenitent currentPenitentOnCoffession;
+
+    public event Action<SPenitent> CurrentPenitentChanged;
     private void Awake()
     {
         if (EntracePenitent != null)
@@ -103,5 +106,16 @@ public class PenitentController : MonoBehaviour
                 //FindObjectOfType<BookCanvas>().InstanceNotes(notePrefab, true);
             }
         }
+    }
+
+    internal SPenitent GetCurrentPenitentOnConffession()
+    {
+        return currentPenitentOnCoffession;
+    }
+
+    internal void SetCurrentPenitentOnConffession(SPenitent penitent)
+    {
+        currentPenitentOnCoffession = penitent;
+        CurrentPenitentChanged?.Invoke(penitent);
     }
 }
