@@ -11571,6 +11571,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 160842143794701376, guid: 8b9cfab811bb22840b568e6572061b35, type: 3}
       insertIndex: -1
       addedObject: {fileID: 667196916}
+    - targetCorrespondingSourceObject: {fileID: 160842143794701376, guid: 8b9cfab811bb22840b568e6572061b35, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 753970488}
   m_SourcePrefab: {fileID: 100100000, guid: 8b9cfab811bb22840b568e6572061b35, type: 3}
 --- !u!114 &753970486 stripped
 MonoBehaviour:
@@ -11588,6 +11591,18 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 238169391134209412, guid: 8b9cfab811bb22840b568e6572061b35, type: 3}
   m_PrefabInstance: {fileID: 753970485}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &753970488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667196909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed4d1e9a20a3f4b4db02c53b5389b1b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &767298381
 GameObject:
   m_ObjectHideFlags: 0
@@ -22344,6 +22359,18 @@ PrefabInstance:
     - target: {fileID: 6751260082925418845, guid: a74d3be55223c1f418cf2b678001135a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7252251407090342646, guid: a74d3be55223c1f418cf2b678001135a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 753970488}
+    - target: {fileID: 7252251407090342646, guid: a74d3be55223c1f418cf2b678001135a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Quit
+      objectReference: {fileID: 0}
+    - target: {fileID: 7252251407090342646, guid: a74d3be55223c1f418cf2b678001135a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LOADSCENES, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

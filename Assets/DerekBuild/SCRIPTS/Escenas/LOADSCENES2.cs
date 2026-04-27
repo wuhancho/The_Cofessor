@@ -9,4 +9,9 @@ public class LOADSCENES2 : MonoBehaviour
     {
         SceneManager.LoadScene("DÍA 2 - TARDE");
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }

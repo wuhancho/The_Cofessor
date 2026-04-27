@@ -7529,6 +7529,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ObjetoMenuPausa: {fileID: 1670850641}
   Pausa: 0
+  pergaminoAnimator: {fileID: 0}
+  botonesContenido: {fileID: 0}
 --- !u!82 &515656424
 AudioSource:
   m_ObjectHideFlags: 0

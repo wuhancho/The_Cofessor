@@ -10032,6 +10032,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7252251407090342646, guid: a74d3be55223c1f418cf2b678001135a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1952086541}
+    - target: {fileID: 7252251407090342646, guid: a74d3be55223c1f418cf2b678001135a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Quit
+      objectReference: {fileID: 0}
+    - target: {fileID: 7252251407090342646, guid: a74d3be55223c1f418cf2b678001135a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LOADSCENES, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27243,6 +27255,10 @@ PrefabInstance:
       propertyPath: pergaminoAnimator
       value: 
       objectReference: {fileID: 371903584}
+    - target: {fileID: 8927901649290073511, guid: 8b9cfab811bb22840b568e6572061b35, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9166011804716270089, guid: 8b9cfab811bb22840b568e6572061b35, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -27258,6 +27274,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 160842143794701376, guid: 8b9cfab811bb22840b568e6572061b35, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1952086537}
+    - targetCorrespondingSourceObject: {fileID: 160842143794701376, guid: 8b9cfab811bb22840b568e6572061b35, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1952086541}
   m_SourcePrefab: {fileID: 100100000, guid: 8b9cfab811bb22840b568e6572061b35, type: 3}
 --- !u!1 &1952086536 stripped
 GameObject:
@@ -27375,6 +27394,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f31da50f0c8a29046bd6954112d73aa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1952086541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952086536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed4d1e9a20a3f4b4db02c53b5389b1b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1989879038
