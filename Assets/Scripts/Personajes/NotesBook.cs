@@ -93,13 +93,37 @@ public class NotesBook : MonoBehaviour, IAcciones
     }
     private void GetNotePenitent(DialogNode node)
     {
-        currentIndexNote = int.Parse(node.GetIndexNote());
-        OnWriteBook.Invoke(UpdateType.Penitent);
+        string indexNoteStr = node.GetIndexNote();
+
+        // Verifica que no sea nulo ni esté vacío
+        if (!string.IsNullOrEmpty(indexNoteStr))
+        {
+            // TryParse intenta convertirlo a número. Si puede, devuelve true y guarda el valor en parsedIndex
+            if (int.TryParse(indexNoteStr, out int parsedIndex))
+            {
+                currentIndexNote = parsedIndex;
+                isCurrentIndexNoteUpdated = true;
+
+            }
+            else
+            {
+                Debug.LogWarning($"[NotesBook] Formato inválido. El IndexNote '{indexNoteStr}' no es un número.");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("Current dialog node does not have an index note. Cannot update current index note.");
+        }
+
+        OnWriteBook.Invoke(UpdateType.Note);
     }
     private void ChangeCurrentPenitent(SPenitent newPenitent = null)
     {
         currentPenitent = newPenitent;
+        WriteBook(UpdateType.Penitent);
     }
+
+
     private void WriteBook(UpdateType type)
     {
         switch (type)
@@ -129,6 +153,22 @@ public class NotesBook : MonoBehaviour, IAcciones
                 }
                 break;
             case UpdateType.Note:
+                Debug.Log("Writing note with index: " + currentIndexNote);
+                if (currentTypeDialog == "U")
+                {
+                    Debug.Log("Writing unique note with index: " + currentIndexNote);
+                    currentPenitentNotes.WriteNote(NoteType.Unique, currentIndexNote);
+                }
+                else if (currentTypeDialog == "T")
+                {
+                    Debug.Log("Writing truth note with index: " + currentIndexNote);
+                    currentPenitentNotes.WriteNote(NoteType.Truth, currentIndexNote);
+                }
+                else if (currentTypeDialog == "F")
+                {
+                    Debug.Log("Writing lie note with index: " + currentIndexNote);
+                    currentPenitentNotes.WriteNote(NoteType.Lie, currentIndexNote);
+                }
                 break;
         }
     }
