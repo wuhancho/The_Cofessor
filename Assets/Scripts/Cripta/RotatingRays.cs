@@ -37,6 +37,7 @@ public class RotatingRays : MonoBehaviour
     public void Initialize(Combate combate, float rayLength)
     {
         this.combate = combate;
+        faithDamage = combate.RayDamage; // Obtener el daño de los rayos desde el combate
         rays = new List<GameObject>();
         this.rayLength = rayLength;
         spawnpoint = combate.SpPOP2; // Obtener la referencia al spawnpoint desde el combate

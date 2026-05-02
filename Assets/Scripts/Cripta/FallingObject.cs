@@ -27,6 +27,7 @@ public class FallingObject : MonoBehaviour
     public void Initialize(Combate combate)
     {
         this.combate = combate;
+        faithDamage = combate.FaithDamagePerHit; // Obtener el daño de fe desde el combate
         this.bottomLimit = -150f;
         this.canvasWidthMax = combate.SpawnAreaMaxX;
         this.canvasWidthMin = combate.SpawnAreaMinX;

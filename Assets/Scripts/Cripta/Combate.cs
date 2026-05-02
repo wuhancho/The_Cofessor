@@ -90,6 +90,8 @@ public class Combate : MonoBehaviour
     public float WidthCanvasMaxToCoin { get => widthCanvasMaxToCoin;  }
     public float WidthCanvasMinToCoin { get => widthCanvasMinToCoin;  }
     public float HeightCanvasMinToCoin { get => heightCanvasMinToCoin;  }
+    public int RayDamage { get => rayDamage; }
+    public int FaithDamagePerHit { get => faithDamagePerHit; set => faithDamagePerHit = value; }
 
     public void Initialize(PlayerController controller)
     {

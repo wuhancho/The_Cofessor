@@ -25,33 +25,36 @@ public class BookCanvas : MonoBehaviour
             dateText.text = (Day + day) + " de " + Month + " de 1679";
         }
     }
-    private void InstanceNotesLeft(GameObject notePrefab)
+    private void InstanceNotesLeft(GameObject notePrefab, out GameObject note)
     {
         if(groupLeftLayout.transform.childCount <= 3)
         {
-            GameObject note = Instantiate(notePrefab, groupLeftLayout.transform);
+            note = Instantiate(notePrefab, groupLeftLayout.transform);
             return;
         }
+        note = null;
     }
-    private void InstanceNotesRight(GameObject notePrefab)
+    private void InstanceNotesRight(GameObject notePrefab, out GameObject note)
     {
         if (groupRightLayout.transform.childCount <= 3)
         {
-            GameObject note = Instantiate(notePrefab, groupRightLayout.transform);
+            note = Instantiate(notePrefab, groupRightLayout.transform);
             return;
         }
+        note = null;
     }
-    public void WriteName(GameObject notePrefab, bool isLeft = true)
+    public GameObject WriteName(GameObject notePrefab, bool isLeft = true)
     {
+        notePrefab.GetComponent<Notes>().Initialized();
         if (isLeft)
         {
-            InstanceNotesLeft(notePrefab);
+            InstanceNotesLeft(notePrefab, out GameObject note);
+            return note;
         }
         else
         {
-            InstanceNotesRight(notePrefab);
+            InstanceNotesRight(notePrefab, out GameObject note);
+            return note;
         }
     }
-
-
 }

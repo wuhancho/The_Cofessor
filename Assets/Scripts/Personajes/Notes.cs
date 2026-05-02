@@ -13,6 +13,24 @@ public class Notes : MonoBehaviour
     public GameObject[] NotesLies { get => notesLies; }
     public GameObject[] NotesTruths { get => notesTruths; }
     public GameObject[] NotesUnique { get => notesUnique; }
+
+    public void Initialized()
+    {
+        Debug.Log("Initializing notes...");
+        foreach (GameObject noteLie in notesLies)
+        {
+            noteLie.SetActive(false);
+        }
+        foreach (GameObject noteTruth in notesTruths)
+        {
+            noteTruth.SetActive(false);
+        }
+        foreach (GameObject noteUnique in notesUnique)
+        {
+            noteUnique.SetActive(false);
+        }
+    }
+
     private void GetTruthNote(int index, out GameObject note)
     {
         foreach (GameObject noteTruth in notesTruths)
@@ -71,11 +89,12 @@ public class Notes : MonoBehaviour
         }
     }
 
-    public void WriteNote(NoteType noteType, int index)
+    public void WriteNote(NoteType noteType, int index, out GameObject note)
     {
-        GetNote(noteType, index, out GameObject note);
+        GetNote(noteType, index, out note);
         if (note != null)
         {
+            Debug.Log($"Writing note: {note.name}");
             note.SetActive(true);
         }
     }

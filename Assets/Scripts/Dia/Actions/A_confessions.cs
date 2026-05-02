@@ -106,11 +106,11 @@ public class A_confessions : MonoBehaviour, IAcciones
         {
             foreach (Dialog dialog in penitent.Dialogs)
             {
-                Debug.Log($"Revisando diálogo {dialog.name} para el penitente {penitent.CharacterName} en el día {day}");
+                //Debug.Log($"Revisando diálogo {dialog.name} para el penitente {penitent.CharacterName} en el día {day}");
                 if (dialog == null) continue;
-                Debug.Log($"Diálogo {dialog.name} encontrado para el penitente {penitent.CharacterName} en el día {day}");
+                //Debug.Log($"Diálogo {dialog.name} encontrado para el penitente {penitent.CharacterName} en el día {day}");
                 if (day != penitent.DayDialogue(dialog)) continue;
-                Debug.Log($"Diálogo {dialog.name} corresponde al día {day} para el penitente {penitent.CharacterName}");
+                //Debug.Log($"Diálogo {dialog.name} corresponde al día {day} para el penitente {penitent.CharacterName}");
                 penitentController.SetCurrentPenitentOnConffession(penitent);
                 if (penitent.DayDialogue(dialog) == day)
                 {
@@ -119,32 +119,32 @@ public class A_confessions : MonoBehaviour, IAcciones
                         if (penitent.TypeDialogue == "U")
                         {
                             playerController.PlayerConversant.CurrentSpeakerNPC = penitent.CharacterName;
-                            Debug.Log($"Diálogo único encontrado: {dialog.name} para el penitente {penitent.CharacterName} en el día {day}");
+                            //Debug.Log($"Diálogo único encontrado: {dialog.name} para el penitente {penitent.CharacterName} en el día {day}");
                             notesBook.SetTypeDialogue();
-                            Debug.Log($"a notas le doy el tipo Unique");
+                            //Debug.Log($"a notas le doy el tipo Unique");
                             return dialog;
                         }
                     }
                     else
                     {
-                        Debug.Log($"Diálogo encontrado: {dialog.name} para el penitente {penitent.CharacterName} en el día {day}");
+                        //Debug.Log($"Diálogo encontrado: {dialog.name} para el penitente {penitent.CharacterName} en el día {day}");
                         if (dialog.IsTrueDialogue == isTrueDialogue)
                         {
-                            Debug.Log($"Diálogo {(isTrueDialogue ? "verdadero" : "falso")} encontrado: {dialog.name} para el penitente {penitent.CharacterName} en el día {day}");
+                            //Debug.Log($"Diálogo {(isTrueDialogue ? "verdadero" : "falso")} encontrado: {dialog.name} para el penitente {penitent.CharacterName} en el día {day}");
                             if (isTrueDialogue)
                             {
-                                Debug.Log($"Diálogo verdadero seleccionado: {dialog.name} para el penitente {penitent.CharacterName} en el día {day}");
+                                //Debug.Log($"Diálogo verdadero seleccionado: {dialog.name} para el penitente {penitent.CharacterName} en el día {day}");
                                 playerController.PlayerConversant.CurrentSpeakerNPC = penitent.CharacterName;
                                 notesBook.SetTypeDialogue('T');
-                                Debug.Log($"a notas le doy el tipo true");
+                                //Debug.Log($"a notas le doy el tipo true");
                                 return dialog;
                             }
                             else if (!isTrueDialogue)
                             {
-                                Debug.Log($"Diálogo falso seleccionado: {dialog.name} para el penitente {penitent.CharacterName} en el día {day}");
+                                //Debug.Log($"Diálogo falso seleccionado: {dialog.name} para el penitente {penitent.CharacterName} en el día {day}");
                                 playerController.PlayerConversant.CurrentSpeakerNPC = penitent.CharacterName;
                                 notesBook.SetTypeDialogue('F');
-                                Debug.Log($"a notas le doy el tipo false");
+                                //Debug.Log($"a notas le doy el tipo false");
                                 return dialog;
                             }
                         }
@@ -156,7 +156,7 @@ public class A_confessions : MonoBehaviour, IAcciones
         }
         else
         {
-            Debug.LogWarning($"[A_confecciones] No se encontró un penitente válido para el día {day} en el índice {todayPenintentIndex}.");
+            //Debug.LogWarning($"[A_confecciones] No se encontró un penitente válido para el día {day} en el índice {todayPenintentIndex}.");
             return null;
         }
     }

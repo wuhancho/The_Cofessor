@@ -16,13 +16,13 @@ public class NotesBook : MonoBehaviour, IAcciones
     private BookCanvas bookCanvas;
     private PlayerController playerC;
     private PenitentController penitentsC;
-    private SPenitent currentPenitent;
-    private bool isCurrentPenitentUpdated;
-    private string currentTypeDialog;
-    private bool isCurrentTypeDialogUpdated;
-    private int currentIndexNote;
-    private bool isCurrentIndexNoteUpdated;
-    private Notes currentPenitentNotes;
+    [SerializeField, IReadOnly] private SPenitent currentPenitent;
+    //private bool isCurrentPenitentUpdated;
+    [SerializeField, IReadOnly] private string currentTypeDialog;
+    //private bool isCurrentTypeDialogUpdated;
+    [SerializeField, IReadOnly] private int currentIndexNote;
+    //private bool isCurrentIndexNoteUpdated;
+    [SerializeField, IReadOnly] private Notes currentPenitentNotes;
 
     public UnityEvent OnselectAction;
     public UnityEvent OncancelAction;
@@ -70,6 +70,7 @@ public class NotesBook : MonoBehaviour, IAcciones
         playerC.PlayerConversant.OnCurrentNodeChanged += GetNotePenitent;
         penitentsC.CurrentPenitentChanged += ChangeCurrentPenitent;
         OnWriteBook.AddListener(WriteBook);
+
     }
 
     public void SetDay(int day)
@@ -102,7 +103,6 @@ public class NotesBook : MonoBehaviour, IAcciones
             if (int.TryParse(indexNoteStr, out int parsedIndex))
             {
                 currentIndexNote = parsedIndex;
-                isCurrentIndexNoteUpdated = true;
 
             }
             else
@@ -119,8 +119,35 @@ public class NotesBook : MonoBehaviour, IAcciones
     }
     private void ChangeCurrentPenitent(SPenitent newPenitent = null)
     {
-        currentPenitent = newPenitent;
-        WriteBook(UpdateType.Penitent);
+        //currentPenitent = newPenitent;
+        if (currentPenitent != null)
+        {
+            Debug.Log("Current penitent changed to: " + currentPenitent.CharacterName);
+            if (currentPenitent != newPenitent)
+            {
+                currentPenitent = newPenitent;
+
+                OnWriteBook.Invoke(UpdateType.Penitent);
+            }
+            else
+            {
+                Debug.Log("Current penitent is the same as the new penitent. No update needed.");
+
+            }
+        }
+        else if (currentPenitent == null && newPenitent != null)
+        {
+            Debug.Log("Current penitent changed from null to: " + newPenitent.CharacterName);
+            currentPenitent = newPenitent;
+
+            OnWriteBook.Invoke(UpdateType.Penitent);
+        }
+        else
+        {
+            Debug.Log("Current penitent changed to null.");
+            currentPenitent = null;
+
+        }
     }
 
 
@@ -132,8 +159,10 @@ public class NotesBook : MonoBehaviour, IAcciones
                 if (currentPenitent != null)
                 {
                     Debug.Log("Writing penitent note for: " + currentPenitent.CharacterName);
-                    bookCanvas.WriteName(currentPenitent.NotesPenitent.gameObject);
-                    currentPenitentNotes = currentPenitent.NotesPenitent;
+
+                    GameObject note = bookCanvas.WriteName(currentPenitent.NotesPenitent.gameObject);
+                    currentPenitentNotes = note.GetComponent<Notes>();
+                    //currentPenitentNotes.Initialized();
                 }
                 else
                 {
@@ -157,17 +186,45 @@ public class NotesBook : MonoBehaviour, IAcciones
                 if (currentTypeDialog == "U")
                 {
                     Debug.Log("Writing unique note with index: " + currentIndexNote);
-                    currentPenitentNotes.WriteNote(NoteType.Unique, currentIndexNote);
+                    if (currentPenitentNotes != null && currentIndexNote > 0)
+                    {
+                        currentPenitentNotes.WriteNote(NoteType.Unique, currentIndexNote, out GameObject note);
+                        NoteData data = note.GetComponent<NoteData>();
+                        SaveNotes(data);
+                    }
+                    else
+                    {
+                        Debug.LogWarning("Current penitent notes is null. Cannot write unique note.");
+                    }
                 }
                 else if (currentTypeDialog == "T")
                 {
                     Debug.Log("Writing truth note with index: " + currentIndexNote);
-                    currentPenitentNotes.WriteNote(NoteType.Truth, currentIndexNote);
+                    if (currentPenitentNotes != null && currentIndexNote > 0)
+                    {
+                        currentPenitentNotes.WriteNote(NoteType.Truth, currentIndexNote, out GameObject note);
+                        NoteData data = note.GetComponent<NoteData>();
+                        SaveNotes(data);
+                    }
+                    else
+                    {
+                        Debug.LogWarning("Current penitent notes is null. Cannot write truth note.");
+                    }
                 }
                 else if (currentTypeDialog == "F")
                 {
                     Debug.Log("Writing lie note with index: " + currentIndexNote);
-                    currentPenitentNotes.WriteNote(NoteType.Lie, currentIndexNote);
+                    if (currentPenitentNotes != null && currentIndexNote > 0)
+                    {
+                        currentPenitentNotes.WriteNote(NoteType.Lie, currentIndexNote, out GameObject note);
+                        Debug.Log("Note GameObject created: " + (note != null ? note.name : "null") + " State: " + (note != null ? note.activeSelf.ToString() : "null"));
+                        NoteData data = note.GetComponent<NoteData>();
+                        SaveNotes(data);
+                    }
+                    else
+                    {
+                        Debug.LogWarning("Current penitent notes is null. Cannot write lie note.");
+                    }
                 }
                 break;
         }
