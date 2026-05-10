@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: PlayerStatus
   m_EditorClassIdentifier: 
   energy: 2
-  faith: 0
+  faith: 7
   money: 0
   repIglesia: 7
   repPueblo: 7
   food: 2
-  day: 1
+  day: 0
   Cleaned: 0
   misaDone: 0
