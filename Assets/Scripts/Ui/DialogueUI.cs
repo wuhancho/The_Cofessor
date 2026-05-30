@@ -19,6 +19,7 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] GameObject choicesPrefab;
     [SerializeField] Button quitButton;
     [SerializeField] UnityEvent onConversation;
+    [SerializeField] Image background;
 
     private string[] currentLines;
     private int currentLineIndex;
@@ -149,7 +150,7 @@ public class DialogueUI : MonoBehaviour
         CurrentSpeaker.SetActive(isVisible);
         AIResponces.SetActive(isVisible);
         //Debug.Log($"DialogueUI - {gameObject.GetComponent<Image>().name}");
-        gameObject.GetComponent<Image>().enabled = isVisible;
+        background.enabled = isVisible;
     }
     public void SetDialogueSpeakerBoxVisible(bool isVisible)
     {
@@ -158,7 +159,7 @@ public class DialogueUI : MonoBehaviour
     public void SetDialogueAIBoxVisible(bool isVisible)
     {
         nextButton.gameObject.SetActive(false);
-        gameObject.GetComponent<Image>().enabled = isVisible;
+        background.enabled = isVisible;
         AIResponces.SetActive(isVisible);
     }
 

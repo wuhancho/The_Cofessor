@@ -160,9 +160,35 @@ public class NotesBook : MonoBehaviour, IAcciones
                 {
                     Debug.Log("Writing penitent note for: " + currentPenitent.CharacterName);
 
-                    GameObject note = bookCanvas.WriteName(currentPenitent.NotesPenitent.gameObject);
-                    currentPenitentNotes = note.GetComponent<Notes>();
-                    //currentPenitentNotes.Initialized();
+                    // 1. Verificamos que se le haya asignado el Prefab en el Scriptable Object
+                    if (currentPenitent.NotesPenitent == null)
+                    {
+                        Debug.LogError($"[NotesBook] El penitente {currentPenitent.CharacterName} no tiene asignado 'NotesPenitent' en el su Scriptable Object.");
+                        return; // Salimos sin romper el juego
+                    }
+
+                    // 2. Verificamos que el bookCanvas se haya inicializado
+                    if (bookCanvas == null)
+                    {
+                        Debug.LogError("[NotesBook] bookCanvas es nulo. Asegurate de que notesBookUI tiene añadido el componente BookCanvas.");
+                        return;
+                    }
+
+                    // 3. Ejecutamos la lógica que tenías de manera segura
+                    GameObject noteObj = bookCanvas.WriteName(currentPenitent.NotesPenitent.gameObject);
+                    Debug.Log("bookCanvas.WriteName returned GameObject: " + (noteObj != null ? noteObj.name : "null"));
+                    if (noteObj != null)
+                    {
+                        currentPenitentNotes = noteObj.GetComponent<Notes>();
+                        if (currentPenitentNotes == null)
+                        {
+                            Debug.LogWarning("[NotesBook] El objeto instanciado por bookCanvas.WriteName no tiene componente Notes.");
+                        }
+                    }
+                    else
+                    {
+                        Debug.LogError("[NotesBook] bookCanvas.WriteName devolvió un GameObject nulo.");
+                    }
                 }
                 else
                 {

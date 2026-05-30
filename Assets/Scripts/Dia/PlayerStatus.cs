@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerStatus : ScriptableObject
 {
     [SerializeField] private float energy;
-    private readonly float maxEnergy = 3;
+    private readonly float maxEnergy = 2;
     private readonly float minEnergy = 0;
     [SerializeField] private float faith;
     private readonly float maxFaith = 15;
@@ -146,7 +146,7 @@ public class PlayerStatus : ScriptableObject
     }
     internal void ResetFood()
     {
-        food = 2;
+        food = 10;
     }
     internal void ResetEnergy()
     {

@@ -8,9 +8,9 @@ public class F_tarde : MonoBehaviour, IFases
 {
     [SerializeField] private bool includeInactiveChildren = true;
     private IAcciones[] acciones;
-    private Dia dia;
-    [SerializeField] private PlayerController playerController;
-    [SerializeField] private PenitentController penitentController;
+    [SerializeField, IReadOnly] private Dia dia;
+    [SerializeField, IReadOnly] private PlayerController playerController;
+    [SerializeField, IReadOnly] private PenitentController penitentController;
 
 
     [Header("Configuración de la acción misa hecha/ no hecha")]

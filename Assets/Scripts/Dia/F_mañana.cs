@@ -42,7 +42,7 @@ public class F_mañana : MonoBehaviour, IFases
 
         if (playerController.PlayerStatus.Day == 0)
         {
-            playerController.PlayerStatus.ResetAllStatus();
+            //playerController.PlayerStatus.ResetAllStatus();
             //dia.RemoveEnergy(1);
         }
         if (dia.GetNumberDay() >= 1)

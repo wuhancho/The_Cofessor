@@ -431,8 +431,8 @@ MonoBehaviour:
   - 3
   rect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 4.2857056
+    y: 117.142876
     width: 300
     height: 200
   faithCost: 0
@@ -740,7 +740,7 @@ MonoBehaviour:
   m_Name: 11
   m_EditorClassIdentifier: 
   uniqueID: EQ_M.1/11
-  isPlayerSpeaking: 1
+  isPlayerSpeaking: 0
   text: "Mi negocio se nutre de la avaricia de los aldeanos./nNi te imaginas los
     deseos que puden llegar a tener esa gente./nY yo siempre tengo lo que necesitan
     para cumplirlos./nSiempre a cambio de un precio, claro est\xE1."
@@ -844,7 +844,7 @@ MonoBehaviour:
   - 17
   rect:
     serializedVersion: 2
-    x: 2594
+    x: 2595.0637
     y: 194
     width: 300
     height: 200
