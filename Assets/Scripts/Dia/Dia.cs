@@ -21,8 +21,8 @@ public class Dia : MonoBehaviour
     private IFases[] fasesActuales;
     [SerializeField, IReadOnly] private EventDayManager eventDay;
     [SerializeField] private DayEvent eventDayActual;
-    private PlayerController playerController;
-    private PenitentController penitentController;
+    [SerializeField, IReadOnly] private PlayerController playerController;
+    [SerializeField, IReadOnly] private PenitentController penitentController;
     [SerializeField] int numberDay;
     [SerializeField] private GameObject[] energyPrefab;
     [SerializeField] private TextMeshProUGUI moneyText;
@@ -55,20 +55,25 @@ public class Dia : MonoBehaviour
         {
             penitentController = FindAnyObjectByType<PenitentController>();
         }
+        numberDay = playerController.PlayerStatus.Day;
+        Instance = this;
+        eventDay = GetComponent<EventDayManager>();
+
 
         if (SceneManager.GetActiveScene().name == "DÍA 1 - MAÑANA")
         {
             playerController.PlayerStatus.ResetAllStatus();
+            //numberDay = playerController.PlayerStatus.Day;
+            moneyText.text = playerController.PlayerStatus.Money.ToString();
         }
         if (SceneManager.GetActiveScene().name == "DÍA 2 - MAÑANA")
         {
             playerController.PlayerStatus.ResetCleaned();
             playerController.PlayerStatus.ResetMisa();
             playerController.PlayerStatus.ResetEnergy();
+            moneyText.text = playerController.PlayerStatus.Money.ToString();
             //RemoveEnergy(1);
         }
-        Instance = this;
-        eventDay = GetComponent<EventDayManager>();
         Initialize(playerController, penitentController);
         StartEventDay();
     }
@@ -90,8 +95,6 @@ public class Dia : MonoBehaviour
         //    playerController.PlayerStatus.ResetAllStatus();
         //    RemoveEnergy(1);
         //}
-        numberDay = playerController.PlayerStatus.Day;
-
         foreach (var fase in fasesActuales)
         {
             fase.Initialize(playerController, penitentController);
@@ -191,9 +194,12 @@ public class Dia : MonoBehaviour
 
     private void StartEventDay()
     {
+        Debug.Log("Iniciando evento del día " + numberDay);
         eventDay = GetComponent<EventDayManager>();
+        Debug.Log($"EventDayManager encontrado: {eventDay != null}, Tipo: {eventDay.GetType().Name}");
         eventDay.Initialized(this, playerController, penitentController);
         eventDayActual = eventDay.GetTypeEvent(numberDay);
+        Debug.Log($"Evento del día {numberDay} obtenido: {eventDayActual != null}, Tipo: {(eventDayActual != null ? eventDayActual.GetTypeEventDay().ToString() : "null")}");
         if (eventDayActual != null)
         {
             Debug.Log($"Evento del día {numberDay} encontrado: {eventDayActual.GetTypeEventDay()}");
