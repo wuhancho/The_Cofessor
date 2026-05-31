@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 880349806266580659}
   - component: {fileID: 6617434186872061817}
   m_Layer: 5
-  m_Name: NOTICIA DEL DIA 1
+  m_Name: NOTICIA DEL DIA 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1808735387391798491, guid: aa6d9168e9baa6e418cfcd5bb3dfdb27, type: 3}
+  m_Sprite: {fileID: 369623425768824460, guid: 77144d188e2ca5242adf528f2edcac02, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
